@@ -1,0 +1,3 @@
+# Este script usa únicamente la librería estándar de Python (json, urllib, time, date).
+# No se requieren dependencias externas — esto hace que el GitHub Action corra
+# más rápido y con menos puntos de falla que si usáramos pybaseball/pandas.
