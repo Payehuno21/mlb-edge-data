@@ -23,7 +23,7 @@ sin necesidad de fetch en vivo ni proxies CORS.
 import json
 import sys
 import time
-from datetime import date
+from datetime import date, timedelta
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
@@ -200,49 +200,55 @@ def build_team_payload(team_id, abbr, name, standings):
 
 
 def main():
-    today = date.today().isoformat()
-    print(f"Construyendo data.json para {today}...")
+    today = date.today()
+    days = [today, today + timedelta(days=1)]
+    day_strs = [d.isoformat() for d in days]
+    print(f"Construyendo data.json para {day_strs}...")
 
     standings = fetch_standings()
-    games_raw = fetch_schedule_with_matchups(today)
-
     team_cache = {}
     games_out = []
 
-    for g in games_raw:
-        home_team = g["teams"]["home"]["team"]
-        away_team = g["teams"]["away"]["team"]
+    for day_str in day_strs:
+        games_raw = fetch_schedule_with_matchups(day_str)
+        print(f"  {day_str}: {len(games_raw)} juego(s) encontrados")
 
-        for t in (home_team, away_team):
-            if t["id"] not in team_cache:
-                print(f"  Procesando equipo: {t['name']}")
-                team_cache[t["id"]] = build_team_payload(
-                    t["id"], t.get("abbreviation", ""), t["name"], standings
-                )
+        for g in games_raw:
+            home_team = g["teams"]["home"]["team"]
+            away_team = g["teams"]["away"]["team"]
 
-        home_pitcher = g["teams"]["home"].get("probablePitcher")
-        away_pitcher = g["teams"]["away"].get("probablePitcher")
-        home_pitcher_stats = fetch_pitcher_stats(home_pitcher["id"]) if home_pitcher else None
-        away_pitcher_stats = fetch_pitcher_stats(away_pitcher["id"]) if away_pitcher else None
+            for t in (home_team, away_team):
+                if t["id"] not in team_cache:
+                    print(f"  Procesando equipo: {t['name']}")
+                    team_cache[t["id"]] = build_team_payload(
+                        t["id"], t.get("abbreviation", ""), t["name"], standings
+                    )
 
-        games_out.append({
-            "gamePk": g["gamePk"],
-            "gameDate": g["gameDate"],
-            "homeTeamId": home_team["id"],
-            "awayTeamId": away_team["id"],
-            "homeStarter": {
-                "name": home_pitcher["fullName"] if home_pitcher else None,
-                **(home_pitcher_stats or {}),
-            } if home_pitcher else None,
-            "awayStarter": {
-                "name": away_pitcher["fullName"] if away_pitcher else None,
-                **(away_pitcher_stats or {}),
-            } if away_pitcher else None,
-        })
+            home_pitcher = g["teams"]["home"].get("probablePitcher")
+            away_pitcher = g["teams"]["away"].get("probablePitcher")
+            home_pitcher_stats = fetch_pitcher_stats(home_pitcher["id"]) if home_pitcher else None
+            away_pitcher_stats = fetch_pitcher_stats(away_pitcher["id"]) if away_pitcher else None
+
+            games_out.append({
+                "gamePk": g["gamePk"],
+                "gameDate": g["gameDate"],
+                "gameDateStr": day_str,
+                "homeTeamId": home_team["id"],
+                "awayTeamId": away_team["id"],
+                "homeStarter": {
+                    "name": home_pitcher["fullName"] if home_pitcher else None,
+                    **(home_pitcher_stats or {}),
+                } if home_pitcher else None,
+                "awayStarter": {
+                    "name": away_pitcher["fullName"] if away_pitcher else None,
+                    **(away_pitcher_stats or {}),
+                } if away_pitcher else None,
+            })
 
     payload = {
         "generatedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "date": today,
+        "date": day_strs[0],
+        "availableDates": day_strs,
         "teams": list(team_cache.values()),
         "games": games_out,
     }
@@ -250,7 +256,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Listo: {len(games_out)} juegos, {len(team_cache)} equipos procesados.")
+    print(f"Listo: {len(games_out)} juegos totales, {len(team_cache)} equipos procesados.")
 
 
 if __name__ == "__main__":
