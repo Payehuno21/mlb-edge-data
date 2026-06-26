@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T05:34:10Z",
+  "generatedAt": "2026-06-26T05:39:05Z",
   "lastMode": "full",
   "date": "2026-06-26",
   "availableDates": [
@@ -1081,7 +1081,7 @@
       "homeTeamName": "New York Mets",
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": {
-        "mlHome": 2.35,
+        "mlHome": 2.36,
         "mlAway": 1.66,
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.83,
@@ -1089,7 +1089,7 @@
         "rlAwayPrice": 2.14,
         "totalPoint": 8.0,
         "totalOverPrice": 1.91,
-        "totalUnderPrice": 1.98,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "autoProps": [
@@ -1181,19 +1181,19 @@
         {
           "player": "Wilyer Abreu",
           "type": "1+ Hit",
-          "decimalOdds": 1.43,
+          "decimalOdds": 1.42,
           "line": 0.5
         },
         {
           "player": "Mickey Gasper",
           "type": "1+ Hit",
-          "decimalOdds": 1.44,
+          "decimalOdds": 1.42,
           "line": 0.5
         },
         {
-          "player": "Willson Contreras",
+          "player": "Ceddanne Rafaela",
           "type": "1+ Hit",
-          "decimalOdds": 1.46,
+          "decimalOdds": 1.44,
           "line": 0.5
         },
         {
@@ -1339,7 +1339,7 @@
         "mlHome": 1.62,
         "mlAway": 2.45,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.32,
+        "rlHomePrice": 2.3,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.72,
         "totalPoint": 9.0,
@@ -1500,7 +1500,7 @@
         "rlAwayPrice": 2.41,
         "totalPoint": 8.5,
         "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.98,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-27T01:39:00Z"
       },
       "autoProps": [
@@ -1827,7 +1827,7 @@
       "homeTeamName": "New York Mets",
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": {
-        "mlHome": 2.35,
+        "mlHome": 2.36,
         "mlAway": 1.66,
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.83,
@@ -1835,7 +1835,7 @@
         "rlAwayPrice": 2.14,
         "totalPoint": 8.0,
         "totalOverPrice": 1.91,
-        "totalUnderPrice": 1.98,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "autoProps": [],
@@ -2020,7 +2020,7 @@
         "mlHome": 1.62,
         "mlAway": 2.45,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.32,
+        "rlHomePrice": 2.3,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.72,
         "totalPoint": 9.0,
@@ -2194,7 +2194,7 @@
         "rlAwayPrice": 2.41,
         "totalPoint": 8.5,
         "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.98,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-27T01:39:00Z"
       },
       "autoProps": [],
