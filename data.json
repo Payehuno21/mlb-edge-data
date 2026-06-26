@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-26T20:04:35Z",
-  "lastMode": "full",
+  "generatedAt": "2026-06-26T21:13:37Z",
+  "lastMode": "refresh",
   "date": "2026-06-26",
   "availableDates": [
     "2026-06-26"
@@ -950,7 +950,12 @@
       "autoOdds": null,
       "lineMovement": [],
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Zach Thornton",
+        "era": 8.31,
+        "whip": 1.38,
+        "k9": 6.2
+      },
       "awayStarter": {
         "name": "Zack Wheeler",
         "era": 2.11,
@@ -1002,7 +1007,12 @@
       "autoOdds": null,
       "lineMovement": [],
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "David Sandlin",
+        "era": 8.1,
+        "whip": 1.43,
+        "k9": 9.4
+      },
       "awayStarter": {
         "name": "Steven Cruz",
         "era": 6.26,
