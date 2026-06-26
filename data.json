@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T05:30:26Z",
+  "generatedAt": "2026-06-26T05:34:10Z",
   "lastMode": "full",
   "date": "2026-06-26",
   "availableDates": [
@@ -1173,33 +1173,33 @@
           "line": 0.5
         },
         {
-          "player": "Ben Rice",
-          "type": "1+ Hit",
-          "decimalOdds": 1.38,
-          "line": 0.5
-        },
-        {
-          "player": "Wilyer Abreu",
-          "type": "1+ Hit",
-          "decimalOdds": 1.4,
-          "line": 0.5
-        },
-        {
           "player": "Paul Goldschmidt",
           "type": "1+ Hit",
           "decimalOdds": 1.41,
           "line": 0.5
         },
         {
-          "player": "Mickey Gasper",
+          "player": "Wilyer Abreu",
           "type": "1+ Hit",
-          "decimalOdds": 1.42,
+          "decimalOdds": 1.43,
           "line": 0.5
         },
         {
-          "player": "Ceddanne Rafaela",
+          "player": "Mickey Gasper",
+          "type": "1+ Hit",
+          "decimalOdds": 1.44,
+          "line": 0.5
+        },
+        {
+          "player": "Willson Contreras",
           "type": "1+ Hit",
           "decimalOdds": 1.46,
+          "line": 0.5
+        },
+        {
+          "player": "Amed Rosario",
+          "type": "1+ Hit",
+          "decimalOdds": 1.47,
           "line": 0.5
         }
       ],
@@ -1265,7 +1265,7 @@
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 2.15,
         "totalPoint": 7.5,
-        "totalOverPrice": 2.01,
+        "totalOverPrice": 2.03,
         "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
@@ -2060,7 +2060,7 @@
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 2.15,
         "totalPoint": 7.5,
-        "totalOverPrice": 2.01,
+        "totalOverPrice": 2.03,
         "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
