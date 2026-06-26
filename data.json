@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-06-26T04:18:37Z",
+  "generatedAt": "2026-06-26T04:58:10Z",
+  "lastMode": "full",
   "date": "2026-06-26",
   "availableDates": [
     "2026-06-26",
@@ -687,14 +688,15 @@
         "mlHome": 1.86,
         "mlAway": 2.06,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.51,
+        "rlHomePrice": 1.52,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.72,
         "totalPoint": 8.5,
-        "totalOverPrice": 2.0,
-        "totalUnderPrice": 1.85,
+        "totalOverPrice": 1.98,
+        "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Keider Montero",
         "era": 3.68,
@@ -735,6 +737,7 @@
         "totalUnderPrice": 1.97,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Paul Skenes",
         "era": 2.86,
@@ -764,8 +767,8 @@
       "homeTeamName": "Baltimore Orioles",
       "awayTeamName": "Washington Nationals",
       "autoOdds": {
-        "mlHome": 1.73,
-        "mlAway": 2.24,
+        "mlHome": 1.74,
+        "mlAway": 2.22,
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.46,
         "rlAwayPoint": 1.5,
@@ -775,6 +778,7 @@
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:06:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Trevor Rogers",
         "era": 5.3,
@@ -815,6 +819,7 @@
         "totalUnderPrice": 1.95,
         "lastUpdate": "2026-06-26T23:08:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Patrick Corbin",
         "era": 4.73,
@@ -855,6 +860,7 @@
         "totalUnderPrice": 1.93,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Joey Cantillo",
         "era": 4.05,
@@ -887,14 +893,15 @@
         "mlHome": 1.74,
         "mlAway": 2.23,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.6,
+        "rlHomePrice": 2.58,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.61,
+        "rlAwayPrice": 1.6,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.93,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:10:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Nick Martinez",
         "era": 2.73,
@@ -935,6 +942,7 @@
         "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
+      "autoProps": [],
       "homeStarter": null,
       "awayStarter": {
         "name": "Zack Wheeler",
@@ -966,10 +974,11 @@
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.46,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.92,
+        "totalOverPrice": 1.88,
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Payton Tolle",
         "era": 3.08,
@@ -1005,6 +1014,7 @@
         "totalUnderPrice": 1.83,
         "lastUpdate": "2026-06-26T23:41:00Z"
       },
+      "autoProps": [],
       "homeStarter": null,
       "awayStarter": null
     },
@@ -1025,16 +1035,17 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": {
         "mlHome": 1.4,
-        "mlAway": 3.27,
+        "mlAway": 3.34,
         "rlHomePoint": -1.5,
         "rlHomePrice": 1.88,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 2.07,
+        "rlAwayPrice": 2.16,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.93,
+        "totalOverPrice": 2.03,
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Jacob Misiorowski",
         "era": 1.45,
@@ -1067,14 +1078,15 @@
         "mlHome": 1.62,
         "mlAway": 2.47,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.3,
+        "rlHomePrice": 2.32,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.72,
         "totalPoint": 9.0,
-        "totalOverPrice": 1.91,
+        "totalOverPrice": 1.87,
         "totalUnderPrice": 2.07,
         "lastUpdate": "2026-06-27T00:11:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Taj Bradley",
         "era": 4.11,
@@ -1107,14 +1119,15 @@
         "mlHome": 1.87,
         "mlAway": 2.05,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.52,
+        "rlHomePrice": 1.51,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.7,
         "totalPoint": 8.0,
-        "totalOverPrice": 1.96,
+        "totalOverPrice": 1.95,
         "totalUnderPrice": 1.96,
         "lastUpdate": "2026-06-27T00:15:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Michael McGreevy",
         "era": 3.35,
@@ -1147,14 +1160,15 @@
         "mlHome": 2.12,
         "mlAway": 1.85,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.62,
+        "rlHomePrice": 1.64,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.41,
         "totalPoint": 8.5,
         "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.93,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-27T01:39:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Walbert Ureña",
         "era": 2.41,
@@ -1187,14 +1201,15 @@
         "mlHome": 2.33,
         "mlAway": 1.68,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.76,
+        "rlHomePrice": 1.75,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.18,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.9,
-        "totalUnderPrice": 2.03,
+        "totalOverPrice": 1.88,
+        "totalUnderPrice": 2.01,
         "lastUpdate": "2026-06-27T01:46:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Walker Buehler",
         "era": 3.96,
@@ -1224,6 +1239,7 @@
       "homeTeamName": "San Francisco Giants",
       "awayTeamName": "Atlanta Braves",
       "autoOdds": null,
+      "autoProps": [],
       "homeStarter": null,
       "awayStarter": {
         "name": "Reynaldo López",
@@ -1251,14 +1267,15 @@
         "mlHome": 1.86,
         "mlAway": 2.06,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.51,
+        "rlHomePrice": 1.52,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.72,
         "totalPoint": 8.5,
-        "totalOverPrice": 2.0,
-        "totalUnderPrice": 1.85,
+        "totalOverPrice": 1.98,
+        "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Framber Valdez",
         "era": 3.91,
@@ -1290,10 +1307,11 @@
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.46,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.92,
+        "totalOverPrice": 1.88,
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Jake Bennett",
         "era": 3.71,
@@ -1334,6 +1352,7 @@
         "totalUnderPrice": 1.95,
         "lastUpdate": "2026-06-26T23:08:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Dylan Cease",
         "era": 2.75,
@@ -1369,6 +1388,7 @@
         "totalUnderPrice": 1.97,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Jared Jones",
         "era": 5.75,
@@ -1409,6 +1429,7 @@
         "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
+      "autoProps": [],
       "homeStarter": null,
       "awayStarter": {
         "name": "Alan Rangel",
@@ -1439,6 +1460,7 @@
         "totalUnderPrice": 1.83,
         "lastUpdate": "2026-06-26T23:41:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Davis Martin",
         "era": 3.18,
@@ -1471,14 +1493,15 @@
         "mlHome": 1.74,
         "mlAway": 2.23,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.6,
+        "rlHomePrice": 2.58,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.61,
+        "rlAwayPrice": 1.6,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.93,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:10:00Z"
       },
+      "autoProps": [],
       "homeStarter": null,
       "awayStarter": {
         "name": "Jose Cabrera",
@@ -1503,8 +1526,8 @@
       "homeTeamName": "Baltimore Orioles",
       "awayTeamName": "Washington Nationals",
       "autoOdds": {
-        "mlHome": 1.73,
-        "mlAway": 2.24,
+        "mlHome": 1.74,
+        "mlAway": 2.22,
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.46,
         "rlAwayPoint": 1.5,
@@ -1514,6 +1537,7 @@
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:06:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Brandon Young",
         "era": 3.07,
@@ -1554,6 +1578,7 @@
         "totalUnderPrice": 1.93,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Slade Cecconi",
         "era": 4.48,
@@ -1586,14 +1611,15 @@
         "mlHome": 1.62,
         "mlAway": 2.47,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.3,
+        "rlHomePrice": 2.32,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.72,
         "totalPoint": 9.0,
-        "totalOverPrice": 1.91,
+        "totalOverPrice": 1.87,
         "totalUnderPrice": 2.07,
         "lastUpdate": "2026-06-27T00:11:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Mike Paredes",
         "era": 4.05,
@@ -1619,16 +1645,17 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": {
         "mlHome": 1.4,
-        "mlAway": 3.27,
+        "mlAway": 3.34,
         "rlHomePoint": -1.5,
         "rlHomePrice": 1.88,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 2.07,
+        "rlAwayPrice": 2.16,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.93,
+        "totalOverPrice": 2.03,
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Kyle Harrison",
         "era": 2.5,
@@ -1656,14 +1683,15 @@
         "mlHome": 1.87,
         "mlAway": 2.05,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.52,
+        "rlHomePrice": 1.51,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.7,
         "totalPoint": 8.0,
-        "totalOverPrice": 1.96,
+        "totalOverPrice": 1.95,
         "totalUnderPrice": 1.96,
         "lastUpdate": "2026-06-27T00:15:00Z"
       },
+      "autoProps": [],
       "homeStarter": null,
       "awayStarter": null
     },
@@ -1686,14 +1714,15 @@
         "mlHome": 2.33,
         "mlAway": 1.68,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.76,
+        "rlHomePrice": 1.75,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.18,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.9,
-        "totalUnderPrice": 2.03,
+        "totalOverPrice": 1.88,
+        "totalUnderPrice": 2.01,
         "lastUpdate": "2026-06-27T01:46:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Randy Vásquez",
         "era": 4.17,
@@ -1723,6 +1752,7 @@
       "homeTeamName": "San Francisco Giants",
       "awayTeamName": "Atlanta Braves",
       "autoOdds": null,
+      "autoProps": [],
       "homeStarter": null,
       "awayStarter": {
         "name": "Bryce Elder",
@@ -1750,14 +1780,15 @@
         "mlHome": 2.12,
         "mlAway": 1.85,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.62,
+        "rlHomePrice": 1.64,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.41,
         "totalPoint": 8.5,
         "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.93,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-27T01:39:00Z"
       },
+      "autoProps": [],
       "homeStarter": {
         "name": "Reid Detmers",
         "era": 3.93,
