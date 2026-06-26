@@ -293,6 +293,7 @@ def fetch_final_scores(day_str):
 # sin momios automáticos — el usuario simplemente los mete a mano como antes.
 # ---------------------------------------------------------------------------
 ODDS_API_BASE = "https://api.the-odds-api.com/v4/sports/baseball_mlb/odds"
+ODDS_API_SPORT_BASE = "https://api.the-odds-api.com/v4/sports/baseball_mlb"
 
 
 def fetch_live_odds(api_key):
@@ -405,12 +406,20 @@ def fetch_props_for_event(api_key, event_id):
     así que se usa solo para los juegos de hoy.
     """
     if not api_key or not event_id:
+        print(f"  WARN props: falta api_key o event_id (event_id={event_id})")
         return None
     url = (
-        f"{ODDS_API_BASE}/{event_id}/odds"
+        f"{ODDS_API_SPORT_BASE}/events/{event_id}/odds"
         f"?regions=us&markets={PROP_MARKETS}&oddsFormat=decimal&apiKey={api_key}"
     )
-    return get_json(url, retries=1)
+    data = get_json(url, retries=1)
+    if data is None:
+        print(f"  WARN props: get_json devolvió None para event_id={event_id}")
+    elif isinstance(data, dict) and data.get("message"):
+        print(f"  WARN props: The Odds API respondió error para event_id={event_id}: {data.get('message')}")
+    elif isinstance(data, dict) and not data.get("bookmakers"):
+        print(f"  WARN props: respuesta sin bookmakers para event_id={event_id} (puede no haber props publicadas aún para este juego)")
+    return data
 
 
 def extract_props_from_event(event_data):
@@ -564,6 +573,9 @@ def main():
                 event_id = odds_event.get("id")
                 props_data = fetch_props_for_event(odds_api_key, event_id)
                 auto_props = extract_props_from_event(props_data)
+                print(f"  Props {home_team['name']} vs {away_team['name']}: {len(auto_props)} encontrada(s)")
+            elif mode == "full" and day_str == today.isoformat() and not odds_event:
+                print(f"  Props {home_team['name']} vs {away_team['name']}: sin match de evento en The Odds API (odds_event=None)")
             elif mode == "refresh":
                 existing_game = existing_games_by_pk.get(g["gamePk"])
                 auto_props = existing_game.get("autoProps", []) if existing_game else []
