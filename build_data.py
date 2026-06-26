@@ -6,18 +6,22 @@ Inspirado en la arquitectura de:
   - sebasclarkv/baseball-analyzer (probabilidades de bateo por jugador)
 
 Este script corre en GitHub Actions (no en el navegador del usuario), así
-que no tiene problemas de CORS: pega directo a la MLB Stats API y a
-Open-Meteo (clima, gratis, sin API key).
+que no tiene problemas de CORS: pega directo a la MLB Stats API, Open-Meteo
+(clima) y The Odds API (momios).
 
-Genera un único archivo data.json con:
-  - calendario de hoy + mañana (visitante/local, abridores probables)
-  - Elo de equipo derivado de standings de temporada
-  - splits home/away, runs por juego, ERA de staff (proxy de bullpen)
-  - top bateador de poder (HR/PA) y top bateador de contacto (AVG) por equipo,
-    con stats reales de temporada (no heurística inventada)
-  - abridor probable con ERA/WHIP/K9 de temporada
-  - clima por venue (temperatura, viento, prob. de lluvia) vía Open-Meteo,
-    aproximado a la hora típica de primer pitch (19:00 hora local del venue)
+Dos modos de corrida (--mode=full o --mode=refresh, default full):
+  - full: trabajo completo — equipos, Elo, bateadores destacados, clima,
+    abridores probables, momios. Corre una vez al día en la mañana.
+  - refresh: solo vuelve a consultar abridor probable y momios (lo que más
+    cambia durante el día — cambios de rotación, lesiones, movimiento de
+    línea) reutilizando el resto de los datos pesados del data.json
+    existente. Corre una segunda vez por la tarde, antes de los primeros
+    juegos, para que el abridor y los momios no se queden desactualizados
+    todo el día con el snapshot de la mañana.
+
+Genera un único archivo data.json con calendario de hoy + mañana, equipos,
+bateadores destacados, abridores con stats reales, clima por venue, momios
+automáticos, y resultados finales de hoy/ayer para cotejo de bitácora.
 
 La app web (React) consume este JSON directo desde GitHub raw,
 sin necesidad de fetch en vivo ni proxies CORS.
@@ -378,6 +382,74 @@ def extract_market_odds(event):
     }
 
 
+# ---------------------------------------------------------------------------
+# PLAYER PROPS — misma The Odds API que ya usamos para ML/RL/Total, pidiendo
+# mercados adicionales (batter_home_runs, batter_hits, pitcher_strikeouts).
+# A diferencia de ML/RL/Total, The Odds API requiere pedir props evento por
+# evento (no en el listado general), así que esto consume más créditos —
+# por eso se limita a los juegos de HOY únicamente, no a mañana también.
+# Si no hay créditos suficientes o falla, el pipeline sigue funcionando y
+# la app cae de vuelta a la heurística de temporada que ya teníamos.
+# ---------------------------------------------------------------------------
+PROP_MARKETS = "batter_home_runs,batter_hits,pitcher_strikeouts"
+PROP_TYPE_BY_MARKET = {
+    "batter_home_runs": "HR",
+    "batter_hits": "1+ Hit",
+    "pitcher_strikeouts": "Ponches (K)",
+}
+
+
+def fetch_props_for_event(api_key, event_id):
+    """Trae props de un evento específico de The Odds API. Cada llamada aquí
+    cuesta créditos extra (a diferencia del listado general de ML/RL/Total),
+    así que se usa solo para los juegos de hoy.
+    """
+    if not api_key or not event_id:
+        return None
+    url = (
+        f"{ODDS_API_BASE}/{event_id}/odds"
+        f"?regions=us&markets={PROP_MARKETS}&oddsFormat=decimal&apiKey={api_key}"
+    )
+    return get_json(url, retries=1)
+
+
+def extract_props_from_event(event_data):
+    """Convierte la respuesta de props de un evento en una lista simple:
+    [{player, type, decimalOdds, line}, ...]. Toma el mejor precio del lado
+    'Over' disponible entre bookmakers para cada jugador+mercado.
+    """
+    if not event_data:
+        return []
+    best_by_key = {}  # (player, type) -> {decimalOdds, line}
+    for book in event_data.get("bookmakers", []):
+        for market in book.get("markets", []):
+            prop_type = PROP_TYPE_BY_MARKET.get(market.get("key"))
+            if not prop_type:
+                continue
+            for outcome in market.get("outcomes", []):
+                if outcome.get("name") != "Over":
+                    continue  # solo nos interesa el lado "Over" de cada prop
+                player = outcome.get("description")
+                price = outcome.get("price")
+                point = outcome.get("point")
+                if not player or price is None:
+                    continue
+                key = (player, prop_type)
+                if key not in best_by_key or price > best_by_key[key]["decimalOdds"]:
+                    best_by_key[key] = {"decimalOdds": price, "line": point}
+
+    props = [
+        {"player": p, "type": t, "decimalOdds": v["decimalOdds"], "line": v["line"]}
+        for (p, t), v in best_by_key.items()
+    ]
+    # como máximo 1 prop de cada tipo por jugador; limitamos a 6 totales por
+    # juego para no saturar el payload — priorizamos por momio más bajo
+    # (más probable, generalmente el bateador/abridor más relevante del día).
+    props.sort(key=lambda x: x["decimalOdds"])
+    return props[:6]
+
+
+
 def build_team_payload(team_id, abbr, name, standings):
     s = standings.get(team_id, {})
     runs_per_game, staff_era = fetch_team_run_and_staff_stats(team_id)
@@ -398,18 +470,50 @@ def build_team_payload(team_id, abbr, name, standings):
     }
 
 
+def parse_mode():
+    """Lee --mode=full o --mode=refresh de los argumentos de línea de comandos.
+    'full' (default) hace todo el trabajo pesado: equipos, bateadores, clima.
+    'refresh' reutiliza esos datos pesados del data.json existente y solo
+    vuelve a consultar lo que más cambia durante el día: abridor probable
+    (puede cambiar por lesión/rotación) y momios (el mercado se mueve).
+    """
+    mode = "full"
+    for arg in sys.argv[1:]:
+        if arg.startswith("--mode="):
+            mode = arg.split("=", 1)[1]
+    return mode if mode in ("full", "refresh") else "full"
+
+
+def load_existing_payload():
+    try:
+        with open("data.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+
 def main():
+    mode = parse_mode()
     today = date.today()
     yesterday = today - timedelta(days=1)
     days = [today, today + timedelta(days=1)]
     day_strs = [d.isoformat() for d in days]
-    print(f"Construyendo data.json para {day_strs}...")
+    print(f"Construyendo data.json para {day_strs} (modo: {mode})...")
 
-    standings = fetch_standings()
+    existing_payload = load_existing_payload() if mode == "refresh" else None
+    existing_teams_by_id = {}
+    existing_games_by_pk = {}
+    if existing_payload:
+        existing_teams_by_id = {t["id"]: t for t in existing_payload.get("teams", [])}
+        existing_games_by_pk = {g["gamePk"]: g for g in existing_payload.get("games", [])}
+        print(f"  Modo refresh: reutilizando {len(existing_teams_by_id)} equipo(s) ya procesados (Elo/bateadores/clima no se recalculan).")
+
+    standings = fetch_standings() if mode == "full" else {}
     team_cache = {}
     games_out = []
 
     # Momios automáticos (opcional, requiere ODDS_API_KEY como secret de GitHub).
+    # Siempre se refrescan, en ambos modos — son justo lo que más cambia.
     odds_api_key = os.environ.get("ODDS_API_KEY", "")
     live_odds_events = fetch_live_odds(odds_api_key)
     print(f"  Momios automáticos: {len(live_odds_events)} evento(s) de The Odds API")
@@ -423,22 +527,46 @@ def main():
             away_team = g["teams"]["away"]["team"]
 
             for t in (home_team, away_team):
-                if t["id"] not in team_cache:
+                if t["id"] in team_cache:
+                    continue
+                if mode == "refresh" and t["id"] in existing_teams_by_id:
+                    team_cache[t["id"]] = existing_teams_by_id[t["id"]]
+                else:
                     print(f"  Procesando equipo: {t['name']}")
                     team_cache[t["id"]] = build_team_payload(
                         t["id"], t.get("abbreviation", ""), t["name"], standings
                     )
 
+            # Abridor probable y momios: SIEMPRE se refrescan, en ambos modos.
+            # Es justo el dato que puede cambiar entre la corrida de la mañana
+            # y la de la tarde (lesión, cambio de rotación, movimiento de línea).
             home_pitcher = g["teams"]["home"].get("probablePitcher")
             away_pitcher = g["teams"]["away"].get("probablePitcher")
             home_pitcher_stats = fetch_pitcher_stats(home_pitcher["id"]) if home_pitcher else None
             away_pitcher_stats = fetch_pitcher_stats(away_pitcher["id"]) if away_pitcher else None
 
             venue_name = g.get("venue", {}).get("name")
-            weather = fetch_weather_for_venue(venue_name, g["gameDate"]) if venue_name else None
+            if mode == "full":
+                weather = fetch_weather_for_venue(venue_name, g["gameDate"]) if venue_name else None
+            else:
+                existing_game = existing_games_by_pk.get(g["gamePk"])
+                weather = existing_game.get("weather") if existing_game else None
 
             odds_event = match_odds_to_game(live_odds_events, home_team["name"], away_team["name"])
             auto_odds = extract_market_odds(odds_event)
+
+            # Props: solo para juegos de HOY (no mañana, las líneas de props
+            # tardan en publicarse y consultarlas con mucha anticipación
+            # desperdicia créditos) y solo en modo full (refresh se queda
+            # con las del payload existente, igual que el clima).
+            auto_props = []
+            if mode == "full" and day_str == today.isoformat() and odds_event:
+                event_id = odds_event.get("id")
+                props_data = fetch_props_for_event(odds_api_key, event_id)
+                auto_props = extract_props_from_event(props_data)
+            elif mode == "refresh":
+                existing_game = existing_games_by_pk.get(g["gamePk"])
+                auto_props = existing_game.get("autoProps", []) if existing_game else []
 
             games_out.append({
                 "gamePk": g["gamePk"],
@@ -451,6 +579,7 @@ def main():
                 "homeTeamName": home_team["name"],
                 "awayTeamName": away_team["name"],
                 "autoOdds": auto_odds,
+                "autoProps": auto_props,
                 "homeStarter": {
                     "name": home_pitcher["fullName"] if home_pitcher else None,
                     **(home_pitcher_stats or {}),
@@ -461,27 +590,34 @@ def main():
                 } if away_pitcher else None,
             })
 
-    # Resultados finales de ayer, para que la app coteje la bitácora sola.
-    print(f"  Resultados finales de {yesterday.isoformat()}...")
-    final_scores_raw = fetch_final_scores(yesterday.isoformat())
-    yesterday_games = fetch_schedule_with_matchups(yesterday.isoformat())
-    results_out = []
-    for g in yesterday_games:
-        score = final_scores_raw.get(g["gamePk"])
-        if not score or score.get("status") != "Final":
-            continue
-        results_out.append({
-            "gamePk": g["gamePk"],
-            "dateStr": yesterday.isoformat(),
-            "homeTeamId": g["teams"]["home"]["team"]["id"],
-            "awayTeamId": g["teams"]["away"]["team"]["id"],
-            "homeScore": score["homeScore"],
-            "awayScore": score["awayScore"],
-        })
+    # Resultados finales de ayer y de HOY (los juegos de hoy que ya terminaron),
+    # para que la app coteje la bitácora sola sin esperar al día siguiente.
+    def collect_final_results(day):
+        day_str = day.isoformat()
+        final_scores_raw = fetch_final_scores(day_str)
+        day_games = fetch_schedule_with_matchups(day_str)
+        out = []
+        for g in day_games:
+            score = final_scores_raw.get(g["gamePk"])
+            if not score or score.get("status") != "Final":
+                continue
+            out.append({
+                "gamePk": g["gamePk"],
+                "dateStr": day_str,
+                "homeTeamId": g["teams"]["home"]["team"]["id"],
+                "awayTeamId": g["teams"]["away"]["team"]["id"],
+                "homeScore": score["homeScore"],
+                "awayScore": score["awayScore"],
+            })
+        return out
+
+    print(f"  Resultados finales de {yesterday.isoformat()} y {today.isoformat()}...")
+    results_out = collect_final_results(yesterday) + collect_final_results(today)
     print(f"  {len(results_out)} resultado(s) final(es) agregado(s)")
 
     payload = {
         "generatedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "lastMode": mode,
         "date": day_strs[0],
         "availableDates": day_strs,
         "teams": list(team_cache.values()),
