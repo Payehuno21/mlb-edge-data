@@ -6,21 +6,25 @@ Inspirado en la arquitectura de:
   - sebasclarkv/baseball-analyzer (probabilidades de bateo por jugador)
 
 Este script corre en GitHub Actions (no en el navegador del usuario), así
-que no tiene problemas de CORS: pega directo a la MLB Stats API.
+que no tiene problemas de CORS: pega directo a la MLB Stats API y a
+Open-Meteo (clima, gratis, sin API key).
 
 Genera un único archivo data.json con:
-  - calendario de hoy (visitante/local, abridores probables)
+  - calendario de hoy + mañana (visitante/local, abridores probables)
   - Elo de equipo derivado de standings de temporada
   - splits home/away, runs por juego, ERA de staff (proxy de bullpen)
   - top bateador de poder (HR/PA) y top bateador de contacto (AVG) por equipo,
     con stats reales de temporada (no heurística inventada)
   - abridor probable con ERA/WHIP/K9 de temporada
+  - clima por venue (temperatura, viento, prob. de lluvia) vía Open-Meteo,
+    aproximado a la hora típica de primer pitch (19:00 hora local del venue)
 
-La app web (React) consume este JSON directo desde GitHub Pages/raw,
+La app web (React) consume este JSON directo desde GitHub raw,
 sin necesidad de fetch en vivo ni proxies CORS.
 """
 
 import json
+import os
 import sys
 import time
 from datetime import date, timedelta
@@ -28,8 +32,45 @@ from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
 STATS_BASE = "https://statsapi.mlb.com/api/v1"
+WEATHER_BASE = "https://api.open-meteo.com/v1/forecast"
 TIMEOUT = 12
 MIN_PA_FOR_PROPS = 60  # mínimo de plate appearances para que la tasa de HR/AVG sea confiable
+
+# Coordenadas de los 30 estadios de MLB (lat, lon) para consultar clima por venue.
+# Necesario porque MLB Stats API no expone clima estructurado de forma confiable.
+VENUE_COORDS = {
+    "Chase Field": (33.4455, -112.0667),
+    "Truist Park": (33.8908, -84.4678),
+    "Oriole Park at Camden Yards": (39.2840, -76.6217),
+    "Fenway Park": (42.3467, -71.0972),
+    "Wrigley Field": (41.9484, -87.6553),
+    "Guaranteed Rate Field": (41.8299, -87.6338),
+    "Great American Ball Park": (39.0975, -84.5066),
+    "Progressive Field": (41.4962, -81.6852),
+    "Coors Field": (39.7559, -104.9942),
+    "Comerica Park": (42.3390, -83.0485),
+    "Minute Maid Park": (29.7572, -95.3551),
+    "Kauffman Stadium": (39.0517, -94.4803),
+    "Angel Stadium": (33.8003, -117.8827),
+    "Dodger Stadium": (34.0739, -118.2400),
+    "loanDepot park": (25.7781, -80.2196),
+    "American Family Field": (43.0280, -87.9712),
+    "Target Field": (44.9817, -93.2776),
+    "Citi Field": (40.7571, -73.8458),
+    "Yankee Stadium": (40.8296, -73.9262),
+    "Oakland Coliseum": (37.7516, -122.2005),
+    "Sutter Health Park": (38.5805, -121.5136),
+    "Citizens Bank Park": (39.9061, -75.1665),
+    "PNC Park": (40.4469, -80.0057),
+    "Petco Park": (32.7073, -117.1566),
+    "Oracle Park": (37.7786, -122.3893),
+    "T-Mobile Park": (47.5914, -122.3325),
+    "Busch Stadium": (38.6226, -90.1928),
+    "Tropicana Field": (27.7683, -82.6534),
+    "Globe Life Field": (32.7473, -97.0832),
+    "Rogers Centre": (43.6414, -79.3894),
+    "Nationals Park": (38.8730, -77.0074),
+}
 
 
 def get_json(url, retries=3, backoff=2.0):
@@ -45,6 +86,46 @@ def get_json(url, retries=3, backoff=2.0):
             time.sleep(backoff * (attempt + 1))
     print(f"WARN: fallo definitivo en {url}: {last_err}", file=sys.stderr)
     return None
+
+
+def fetch_weather_for_venue(venue_name, game_date_iso):
+    """Clima por hora del juego, vía Open-Meteo (gratis, sin API key).
+    Devuelve None si el venue no está en el diccionario o falla la consulta —
+    el modelo debe tratar la ausencia de clima como neutral, no como error fatal.
+    """
+    coords = VENUE_COORDS.get(venue_name)
+    if not coords:
+        return None
+    lat, lon = coords
+    try:
+        game_dt = game_date_iso[:10]  # YYYY-MM-DD
+    except Exception:
+        return None
+
+    url = (
+        f"{WEATHER_BASE}?latitude={lat}&longitude={lon}"
+        f"&hourly=temperature_2m,precipitation_probability,wind_speed_10m,wind_direction_10m"
+        f"&start_date={game_dt}&end_date={game_dt}&timezone=auto&temperature_unit=fahrenheit"
+        f"&wind_speed_unit=mph"
+    )
+    data = get_json(url, retries=2)
+    if not data or "hourly" not in data:
+        return None
+
+    # Tomamos la hora más cercana a las 19:00 local (hora típica de primer pitch)
+    # como aproximación razonable; no tenemos el horario exacto de cada juego aquí.
+    try:
+        times = data["hourly"]["time"]
+        target_hour = f"{game_dt}T19:00"
+        idx = times.index(target_hour) if target_hour in times else len(times) // 2
+        return {
+            "tempF": round(data["hourly"]["temperature_2m"][idx]),
+            "precipProb": data["hourly"]["precipitation_probability"][idx],
+            "windMph": round(data["hourly"]["wind_speed_10m"][idx], 1),
+            "windDirDeg": data["hourly"]["wind_direction_10m"][idx],
+        }
+    except (KeyError, IndexError, ValueError):
+        return None
 
 
 def win_pct_to_elo(win_pct):
@@ -172,11 +253,129 @@ def fetch_top_hitters(team_id):
 
 def fetch_schedule_with_matchups(day_str):
     data = get_json(
-        f"{STATS_BASE}/schedule?sportId=1&date={day_str}&hydrate=probablePitcher,team,linescore"
+        f"{STATS_BASE}/schedule?sportId=1&date={day_str}&hydrate=probablePitcher,team,linescore,venue"
     )
     if not data or not data.get("dates"):
         return []
     return data["dates"][0].get("games", [])
+
+
+def fetch_final_scores(day_str):
+    """Resultados finales de juegos terminados en una fecha dada.
+    Devuelve dict {gamePk: {homeScore, awayScore, status}}.
+    """
+    data = get_json(f"{STATS_BASE}/schedule?sportId=1&date={day_str}&hydrate=linescore")
+    out = {}
+    if not data or not data.get("dates"):
+        return out
+    for g in data["dates"][0].get("games", []):
+        status = g.get("status", {}).get("abstractGameState")  # "Final", "Live", "Preview"
+        linescore = g.get("linescore", {})
+        home_score = linescore.get("teams", {}).get("home", {}).get("runs")
+        away_score = linescore.get("teams", {}).get("away", {}).get("runs")
+        out[g["gamePk"]] = {
+            "status": status,
+            "homeScore": home_score,
+            "awayScore": away_score,
+        }
+    return out
+
+
+# ---------------------------------------------------------------------------
+# MOMIOS AUTOMÁTICOS — The Odds API (https://the-odds-api.com).
+# Requiere la variable de entorno ODDS_API_KEY (ver workflow de GitHub
+# Actions, configurado como secret del repo). Si no está presente o la
+# llamada falla (créditos agotados, etc.), el pipeline sigue funcionando
+# sin momios automáticos — el usuario simplemente los mete a mano como antes.
+# ---------------------------------------------------------------------------
+ODDS_API_BASE = "https://api.the-odds-api.com/v4/sports/baseball_mlb/odds"
+
+
+def fetch_live_odds(api_key):
+    if not api_key:
+        print("INFO: ODDS_API_KEY no configurada — se omiten momios automáticos.")
+        return []
+    url = (
+        f"{ODDS_API_BASE}?regions=us&markets=h2h,spreads,totals"
+        f"&oddsFormat=decimal&apiKey={api_key}"
+    )
+    data = get_json(url, retries=2)
+    if data is None:
+        print("WARN: no se pudieron obtener momios de The Odds API (revisa créditos/clave).")
+        return []
+    if isinstance(data, dict) and data.get("message"):
+        print(f"WARN: The Odds API respondió error: {data.get('message')}")
+        return []
+    return data if isinstance(data, list) else []
+
+
+def best_price_per_outcome(bookmakers, outcome_filter):
+    """De una lista de bookmakers para un mercado, devuelve el mejor momio
+    decimal disponible por cada nombre de outcome (ej. equipo o Over/Under).
+    Usamos el mejor precio entre libros como aproximación práctica al
+    'mercado' cuando no se especifica una casa concreta.
+    """
+    best = {}
+    for book in bookmakers:
+        for market in book.get("markets", []):
+            if market.get("key") not in outcome_filter:
+                continue
+            for outcome in market.get("outcomes", []):
+                name = outcome.get("name")
+                price = outcome.get("price")
+                point = outcome.get("point")
+                key = (market["key"], name, point)
+                if price is None:
+                    continue
+                if key not in best or price > best[key]["price"]:
+                    best[key] = {"price": price, "point": point}
+    return best
+
+
+def match_odds_to_game(odds_events, home_team_name, away_team_name):
+    """Empareja un juego del schedule de MLB Stats API con un evento de
+    The Odds API por nombre de equipo (The Odds API usa nombres completos
+    tipo 'New York Yankees', igual que MLB Stats API).
+    """
+    for ev in odds_events:
+        if ev.get("home_team") == home_team_name and ev.get("away_team") == away_team_name:
+            return ev
+    return None
+
+
+def extract_market_odds(event):
+    """Convierte el evento de The Odds API a un payload simple que la app
+    pueda consumir directo: ml/rl/total con el mejor precio disponible.
+    """
+    if not event:
+        return None
+    bookmakers = event.get("bookmakers", [])
+    best = best_price_per_outcome(bookmakers, {"h2h", "spreads", "totals"})
+
+    home_name = event.get("home_team")
+    away_name = event.get("away_team")
+
+    ml_home = next((v["price"] for k, v in best.items() if k[0] == "h2h" and k[1] == home_name), None)
+    ml_away = next((v["price"] for k, v in best.items() if k[0] == "h2h" and k[1] == away_name), None)
+
+    rl_home = next(((k[2], v["price"]) for k, v in best.items() if k[0] == "spreads" and k[1] == home_name), (None, None))
+    rl_away = next(((k[2], v["price"]) for k, v in best.items() if k[0] == "spreads" and k[1] == away_name), (None, None))
+
+    total_over = next(((k[2], v["price"]) for k, v in best.items() if k[0] == "totals" and k[1] == "Over"), (None, None))
+    total_under = next(((k[2], v["price"]) for k, v in best.items() if k[0] == "totals" and k[1] == "Under"), (None, None))
+
+    return {
+        "mlHome": ml_home,
+        "mlAway": ml_away,
+        "rlHomePoint": rl_home[0],
+        "rlHomePrice": rl_home[1],
+        "rlAwayPoint": rl_away[0],
+        "rlAwayPrice": rl_away[1],
+        "totalPoint": total_over[0] or total_under[0],
+        "totalOverPrice": total_over[1],
+        "totalUnderPrice": total_under[1],
+        "lastUpdate": event.get("commence_time"),
+    }
 
 
 def build_team_payload(team_id, abbr, name, standings):
@@ -201,6 +400,7 @@ def build_team_payload(team_id, abbr, name, standings):
 
 def main():
     today = date.today()
+    yesterday = today - timedelta(days=1)
     days = [today, today + timedelta(days=1)]
     day_strs = [d.isoformat() for d in days]
     print(f"Construyendo data.json para {day_strs}...")
@@ -208,6 +408,11 @@ def main():
     standings = fetch_standings()
     team_cache = {}
     games_out = []
+
+    # Momios automáticos (opcional, requiere ODDS_API_KEY como secret de GitHub).
+    odds_api_key = os.environ.get("ODDS_API_KEY", "")
+    live_odds_events = fetch_live_odds(odds_api_key)
+    print(f"  Momios automáticos: {len(live_odds_events)} evento(s) de The Odds API")
 
     for day_str in day_strs:
         games_raw = fetch_schedule_with_matchups(day_str)
@@ -229,12 +434,23 @@ def main():
             home_pitcher_stats = fetch_pitcher_stats(home_pitcher["id"]) if home_pitcher else None
             away_pitcher_stats = fetch_pitcher_stats(away_pitcher["id"]) if away_pitcher else None
 
+            venue_name = g.get("venue", {}).get("name")
+            weather = fetch_weather_for_venue(venue_name, g["gameDate"]) if venue_name else None
+
+            odds_event = match_odds_to_game(live_odds_events, home_team["name"], away_team["name"])
+            auto_odds = extract_market_odds(odds_event)
+
             games_out.append({
                 "gamePk": g["gamePk"],
                 "gameDate": g["gameDate"],
                 "gameDateStr": day_str,
+                "venue": venue_name,
+                "weather": weather,
                 "homeTeamId": home_team["id"],
                 "awayTeamId": away_team["id"],
+                "homeTeamName": home_team["name"],
+                "awayTeamName": away_team["name"],
+                "autoOdds": auto_odds,
                 "homeStarter": {
                     "name": home_pitcher["fullName"] if home_pitcher else None,
                     **(home_pitcher_stats or {}),
@@ -245,18 +461,38 @@ def main():
                 } if away_pitcher else None,
             })
 
+    # Resultados finales de ayer, para que la app coteje la bitácora sola.
+    print(f"  Resultados finales de {yesterday.isoformat()}...")
+    final_scores_raw = fetch_final_scores(yesterday.isoformat())
+    yesterday_games = fetch_schedule_with_matchups(yesterday.isoformat())
+    results_out = []
+    for g in yesterday_games:
+        score = final_scores_raw.get(g["gamePk"])
+        if not score or score.get("status") != "Final":
+            continue
+        results_out.append({
+            "gamePk": g["gamePk"],
+            "dateStr": yesterday.isoformat(),
+            "homeTeamId": g["teams"]["home"]["team"]["id"],
+            "awayTeamId": g["teams"]["away"]["team"]["id"],
+            "homeScore": score["homeScore"],
+            "awayScore": score["awayScore"],
+        })
+    print(f"  {len(results_out)} resultado(s) final(es) agregado(s)")
+
     payload = {
         "generatedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "date": day_strs[0],
         "availableDates": day_strs,
         "teams": list(team_cache.values()),
         "games": games_out,
+        "results": results_out,
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Listo: {len(games_out)} juegos totales, {len(team_cache)} equipos procesados.")
+    print(f"Listo: {len(games_out)} juegos totales, {len(team_cache)} equipos, {len(results_out)} resultados procesados.")
 
 
 if __name__ == "__main__":
