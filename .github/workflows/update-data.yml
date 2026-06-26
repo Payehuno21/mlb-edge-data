@@ -1,11 +1,25 @@
 name: Actualizar datos MLB Edge
 
-# Se ejecuta automáticamente todos los días a las 9:00 AM hora del Este de EE.UU.
-# (13:00 UTC) y también se puede disparar manualmente desde la pestaña "Actions".
+# Corrida completa: 9:00 AM hora del Este (13:00 UTC) — equipos, bateadores,
+# clima, abridores, momios. Es la pesada, una vez al día.
+# Corrida ligera: 4:00 PM hora del Este (20:00 UTC) — solo refresca abridores
+# probables y momios, que son los datos que más cambian durante el día
+# (cambios de rotación, lesiones de último momento, movimiento de líneas).
+# También se puede disparar manualmente desde la pestaña "Actions".
 on:
   schedule:
     - cron: "0 13 * * *"
-  workflow_dispatch: {}
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Tipo de corrida"
+        required: false
+        default: "full"
+        type: choice
+        options:
+          - full
+          - refresh
 
 permissions:
   contents: write
@@ -22,15 +36,26 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Determinar tipo de corrida
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 20 * * *" ]; then
+            echo "mode=refresh" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Generar data.json
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python build_data.py
+        run: python build_data.py --mode=${{ steps.mode.outputs.mode }}
 
       - name: Publicar data.json actualizado
         run: |
           git config user.name "mlb-edge-bot"
           git config user.email "actions@github.com"
           git add data.json
-          git diff --quiet --cached || git commit -m "Actualizar datos MLB Edge - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --quiet --cached || git commit -m "Actualizar datos MLB Edge (${{ steps.mode.outputs.mode }}) - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
