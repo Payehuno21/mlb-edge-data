@@ -525,6 +525,61 @@ def extract_market_odds(event):
 
 
 # ---------------------------------------------------------------------------
+# MOVIMIENTO DE LÍNEA — compara los momios automáticos de esta corrida
+# contra los de la corrida anterior (guardados en el data.json existente),
+# sin gastar créditos extra de The Odds API. Un movimiento grande en un
+# mercado es señal de que el dinero del mercado está reaccionando a algo
+# (lesión de último momento, cambio de clima, etc.) que nuestro modelo
+# puede no estar capturando todavía.
+# ---------------------------------------------------------------------------
+LINE_MOVE_SIGNIFICANT_PCT = 4.0  # cambio de probabilidad implícita (en puntos %) que se considera movimiento notable
+
+
+def implied_prob_from_decimal(dec_odds):
+    try:
+        d = float(dec_odds)
+    except (TypeError, ValueError):
+        return None
+    if not d or d <= 1:
+        return None
+    return 1 / d
+
+
+def calc_line_movement(current_odds, previous_odds):
+    """Compara ML home/away, RL fav/dog (por precio, no por punto) y Total
+    over/under entre la corrida actual y la anterior. Devuelve una lista de
+    movimientos significativos: [{market, side, fromProb, toProb, deltaPct}].
+    """
+    if not current_odds or not previous_odds:
+        return []
+
+    movements = []
+    pairs = [
+        ("ML", "home", current_odds.get("mlHome"), previous_odds.get("mlHome")),
+        ("ML", "away", current_odds.get("mlAway"), previous_odds.get("mlAway")),
+        ("RL", "home", current_odds.get("rlHomePrice"), previous_odds.get("rlHomePrice")),
+        ("RL", "away", current_odds.get("rlAwayPrice"), previous_odds.get("rlAwayPrice")),
+        ("Total Over", None, current_odds.get("totalOverPrice"), previous_odds.get("totalOverPrice")),
+        ("Total Under", None, current_odds.get("totalUnderPrice"), previous_odds.get("totalUnderPrice")),
+    ]
+    for market, side, current_price, previous_price in pairs:
+        current_prob = implied_prob_from_decimal(current_price)
+        previous_prob = implied_prob_from_decimal(previous_price)
+        if current_prob is None or previous_prob is None:
+            continue
+        delta_pct = round((current_prob - previous_prob) * 100, 1)
+        if abs(delta_pct) >= LINE_MOVE_SIGNIFICANT_PCT:
+            movements.append({
+                "market": market,
+                "side": side,
+                "fromProb": round(previous_prob * 100, 1),
+                "toProb": round(current_prob * 100, 1),
+                "deltaPct": delta_pct,
+            })
+    return movements
+
+
+# ---------------------------------------------------------------------------
 # PLAYER PROPS — misma The Odds API que ya usamos para ML/RL/Total, pidiendo
 # mercados adicionales (batter_home_runs, batter_hits, pitcher_strikeouts).
 # A diferencia de ML/RL/Total, The Odds API requiere pedir props evento por
@@ -875,15 +930,20 @@ def main():
     day_strs = [d.isoformat() for d in days]
     print(f"Construyendo data.json para {day_strs} (modo: {mode})...")
 
-    existing_payload = load_existing_payload() if mode == "refresh" else None
+    # Se carga el data.json existente SIEMPRE (no solo en modo refresh) para
+    # poder calcular el historial de movimiento de línea comparando momios
+    # de esta corrida contra los de la corrida anterior. En modo refresh,
+    # además se usa para reutilizar equipos/clima ya calculados.
+    existing_payload = load_existing_payload()
     existing_teams_by_id = {}
     existing_games_by_pk = {}
     schedule_cache = {}  # compartido entre equipos, evita repetir fetch_schedule por día
     boxscore_cache = {}  # compartido entre equipos, evita repetir boxscore del mismo gamePk
     if existing_payload:
-        existing_teams_by_id = {t["id"]: t for t in existing_payload.get("teams", [])}
         existing_games_by_pk = {g["gamePk"]: g for g in existing_payload.get("games", [])}
-        print(f"  Modo refresh: reutilizando {len(existing_teams_by_id)} equipo(s) ya procesados (Elo/bateadores/clima no se recalculan).")
+        if mode == "refresh":
+            existing_teams_by_id = {t["id"]: t for t in existing_payload.get("teams", [])}
+            print(f"  Modo refresh: reutilizando {len(existing_teams_by_id)} equipo(s) ya procesados (Elo/bateadores/clima no se recalculan).")
 
     standings = fetch_standings() if mode == "full" else {}
     team_cache = {}
@@ -934,6 +994,14 @@ def main():
             odds_event = match_odds_to_game(live_odds_events, home_team["name"], away_team["name"])
             auto_odds = extract_market_odds(odds_event)
 
+            # Movimiento de línea: compara contra los momios de la corrida
+            # anterior (mismo gamePk), sin gastar créditos extra de la API.
+            previous_game = existing_games_by_pk.get(g["gamePk"])
+            previous_odds = previous_game.get("autoOdds") if previous_game else None
+            line_movement = calc_line_movement(auto_odds, previous_odds)
+            if line_movement:
+                print(f"  Movimiento de línea {home_team['name']} vs {away_team['name']}: {line_movement}")
+
             # Props: solo para juegos de HOY (no mañana, las líneas de props
             # tardan en publicarse y consultarlas con mucha anticipación
             # desperdicia créditos) y solo en modo full (refresh se queda
@@ -965,6 +1033,7 @@ def main():
                 "homeTeamName": home_team["name"],
                 "awayTeamName": away_team["name"],
                 "autoOdds": auto_odds,
+                "lineMovement": line_movement,
                 "autoProps": auto_props,
                 "homeStarter": {
                     "name": home_pitcher["fullName"] if home_pitcher else None,
