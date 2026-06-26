@@ -1,32 +1,26 @@
 name: Actualizar datos MLB Edge
-
 # Se ejecuta automáticamente todos los días a las 9:00 AM hora del Este de EE.UU.
 # (13:00 UTC) y también se puede disparar manualmente desde la pestaña "Actions".
 on:
   schedule:
     - cron: "0 13 * * *"
   workflow_dispatch: {}
-
 permissions:
   contents: write
-
 jobs:
   build-data:
     runs-on: ubuntu-latest
     steps:
       - name: Clonar repositorio
         uses: actions/checkout@v4
-
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-       - name: Generar data.json
+      - name: Generar data.json
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python build_data.py
-
       - name: Publicar data.json actualizado
         run: |
           git config user.name "mlb-edge-bot"
