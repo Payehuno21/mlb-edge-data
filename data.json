@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T05:12:45Z",
+  "generatedAt": "2026-06-26T05:23:57Z",
   "lastMode": "full",
   "date": "2026-06-26",
   "availableDates": [
@@ -1162,10 +1162,28 @@
         "rlAwayPrice": 2.46,
         "totalPoint": 8.5,
         "totalOverPrice": 1.88,
-        "totalUnderPrice": 2.0,
+        "totalUnderPrice": 1.99,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "autoProps": [
+        {
+          "player": "Cody Bellinger",
+          "type": "1+ Hit",
+          "decimalOdds": 1.37,
+          "line": 0.5
+        },
+        {
+          "player": "Paul Goldschmidt",
+          "type": "1+ Hit",
+          "decimalOdds": 1.38,
+          "line": 0.5
+        },
+        {
+          "player": "Ben Rice",
+          "type": "1+ Hit",
+          "decimalOdds": 1.4,
+          "line": 0.5
+        },
         {
           "player": "Wilyer Abreu",
           "type": "1+ Hit",
@@ -1173,27 +1191,9 @@
           "line": 0.5
         },
         {
-          "player": "Paul Goldschmidt",
-          "type": "1+ Hit",
-          "decimalOdds": 1.41,
-          "line": 0.5
-        },
-        {
           "player": "Mickey Gasper",
           "type": "1+ Hit",
           "decimalOdds": 1.42,
-          "line": 0.5
-        },
-        {
-          "player": "Willson Contreras",
-          "type": "1+ Hit",
-          "decimalOdds": 1.44,
-          "line": 0.5
-        },
-        {
-          "player": "Jazz Chisholm Jr.",
-          "type": "1+ Hit",
-          "decimalOdds": 1.45,
           "line": 0.5
         },
         {
@@ -1258,7 +1258,7 @@
       "homeTeamName": "Milwaukee Brewers",
       "awayTeamName": "Chicago Cubs",
       "autoOdds": {
-        "mlHome": 1.4,
+        "mlHome": 1.39,
         "mlAway": 3.34,
         "rlHomePoint": -1.5,
         "rlHomePrice": 1.88,
@@ -1266,7 +1266,7 @@
         "rlAwayPrice": 2.15,
         "totalPoint": 7.5,
         "totalOverPrice": 2.01,
-        "totalUnderPrice": 1.91,
+        "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
       "autoProps": [
@@ -1717,7 +1717,7 @@
         "rlAwayPrice": 2.46,
         "totalPoint": 8.5,
         "totalOverPrice": 1.88,
-        "totalUnderPrice": 2.0,
+        "totalUnderPrice": 1.99,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "autoProps": [],
@@ -2053,7 +2053,7 @@
       "homeTeamName": "Milwaukee Brewers",
       "awayTeamName": "Chicago Cubs",
       "autoOdds": {
-        "mlHome": 1.4,
+        "mlHome": 1.39,
         "mlAway": 3.34,
         "rlHomePoint": -1.5,
         "rlHomePrice": 1.88,
@@ -2061,7 +2061,7 @@
         "rlAwayPrice": 2.15,
         "totalPoint": 7.5,
         "totalOverPrice": 2.01,
-        "totalUnderPrice": 1.91,
+        "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
       "autoProps": [],
