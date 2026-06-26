@@ -22,7 +22,9 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generar data.json
+       - name: Generar data.json
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python build_data.py
 
       - name: Publicar data.json actualizado
