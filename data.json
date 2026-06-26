@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:26:12Z",
+  "generatedAt": "2026-06-26T04:18:37Z",
   "date": "2026-06-26",
   "availableDates": [
     "2026-06-26",
@@ -686,13 +686,13 @@
       "autoOdds": {
         "mlHome": 1.86,
         "mlAway": 2.06,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.72,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.51,
+        "rlHomePoint": 1.5,
+        "rlHomePrice": 1.51,
+        "rlAwayPoint": -1.5,
+        "rlAwayPrice": 2.72,
         "totalPoint": 8.5,
         "totalOverPrice": 2.0,
-        "totalUnderPrice": 1.88,
+        "totalUnderPrice": 1.85,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "homeStarter": {
@@ -727,12 +727,12 @@
         "mlHome": 1.49,
         "mlAway": 2.84,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.05,
+        "rlHomePrice": 2.07,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.86,
+        "rlAwayPrice": 1.93,
         "totalPoint": 7.5,
         "totalOverPrice": 1.89,
-        "totalUnderPrice": 1.98,
+        "totalUnderPrice": 1.97,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "homeStarter": {
@@ -755,7 +755,7 @@
       "venue": "Oriole Park at Camden Yards",
       "weather": {
         "tempF": 90,
-        "precipProb": 27,
+        "precipProb": 18,
         "windMph": 7.1,
         "windDirDeg": 298
       },
@@ -767,7 +767,7 @@
         "mlHome": 1.73,
         "mlAway": 2.24,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.5,
+        "rlHomePrice": 2.46,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.62,
         "totalPoint": 8.5,
@@ -810,9 +810,9 @@
         "rlHomePrice": 1.59,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.5,
-        "totalPoint": 8.0,
-        "totalOverPrice": 1.88,
-        "totalUnderPrice": 1.94,
+        "totalPoint": 8.5,
+        "totalOverPrice": 1.94,
+        "totalUnderPrice": 1.95,
         "lastUpdate": "2026-06-26T23:08:00Z"
       },
       "homeStarter": {
@@ -847,12 +847,12 @@
         "mlHome": 1.93,
         "mlAway": 1.98,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.53,
+        "rlHomePrice": 1.51,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.65,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.94,
+        "totalOverPrice": 1.98,
+        "totalUnderPrice": 1.93,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "homeStarter": {
@@ -875,7 +875,7 @@
       "venue": "Tropicana Field",
       "weather": {
         "tempF": 88,
-        "precipProb": 16,
+        "precipProb": 12,
         "windMph": 7.0,
         "windDirDeg": 225
       },
@@ -889,7 +889,7 @@
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.6,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.57,
+        "rlAwayPrice": 1.61,
         "totalPoint": 8.5,
         "totalOverPrice": 1.93,
         "totalUnderPrice": 1.93,
@@ -915,7 +915,7 @@
       "venue": "Citi Field",
       "weather": {
         "tempF": 80,
-        "precipProb": 0,
+        "precipProb": 2,
         "windMph": 9.3,
         "windDirDeg": 170
       },
@@ -927,12 +927,12 @@
         "mlHome": 2.35,
         "mlAway": 1.66,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.82,
+        "rlHomePrice": 1.83,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.14,
         "totalPoint": 8.0,
         "totalOverPrice": 1.91,
-        "totalUnderPrice": 1.97,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "homeStarter": null,
@@ -966,8 +966,8 @@
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.46,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.98,
+        "totalOverPrice": 1.92,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "homeStarter": {
@@ -994,10 +994,10 @@
       "homeTeamName": "Chicago White Sox",
       "awayTeamName": "Kansas City Royals",
       "autoOdds": {
-        "mlHome": 1.74,
-        "mlAway": 2.16,
+        "mlHome": 1.75,
+        "mlAway": 2.14,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.64,
+        "rlHomePrice": 2.72,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.5,
         "totalPoint": 8.5,
@@ -1031,7 +1031,7 @@
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 2.07,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.94,
+        "totalOverPrice": 1.93,
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
@@ -1071,8 +1071,8 @@
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.72,
         "totalPoint": 9.0,
-        "totalOverPrice": 1.97,
-        "totalUnderPrice": 2.0,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 2.07,
         "lastUpdate": "2026-06-27T00:11:00Z"
       },
       "homeStarter": {
@@ -1107,7 +1107,7 @@
         "mlHome": 1.87,
         "mlAway": 2.05,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.51,
+        "rlHomePrice": 1.52,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.7,
         "totalPoint": 8.0,
@@ -1144,7 +1144,7 @@
       "homeTeamName": "Los Angeles Angels",
       "awayTeamName": "Athletics",
       "autoOdds": {
-        "mlHome": 2.07,
+        "mlHome": 2.12,
         "mlAway": 1.85,
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.62,
@@ -1250,13 +1250,13 @@
       "autoOdds": {
         "mlHome": 1.86,
         "mlAway": 2.06,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.72,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.51,
+        "rlHomePoint": 1.5,
+        "rlHomePrice": 1.51,
+        "rlAwayPoint": -1.5,
+        "rlAwayPrice": 2.72,
         "totalPoint": 8.5,
         "totalOverPrice": 2.0,
-        "totalUnderPrice": 1.88,
+        "totalUnderPrice": 1.85,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "homeStarter": {
@@ -1290,8 +1290,8 @@
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.46,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.98,
+        "totalOverPrice": 1.92,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "homeStarter": {
@@ -1329,9 +1329,9 @@
         "rlHomePrice": 1.59,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.5,
-        "totalPoint": 8.0,
-        "totalOverPrice": 1.88,
-        "totalUnderPrice": 1.94,
+        "totalPoint": 8.5,
+        "totalOverPrice": 1.94,
+        "totalUnderPrice": 1.95,
         "lastUpdate": "2026-06-26T23:08:00Z"
       },
       "homeStarter": {
@@ -1361,12 +1361,12 @@
         "mlHome": 1.49,
         "mlAway": 2.84,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.05,
+        "rlHomePrice": 2.07,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.86,
+        "rlAwayPrice": 1.93,
         "totalPoint": 7.5,
         "totalOverPrice": 1.89,
-        "totalUnderPrice": 1.98,
+        "totalUnderPrice": 1.97,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "homeStarter": {
@@ -1401,12 +1401,12 @@
         "mlHome": 2.35,
         "mlAway": 1.66,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.82,
+        "rlHomePrice": 1.83,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.14,
         "totalPoint": 8.0,
         "totalOverPrice": 1.91,
-        "totalUnderPrice": 1.97,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "homeStarter": null,
@@ -1428,10 +1428,10 @@
       "homeTeamName": "Chicago White Sox",
       "awayTeamName": "Kansas City Royals",
       "autoOdds": {
-        "mlHome": 1.74,
-        "mlAway": 2.16,
+        "mlHome": 1.75,
+        "mlAway": 2.14,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.64,
+        "rlHomePrice": 2.72,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.5,
         "totalPoint": 8.5,
@@ -1473,7 +1473,7 @@
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.6,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.57,
+        "rlAwayPrice": 1.61,
         "totalPoint": 8.5,
         "totalOverPrice": 1.93,
         "totalUnderPrice": 1.93,
@@ -1506,7 +1506,7 @@
         "mlHome": 1.73,
         "mlAway": 2.24,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.5,
+        "rlHomePrice": 2.46,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.62,
         "totalPoint": 8.5,
@@ -1546,12 +1546,12 @@
         "mlHome": 1.93,
         "mlAway": 1.98,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.53,
+        "rlHomePrice": 1.51,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.65,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.94,
+        "totalOverPrice": 1.98,
+        "totalUnderPrice": 1.93,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "homeStarter": {
@@ -1590,8 +1590,8 @@
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.72,
         "totalPoint": 9.0,
-        "totalOverPrice": 1.97,
-        "totalUnderPrice": 2.0,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 2.07,
         "lastUpdate": "2026-06-27T00:11:00Z"
       },
       "homeStarter": {
@@ -1625,7 +1625,7 @@
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 2.07,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.94,
+        "totalOverPrice": 1.93,
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
@@ -1656,7 +1656,7 @@
         "mlHome": 1.87,
         "mlAway": 2.05,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.51,
+        "rlHomePrice": 1.52,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.7,
         "totalPoint": 8.0,
@@ -1747,7 +1747,7 @@
       "homeTeamName": "Los Angeles Angels",
       "awayTeamName": "Athletics",
       "autoOdds": {
-        "mlHome": 2.07,
+        "mlHome": 2.12,
         "mlAway": 1.85,
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.62,
