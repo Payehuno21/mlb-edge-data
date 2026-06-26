@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T05:23:57Z",
+  "generatedAt": "2026-06-26T05:30:26Z",
   "lastMode": "full",
   "date": "2026-06-26",
   "availableDates": [
@@ -693,7 +693,7 @@
         "rlAwayPrice": 2.72,
         "totalPoint": 8.5,
         "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.9,
+        "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "autoProps": [
@@ -746,8 +746,8 @@
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.93,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.89,
-        "totalUnderPrice": 1.97,
+        "totalOverPrice": 1.88,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "autoProps": [
@@ -1169,25 +1169,25 @@
         {
           "player": "Cody Bellinger",
           "type": "1+ Hit",
-          "decimalOdds": 1.37,
-          "line": 0.5
-        },
-        {
-          "player": "Paul Goldschmidt",
-          "type": "1+ Hit",
           "decimalOdds": 1.38,
           "line": 0.5
         },
         {
           "player": "Ben Rice",
           "type": "1+ Hit",
-          "decimalOdds": 1.4,
+          "decimalOdds": 1.38,
           "line": 0.5
         },
         {
           "player": "Wilyer Abreu",
           "type": "1+ Hit",
           "decimalOdds": 1.4,
+          "line": 0.5
+        },
+        {
+          "player": "Paul Goldschmidt",
+          "type": "1+ Hit",
+          "decimalOdds": 1.41,
           "line": 0.5
         },
         {
@@ -1259,7 +1259,7 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": {
         "mlHome": 1.39,
-        "mlAway": 3.34,
+        "mlAway": 3.36,
         "rlHomePoint": -1.5,
         "rlHomePrice": 1.88,
         "rlAwayPoint": 1.5,
@@ -1681,7 +1681,7 @@
         "rlAwayPrice": 2.72,
         "totalPoint": 8.5,
         "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.9,
+        "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "autoProps": [],
@@ -1793,8 +1793,8 @@
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.93,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.89,
-        "totalUnderPrice": 1.97,
+        "totalOverPrice": 1.88,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "autoProps": [],
@@ -2054,7 +2054,7 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": {
         "mlHome": 1.39,
-        "mlAway": 3.34,
+        "mlAway": 3.36,
         "rlHomePoint": -1.5,
         "rlHomePrice": 1.88,
         "rlAwayPoint": 1.5,
