@@ -581,6 +581,7 @@ def send_alert_email(api_key, to_email, html_body, subject):
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "mlb-edge-pipeline/1.0",
         },
     )
     try:
