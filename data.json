@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T14:28:17Z",
+  "generatedAt": "2026-06-26T15:28:43Z",
   "lastMode": "full",
   "date": "2026-06-26",
   "availableDates": [
@@ -675,9 +675,9 @@
       "gameDateStr": "2026-06-26",
       "venue": "Comerica Park",
       "weather": {
-        "tempF": 75,
-        "precipProb": 4,
-        "windMph": 7.1,
+        "tempF": 73,
+        "precipProb": 2,
+        "windMph": 5.9,
         "windDirDeg": 79
       },
       "homeTeamId": 116,
@@ -688,7 +688,7 @@
         "mlHome": 1.9,
         "mlAway": 2.01,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.55,
+        "rlHomePrice": 1.53,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.7,
         "totalPoint": 9.0,
@@ -698,40 +698,52 @@
       },
       "autoProps": [
         {
-          "player": "Dillon Dingler",
+          "player": "Yordan Alvarez",
           "type": "1+ Hit",
-          "decimalOdds": 1.43,
-          "line": 0.5
+          "decimalOdds": 3.0,
+          "line": 1.5,
+          "modelProb": 0.7495,
+          "edge": 41.6
         },
         {
-          "player": "Yainer Diaz",
+          "player": "Jose Altuve",
           "type": "1+ Hit",
-          "decimalOdds": 1.45,
-          "line": 0.5
+          "decimalOdds": 3.0,
+          "line": 1.5,
+          "modelProb": 0.6226,
+          "edge": 28.9
+        },
+        {
+          "player": "Yordan Alvarez",
+          "type": "HR",
+          "decimalOdds": 141.0,
+          "line": 2.5,
+          "modelProb": 0.2621,
+          "edge": 25.5
+        },
+        {
+          "player": "Dillon Dingler",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2059,
+          "edge": 20.1
         },
         {
           "player": "Christian Walker",
-          "type": "1+ Hit",
-          "decimalOdds": 1.52,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 181.0,
+          "line": 2.5,
+          "modelProb": 0.2059,
+          "edge": 20.0
         },
         {
-          "player": "Kevin McGonigle",
-          "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
-        },
-        {
-          "player": "Riley Greene",
-          "type": "1+ Hit",
-          "decimalOdds": 1.54,
-          "line": 0.5
-        },
-        {
-          "player": "Isaac Paredes",
-          "type": "1+ Hit",
-          "decimalOdds": 1.57,
-          "line": 0.5
+          "player": "Kerry Carpenter",
+          "type": "HR",
+          "decimalOdds": 181.0,
+          "line": 2.5,
+          "modelProb": 0.1858,
+          "edge": 18.0
         }
       ],
       "homeStarter": {
@@ -753,63 +765,75 @@
       "gameDateStr": "2026-06-26",
       "venue": "PNC Park",
       "weather": {
-        "tempF": 79,
-        "precipProb": 6,
-        "windMph": 3.1,
-        "windDirDeg": 266
+        "tempF": 78,
+        "precipProb": 5,
+        "windMph": 5.2,
+        "windDirDeg": 220
       },
       "homeTeamId": 134,
       "awayTeamId": 113,
       "homeTeamName": "Pittsburgh Pirates",
       "awayTeamName": "Cincinnati Reds",
       "autoOdds": {
-        "mlHome": 1.52,
-        "mlAway": 2.76,
+        "mlHome": 1.53,
+        "mlAway": 2.69,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.15,
+        "rlHomePrice": 2.18,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.82,
+        "rlAwayPrice": 1.78,
         "totalPoint": 7.5,
         "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.94,
+        "totalUnderPrice": 1.95,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "autoProps": [
         {
-          "player": "Bryan Reynolds",
+          "player": "Jake Mangum",
           "type": "1+ Hit",
-          "decimalOdds": 1.44,
-          "line": 0.5
+          "decimalOdds": 3.2,
+          "line": 1.5,
+          "modelProb": 0.7789,
+          "edge": 46.6
         },
         {
-          "player": "Ryan O'Hearn",
+          "player": "Nick Gonzales",
           "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
+          "decimalOdds": 2.75,
+          "line": 1.5,
+          "modelProb": 0.7871,
+          "edge": 42.4
         },
         {
           "player": "Brandon Lowe",
-          "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2199,
+          "edge": 21.5
         },
         {
-          "player": "Elly De La Cruz",
-          "type": "1+ Hit",
-          "decimalOdds": 1.56,
-          "line": 0.5
+          "player": "JJ Bleday",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1996,
+          "edge": 19.5
         },
         {
-          "player": "Endy Rodriguez",
-          "type": "1+ Hit",
-          "decimalOdds": 1.56,
-          "line": 0.5
+          "player": "Ryan O'Hearn",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1601,
+          "edge": 15.5
         },
         {
-          "player": "Blake Dunn",
-          "type": "1+ Hit",
-          "decimalOdds": 1.58,
-          "line": 0.5
+          "player": "Nathaniel Lowe",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.157,
+          "edge": 15.2
         }
       ],
       "homeStarter": {
@@ -831,10 +855,10 @@
       "gameDateStr": "2026-06-26",
       "venue": "Oriole Park at Camden Yards",
       "weather": {
-        "tempF": 79,
-        "precipProb": 6,
-        "windMph": 2.2,
-        "windDirDeg": 233
+        "tempF": 81,
+        "precipProb": 8,
+        "windMph": 1.5,
+        "windDirDeg": 63
       },
       "homeTeamId": 110,
       "awayTeamId": 120,
@@ -842,7 +866,7 @@
       "awayTeamName": "Washington Nationals",
       "autoOdds": {
         "mlHome": 1.75,
-        "mlAway": 2.22,
+        "mlAway": 2.21,
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.5,
         "rlAwayPoint": 1.5,
@@ -854,40 +878,52 @@
       },
       "autoProps": [
         {
+          "player": "Pete Alonso",
+          "type": "1+ Hit",
+          "decimalOdds": 3.0,
+          "line": 1.5,
+          "modelProb": 0.6886,
+          "edge": 35.5
+        },
+        {
+          "player": "Gunnar Henderson",
+          "type": "1+ Hit",
+          "decimalOdds": 2.95,
+          "line": 1.5,
+          "modelProb": 0.643,
+          "edge": 30.4
+        },
+        {
           "player": "Curtis Mead",
-          "type": "1+ Hit",
-          "decimalOdds": 1.41,
-          "line": 0.5
-        },
-        {
-          "player": "Dylan Crews",
-          "type": "1+ Hit",
-          "decimalOdds": 1.44,
-          "line": 0.5
-        },
-        {
-          "player": "Taylor Ward",
-          "type": "1+ Hit",
-          "decimalOdds": 1.44,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2528,
+          "edge": 24.8
         },
         {
           "player": "James Wood",
-          "type": "1+ Hit",
-          "decimalOdds": 1.49,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2266,
+          "edge": 22.2
         },
         {
-          "player": "Blaze Alexander",
-          "type": "1+ Hit",
-          "decimalOdds": 1.5,
-          "line": 0.5
+          "player": "CJ Abrams",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2214,
+          "edge": 21.6
         },
         {
-          "player": "Daylen Lile",
-          "type": "1+ Hit",
-          "decimalOdds": 1.5,
-          "line": 0.5
+          "player": "Dylan Crews",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1727,
+          "edge": 16.8
         }
       ],
       "homeStarter": {
@@ -909,10 +945,10 @@
       "gameDateStr": "2026-06-26",
       "venue": "Rogers Centre",
       "weather": {
-        "tempF": 66,
-        "precipProb": 0,
-        "windMph": 4.7,
-        "windDirDeg": 225
+        "tempF": 64,
+        "precipProb": 1,
+        "windMph": 3.1,
+        "windDirDeg": 180
       },
       "homeTeamId": 141,
       "awayTeamId": 140,
@@ -924,7 +960,7 @@
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.59,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.5,
+        "rlAwayPrice": 2.55,
         "totalPoint": 8.5,
         "totalOverPrice": 1.89,
         "totalUnderPrice": 1.97,
@@ -932,40 +968,52 @@
       },
       "autoProps": [
         {
-          "player": "Brandon Nimmo",
+          "player": "Josh Jung",
           "type": "1+ Hit",
-          "decimalOdds": 1.48,
-          "line": 0.5
+          "decimalOdds": 2.88,
+          "line": 1.5,
+          "modelProb": 0.7858,
+          "edge": 43.9
         },
         {
-          "player": "Alejandro Kirk",
+          "player": "Wyatt Langford",
           "type": "1+ Hit",
-          "decimalOdds": 1.5,
-          "line": 0.5
+          "decimalOdds": 2.8,
+          "line": 1.5,
+          "modelProb": 0.7451,
+          "edge": 38.8
         },
         {
-          "player": "Ezequiel Duran",
+          "player": "Vladimir Guerrero Jr.",
           "type": "1+ Hit",
-          "decimalOdds": 1.51,
-          "line": 0.5
+          "decimalOdds": 3.0,
+          "line": 1.5,
+          "modelProb": 0.7207,
+          "edge": 38.7
         },
         {
-          "player": "Jake Burger",
+          "player": "George Springer",
           "type": "1+ Hit",
-          "decimalOdds": 1.51,
-          "line": 0.5
+          "decimalOdds": 3.0,
+          "line": 1.5,
+          "modelProb": 0.6279,
+          "edge": 29.5
         },
         {
-          "player": "Daulton Varsho",
+          "player": "Corey Seager",
           "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
+          "decimalOdds": 3.0,
+          "line": 1.5,
+          "modelProb": 0.5855,
+          "edge": 25.2
         },
         {
-          "player": "Nathan Lukes",
+          "player": "Nicky Lopez",
           "type": "1+ Hit",
-          "decimalOdds": 1.55,
-          "line": 0.5
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.8055,
+          "edge": 22.1
         }
       ],
       "homeStarter": {
@@ -987,63 +1035,75 @@
       "gameDateStr": "2026-06-26",
       "venue": "Progressive Field",
       "weather": {
-        "tempF": 70,
-        "precipProb": 6,
-        "windMph": 4.6,
-        "windDirDeg": 23
+        "tempF": 71,
+        "precipProb": 9,
+        "windMph": 4.1,
+        "windDirDeg": 351
       },
       "homeTeamId": 114,
       "awayTeamId": 136,
       "homeTeamName": "Cleveland Guardians",
       "awayTeamName": "Seattle Mariners",
       "autoOdds": {
-        "mlHome": 1.93,
-        "mlAway": 1.98,
+        "mlHome": 1.95,
+        "mlAway": 1.95,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.54,
+        "rlHomePrice": 1.55,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.65,
+        "rlAwayPrice": 2.63,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.85,
+        "totalOverPrice": 1.87,
         "totalUnderPrice": 2.03,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "autoProps": [
         {
-          "player": "Travis Bazzana",
-          "type": "1+ Hit",
-          "decimalOdds": 1.48,
-          "line": 0.5
-        },
-        {
-          "player": "Julio Rodriguez",
-          "type": "1+ Hit",
-          "decimalOdds": 1.49,
-          "line": 0.5
-        },
-        {
-          "player": "Brayan Rocchio",
-          "type": "1+ Hit",
-          "decimalOdds": 1.5,
-          "line": 0.5
+          "player": "Kyle Manzardo",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1582,
+          "edge": 15.3
         },
         {
           "player": "J.P. Crawford",
-          "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1476,
+          "edge": 14.3
         },
         {
-          "player": "Josh Naylor",
-          "type": "1+ Hit",
-          "decimalOdds": 1.54,
-          "line": 0.5
+          "player": "Travis Bazzana",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1468,
+          "edge": 14.2
         },
         {
-          "player": "Kyle Manzardo",
-          "type": "1+ Hit",
-          "decimalOdds": 1.55,
-          "line": 0.5
+          "player": "Cal Raleigh",
+          "type": "HR",
+          "decimalOdds": 181.0,
+          "line": 2.5,
+          "modelProb": 0.1453,
+          "edge": 14.0
+        },
+        {
+          "player": "Rhys Hoskins",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1345,
+          "edge": 12.9
+        },
+        {
+          "player": "Daniel Schneemann",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.119,
+          "edge": 11.4
         }
       ],
       "homeStarter": {
@@ -1065,63 +1125,75 @@
       "gameDateStr": "2026-06-26",
       "venue": "Tropicana Field",
       "weather": {
-        "tempF": 81,
-        "precipProb": 7,
-        "windMph": 5.6,
-        "windDirDeg": 7
+        "tempF": 86,
+        "precipProb": 11,
+        "windMph": 6.6,
+        "windDirDeg": 66
       },
       "homeTeamId": 139,
       "awayTeamId": 109,
       "homeTeamName": "Tampa Bay Rays",
       "awayTeamName": "Arizona Diamondbacks",
       "autoOdds": {
-        "mlHome": 1.75,
-        "mlAway": 2.23,
+        "mlHome": 1.78,
+        "mlAway": 2.22,
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.6,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.57,
+        "rlAwayPrice": 1.59,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.89,
+        "totalOverPrice": 1.85,
         "totalUnderPrice": 2.03,
         "lastUpdate": "2026-06-26T23:10:00Z"
       },
       "autoProps": [
         {
-          "player": "Chandler Simpson",
+          "player": "Junior Caminero",
           "type": "1+ Hit",
-          "decimalOdds": 1.42,
-          "line": 0.5
+          "decimalOdds": 3.15,
+          "line": 1.5,
+          "modelProb": 0.7704,
+          "edge": 45.3
+        },
+        {
+          "player": "Jonathan Aranda",
+          "type": "1+ Hit",
+          "decimalOdds": 3.02,
+          "line": 1.5,
+          "modelProb": 0.7733,
+          "edge": 44.2
         },
         {
           "player": "Corbin Carroll",
           "type": "1+ Hit",
-          "decimalOdds": 1.43,
-          "line": 0.5
+          "decimalOdds": 2.9,
+          "line": 1.5,
+          "modelProb": 0.7298,
+          "edge": 38.5
         },
         {
-          "player": "Gabriel Moreno",
+          "player": "Ketel Marte",
           "type": "1+ Hit",
-          "decimalOdds": 1.43,
-          "line": 0.5
+          "decimalOdds": 2.95,
+          "line": 1.5,
+          "modelProb": 0.7082,
+          "edge": 36.9
         },
         {
-          "player": "Geraldo Perdomo",
-          "type": "1+ Hit",
-          "decimalOdds": 1.52,
-          "line": 0.5
+          "player": "Junior Caminero",
+          "type": "HR",
+          "decimalOdds": 181.0,
+          "line": 2.5,
+          "modelProb": 0.2392,
+          "edge": 23.4
         },
         {
-          "player": "Cedric Mullins",
+          "player": "Hunter Feduccia",
           "type": "1+ Hit",
-          "decimalOdds": 1.57,
-          "line": 0.5
-        },
-        {
-          "player": "Richie Palacios",
-          "type": "1+ Hit",
-          "decimalOdds": 1.57,
-          "line": 0.5
+          "decimalOdds": 1.97,
+          "line": 0.5,
+          "modelProb": 0.6735,
+          "edge": 16.6
         }
       ],
       "homeStarter": {
@@ -1143,10 +1215,10 @@
       "gameDateStr": "2026-06-26",
       "venue": "Citi Field",
       "weather": {
-        "tempF": 77,
+        "tempF": 79,
         "precipProb": 0,
-        "windMph": 11.1,
-        "windDirDeg": 165
+        "windMph": 10.1,
+        "windDirDeg": 175
       },
       "homeTeamId": 121,
       "awayTeamId": 143,
@@ -1158,48 +1230,60 @@
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.83,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.06,
+        "rlAwayPrice": 2.08,
         "totalPoint": 8.5,
         "totalOverPrice": 2.05,
-        "totalUnderPrice": 1.83,
+        "totalUnderPrice": 1.85,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "autoProps": [
         {
-          "player": "Bryce Harper",
-          "type": "1+ Hit",
-          "decimalOdds": 1.43,
-          "line": 0.5
+          "player": "Kyle Schwarber",
+          "type": "HR",
+          "decimalOdds": 151.0,
+          "line": 2.5,
+          "modelProb": 0.3098,
+          "edge": 30.3
         },
         {
-          "player": "Bo Bichette",
+          "player": "Alec Bohm",
           "type": "1+ Hit",
-          "decimalOdds": 1.45,
-          "line": 0.5
+          "decimalOdds": 2.95,
+          "line": 1.5,
+          "modelProb": 0.6355,
+          "edge": 29.7
         },
         {
-          "player": "Brandon Marsh",
+          "player": "Trea Turner",
           "type": "1+ Hit",
-          "decimalOdds": 1.5,
-          "line": 0.5
+          "decimalOdds": 2.8,
+          "line": 1.5,
+          "modelProb": 0.6503,
+          "edge": 29.3
         },
         {
           "player": "Juan Soto",
-          "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2146,
+          "edge": 21.0
         },
         {
-          "player": "Carson Benge",
-          "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
+          "player": "Bryce Harper",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2055,
+          "edge": 20.1
         },
         {
-          "player": "J.T. Realmuto",
-          "type": "1+ Hit",
-          "decimalOdds": 1.54,
-          "line": 0.5
+          "player": "Jared Young",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.191,
+          "edge": 18.6
         }
       ],
       "homeStarter": null,
@@ -1216,63 +1300,75 @@
       "gameDateStr": "2026-06-26",
       "venue": "Fenway Park",
       "weather": {
-        "tempF": 72,
-        "precipProb": 17,
-        "windMph": 5.4,
-        "windDirDeg": 83
+        "tempF": 80,
+        "precipProb": 16,
+        "windMph": 8.5,
+        "windDirDeg": 192
       },
       "homeTeamId": 111,
       "awayTeamId": 147,
       "homeTeamName": "Boston Red Sox",
       "awayTeamName": "New York Yankees",
       "autoOdds": {
-        "mlHome": 2.02,
-        "mlAway": 1.89,
+        "mlHome": 2.01,
+        "mlAway": 1.9,
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.62,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.52,
-        "totalPoint": 8.5,
-        "totalOverPrice": 1.86,
-        "totalUnderPrice": 2.03,
+        "rlAwayPrice": 2.46,
+        "totalPoint": 9.0,
+        "totalOverPrice": 1.97,
+        "totalUnderPrice": 1.87,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "autoProps": [
         {
+          "player": "Ceddanne Rafaela",
+          "type": "1+ Hit",
+          "decimalOdds": 3.15,
+          "line": 1.5,
+          "modelProb": 0.7386,
+          "edge": 42.1
+        },
+        {
+          "player": "Cody Bellinger",
+          "type": "1+ Hit",
+          "decimalOdds": 3.2,
+          "line": 1.5,
+          "modelProb": 0.6762,
+          "edge": 36.4
+        },
+        {
           "player": "Ben Rice",
           "type": "1+ Hit",
-          "decimalOdds": 1.43,
-          "line": 0.5
+          "decimalOdds": 2.99,
+          "line": 1.5,
+          "modelProb": 0.6977,
+          "edge": 36.3
         },
         {
-          "player": "Mickey Gasper",
+          "player": "Paul Goldschmidt",
           "type": "1+ Hit",
-          "decimalOdds": 1.45,
-          "line": 0.5
+          "decimalOdds": 2.68,
+          "line": 1.5,
+          "modelProb": 0.7266,
+          "edge": 35.3
         },
         {
-          "player": "Wilyer Abreu",
-          "type": "1+ Hit",
-          "decimalOdds": 1.47,
-          "line": 0.5
+          "player": "Ben Rice",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2244,
+          "edge": 21.9
         },
         {
-          "player": "Amed Rosario",
-          "type": "1+ Hit",
-          "decimalOdds": 1.49,
-          "line": 0.5
-        },
-        {
-          "player": "Willson Contreras",
-          "type": "1+ Hit",
-          "decimalOdds": 1.5,
-          "line": 0.5
-        },
-        {
-          "player": "Masataka Yoshida",
-          "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
+          "player": "Paul Goldschmidt",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2158,
+          "edge": 21.1
         }
       ],
       "homeStarter": {
@@ -1300,52 +1396,64 @@
       "awayTeamName": "Kansas City Royals",
       "autoOdds": {
         "mlHome": 1.77,
-        "mlAway": 2.22,
+        "mlAway": 2.18,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.62,
+        "rlHomePrice": 2.64,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.57,
+        "rlAwayPrice": 1.55,
         "totalPoint": 8.5,
         "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.91,
+        "totalUnderPrice": 1.94,
         "lastUpdate": "2026-06-26T23:41:00Z"
       },
       "autoProps": [
         {
+          "player": "Bobby Witt Jr.",
+          "type": "1+ Hit",
+          "decimalOdds": 3.05,
+          "line": 1.5,
+          "modelProb": 0.7516,
+          "edge": 42.4
+        },
+        {
+          "player": "Sam Antonacci",
+          "type": "1+ Hit",
+          "decimalOdds": 3.09,
+          "line": 1.5,
+          "modelProb": 0.7401,
+          "edge": 41.6
+        },
+        {
+          "player": "Colson Montgomery",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2402,
+          "edge": 23.5
+        },
+        {
           "player": "Miguel Vargas",
-          "type": "1+ Hit",
-          "decimalOdds": 1.48,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 181.0,
+          "line": 2.5,
+          "modelProb": 0.1952,
+          "edge": 19.0
         },
         {
-          "player": "Salvador Perez",
-          "type": "1+ Hit",
-          "decimalOdds": 1.5,
-          "line": 0.5
-        },
-        {
-          "player": "Andrew Benintendi",
-          "type": "1+ Hit",
-          "decimalOdds": 1.52,
-          "line": 0.5
-        },
-        {
-          "player": "Chase Meidroth",
-          "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
-        },
-        {
-          "player": "Kyle Teel",
-          "type": "1+ Hit",
-          "decimalOdds": 1.55,
-          "line": 0.5
+          "player": "Jac Caglianone",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1881,
+          "edge": 18.3
         },
         {
           "player": "Carter Jensen",
-          "type": "1+ Hit",
-          "decimalOdds": 1.56,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1513,
+          "edge": 14.6
         }
       ],
       "homeStarter": null,
@@ -1357,10 +1465,10 @@
       "gameDateStr": "2026-06-26",
       "venue": "American Family Field",
       "weather": {
-        "tempF": 64,
+        "tempF": 65,
         "precipProb": 1,
-        "windMph": 6.7,
-        "windDirDeg": 48
+        "windMph": 6.8,
+        "windDirDeg": 52
       },
       "homeTeamId": 158,
       "awayTeamId": 112,
@@ -1370,50 +1478,62 @@
         "mlHome": 1.4,
         "mlAway": 3.23,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 1.87,
+        "rlHomePrice": 1.92,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 2.03,
+        "rlAwayPrice": 2.0,
         "totalPoint": 7.5,
-        "totalOverPrice": 2.01,
-        "totalUnderPrice": 1.82,
+        "totalOverPrice": 2.0,
+        "totalUnderPrice": 1.83,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
       "autoProps": [
         {
-          "player": "William Contreras",
+          "player": "Jackson Chourio",
           "type": "1+ Hit",
-          "decimalOdds": 1.4,
-          "line": 0.5
+          "decimalOdds": 2.8,
+          "line": 1.5,
+          "modelProb": 0.7544,
+          "edge": 39.7
         },
         {
-          "player": "Christian Yelich",
-          "type": "1+ Hit",
-          "decimalOdds": 1.44,
-          "line": 0.5
+          "player": "Jake Bauers",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2199,
+          "edge": 21.5
         },
         {
-          "player": "Brice Turang",
-          "type": "1+ Hit",
-          "decimalOdds": 1.45,
-          "line": 0.5
+          "player": "Jackson Chourio",
+          "type": "HR",
+          "decimalOdds": 181.0,
+          "line": 2.5,
+          "modelProb": 0.2123,
+          "edge": 20.7
         },
         {
-          "player": "Sal Frelick",
+          "player": "Carson Kelly",
           "type": "1+ Hit",
-          "decimalOdds": 1.58,
-          "line": 0.5
+          "decimalOdds": 1.96,
+          "line": 0.5,
+          "modelProb": 0.6977,
+          "edge": 18.8
         },
         {
-          "player": "Garrett Mitchell",
-          "type": "1+ Hit",
-          "decimalOdds": 1.62,
-          "line": 0.5
+          "player": "Pete Crow-Armstrong",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1661,
+          "edge": 16.1
         },
         {
-          "player": "Cooper Pratt",
+          "player": "Pete Crow-Armstrong",
           "type": "1+ Hit",
-          "decimalOdds": 1.62,
-          "line": 0.5
+          "decimalOdds": 1.83,
+          "line": 0.5,
+          "modelProb": 0.7066,
+          "edge": 16.0
         }
       ],
       "homeStarter": {
@@ -1445,10 +1565,10 @@
       "homeTeamName": "Minnesota Twins",
       "awayTeamName": "Colorado Rockies",
       "autoOdds": {
-        "mlHome": 1.62,
+        "mlHome": 1.61,
         "mlAway": 2.48,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.3,
+        "rlHomePrice": 2.28,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.72,
         "totalPoint": 9.0,
@@ -1458,40 +1578,52 @@
       },
       "autoProps": [
         {
-          "player": "Josh Bell",
+          "player": "Trevor Larnach",
           "type": "1+ Hit",
-          "decimalOdds": 1.43,
-          "line": 0.5
+          "decimalOdds": 2.99,
+          "line": 1.5,
+          "modelProb": 0.7252,
+          "edge": 39.1
+        },
+        {
+          "player": "Byron Buxton",
+          "type": "1+ Hit",
+          "decimalOdds": 2.75,
+          "line": 1.5,
+          "modelProb": 0.716,
+          "edge": 35.2
         },
         {
           "player": "Kody Clemens",
           "type": "1+ Hit",
-          "decimalOdds": 1.44,
-          "line": 0.5
+          "decimalOdds": 2.99,
+          "line": 1.5,
+          "modelProb": 0.6681,
+          "edge": 33.4
+        },
+        {
+          "player": "Byron Buxton",
+          "type": "HR",
+          "decimalOdds": 141.0,
+          "line": 2.5,
+          "modelProb": 0.2935,
+          "edge": 28.6
+        },
+        {
+          "player": "Hunter Goodman",
+          "type": "HR",
+          "decimalOdds": 151.0,
+          "line": 2.5,
+          "modelProb": 0.2523,
+          "edge": 24.6
         },
         {
           "player": "Brooks Lee",
-          "type": "1+ Hit",
-          "decimalOdds": 1.46,
-          "line": 0.5
-        },
-        {
-          "player": "Royce Lewis",
-          "type": "1+ Hit",
-          "decimalOdds": 1.47,
-          "line": 0.5
-        },
-        {
-          "player": "TJ Rumfield",
-          "type": "1+ Hit",
-          "decimalOdds": 1.47,
-          "line": 0.5
-        },
-        {
-          "player": "Jake McCarthy",
-          "type": "1+ Hit",
-          "decimalOdds": 1.49,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1653,
+          "edge": 16.0
         }
       ],
       "homeStarter": {
@@ -1523,10 +1655,10 @@
       "homeTeamName": "St. Louis Cardinals",
       "awayTeamName": "Miami Marlins",
       "autoOdds": {
-        "mlHome": 1.91,
+        "mlHome": 1.93,
         "mlAway": 2.0,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.55,
+        "rlHomePrice": 1.54,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.65,
         "totalPoint": 8.0,
@@ -1536,40 +1668,52 @@
       },
       "autoProps": [
         {
-          "player": "Ivan Herrera",
+          "player": "Otto Lopez",
           "type": "1+ Hit",
-          "decimalOdds": 1.45,
-          "line": 0.5
+          "decimalOdds": 2.72,
+          "line": 1.5,
+          "modelProb": 0.8103,
+          "edge": 44.3
         },
         {
-          "player": "Heriberto Hernandez",
+          "player": "Alec Burleson",
           "type": "1+ Hit",
-          "decimalOdds": 1.45,
-          "line": 0.5
+          "decimalOdds": 3.03,
+          "line": 1.5,
+          "modelProb": 0.743,
+          "edge": 41.3
+        },
+        {
+          "player": "Xavier Edwards",
+          "type": "1+ Hit",
+          "decimalOdds": 2.78,
+          "line": 1.5,
+          "modelProb": 0.7502,
+          "edge": 39.0
         },
         {
           "player": "Jordan Walker",
-          "type": "1+ Hit",
-          "decimalOdds": 1.48,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1846,
+          "edge": 18.0
         },
         {
-          "player": "JJ Wetherholt",
+          "player": "Nathan Church",
           "type": "1+ Hit",
-          "decimalOdds": 1.48,
-          "line": 0.5
+          "decimalOdds": 1.87,
+          "line": 0.5,
+          "modelProb": 0.7097,
+          "edge": 17.5
         },
         {
-          "player": "Kyle Stowers",
-          "type": "1+ Hit",
-          "decimalOdds": 1.51,
-          "line": 0.5
-        },
-        {
-          "player": "Masyn Winn",
-          "type": "1+ Hit",
-          "decimalOdds": 1.54,
-          "line": 0.5
+          "player": "Owen Caissie",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1435,
+          "edge": 13.9
         }
       ],
       "homeStarter": {
@@ -1601,53 +1745,65 @@
       "homeTeamName": "Los Angeles Angels",
       "awayTeamName": "Athletics",
       "autoOdds": {
-        "mlHome": 2.15,
-        "mlAway": 1.79,
+        "mlHome": 2.14,
+        "mlAway": 1.81,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.67,
+        "rlHomePrice": 1.68,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.38,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.9,
-        "totalUnderPrice": 2.03,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-27T01:39:00Z"
       },
       "autoProps": [
         {
-          "player": "Jacob Wilson",
-          "type": "1+ Hit",
-          "decimalOdds": 1.4,
-          "line": 0.5
-        },
-        {
-          "player": "Henry Bolte",
-          "type": "1+ Hit",
-          "decimalOdds": 1.48,
-          "line": 0.5
-        },
-        {
           "player": "Shea Langeliers",
-          "type": "1+ Hit",
-          "decimalOdds": 1.5,
-          "line": 0.5
-        },
-        {
-          "player": "Tyler Soderstrom",
-          "type": "1+ Hit",
-          "decimalOdds": 1.5,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 151.0,
+          "line": 2.5,
+          "modelProb": 0.1919,
+          "edge": 18.5
         },
         {
           "player": "Nick Kurtz",
-          "type": "1+ Hit",
-          "decimalOdds": 1.53,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 161.0,
+          "line": 2.5,
+          "modelProb": 0.1765,
+          "edge": 17.0
         },
         {
-          "player": "Jo Adell",
+          "player": "Denzer Guzman",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.168,
+          "edge": 16.3
+        },
+        {
+          "player": "Jonah Heim",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1655,
+          "edge": 16.1
+        },
+        {
+          "player": "Donovan Walton",
           "type": "1+ Hit",
-          "decimalOdds": 1.55,
-          "line": 0.5
+          "decimalOdds": 1.57,
+          "line": 0.5,
+          "modelProb": 0.7973,
+          "edge": 16.0
+        },
+        {
+          "player": "Zach Neto",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1627,
+          "edge": 15.8
         }
       ],
       "homeStarter": {
@@ -1670,7 +1826,7 @@
       "venue": "Petco Park",
       "weather": {
         "tempF": 68,
-        "precipProb": 2,
+        "precipProb": 0,
         "windMph": 8.2,
         "windDirDeg": 311
       },
@@ -1682,7 +1838,7 @@
         "mlHome": 2.26,
         "mlAway": 1.72,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.71,
+        "rlHomePrice": 1.72,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.24,
         "totalPoint": 7.5,
@@ -1692,40 +1848,52 @@
       },
       "autoProps": [
         {
+          "player": "Samad Taylor",
+          "type": "1+ Hit",
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.8513,
+          "edge": 26.6
+        },
+        {
+          "player": "Max Muncy",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2174,
+          "edge": 21.2
+        },
+        {
+          "player": "Gavin Sheets",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.2038,
+          "edge": 19.9
+        },
+        {
           "player": "Shohei Ohtani",
-          "type": "1+ Hit",
-          "decimalOdds": 1.41,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 141.0,
+          "line": 2.5,
+          "modelProb": 0.1938,
+          "edge": 18.7
         },
         {
-          "player": "Freddie Freeman",
-          "type": "1+ Hit",
-          "decimalOdds": 1.44,
-          "line": 0.5
-        },
-        {
-          "player": "Fernando Tatis Jr.",
-          "type": "1+ Hit",
-          "decimalOdds": 1.45,
-          "line": 0.5
-        },
-        {
-          "player": "Andy Pages",
-          "type": "1+ Hit",
-          "decimalOdds": 1.45,
-          "line": 0.5
+          "player": "Manny Machado",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.19,
+          "edge": 18.5
         },
         {
           "player": "Mookie Betts",
-          "type": "1+ Hit",
-          "decimalOdds": 1.48,
-          "line": 0.5
-        },
-        {
-          "player": "Jackson Merrill",
-          "type": "1+ Hit",
-          "decimalOdds": 1.61,
-          "line": 0.5
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.1758,
+          "edge": 17.1
         }
       ],
       "homeStarter": {
@@ -1765,10 +1933,59 @@
         "rlAwayPrice": 2.46,
         "totalPoint": 8.5,
         "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.87,
+        "totalUnderPrice": 1.88,
         "lastUpdate": "2026-06-27T02:16:00Z"
       },
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Jung Hoo Lee",
+          "type": "1+ Hit",
+          "decimalOdds": 2.97,
+          "line": 1.5,
+          "modelProb": 0.8009,
+          "edge": 46.4
+        },
+        {
+          "player": "Luis Arraez",
+          "type": "1+ Hit",
+          "decimalOdds": 2.73,
+          "line": 1.5,
+          "modelProb": 0.7874,
+          "edge": 42.1
+        },
+        {
+          "player": "Michael Harris II",
+          "type": "1+ Hit",
+          "decimalOdds": 2.63,
+          "line": 1.5,
+          "modelProb": 0.768,
+          "edge": 38.8
+        },
+        {
+          "player": "Daniel Susac",
+          "type": "1+ Hit",
+          "decimalOdds": 1.83,
+          "line": 0.5,
+          "modelProb": 0.7034,
+          "edge": 15.7
+        },
+        {
+          "player": "Jorge Mateo",
+          "type": "1+ Hit",
+          "decimalOdds": 1.78,
+          "line": 0.5,
+          "modelProb": 0.7034,
+          "edge": 14.2
+        },
+        {
+          "player": "Drew Gilbert",
+          "type": "1+ Hit",
+          "decimalOdds": 1.88,
+          "line": 0.5,
+          "modelProb": 0.6539,
+          "edge": 12.2
+        }
+      ],
       "homeStarter": null,
       "awayStarter": {
         "name": "Reynaldo López",
@@ -1796,7 +2013,7 @@
         "mlHome": 1.9,
         "mlAway": 2.01,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.55,
+        "rlHomePrice": 1.53,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.7,
         "totalPoint": 9.0,
@@ -1820,7 +2037,7 @@
       "venue": "Fenway Park",
       "weather": {
         "tempF": 62,
-        "precipProb": 10,
+        "precipProb": 9,
         "windMph": 7.5,
         "windDirDeg": 73
       },
@@ -1829,15 +2046,15 @@
       "homeTeamName": "Boston Red Sox",
       "awayTeamName": "New York Yankees",
       "autoOdds": {
-        "mlHome": 2.02,
-        "mlAway": 1.89,
+        "mlHome": 2.01,
+        "mlAway": 1.9,
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.62,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.52,
-        "totalPoint": 8.5,
-        "totalOverPrice": 1.86,
-        "totalUnderPrice": 2.03,
+        "rlAwayPrice": 2.46,
+        "totalPoint": 9.0,
+        "totalOverPrice": 1.97,
+        "totalUnderPrice": 1.87,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "autoProps": [],
@@ -1875,7 +2092,7 @@
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.59,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.5,
+        "rlAwayPrice": 2.55,
         "totalPoint": 8.5,
         "totalOverPrice": 1.89,
         "totalUnderPrice": 1.97,
@@ -1906,15 +2123,15 @@
       "homeTeamName": "Pittsburgh Pirates",
       "awayTeamName": "Cincinnati Reds",
       "autoOdds": {
-        "mlHome": 1.52,
-        "mlAway": 2.76,
+        "mlHome": 1.53,
+        "mlAway": 2.69,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.15,
+        "rlHomePrice": 2.18,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.82,
+        "rlAwayPrice": 1.78,
         "totalPoint": 7.5,
         "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.94,
+        "totalUnderPrice": 1.95,
         "lastUpdate": "2026-06-26T22:41:00Z"
       },
       "autoProps": [],
@@ -1938,7 +2155,7 @@
       "venue": "Citi Field",
       "weather": {
         "tempF": 72,
-        "precipProb": 11,
+        "precipProb": 10,
         "windMph": 5.7,
         "windDirDeg": 26
       },
@@ -1952,10 +2169,10 @@
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.83,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.06,
+        "rlAwayPrice": 2.08,
         "totalPoint": 8.5,
         "totalOverPrice": 2.05,
-        "totalUnderPrice": 1.83,
+        "totalUnderPrice": 1.85,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
       "autoProps": [],
@@ -1979,14 +2196,14 @@
       "awayTeamName": "Kansas City Royals",
       "autoOdds": {
         "mlHome": 1.77,
-        "mlAway": 2.22,
+        "mlAway": 2.18,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.62,
+        "rlHomePrice": 2.64,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.57,
+        "rlAwayPrice": 1.55,
         "totalPoint": 8.5,
         "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.91,
+        "totalUnderPrice": 1.94,
         "lastUpdate": "2026-06-26T23:41:00Z"
       },
       "autoProps": [],
@@ -2010,7 +2227,7 @@
       "venue": "Tropicana Field",
       "weather": {
         "tempF": 82,
-        "precipProb": 16,
+        "precipProb": 17,
         "windMph": 1.1,
         "windDirDeg": 323
       },
@@ -2019,14 +2236,14 @@
       "homeTeamName": "Tampa Bay Rays",
       "awayTeamName": "Arizona Diamondbacks",
       "autoOdds": {
-        "mlHome": 1.75,
-        "mlAway": 2.23,
+        "mlHome": 1.78,
+        "mlAway": 2.22,
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.6,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.57,
+        "rlAwayPrice": 1.59,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.89,
+        "totalOverPrice": 1.85,
         "totalUnderPrice": 2.03,
         "lastUpdate": "2026-06-26T23:10:00Z"
       },
@@ -2056,7 +2273,7 @@
       "awayTeamName": "Washington Nationals",
       "autoOdds": {
         "mlHome": 1.75,
-        "mlAway": 2.22,
+        "mlAway": 2.21,
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.5,
         "rlAwayPoint": 1.5,
@@ -2096,14 +2313,14 @@
       "homeTeamName": "Cleveland Guardians",
       "awayTeamName": "Seattle Mariners",
       "autoOdds": {
-        "mlHome": 1.93,
-        "mlAway": 1.98,
+        "mlHome": 1.95,
+        "mlAway": 1.95,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.54,
+        "rlHomePrice": 1.55,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.65,
+        "rlAwayPrice": 2.63,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.85,
+        "totalOverPrice": 1.87,
         "totalUnderPrice": 2.03,
         "lastUpdate": "2026-06-26T23:11:00Z"
       },
@@ -2137,10 +2354,10 @@
       "homeTeamName": "Minnesota Twins",
       "awayTeamName": "Colorado Rockies",
       "autoOdds": {
-        "mlHome": 1.62,
+        "mlHome": 1.61,
         "mlAway": 2.48,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.3,
+        "rlHomePrice": 2.28,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.72,
         "totalPoint": 9.0,
@@ -2176,12 +2393,12 @@
         "mlHome": 1.4,
         "mlAway": 3.23,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 1.87,
+        "rlHomePrice": 1.92,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 2.03,
+        "rlAwayPrice": 2.0,
         "totalPoint": 7.5,
-        "totalOverPrice": 2.01,
-        "totalUnderPrice": 1.82,
+        "totalOverPrice": 2.0,
+        "totalUnderPrice": 1.83,
         "lastUpdate": "2026-06-26T23:46:00Z"
       },
       "autoProps": [],
@@ -2209,10 +2426,10 @@
       "homeTeamName": "St. Louis Cardinals",
       "awayTeamName": "Miami Marlins",
       "autoOdds": {
-        "mlHome": 1.91,
+        "mlHome": 1.93,
         "mlAway": 2.0,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.55,
+        "rlHomePrice": 1.54,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.65,
         "totalPoint": 8.0,
@@ -2243,7 +2460,7 @@
         "mlHome": 2.26,
         "mlAway": 1.72,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.71,
+        "rlHomePrice": 1.72,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.24,
         "totalPoint": 7.5,
@@ -2289,7 +2506,7 @@
         "rlAwayPrice": 2.46,
         "totalPoint": 8.5,
         "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.87,
+        "totalUnderPrice": 1.88,
         "lastUpdate": "2026-06-27T02:16:00Z"
       },
       "autoProps": [],
@@ -2317,15 +2534,15 @@
       "homeTeamName": "Los Angeles Angels",
       "awayTeamName": "Athletics",
       "autoOdds": {
-        "mlHome": 2.15,
-        "mlAway": 1.79,
+        "mlHome": 2.14,
+        "mlAway": 1.81,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.67,
+        "rlHomePrice": 1.68,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.38,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.9,
-        "totalUnderPrice": 2.03,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-27T01:39:00Z"
       },
       "autoProps": [],
