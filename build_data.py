@@ -478,14 +478,60 @@ def best_price_per_outcome(bookmakers, outcome_filter):
     return best
 
 
+# Alias conocidos: nombre alterno -> nombre canónico usado por MLB Stats API.
+# Athletics es el caso confirmado (mudanza reciente de Oakland) — algunas
+# fuentes de momios pueden seguir usando "Oakland Athletics" mientras MLB
+# Stats API ya reporta solo "Athletics".
+TEAM_NAME_ALIASES = {
+    "Oakland Athletics": "Athletics",
+}
+
+
 def match_odds_to_game(odds_events, home_team_name, away_team_name):
     """Empareja un juego del schedule de MLB Stats API con un evento de
-    The Odds API por nombre de equipo (The Odds API usa nombres completos
-    tipo 'New York Yankees', igual que MLB Stats API).
+    The Odds API por nombre de equipo. Intenta en este orden:
+    1. Coincidencia exacta de ambos nombres (caso normal).
+    2. Coincidencia usando una tabla de alias conocidos (equipos que
+       cambiaron de nombre/ciudad recientemente, como Athletics, que MLB
+       Stats API ya reporta como "Athletics" sin ciudad mientras algunas
+       fuentes de momios todavía usan "Oakland Athletics").
+    3. Coincidencia parcial (uno de los nombres contenido en el otro),
+       como último respaldo para variaciones no anticipadas.
     """
+    def normalize(name):
+        if not name:
+            return ""
+        n = name
+        for alias, canonical in TEAM_NAME_ALIASES.items():
+            if n == alias:
+                n = canonical
+        return n
+
+    norm_home = normalize(home_team_name)
+    norm_away = normalize(away_team_name)
+
+    # 1. Exacta
     for ev in odds_events:
         if ev.get("home_team") == home_team_name and ev.get("away_team") == away_team_name:
             return ev
+
+    # 2. Vía alias conocidos (en ambas direcciones)
+    for ev in odds_events:
+        ev_home = normalize(ev.get("home_team"))
+        ev_away = normalize(ev.get("away_team"))
+        if ev_home == norm_home and ev_away == norm_away:
+            return ev
+
+    # 3. Coincidencia parcial como último respaldo
+    for ev in odds_events:
+        ev_home = ev.get("home_team") or ""
+        ev_away = ev.get("away_team") or ""
+        home_match = home_team_name in ev_home or ev_home in home_team_name
+        away_match = away_team_name in ev_away or ev_away in away_team_name
+        if home_match and away_match:
+            print(f"  INFO: match de '{away_team_name} @ {home_team_name}' por coincidencia parcial con '{ev_away} @ {ev_home}'")
+            return ev
+
     return None
 
 
