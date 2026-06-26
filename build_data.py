@@ -28,6 +28,7 @@ sin necesidad de fetch en vivo ni proxies CORS.
 """
 
 import json
+import math
 import os
 import sys
 import time
@@ -214,26 +215,30 @@ def fetch_pitcher_stats(pitcher_id):
     return None
 
 
-def fetch_top_hitters(team_id):
-    """Top bateador de poder (HR/PA) y top de contacto (AVG) con stats reales de temporada."""
+def fetch_team_hitters_stats(team_id):
+    """Stats de bateo de temporada del roster activo completo (no solo el
+    mejor de cada categoría). Devuelve dict {playerName: {avg, hrRate, pa}}
+    para poder calcular probabilidad real de cualquier jugador que aparezca
+    en una prop, no solo el destacado del equipo.
+    """
     roster = get_json(f"{STATS_BASE}/teams/{team_id}/roster?rosterType=active")
     if not roster:
-        return None, None
+        return {}
     hitter_ids = [
         p["person"]["id"] for p in roster.get("roster", [])
         if p.get("position", {}).get("abbreviation") != "P"
     ]
     if not hitter_ids:
-        return None, None
+        return {}
 
     ids_param = ",".join(str(i) for i in hitter_ids)
     people = get_json(
         f"{STATS_BASE}/people?personIds={ids_param}&hydrate=stats(group=hitting,type=season)"
     )
     if not people:
-        return None, None
+        return {}
 
-    top_power, top_contact = None, None
+    by_name = {}
     for person in people.get("people", []):
         stats = person.get("stats", [])
         if not stats:
@@ -246,15 +251,15 @@ def fetch_top_hitters(team_id):
         if pa < MIN_PA_FOR_PROPS:
             continue
         hr = int(stat.get("homeRuns", 0) or 0)
+        hits = int(stat.get("hits", 0) or 0)
         avg = float(stat.get("avg", 0) or 0)
-        hr_rate = hr / pa if pa else 0
-
-        if top_power is None or hr_rate > top_power["hrRate"]:
-            top_power = {"name": person.get("fullName"), "hrRate": round(hr_rate, 4), "pa": pa}
-        if top_contact is None or avg > top_contact["avg"]:
-            top_contact = {"name": person.get("fullName"), "avg": round(avg, 3), "pa": pa}
-
-    return top_power, top_contact
+        by_name[person.get("fullName")] = {
+            "avg": round(avg, 3),
+            "hrRate": round(hr / pa, 4) if pa else 0,
+            "hitRate": round(hits / pa, 4) if pa else 0,  # tasa de juegos con 1+ hit, aproximada por PA
+            "pa": pa,
+        }
+    return by_name
 
 
 def fetch_schedule_with_matchups(day_str):
@@ -424,10 +429,50 @@ def fetch_props_for_event(api_key, event_id):
     return data
 
 
-def extract_props_from_event(event_data):
-    """Convierte la respuesta de props de un evento en una lista simple:
-    [{player, type, decimalOdds, line}, ...]. Toma el mejor precio del lado
-    'Over' disponible entre bookmakers para cada jugador+mercado.
+def calc_prop_model_prob(player_name, prop_type, hitters_by_name, opposing_starter):
+    """Probabilidad de modelo para una prop específica, usando stats reales
+    de temporada del jugador y ajustando por el abridor rival — el mismo
+    tipo de cálculo que ya usábamos en la heurística de topPowerHitter/
+    topContactHitter, pero ahora aplicado a cualquier jugador nombrado por
+    el mercado, no solo al mejor de cada equipo.
+    Devuelve None si no hay suficiente dato para calcular con confianza.
+    """
+    stat = hitters_by_name.get(player_name)
+    league_era, league_whip = 4.20, 1.30
+
+    if prop_type == "HR":
+        if not stat or not stat.get("hrRate"):
+            return None
+        base_prob = 1 - math.pow(1 - stat["hrRate"], 4.2)
+        if opposing_starter and opposing_starter.get("era") is not None:
+            if opposing_starter["era"] > league_era + 0.3:
+                base_prob *= 1.12
+            elif opposing_starter["era"] < league_era - 0.7:
+                base_prob *= 0.88
+        return min(base_prob, 0.40)
+
+    if prop_type == "1+ Hit":
+        if not stat or not stat.get("avg"):
+            return None
+        prob_per_pa = stat["avg"]
+        if opposing_starter and opposing_starter.get("whip") is not None:
+            if opposing_starter["whip"] > league_whip + 0.10:
+                prob_per_pa *= 1.08
+            elif opposing_starter["whip"] < league_whip - 0.20:
+                prob_per_pa *= 0.92
+        return min(1 - math.pow(1 - prob_per_pa, 4.0), 0.92)
+
+    # "Ponches (K)" es prop del PITCHER, no del bateador — no se calcula aquí
+    # con stats de bateo; se queda sin probabilidad propia por ahora.
+    return None
+
+
+def extract_props_from_event(event_data, home_hitters, away_hitters, home_starter, away_starter):
+    """Convierte la respuesta de props de un evento en una lista con edge
+    calculado: [{player, type, decimalOdds, line, modelProb, edge}, ...].
+    Toma el mejor precio del lado 'Over' disponible entre bookmakers para
+    cada jugador+mercado, y le agrega probabilidad de modelo cuando hay
+    suficiente dato real de temporada para calcularla con confianza.
     """
     if not event_data:
         return []
@@ -449,14 +494,50 @@ def extract_props_from_event(event_data):
                 if key not in best_by_key or price > best_by_key[key]["decimalOdds"]:
                     best_by_key[key] = {"decimalOdds": price, "line": point}
 
-    props = [
-        {"player": p, "type": t, "decimalOdds": v["decimalOdds"], "line": v["line"]}
-        for (p, t), v in best_by_key.items()
-    ]
-    # como máximo 1 prop de cada tipo por jugador; limitamos a 6 totales por
-    # juego para no saturar el payload — priorizamos por momio más bajo
-    # (más probable, generalmente el bateador/abridor más relevante del día).
-    props.sort(key=lambda x: x["decimalOdds"])
+    # El jugador puede ser de cualquiera de los dos equipos — buscamos su
+    # stat en ambos diccionarios de bateadores, y el abridor rival es el
+    # del equipo CONTRARIO a donde encontremos al jugador.
+    props = []
+    debug_printed = False
+    for (player, prop_type), v in best_by_key.items():
+        if player in home_hitters:
+            opposing_starter = away_starter
+            hitters_source = home_hitters
+        elif player in away_hitters:
+            opposing_starter = home_starter
+            hitters_source = away_hitters
+        else:
+            opposing_starter = None
+            hitters_source = {}
+            if not debug_printed:
+                print(f"    DEBUG prop sin match de nombre: '{player}' no está en home_hitters ni away_hitters")
+                print(f"    DEBUG home_hitters disponibles: {list(home_hitters.keys())}")
+                print(f"    DEBUG away_hitters disponibles: {list(away_hitters.keys())}")
+                debug_printed = True
+
+        model_prob = calc_prop_model_prob(player, prop_type, hitters_source, opposing_starter)
+        if model_prob is None and hitters_source and not debug_printed:
+            print(f"    DEBUG '{player}' SÍ está en hitters pero modelProb salió None. stat={hitters_source.get(player)}")
+            debug_printed = True
+        edge = None
+        if model_prob is not None:
+            implied = 1 / v["decimalOdds"] if v["decimalOdds"] and v["decimalOdds"] > 1 else None
+            if implied is not None:
+                edge = round((model_prob - implied) * 100, 1)
+
+        props.append({
+            "player": player,
+            "type": prop_type,
+            "decimalOdds": v["decimalOdds"],
+            "line": v["line"],
+            "modelProb": round(model_prob, 4) if model_prob is not None else None,
+            "edge": edge,
+        })
+
+    # Prioriza props CON edge calculado (más útiles) sobre las que no tienen
+    # probabilidad de modelo; dentro de cada grupo, ordena por mejor edge o
+    # menor momio. Limita a 6 para no saturar el payload.
+    props.sort(key=lambda p: (p["edge"] is None, -(p["edge"] or 0), p["decimalOdds"]))
     return props[:6]
 
 
@@ -464,7 +545,13 @@ def extract_props_from_event(event_data):
 def build_team_payload(team_id, abbr, name, standings):
     s = standings.get(team_id, {})
     runs_per_game, staff_era = fetch_team_run_and_staff_stats(team_id)
-    top_power, top_contact = fetch_top_hitters(team_id)
+    all_hitters = fetch_team_hitters_stats(team_id)
+    top_power, top_contact = None, None
+    for hname, hs in all_hitters.items():
+        if top_power is None or hs["hrRate"] > top_power["hrRate"]:
+            top_power = {"name": hname, "hrRate": hs["hrRate"], "pa": hs["pa"]}
+        if top_contact is None or hs["avg"] > top_contact["avg"]:
+            top_contact = {"name": hname, "avg": hs["avg"], "pa": hs["pa"]}
     return {
         "id": team_id,
         "abbr": abbr,
@@ -478,6 +565,7 @@ def build_team_payload(team_id, abbr, name, standings):
         "staffEra": staff_era or 4.0,
         "topPowerHitter": top_power,
         "topContactHitter": top_contact,
+        "_allHitters": all_hitters,  # uso interno para edge de props, no va al JSON final
     }
 
 
@@ -668,7 +756,11 @@ def main():
             if mode == "full" and day_str == today.isoformat() and odds_event:
                 event_id = odds_event.get("id")
                 props_data = fetch_props_for_event(odds_api_key, event_id)
-                auto_props = extract_props_from_event(props_data)
+                home_hitters = team_cache.get(home_team["id"], {}).get("_allHitters", {})
+                away_hitters = team_cache.get(away_team["id"], {}).get("_allHitters", {})
+                auto_props = extract_props_from_event(
+                    props_data, home_hitters, away_hitters, home_pitcher_stats, away_pitcher_stats
+                )
                 print(f"  Props {home_team['name']} vs {away_team['name']}: {len(auto_props)} encontrada(s)")
             elif mode == "full" and day_str == today.isoformat() and not odds_event:
                 print(f"  Props {home_team['name']} vs {away_team['name']}: sin match de evento en The Odds API (odds_event=None)")
@@ -728,7 +820,7 @@ def main():
         "lastMode": mode,
         "date": day_strs[0],
         "availableDates": day_strs,
-        "teams": list(team_cache.values()),
+        "teams": [{k: v for k, v in t.items() if k != "_allHitters"} for t in team_cache.values()],
         "games": games_out,
         "results": results_out,
     }
