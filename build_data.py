@@ -35,6 +35,8 @@ from datetime import date, timedelta
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
+from model import find_best_bets
+
 STATS_BASE = "https://statsapi.mlb.com/api/v1"
 WEATHER_BASE = "https://api.open-meteo.com/v1/forecast"
 TIMEOUT = 12
@@ -501,6 +503,93 @@ def load_existing_payload():
         return None
 
 
+# ---------------------------------------------------------------------------
+# ALERTA POR CORREO — Resend (https://resend.com), plan gratis (100/día).
+# Manda un resumen de los picks con tier BET/LEAN del día, calculados con
+# el mismo modelo que la app (ver model.py). Requiere RESEND_API_KEY y
+# ALERT_EMAIL_TO como secrets de GitHub. Si no están configurados o el
+# envío falla, el pipeline sigue funcionando normal — el correo es un
+# extra, no algo de lo que dependa la app.
+# ---------------------------------------------------------------------------
+RESEND_API_URL = "https://api.resend.com/emails"
+
+
+def build_alert_email_html(best_bets, run_label, today_str):
+    if not best_bets:
+        body = "<p>Sin candidatos con momios automáticos suficientes hoy para calcular edge.</p>"
+    else:
+        top = best_bets[0]
+        rest = [b for b in best_bets[1:] if b["tier"] in ("BET", "LEAN")][:8]
+
+        top_html = f"""
+        <div style="background:#0D0F14;border-radius:12px;padding:20px;margin-bottom:20px;">
+          <p style="color:#00FFB2;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;margin:0 0 8px;font-weight:700;">Apuesta máxima</p>
+          <p style="color:#FFFFFF;font-size:22px;font-weight:700;margin:0 0 4px;">{top['label']}</p>
+          <p style="color:#9CA3AF;font-size:13px;margin:0 0 10px;">{top['matchup']} · momio {top['odd']}</p>
+          <p style="color:#00FFB2;font-size:28px;font-weight:700;margin:0;">+{top['edge']:.1f}%</p>
+        </div>
+        """ if top["tier"] == "BET" else """
+        <div style="background:#0D0F14;border-radius:12px;padding:20px;margin-bottom:20px;">
+          <p style="color:#9CA3AF;font-size:13px;margin:0;">Ningún candidato alcanzó hoy el umbral BET (≥6% edge). El mejor disponible fue:</p>
+          <p style="color:#FFFFFF;font-size:16px;font-weight:700;margin:8px 0 0;">{label} ({matchup}) — {edge:.1f}%</p>
+        </div>
+        """.format(label=top["label"], matchup=top["matchup"], edge=top["edge"])
+
+        rows_html = "".join(f"""
+          <tr style="border-bottom:1px solid #1F2329;">
+            <td style="padding:10px 0;color:#FFFFFF;font-size:13px;font-weight:600;">{b['label']}</td>
+            <td style="padding:10px 0;color:#9CA3AF;font-size:12px;">{b['matchup']}</td>
+            <td style="padding:10px 0;color:{'#00FFB2' if b['tier']=='BET' else '#FFB200'};font-size:13px;font-weight:700;text-align:right;">+{b['edge']:.1f}%</td>
+          </tr>
+        """ for b in rest)
+
+        rest_html = f"""
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr><td colspan="3" style="color:#6B7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;padding-bottom:8px;">Otros picks BET/LEAN de hoy</td></tr>
+          </thead>
+          <tbody>{rows_html}</tbody>
+        </table>
+        """ if rows_html else ""
+
+        body = top_html + rest_html
+
+    return f"""
+    <div style="background:#06070A;padding:24px;font-family:-apple-system,sans-serif;">
+      <h1 style="color:#FFFFFF;font-size:20px;margin:0 0 4px;">MLB EDGE</h1>
+      <p style="color:#6B7280;font-size:12px;margin:0 0 20px;">{run_label} · {today_str}</p>
+      {body}
+      <p style="color:#4B5563;font-size:11px;margin-top:24px;">Herramienta de análisis, no garantiza resultados. Apuesta con responsabilidad.</p>
+    </div>
+    """
+
+
+def send_alert_email(api_key, to_email, html_body, subject):
+    if not api_key or not to_email:
+        print("INFO: RESEND_API_KEY o ALERT_EMAIL_TO no configurados — se omite correo de alerta.")
+        return
+    payload = json.dumps({
+        "from": "MLB Edge <alertas@resend.dev>",
+        "to": [to_email],
+        "subject": subject,
+        "html": html_body,
+    }).encode("utf-8")
+    req = Request(
+        RESEND_API_URL,
+        data=payload,
+        method="POST",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+    )
+    try:
+        with urlopen(req, timeout=TIMEOUT) as resp:
+            print(f"  Correo de alerta enviado (status {resp.status}).")
+    except (URLError, HTTPError) as e:
+        print(f"WARN: no se pudo enviar el correo de alerta: {e}")
+
+
 def main():
     mode = parse_mode()
     today = date.today()
@@ -641,6 +730,19 @@ def main():
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     print(f"Listo: {len(games_out)} juegos totales, {len(team_cache)} equipos, {len(results_out)} resultados procesados.")
+
+    # Correo de alerta con la Apuesta Máxima del día y demás picks BET/LEAN.
+    # Solo se calcula sobre los juegos de HOY (no mañana, ya que mañana
+    # normalmente no tiene momios automáticos publicados todavía).
+    todays_games = [g for g in games_out if g["gameDateStr"] == today.isoformat()]
+    teams_by_id = team_cache
+    best_bets = find_best_bets(todays_games, teams_by_id)
+    run_label = "Corrida completa (mañana)" if mode == "full" else "Actualización (tarde)"
+    html_body = build_alert_email_html(best_bets, run_label, today.isoformat())
+    resend_key = os.environ.get("RESEND_API_KEY", "")
+    alert_to = os.environ.get("ALERT_EMAIL_TO", "")
+    subject = f"MLB Edge — {today.isoformat()} ({run_label})"
+    send_alert_email(resend_key, alert_to, html_body, subject)
 
 
 if __name__ == "__main__":
