@@ -262,6 +262,69 @@ def fetch_team_hitters_stats(team_id):
     return by_name
 
 
+MISSING_STARTER_PA_THRESHOLD = 250  # mínimo de PA en temporada para considerar a alguien "titular clave"
+TOP_N_STARTERS_TO_CHECK = 5  # cuántos de los titulares con más PA se revisan por equipo
+
+
+def detect_missing_starters(team_id, active_hitter_names):
+    """Compara a los bateadores titulares de la TEMPORADA (sin filtrar por
+    roster de hoy) contra el roster activo de hoy. Si alguno de los
+    titulares con más plate appearances no aparece en el roster activo,
+    es señal fuerte de ausencia (lesión, suspensión, etc.) que el promedio
+    de temporada del equipo no refleja todavía.
+    Devuelve una lista de nombres ausentes y una penalización sugerida
+    (0.0 a 1.0, mayor = ausencia más significativa para la ofensiva).
+    """
+    # hydrate=person trae todos los jugadores con stats de bateo con este
+    # equipo en la temporada, SIN filtrar por roster activo actual — esa es
+    # la pieza clave que nos permite ver a alguien que ya no está activo.
+    data = get_json(
+        f"{STATS_BASE}/teams/{team_id}/roster?rosterType=40Man"
+    )
+    if not data:
+        return [], 0.0
+    full_org_ids = {p["person"]["id"]: p["person"]["fullName"] for p in data.get("roster", [])}
+    if not full_org_ids:
+        return [], 0.0
+
+    ids_param = ",".join(str(i) for i in full_org_ids.keys())
+    people = get_json(
+        f"{STATS_BASE}/people?personIds={ids_param}&hydrate=stats(group=hitting,type=season)"
+    )
+    if not people:
+        return [], 0.0
+
+    season_starters = []  # [(name, pa)]
+    for person in people.get("people", []):
+        stats = person.get("stats", [])
+        if not stats:
+            continue
+        splits = stats[0].get("splits", [])
+        if not splits:
+            continue
+        pa = int(splits[0].get("stat", {}).get("plateAppearances", 0) or 0)
+        if pa >= MISSING_STARTER_PA_THRESHOLD:
+            season_starters.append((person.get("fullName"), pa))
+
+    season_starters.sort(key=lambda x: x[1], reverse=True)
+    top_starters = season_starters[:TOP_N_STARTERS_TO_CHECK]
+    if not top_starters:
+        return [], 0.0
+
+    total_pa_top = sum(pa for _, pa in top_starters)
+    missing = [(name, pa) for name, pa in top_starters if name not in active_hitter_names]
+
+    if not missing:
+        return [], 0.0
+
+    missing_pa = sum(pa for _, pa in missing)
+    # penalización proporcional: si falta el titular con más PA de los 5,
+    # pesa más que si falta el quinto. Tope en 0.15 para no sobre-castigar
+    # con una sola señal indirecta (esto es una aproximación, no certeza).
+    penalty = min((missing_pa / total_pa_top) * 0.20, 0.15) if total_pa_top else 0.0
+    return [name for name, _ in missing], round(penalty, 3)
+
+
 def fetch_schedule_with_matchups(day_str):
     data = get_json(
         f"{STATS_BASE}/schedule?sportId=1&date={day_str}&hydrate=probablePitcher,team,linescore,venue"
@@ -573,6 +636,18 @@ def build_team_payload(team_id, abbr, name, standings):
             top_power = {"name": hname, "hrRate": hs["hrRate"], "pa": hs["pa"]}
         if top_contact is None or hs["avg"] > top_contact["avg"]:
             top_contact = {"name": hname, "avg": hs["avg"], "pa": hs["pa"]}
+
+    # Detección de titulares ausentes (lesión/suspensión/etc.) — el roster
+    # activo de hoy ya excluye lesionados serios; comparamos contra los
+    # líderes de PA de TODA la temporada (roster 40-man, no filtrado por
+    # actividad de hoy) para detectar esa ausencia y penalizar levemente
+    # la ofensiva esperada del equipo, ya que runsPerGame de temporada no
+    # refleja todavía que ese titular no está jugando.
+    missing_names, penalty = detect_missing_starters(team_id, set(all_hitters.keys()))
+    adjusted_runs_per_game = (runs_per_game or 4.3) * (1 - penalty) if penalty else (runs_per_game or 4.3)
+    if missing_names:
+        print(f"    Ausencia(s) detectada(s) en {name}: {missing_names} (penalización ofensiva: -{penalty*100:.1f}%)")
+
     return {
         "id": team_id,
         "abbr": abbr,
@@ -581,11 +656,12 @@ def build_team_payload(team_id, abbr, name, standings):
         "homeWinPct": s.get("homeWinPct", 0.5),
         "awayWinPct": s.get("awayWinPct", 0.5),
         "last10": s.get("last10", 5),
-        "elo": s.get("elo", 1500),
-        "runsPerGame": runs_per_game or 4.3,
+        "elo": round(s.get("elo", 1500) - penalty * 300),  # penalización también visible en Elo
+        "runsPerGame": round(adjusted_runs_per_game, 2),
         "staffEra": staff_era or 4.0,
         "topPowerHitter": top_power,
         "topContactHitter": top_contact,
+        "missingStarters": missing_names,
         "_allHitters": all_hitters,  # uso interno para edge de props, no va al JSON final
     }
 
