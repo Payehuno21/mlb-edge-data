@@ -429,38 +429,59 @@ def fetch_props_for_event(api_key, event_id):
     return data
 
 
-def calc_prop_model_prob(player_name, prop_type, hitters_by_name, opposing_starter):
+def poisson_prob_at_least(k_min, lam):
+    """P(X >= k_min) para una distribución Poisson con media lam.
+    k_min puede venir como entero o como línea tipo 2.5 (se redondea hacia
+    arriba: 2.5+ significa 'al menos 3', igual que en las líneas reales
+    de sportsbooks, donde X.5 es la línea estándar sin empates posibles).
+    """
+    k_min_int = math.ceil(k_min)
+    if k_min_int <= 0:
+        return 1.0
+    cumulative = sum((lam ** k) * math.exp(-lam) / math.factorial(k) for k in range(k_min_int))
+    return max(0.0, min(1.0, 1 - cumulative))
+
+
+def calc_prop_model_prob(player_name, prop_type, line, hitters_by_name, opposing_starter):
     """Probabilidad de modelo para una prop específica, usando stats reales
-    de temporada del jugador y ajustando por el abridor rival — el mismo
-    tipo de cálculo que ya usábamos en la heurística de topPowerHitter/
-    topContactHitter, pero ahora aplicado a cualquier jugador nombrado por
-    el mercado, no solo al mejor de cada equipo.
+    de temporada del jugador y ajustando por el abridor rival. Usa Poisson
+    para modelar correctamente la línea real de la prop (ej. HR 2.5+ es
+    'al menos 3 jonrones en el juego', muy distinto de HR 0.5+ que es
+    'al menos 1' — tratar cualquier línea como 1+ infla artificialmente
+    el edge en líneas altas, que es justo el bug que esto corrige).
     Devuelve None si no hay suficiente dato para calcular con confianza.
     """
     stat = hitters_by_name.get(player_name)
     league_era, league_whip = 4.20, 1.30
+    expected_pa = 4.2  # turnos al bate esperados por juego, aproximación estándar
+
+    if line is None:
+        return None  # sin línea no podemos saber qué umbral evaluar
 
     if prop_type == "HR":
         if not stat or not stat.get("hrRate"):
             return None
-        base_prob = 1 - math.pow(1 - stat["hrRate"], 4.2)
+        lam = stat["hrRate"] * expected_pa  # HR esperados en el juego
         if opposing_starter and opposing_starter.get("era") is not None:
             if opposing_starter["era"] > league_era + 0.3:
-                base_prob *= 1.12
+                lam *= 1.12
             elif opposing_starter["era"] < league_era - 0.7:
-                base_prob *= 0.88
-        return min(base_prob, 0.40)
+                lam *= 0.88
+        return poisson_prob_at_least(line, lam)
 
     if prop_type == "1+ Hit":
         if not stat or not stat.get("avg"):
             return None
-        prob_per_pa = stat["avg"]
+        # hits esperados en el juego ≈ AVG * turnos esperados (aproximación;
+        # AVG es hits/at-bats, no hits/PA, pero es la mejor señal disponible
+        # sin un endpoint de hits-por-PA separado).
+        lam = stat["avg"] * expected_pa
         if opposing_starter and opposing_starter.get("whip") is not None:
             if opposing_starter["whip"] > league_whip + 0.10:
-                prob_per_pa *= 1.08
+                lam *= 1.08
             elif opposing_starter["whip"] < league_whip - 0.20:
-                prob_per_pa *= 0.92
-        return min(1 - math.pow(1 - prob_per_pa, 4.0), 0.92)
+                lam *= 0.92
+        return poisson_prob_at_least(line, lam)
 
     # "Ponches (K)" es prop del PITCHER, no del bateador — no se calcula aquí
     # con stats de bateo; se queda sin probabilidad propia por ahora.
@@ -515,7 +536,7 @@ def extract_props_from_event(event_data, home_hitters, away_hitters, home_starte
                 print(f"    DEBUG away_hitters disponibles: {list(away_hitters.keys())}")
                 debug_printed = True
 
-        model_prob = calc_prop_model_prob(player, prop_type, hitters_source, opposing_starter)
+        model_prob = calc_prop_model_prob(player, prop_type, v["line"], hitters_source, opposing_starter)
         if model_prob is None and hitters_source and not debug_printed:
             print(f"    DEBUG '{player}' SÍ está en hitters pero modelProb salió None. stat={hitters_source.get(player)}")
             debug_printed = True
