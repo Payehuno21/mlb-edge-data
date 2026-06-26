@@ -586,7 +586,13 @@ def send_alert_email(api_key, to_email, html_body, subject):
     try:
         with urlopen(req, timeout=TIMEOUT) as resp:
             print(f"  Correo de alerta enviado (status {resp.status}).")
-    except (URLError, HTTPError) as e:
+    except HTTPError as e:
+        try:
+            error_body = e.read().decode("utf-8")
+        except Exception:
+            error_body = "(no se pudo leer el cuerpo del error)"
+        print(f"WARN: no se pudo enviar el correo de alerta: HTTP {e.code} — {error_body}")
+    except URLError as e:
         print(f"WARN: no se pudo enviar el correo de alerta: {e}")
 
 
