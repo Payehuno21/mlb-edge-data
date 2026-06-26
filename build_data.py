@@ -569,7 +569,7 @@ def send_alert_email(api_key, to_email, html_body, subject):
         print("INFO: RESEND_API_KEY o ALERT_EMAIL_TO no configurados — se omite correo de alerta.")
         return
     payload = json.dumps({
-        "from": "MLB Edge <alertas@resend.dev>",
+        "from": "MLB Edge <onboarding@resend.dev>",
         "to": [to_email],
         "subject": subject,
         "html": html_body,
