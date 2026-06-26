@@ -200,6 +200,77 @@ def fetch_team_run_and_staff_stats(team_id):
     return runs_per_game, staff_era
 
 
+BULLPEN_FATIGUE_LOOKBACK_DAYS = 3
+BULLPEN_HEAVY_IP_THRESHOLD = 9.0  # innings de bullpen en 3 días que ya se consideran carga pesada
+BULLPEN_FATIGUE_MAX_PENALTY = 0.30  # tope de aumento al ERA efectivo del bullpen (en puntos de ERA)
+
+
+def fetch_boxscore(game_pk, boxscore_cache=None):
+    if boxscore_cache is not None and game_pk in boxscore_cache:
+        return boxscore_cache[game_pk]
+    data = get_json(f"{STATS_BASE}/game/{game_pk}/boxscore")
+    if boxscore_cache is not None:
+        boxscore_cache[game_pk] = data
+    return data
+
+
+def innings_str_to_float(ip_str):
+    """MLB representa innings parciales como '5.1' (= 5⅓) y '5.2' (= 5⅔),
+    no como decimal real — hay que convertir el .1/.2 a fracción de tercio.
+    """
+    if not ip_str:
+        return 0.0
+    try:
+        whole, _, frac = str(ip_str).partition(".")
+        whole = int(whole)
+        frac = int(frac) if frac else 0
+        return whole + (frac / 3.0)
+    except (ValueError, TypeError):
+        return 0.0
+
+
+def fetch_recent_bullpen_load(team_id, today, schedule_cache, boxscore_cache):
+    """Suma innings lanzadas por el BULLPEN (no el abridor) del equipo en
+    los últimos N días, recorriendo boxscores reales. Un bullpen que ya
+    lanzó muchas entradas recientemente va a rendir peor hoy de lo que su
+    ERA de temporada sugiere — esta señal no existe en runsPerGame/staffEra
+    de temporada, que son promedios de todo el año.
+    Devuelve (innings_recientes, penalty) donde penalty es el ajuste
+    sugerido al ERA efectivo del bullpen para el cálculo del modelo.
+    """
+    total_bullpen_ip = 0.0
+    for days_ago in range(1, BULLPEN_FATIGUE_LOOKBACK_DAYS + 1):
+        day = (today - timedelta(days=days_ago)).isoformat()
+        if day not in schedule_cache:
+            schedule_cache[day] = fetch_schedule_with_matchups(day)
+        games = schedule_cache[day]
+
+        for g in games:
+            home_id = g["teams"]["home"]["team"]["id"]
+            away_id = g["teams"]["away"]["team"]["id"]
+            if team_id not in (home_id, away_id):
+                continue
+            box = fetch_boxscore(g["gamePk"], boxscore_cache)
+            if not box:
+                continue
+            side = "home" if team_id == home_id else "away"
+            team_box = box.get("teams", {}).get(side, {})
+            pitchers_ids = team_box.get("pitchers", [])
+            players = team_box.get("players", {})
+            if not pitchers_ids:
+                continue
+            # el primer id en "pitchers" es el abridor; el resto es bullpen
+            for pid in pitchers_ids[1:]:
+                p_stats = players.get(f"ID{pid}", {}).get("stats", {}).get("pitching", {})
+                total_bullpen_ip += innings_str_to_float(p_stats.get("inningsPitched"))
+
+    penalty = 0.0
+    if total_bullpen_ip > BULLPEN_HEAVY_IP_THRESHOLD:
+        excess = total_bullpen_ip - BULLPEN_HEAVY_IP_THRESHOLD
+        penalty = min(excess * 0.04, BULLPEN_FATIGUE_MAX_PENALTY)
+    return round(total_bullpen_ip, 1), round(penalty, 3)
+
+
 def fetch_pitcher_stats(pitcher_id):
     data = get_json(f"{STATS_BASE}/people/{pitcher_id}/stats?stats=season&group=pitching")
     if not data:
@@ -626,7 +697,7 @@ def extract_props_from_event(event_data, home_hitters, away_hitters, home_starte
 
 
 
-def build_team_payload(team_id, abbr, name, standings):
+def build_team_payload(team_id, abbr, name, standings, today, schedule_cache, boxscore_cache, is_today=True):
     s = standings.get(team_id, {})
     runs_per_game, staff_era = fetch_team_run_and_staff_stats(team_id)
     all_hitters = fetch_team_hitters_stats(team_id)
@@ -648,6 +719,19 @@ def build_team_payload(team_id, abbr, name, standings):
     if missing_names:
         print(f"    Ausencia(s) detectada(s) en {name}: {missing_names} (penalización ofensiva: -{penalty*100:.1f}%)")
 
+    # Fatiga de bullpen reciente — ERA de temporada no distingue un bullpen
+    # descansado de uno que lanzó muchas entradas en los últimos 3 días.
+    # Solo se calcula para equipos que juegan HOY (no mañana, ya que para
+    # entonces el bullpen va a tener un día más de descanso de cualquier
+    # forma, y esto evita boxscores extra que no se van a usar todavía).
+    if is_today:
+        bullpen_recent_ip, bullpen_penalty = fetch_recent_bullpen_load(team_id, today, schedule_cache, boxscore_cache)
+    else:
+        bullpen_recent_ip, bullpen_penalty = 0.0, 0.0
+    adjusted_staff_era = (staff_era or 4.0) + bullpen_penalty
+    if bullpen_penalty > 0:
+        print(f"    Bullpen cargado en {name}: {bullpen_recent_ip} IP en últimos {BULLPEN_FATIGUE_LOOKBACK_DAYS} días (ERA efectivo +{bullpen_penalty})")
+
     return {
         "id": team_id,
         "abbr": abbr,
@@ -658,7 +742,8 @@ def build_team_payload(team_id, abbr, name, standings):
         "last10": s.get("last10", 5),
         "elo": round(s.get("elo", 1500) - penalty * 300),  # penalización también visible en Elo
         "runsPerGame": round(adjusted_runs_per_game, 2),
-        "staffEra": staff_era or 4.0,
+        "staffEra": round(adjusted_staff_era, 2),
+        "bullpenRecentIp": bullpen_recent_ip,
         "topPowerHitter": top_power,
         "topContactHitter": top_contact,
         "missingStarters": missing_names,
@@ -786,13 +871,15 @@ def main():
     mode = parse_mode()
     today = date.today()
     yesterday = today - timedelta(days=1)
-    days = [today, today + timedelta(days=1)]
+    days = [today]
     day_strs = [d.isoformat() for d in days]
     print(f"Construyendo data.json para {day_strs} (modo: {mode})...")
 
     existing_payload = load_existing_payload() if mode == "refresh" else None
     existing_teams_by_id = {}
     existing_games_by_pk = {}
+    schedule_cache = {}  # compartido entre equipos, evita repetir fetch_schedule por día
+    boxscore_cache = {}  # compartido entre equipos, evita repetir boxscore del mismo gamePk
     if existing_payload:
         existing_teams_by_id = {t["id"]: t for t in existing_payload.get("teams", [])}
         existing_games_by_pk = {g["gamePk"]: g for g in existing_payload.get("games", [])}
@@ -824,7 +911,9 @@ def main():
                 else:
                     print(f"  Procesando equipo: {t['name']}")
                     team_cache[t["id"]] = build_team_payload(
-                        t["id"], t.get("abbreviation", ""), t["name"], standings
+                        t["id"], t.get("abbreviation", ""), t["name"], standings,
+                        today, schedule_cache, boxscore_cache,
+                        is_today=(day_str == today.isoformat())
                     )
 
             # Abridor probable y momios: SIEMPRE se refrescan, en ambos modos.
