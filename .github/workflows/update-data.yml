@@ -50,6 +50,8 @@ jobs:
       - name: Generar data.json
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: python build_data.py --mode=${{ steps.mode.outputs.mode }}
 
       - name: Publicar data.json actualizado
