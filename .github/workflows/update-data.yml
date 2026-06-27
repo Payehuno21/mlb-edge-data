@@ -58,6 +58,6 @@ jobs:
         run: |
           git config user.name "mlb-edge-bot"
           git config user.email "actions@github.com"
-          git add data.json
+          git add data.json odds_cache.json
           git diff --quiet --cached || git commit -m "Actualizar datos MLB Edge (${{ steps.mode.outputs.mode }}) - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
