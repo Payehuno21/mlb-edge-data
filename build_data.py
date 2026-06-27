@@ -867,9 +867,29 @@ def calc_prop_model_prob(player_name, prop_type, line, hitters_by_name, opposing
                 lam *= 0.92
         return poisson_prob_at_least(line, lam)
 
-    # "Ponches (K)" es prop del PITCHER, no del bateador — no se calcula aquí
-    # con stats de bateo; se queda sin probabilidad propia por ahora.
-    return None
+    if prop_type == "Ponches (K)":
+        # A diferencia de HR/1+ Hit, aquí el "stat" que importa es del
+        # PROPIO pitcher (su K/9), no de un bateador rival — por eso esta
+        # rama recibe directamente el dict del abridor (ver llamada).
+        starter = hitters_by_name  # aquí es el dict del propio abridor, no bateadores
+        if not starter or starter.get("k9") is None:
+            return None
+        # Innings esperadas: un abridor titular típico lanza ~5.5-6 innings.
+        # No tenemos un dato directo de "innings esperadas hoy" (eso
+        # dependería del bullpen/estrategia del día), así que se usa una
+        # aproximación fija, ajustada levemente por WHIP propio (un pitcher
+        # más errático tiende a salir antes del juego en promedio).
+        expected_ip = 5.7
+        whip = starter.get("whip")
+        if whip is not None:
+            if whip > league_whip + 0.15:
+                expected_ip *= 0.92
+            elif whip < league_whip - 0.20:
+                expected_ip *= 1.05
+        lam = (starter["k9"] / 9) * expected_ip
+        return poisson_prob_at_least(line, lam)
+
+    return None  # tipo de prop no reconocido — no se calcula edge
 
 
 def extract_props_from_event(event_data, home_hitters, away_hitters, home_starter, away_starter):
@@ -905,7 +925,21 @@ def extract_props_from_event(event_data, home_hitters, away_hitters, home_starte
     props = []
     debug_printed = False
     for (player, prop_type), v in best_by_key.items():
-        if player in home_hitters:
+        if prop_type == "Ponches (K)":
+            # Caso especial: el sujeto de esta prop es un PITCHER (el
+            # abridor), no un bateador — se compara contra el nombre de
+            # cada abridor en vez de buscar en los diccionarios de bateo.
+            if home_starter and home_starter.get("name") == player:
+                hitters_source = home_starter
+            elif away_starter and away_starter.get("name") == player:
+                hitters_source = away_starter
+            else:
+                hitters_source = {}
+                if not debug_printed:
+                    print(f"    DEBUG prop de Ponches sin match: '{player}' no coincide con ningún abridor ('{home_starter.get('name') if home_starter else None}' / '{away_starter.get('name') if away_starter else None}')")
+                    debug_printed = True
+            opposing_starter = None  # no se usa en la rama de Ponches
+        elif player in home_hitters:
             opposing_starter = away_starter
             hitters_source = home_hitters
         elif player in away_hitters:
