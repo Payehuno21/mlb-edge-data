@@ -505,6 +505,41 @@ def save_odds_cache(cache):
         print(f"WARN: no se pudo guardar el caché de momios: {e}")
 
 
+def is_sane_pregame_odds_value(dec_odds):
+    """Un momio pre-partido razonable de MLB implica entre 8% y 92% de
+    probabilidad — fuera de ese rango casi siempre es un resto de mercado
+    EN VIVO (de un juego ya muy avanzado) que The Odds API puede seguir
+    devolviendo por un rato después de que el juego cambia de cuotas, o un
+    dato corrupto. Si se cachea ese valor, queda "congelado" como si fuera
+    válido para corridas futuras del mismo día — por eso se filtra ANTES
+    de guardar en caché, no solo al momento de calcular edge.
+    """
+    try:
+        d = float(dec_odds)
+    except (TypeError, ValueError):
+        return False
+    if not d or d <= 1:
+        return False
+    imp = 1 / d
+    return 0.08 <= imp <= 0.92
+
+
+def sanitize_odds_event(event):
+    """Revisa los mercados h2h de un evento de The Odds API y descarta el
+    evento completo si alguno de sus momios h2h está fuera de rango sano —
+    eso es señal de que el juego ya está en vivo/avanzado y esos números
+    no deben tratarse como pre-partido, ni cachearse como tales.
+    """
+    for book in event.get("bookmakers", []):
+        for market in book.get("markets", []):
+            if market.get("key") != "h2h":
+                continue
+            for outcome in market.get("outcomes", []):
+                if not is_sane_pregame_odds_value(outcome.get("price")):
+                    return None
+    return event
+
+
 def fetch_live_odds(api_key, today_str, mode):
     """Cachea la respuesta de momios por (fecha, modo) en un archivo local
     versionado junto a data.json. Si ya corriste este mismo modo hoy (por
@@ -537,6 +572,14 @@ def fetch_live_odds(api_key, today_str, mode):
         print(f"WARN: The Odds API respondió error: {data.get('message')}")
         return []
     result = data if isinstance(data, list) else []
+    sane_result = []
+    for ev in result:
+        sane_ev = sanitize_odds_event(ev)
+        if sane_ev is None:
+            print(f"  WARN: descartado evento con momio fuera de rango sano: {ev.get('away_team')} @ {ev.get('home_team')} (probablemente en vivo/avanzado, no se cachea)")
+            continue
+        sane_result.append(sane_ev)
+    result = sane_result
 
     cache[cache_key] = result
     save_odds_cache(cache)
