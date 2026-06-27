@@ -158,6 +158,19 @@ def kelly_fraction(model_prob, dec_odds, fractional_multiplier=0.25):
     return full_kelly * fractional_multiplier
 
 
+def is_sane_pregame_odds(dec_odds):
+    """Un momio pre-partido razonable de MLB implica entre 8% y 92% de
+    probabilidad — fuera de ese rango casi siempre es señal de un momio de
+    mercado EN VIVO (el juego ya empezó) o un dato corrupto, no una
+    oportunidad real. Se usa como filtro de cordura antes de confiar en
+    cualquier candidato para la Apuesta Máxima.
+    """
+    imp = implied_prob_decimal(dec_odds)
+    if imp is None:
+        return False
+    return 0.08 <= imp <= 0.92
+
+
 def find_best_bets(games_out, teams_by_id):
     """Recorre los juegos del día y devuelve la lista de candidatos con
     edge calculado para ML y Run Line (juego completo), usando los momios
@@ -196,6 +209,8 @@ def find_best_bets(games_out, teams_by_id):
         for label, prob, odd, other_odd in rows:
             if not odd or not other_odd:
                 continue
+            if not is_sane_pregame_odds(odd) or not is_sane_pregame_odds(other_odd):
+                continue  # momio fuera de rango razonable — probablemente en vivo o corrupto
             e = edge_pct(prob, odd)
             if e is None:
                 continue
