@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T06:17:11Z",
+  "generatedAt": "2026-06-27T06:34:39Z",
   "lastMode": "full",
   "date": "2026-06-27",
   "availableDates": [
@@ -772,22 +772,7 @@
         "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-27T17:11:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 43.5,
-          "toProb": 38.2,
-          "deltaPct": -5.3
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 59.2,
-          "toProb": 64.9,
-          "deltaPct": 5.8
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -817,10 +802,10 @@
         {
           "player": "Yordan Alvarez",
           "type": "HR",
-          "decimalOdds": 23.0,
+          "decimalOdds": 21.0,
           "line": 1.5,
           "modelProb": 0.035,
-          "edge": -0.9
+          "edge": -1.3
         },
         {
           "player": "Spencer Torkelson",
@@ -879,43 +864,7 @@
         "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-27T17:11:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 98.0,
-          "toProb": 47.4,
-          "deltaPct": -50.6
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 3.8,
-          "toProb": 54.9,
-          "deltaPct": 51.1
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 61.7,
-          "toProb": 57.5,
-          "deltaPct": -4.3
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 46.5,
-          "toProb": 53.2,
-          "deltaPct": 6.7
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 54.6,
-          "toProb": 50.5,
-          "deltaPct": -4.1
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1007,36 +956,7 @@
         "totalUnderPrice": 1.94,
         "lastUpdate": "2026-06-27T19:08:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 6.2,
-          "toProb": 64.1,
-          "deltaPct": 57.9
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 96.2,
-          "toProb": 37.5,
-          "deltaPct": -58.7
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 61.7,
-          "toProb": 44.4,
-          "deltaPct": -17.3
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 42.4,
-          "toProb": 57.5,
-          "deltaPct": 15.1
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1128,50 +1048,7 @@
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-27T20:06:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 53.5,
-          "toProb": 48.5,
-          "deltaPct": -4.9
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 46.5,
-          "toProb": 53.8,
-          "deltaPct": 7.3
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 22.2,
-          "toProb": 61.7,
-          "deltaPct": 39.5
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 84.7,
-          "toProb": 40.7,
-          "deltaPct": -44.1
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 41.7,
-          "toProb": 54.9,
-          "deltaPct": 13.3
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 62.1,
-          "toProb": 50.0,
-          "deltaPct": -12.1
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1263,50 +1140,7 @@
         "totalUnderPrice": 1.96,
         "lastUpdate": "2026-06-27T20:11:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 47.6,
-          "toProb": 56.8,
-          "deltaPct": 9.2
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 50.5,
-          "toProb": 45.5,
-          "deltaPct": -5.1
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 67.6,
-          "toProb": 39.2,
-          "deltaPct": -28.4
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 29.4,
-          "toProb": 62.5,
-          "deltaPct": 33.1
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 59.2,
-          "toProb": 51.8,
-          "deltaPct": -7.4
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 42.6,
-          "toProb": 51.0,
-          "deltaPct": 8.5
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1353,43 +1187,7 @@
         "totalUnderPrice": 1.83,
         "lastUpdate": "2026-06-27T20:11:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 87.7,
-          "toProb": 58.5,
-          "deltaPct": -29.2
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 10.3,
-          "toProb": 43.9,
-          "deltaPct": 33.6
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 51.3,
-          "toProb": 39.2,
-          "deltaPct": -12.1
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 53.2,
-          "toProb": 62.5,
-          "deltaPct": 9.3
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 50.0,
-          "toProb": 54.6,
-          "deltaPct": 4.6
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1481,29 +1279,7 @@
         "totalUnderPrice": 1.89,
         "lastUpdate": "2026-06-27T22:11:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 89.3,
-          "toProb": 59.5,
-          "deltaPct": -29.8
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 10.0,
-          "toProb": 42.6,
-          "deltaPct": 32.6
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 43.9,
-          "toProb": 59.9,
-          "deltaPct": 16.0
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1539,20 +1315,20 @@
           "edge": -0.9
         },
         {
-          "player": "Ketel Marte",
-          "type": "HR",
-          "decimalOdds": 41.0,
-          "line": 1.5,
-          "modelProb": 0.0144,
-          "edge": -1.0
-        },
-        {
           "player": "Cedric Mullins",
           "type": "HR",
           "decimalOdds": 61.0,
           "line": 1.5,
           "modelProb": 0.0043,
           "edge": -1.2
+        },
+        {
+          "player": "Ketel Marte",
+          "type": "HR",
+          "decimalOdds": 36.0,
+          "line": 1.5,
+          "modelProb": 0.0144,
+          "edge": -1.3
         }
       ],
       "homeStarter": {
@@ -1595,50 +1371,7 @@
         "totalUnderPrice": 1.93,
         "lastUpdate": "2026-06-27T23:06:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 75.8,
-          "toProb": 54.3,
-          "deltaPct": -21.4
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 26.3,
-          "toProb": 47.8,
-          "deltaPct": 21.5
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 43.5,
-          "toProb": 65.8,
-          "deltaPct": 22.3
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 52.6,
-          "toProb": 37.9,
-          "deltaPct": -14.8
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 54.6,
-          "toProb": 50.0,
-          "deltaPct": -4.6
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 47.4,
-          "toProb": 51.8,
-          "deltaPct": 4.4
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1730,50 +1463,7 @@
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-27T23:11:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 49.5,
-          "toProb": 43.7,
-          "deltaPct": -5.8
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 50.0,
-          "toProb": 58.8,
-          "deltaPct": 8.8
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 70.4,
-          "toProb": 57.1,
-          "deltaPct": -13.3
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 30.3,
-          "toProb": 45.5,
-          "deltaPct": 15.2
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 45.5,
-          "toProb": 53.5,
-          "deltaPct": 8.0
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 54.6,
-          "toProb": 50.0,
-          "deltaPct": -4.6
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1865,50 +1555,7 @@
         "totalUnderPrice": 2.03,
         "lastUpdate": "2026-06-27T23:11:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 84.0,
-          "toProb": 58.1,
-          "deltaPct": -25.9
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 19.0,
-          "toProb": 44.4,
-          "deltaPct": 25.4
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 55.2,
-          "toProb": 39.7,
-          "deltaPct": -15.6
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 47.6,
-          "toProb": 61.7,
-          "deltaPct": 14.1
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 48.8,
-          "toProb": 53.2,
-          "deltaPct": 4.4
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 54.6,
-          "toProb": 49.3,
-          "deltaPct": -5.4
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1936,14 +1583,6 @@
           "edge": 1.0
         },
         {
-          "player": "TJ Rumfield",
-          "type": "HR",
-          "decimalOdds": 7.25,
-          "line": 0.5,
-          "modelProb": 0.1461,
-          "edge": 0.8
-        },
-        {
           "player": "Jake McCarthy",
           "type": "HR",
           "decimalOdds": 10.5,
@@ -1958,6 +1597,14 @@
           "line": 1.5,
           "modelProb": 0.053,
           "edge": 0.5
+        },
+        {
+          "player": "Hunter Goodman",
+          "type": "HR",
+          "decimalOdds": 31.0,
+          "line": 1.5,
+          "modelProb": 0.0347,
+          "edge": 0.2
         }
       ],
       "homeStarter": {
@@ -2000,36 +1647,7 @@
         "totalUnderPrice": 1.78,
         "lastUpdate": "2026-06-27T23:11:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 67.1,
-          "toProb": 61.3,
-          "deltaPct": -5.8
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 36.4,
-          "toProb": 41.2,
-          "deltaPct": 4.8
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 55.6,
-          "toProb": 49.0,
-          "deltaPct": -6.5
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 47.6,
-          "toProb": 56.2,
-          "deltaPct": 8.6
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2043,18 +1661,18 @@
         {
           "player": "Garrett Mitchell",
           "type": "1+ Hit",
-          "decimalOdds": 1.79,
+          "decimalOdds": 1.8,
           "line": 0.5,
           "modelProb": 0.6753,
-          "edge": 11.7
+          "edge": 12.0
         },
         {
           "player": "Carson Kelly",
           "type": "1+ Hit",
-          "decimalOdds": 1.74,
+          "decimalOdds": 1.79,
           "line": 0.5,
           "modelProb": 0.6571,
-          "edge": 8.2
+          "edge": 9.8
         },
         {
           "player": "William Contreras",
@@ -2065,20 +1683,20 @@
           "edge": 5.1
         },
         {
-          "player": "Brice Turang",
-          "type": "HR",
-          "decimalOdds": 9.5,
+          "player": "Pete Crow-Armstrong",
+          "type": "1+ Hit",
+          "decimalOdds": 1.61,
           "line": 0.5,
-          "modelProb": 0.141,
-          "edge": 3.6
+          "modelProb": 0.6663,
+          "edge": 4.5
         },
         {
-          "player": "Jackson Chourio",
+          "player": "Seiya Suzuki",
           "type": "1+ Hit",
-          "decimalOdds": 2.78,
-          "line": 1.5,
-          "modelProb": 0.393,
-          "edge": 3.3
+          "decimalOdds": 1.69,
+          "line": 0.5,
+          "modelProb": 0.6338,
+          "edge": 4.2
         }
       ],
       "homeStarter": {
@@ -2121,43 +1739,7 @@
         "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-27T23:16:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 48.8,
-          "toProb": 57.5,
-          "deltaPct": 8.7
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 54.1,
-          "toProb": 44.8,
-          "deltaPct": -9.2
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 59.9,
-          "toProb": 40.7,
-          "deltaPct": -19.2
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 40.8,
-          "toProb": 62.1,
-          "deltaPct": 21.3
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 47.6,
-          "toProb": 53.2,
-          "deltaPct": 5.6
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
@@ -2200,36 +1782,7 @@
         "totalUnderPrice": 1.93,
         "lastUpdate": "2026-06-28T00:41:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 43.1,
-          "toProb": 36.8,
-          "deltaPct": -6.3
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 58.8,
-          "toProb": 65.4,
-          "deltaPct": 6.5
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 57.1,
-          "toProb": 49.3,
-          "deltaPct": -7.9
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 45.5,
-          "toProb": 52.4,
-          "deltaPct": 6.9
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2321,36 +1874,7 @@
         "totalUnderPrice": 2.07,
         "lastUpdate": "2026-06-28T01:06:00Z"
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 47.6,
-          "toProb": 56.5,
-          "deltaPct": 8.9
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 53.2,
-          "toProb": 45.7,
-          "deltaPct": -7.5
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 60.6,
-          "toProb": 37.7,
-          "deltaPct": -22.9
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 40.8,
-          "toProb": 64.1,
-          "deltaPct": 23.3
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2447,6 +1971,22 @@
       "autoProps": [
         {
           "player": "Donovan Walton",
+          "type": "1+ Hit",
+          "decimalOdds": 1.79,
+          "line": 0.5,
+          "modelProb": 0.7489,
+          "edge": 19.0
+        },
+        {
+          "player": "Wade Meckler",
+          "type": "1+ Hit",
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.7042,
+          "edge": 11.9
+        },
+        {
+          "player": "Donovan Walton",
           "type": "HR",
           "decimalOdds": 9.5,
           "line": 0.5,
@@ -2462,36 +2002,20 @@
           "edge": 4.4
         },
         {
-          "player": "Josh Lowe",
-          "type": "HR",
-          "decimalOdds": 8.0,
+          "player": "Denzer Guzman",
+          "type": "1+ Hit",
+          "decimalOdds": 1.63,
           "line": 0.5,
-          "modelProb": 0.1538,
-          "edge": 2.9
+          "modelProb": 0.6559,
+          "edge": 4.2
         },
         {
           "player": "Colby Thomas",
           "type": "1+ Hit",
-          "decimalOdds": 1.92,
+          "decimalOdds": 1.95,
           "line": 0.5,
           "modelProb": 0.5489,
-          "edge": 2.8
-        },
-        {
-          "player": "Denzer Guzman",
-          "type": "HR",
-          "decimalOdds": 61.0,
-          "line": 1.5,
-          "modelProb": 0.0205,
-          "edge": 0.4
-        },
-        {
-          "player": "Tyler Soderstrom",
-          "type": "HR",
-          "decimalOdds": 61.0,
-          "line": 1.5,
-          "modelProb": 0.012,
-          "edge": -0.4
+          "edge": 3.6
         }
       ],
       "homeStarter": {
