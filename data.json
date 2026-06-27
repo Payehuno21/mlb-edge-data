@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T02:25:16Z",
+  "generatedAt": "2026-06-27T02:42:26Z",
   "lastMode": "full",
   "date": "2026-06-27",
   "availableDates": [
@@ -258,14 +258,14 @@
       "id": 145,
       "abbr": "CWS",
       "name": "Chicago White Sox",
-      "winPct": 0.519,
-      "homeWinPct": 0.667,
+      "winPct": 0.525,
+      "homeWinPct": 0.675,
       "awayWinPct": 0.375,
       "last10": 4,
-      "elo": 1511,
+      "elo": 1515,
       "runsPerGame": 4.83,
-      "staffEra": 4.35,
-      "bullpenRecentIp": 10.3,
+      "staffEra": 4.4,
+      "bullpenRecentIp": 11.7,
       "topPowerHitter": {
         "name": "Randal Grichuk",
         "hrRate": 0.0763,
@@ -282,23 +282,23 @@
       "id": 118,
       "abbr": "KC",
       "name": "Kansas City Royals",
-      "winPct": 0.415,
+      "winPct": 0.41,
       "homeWinPct": 0.463,
-      "awayWinPct": 0.366,
+      "awayWinPct": 0.357,
       "last10": 5,
-      "elo": 1438,
+      "elo": 1435,
       "runsPerGame": 4.07,
-      "staffEra": 4.98,
-      "bullpenRecentIp": 11.7,
+      "staffEra": 5.02,
+      "bullpenRecentIp": 12.7,
       "topPowerHitter": {
         "name": "Jac Caglianone",
-        "hrRate": 0.0479,
-        "pa": 292
+        "hrRate": 0.0478,
+        "pa": 293
       },
       "topContactHitter": {
         "name": "Bobby Witt Jr.",
-        "avg": 0.292,
-        "pa": 340
+        "avg": 0.291,
+        "pa": 341
       },
       "missingStarters": [
         "Maikel Garcia"
@@ -461,8 +461,8 @@
       "last10": 6,
       "elo": 1478,
       "runsPerGame": 4.84,
-      "staffEra": 4.81,
-      "bullpenRecentIp": 4.0,
+      "staffEra": 4.84,
+      "bullpenRecentIp": 4.3,
       "topPowerHitter": {
         "name": "Byron Buxton",
         "hrRate": 0.0784,
@@ -484,9 +484,9 @@
       "awayWinPct": 0.341,
       "last10": 6,
       "elo": 1437,
-      "runsPerGame": 4.54,
+      "runsPerGame": 4.57,
       "staffEra": 5.51,
-      "bullpenRecentIp": 5.3,
+      "bullpenRecentIp": 6.0,
       "topPowerHitter": {
         "name": "Mickey Moniak",
         "hrRate": 0.069,
@@ -510,7 +510,7 @@
       "elo": 1577,
       "runsPerGame": 5.23,
       "staffEra": 3.36,
-      "bullpenRecentIp": 6.7,
+      "bullpenRecentIp": 7.7,
       "topPowerHitter": {
         "name": "Jake Bauers",
         "hrRate": 0.05,
@@ -533,8 +533,8 @@
       "last10": 7,
       "elo": 1526,
       "runsPerGame": 4.89,
-      "staffEra": 4.55,
-      "bullpenRecentIp": 15.3,
+      "staffEra": 4.58,
+      "bullpenRecentIp": 16.0,
       "topPowerHitter": {
         "name": "Pete Crow-Armstrong",
         "hrRate": 0.048,
@@ -557,8 +557,8 @@
       "last10": 4,
       "elo": 1523,
       "runsPerGame": 4.54,
-      "staffEra": 4.27,
-      "bullpenRecentIp": 4.7,
+      "staffEra": 4.26,
+      "bullpenRecentIp": 5.0,
       "topPowerHitter": {
         "name": "Jordan Walker",
         "hrRate": 0.0541,
@@ -607,7 +607,7 @@
       "last10": 6,
       "elo": 1519,
       "runsPerGame": 3.9,
-      "staffEra": 3.85,
+      "staffEra": 3.84,
       "bullpenRecentIp": 3.3,
       "topPowerHitter": {
         "name": "Ty France",
@@ -616,8 +616,8 @@
       },
       "topContactHitter": {
         "name": "Samad Taylor",
-        "avg": 0.379,
-        "pa": 67
+        "avg": 0.373,
+        "pa": 68
       },
       "missingStarters": []
     },
@@ -635,13 +635,13 @@
       "bullpenRecentIp": 3.0,
       "topPowerHitter": {
         "name": "Max Muncy",
-        "hrRate": 0.0565,
-        "pa": 283
+        "hrRate": 0.0563,
+        "pa": 284
       },
       "topContactHitter": {
         "name": "Shohei Ohtani",
-        "avg": 0.297,
-        "pa": 341
+        "avg": 0.296,
+        "pa": 342
       },
       "missingStarters": []
     },
@@ -654,8 +654,8 @@
       "awayWinPct": 0.395,
       "last10": 5,
       "elo": 1448,
-      "runsPerGame": 4.05,
-      "staffEra": 4.41,
+      "runsPerGame": 4.06,
+      "staffEra": 4.42,
       "bullpenRecentIp": 6.3,
       "topPowerHitter": {
         "name": "Eric Haase",
@@ -664,8 +664,8 @@
       },
       "topContactHitter": {
         "name": "Jung Hoo Lee",
-        "avg": 0.332,
-        "pa": 293
+        "avg": 0.331,
+        "pa": 294
       },
       "missingStarters": []
     },
@@ -678,8 +678,8 @@
       "awayWinPct": 0.585,
       "last10": 3,
       "elo": 1565,
-      "runsPerGame": 4.81,
-      "staffEra": 3.42,
+      "runsPerGame": 4.83,
+      "staffEra": 3.43,
       "bullpenRecentIp": 4.0,
       "topPowerHitter": {
         "name": "Matt Olson",
@@ -702,18 +702,18 @@
       "awayWinPct": 0.357,
       "last10": 5,
       "elo": 1436,
-      "runsPerGame": 4.32,
-      "staffEra": 4.6,
+      "runsPerGame": 4.33,
+      "staffEra": 4.59,
       "bullpenRecentIp": 7.0,
       "topPowerHitter": {
         "name": "Denzer Guzman",
-        "hrRate": 0.0484,
-        "pa": 62
+        "hrRate": 0.0476,
+        "pa": 63
       },
       "topContactHitter": {
         "name": "Donovan Walton",
-        "avg": 0.325,
-        "pa": 84
+        "avg": 0.333,
+        "pa": 85
       },
       "missingStarters": [
         "Mike Trout"
@@ -733,8 +733,8 @@
       "bullpenRecentIp": 7.3,
       "topPowerHitter": {
         "name": "Shea Langeliers",
-        "hrRate": 0.0567,
-        "pa": 335
+        "hrRate": 0.0565,
+        "pa": 336
       },
       "topContactHitter": {
         "name": "Henry Bolte",
@@ -867,7 +867,12 @@
         "whip": 1.19,
         "k9": 13.5
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Cal Quantrill",
+        "era": 3.73,
+        "whip": 1.28,
+        "k9": 5.7
+      }
     },
     {
       "gamePk": 823364,
@@ -1146,56 +1151,7 @@
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [
-        {
-          "player": "Cole Carrigg",
-          "type": "HR",
-          "decimalOdds": 27.0,
-          "line": 0.5,
-          "modelProb": 0.1867,
-          "edge": 15.0
-        },
-        {
-          "player": "Royce Lewis",
-          "type": "HR",
-          "decimalOdds": 21.0,
-          "line": 0.5,
-          "modelProb": 0.1554,
-          "edge": 10.8
-        },
-        {
-          "player": "Victor Caratini",
-          "type": "HR",
-          "decimalOdds": 27.0,
-          "line": 0.5,
-          "modelProb": 0.118,
-          "edge": 8.1
-        },
-        {
-          "player": "Josh Bell",
-          "type": "HR",
-          "decimalOdds": 21.0,
-          "line": 0.5,
-          "modelProb": 0.1251,
-          "edge": 7.7
-        },
-        {
-          "player": "Ezequiel Tovar",
-          "type": "HR",
-          "decimalOdds": 27.0,
-          "line": 0.5,
-          "modelProb": 0.084,
-          "edge": 4.7
-        },
-        {
-          "player": "Edouard Julien",
-          "type": "HR",
-          "decimalOdds": 41.0,
-          "line": 0.5,
-          "modelProb": 0.0383,
-          "edge": 1.4
-        }
-      ],
+      "autoProps": [],
       "homeStarter": {
         "name": "Mike Paredes",
         "era": 4.05,
@@ -1238,24 +1194,7 @@
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [
-        {
-          "player": "Jackson Chourio",
-          "type": "HR",
-          "decimalOdds": 14.0,
-          "line": 0.5,
-          "modelProb": 0.2014,
-          "edge": 13.0
-        },
-        {
-          "player": "Nico Hoerner",
-          "type": "HR",
-          "decimalOdds": 41.0,
-          "line": 0.5,
-          "modelProb": 0.0398,
-          "edge": 1.5
-        }
-      ],
+      "autoProps": [],
       "homeStarter": {
         "name": "Kyle Harrison",
         "era": 2.5,
@@ -1298,56 +1237,7 @@
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [
-        {
-          "player": "Esteury Ruiz",
-          "type": "HR",
-          "decimalOdds": 41.0,
-          "line": 0.5,
-          "modelProb": 0.1687,
-          "edge": 14.4
-        },
-        {
-          "player": "Jordan Walker",
-          "type": "HR",
-          "decimalOdds": 14.0,
-          "line": 0.5,
-          "modelProb": 0.2033,
-          "edge": 13.2
-        },
-        {
-          "player": "Alec Burleson",
-          "type": "HR",
-          "decimalOdds": 21.0,
-          "line": 0.5,
-          "modelProb": 0.1482,
-          "edge": 10.1
-        },
-        {
-          "player": "JJ Wetherholt",
-          "type": "HR",
-          "decimalOdds": 27.0,
-          "line": 0.5,
-          "modelProb": 0.1374,
-          "edge": 10.0
-        },
-        {
-          "player": "Kyle Stowers",
-          "type": "HR",
-          "decimalOdds": 14.0,
-          "line": 0.5,
-          "modelProb": 0.1291,
-          "edge": 5.8
-        },
-        {
-          "player": "Xavier Edwards",
-          "type": "HR",
-          "decimalOdds": 41.0,
-          "line": 0.5,
-          "modelProb": 0.0713,
-          "edge": 4.7
-        }
-      ],
+      "autoProps": [],
       "homeStarter": null,
       "awayStarter": null
     },
@@ -1384,50 +1274,50 @@
         {
           "player": "Samad Taylor",
           "type": "1+ Hit",
-          "decimalOdds": 2.0,
+          "decimalOdds": 2.75,
           "line": 0.5,
-          "modelProb": 0.7688,
-          "edge": 26.9
-        },
-        {
-          "player": "Alex Freeland",
-          "type": "1+ Hit",
-          "decimalOdds": 2.6,
-          "line": 0.5,
-          "modelProb": 0.6366,
-          "edge": 25.2
-        },
-        {
-          "player": "Dalton Rushing",
-          "type": "1+ Hit",
-          "decimalOdds": 2.4,
-          "line": 0.5,
-          "modelProb": 0.6396,
-          "edge": 22.3
+          "modelProb": 0.7634,
+          "edge": 40.0
         },
         {
           "player": "Max Muncy",
           "type": "1+ Hit",
-          "decimalOdds": 1.95,
+          "decimalOdds": 2.85,
           "line": 0.5,
-          "modelProb": 0.6714,
-          "edge": 15.9
+          "modelProb": 0.67,
+          "edge": 31.9
         },
         {
-          "player": "Kyle Tucker",
+          "player": "Alex Freeland",
           "type": "1+ Hit",
-          "decimalOdds": 2.0,
+          "decimalOdds": 2.95,
           "line": 0.5,
-          "modelProb": 0.6257,
-          "edge": 12.6
+          "modelProb": 0.6335,
+          "edge": 29.5
         },
         {
-          "player": "Gavin Sheets",
+          "player": "Dalton Rushing",
           "type": "1+ Hit",
-          "decimalOdds": 2.15,
+          "decimalOdds": 2.8,
           "line": 0.5,
-          "modelProb": 0.5792,
-          "edge": 11.4
+          "modelProb": 0.6396,
+          "edge": 28.2
+        },
+        {
+          "player": "Freddie Freeman",
+          "type": "1+ Hit",
+          "decimalOdds": 2.3,
+          "line": 0.5,
+          "modelProb": 0.6928,
+          "edge": 25.8
+        },
+        {
+          "player": "Andy Pages",
+          "type": "1+ Hit",
+          "decimalOdds": 2.35,
+          "line": 0.5,
+          "modelProb": 0.67,
+          "edge": 24.5
         }
       ],
       "homeStarter": {
@@ -1474,52 +1364,52 @@
       "liveState": null,
       "autoProps": [
         {
+          "player": "Bryce Eldridge",
+          "type": "1+ Hit",
+          "decimalOdds": 1.87,
+          "line": 0.5,
+          "modelProb": 0.6863,
+          "edge": 15.2
+        },
+        {
+          "player": "Jung Hoo Lee",
+          "type": "1+ Hit",
+          "decimalOdds": 1.61,
+          "line": 0.5,
+          "modelProb": 0.751,
+          "edge": 13.0
+        },
+        {
+          "player": "Mike Yastrzemski",
+          "type": "1+ Hit",
+          "decimalOdds": 2.05,
+          "line": 0.5,
+          "modelProb": 0.6146,
+          "edge": 12.7
+        },
+        {
+          "player": "Casey Schmitt",
+          "type": "1+ Hit",
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.7079,
+          "edge": 12.3
+        },
+        {
+          "player": "Drake Baldwin",
+          "type": "1+ Hit",
+          "decimalOdds": 1.74,
+          "line": 0.5,
+          "modelProb": 0.6742,
+          "edge": 9.9
+        },
+        {
           "player": "Ozzie Albies",
           "type": "1+ Hit",
           "decimalOdds": 1.62,
           "line": 0.5,
           "modelProb": 0.6915,
           "edge": 7.4
-        },
-        {
-          "player": "Drew Gilbert",
-          "type": "1+ Hit",
-          "decimalOdds": 1.81,
-          "line": 0.5,
-          "modelProb": 0.6242,
-          "edge": 7.2
-        },
-        {
-          "player": "Matt Olson",
-          "type": "1+ Hit",
-          "decimalOdds": 1.65,
-          "line": 0.5,
-          "modelProb": 0.6769,
-          "edge": 7.1
-        },
-        {
-          "player": "Bryce Eldridge",
-          "type": "1+ Hit",
-          "decimalOdds": 1.61,
-          "line": 0.5,
-          "modelProb": 0.6889,
-          "edge": 6.8
-        },
-        {
-          "player": "Jorge Mateo",
-          "type": "1+ Hit",
-          "decimalOdds": 1.67,
-          "line": 0.5,
-          "modelProb": 0.6673,
-          "edge": 6.8
-        },
-        {
-          "player": "Matt Chapman",
-          "type": "1+ Hit",
-          "decimalOdds": 1.72,
-          "line": 0.5,
-          "modelProb": 0.6381,
-          "edge": 5.7
         }
       ],
       "homeStarter": {
@@ -1566,6 +1456,14 @@
       "liveState": null,
       "autoProps": [
         {
+          "player": "Logan O'Hoppe",
+          "type": "1+ Hit",
+          "decimalOdds": 2.9,
+          "line": 0.5,
+          "modelProb": 0.6304,
+          "edge": 28.6
+        },
+        {
           "player": "Henry Bolte",
           "type": "1+ Hit",
           "decimalOdds": 2.35,
@@ -1574,44 +1472,36 @@
           "edge": 27.8
         },
         {
+          "player": "Jonah Heim",
+          "type": "1+ Hit",
+          "decimalOdds": 3.0,
+          "line": 0.5,
+          "modelProb": 0.6029,
+          "edge": 27.0
+        },
+        {
           "player": "Nick Kurtz",
           "type": "1+ Hit",
-          "decimalOdds": 2.38,
+          "decimalOdds": 2.4,
           "line": 0.5,
           "modelProb": 0.6558,
-          "edge": 23.6
+          "edge": 23.9
         },
         {
-          "player": "Donovan Walton",
+          "player": "Jorge Soler",
           "type": "1+ Hit",
-          "decimalOdds": 1.91,
+          "decimalOdds": 2.65,
           "line": 0.5,
-          "modelProb": 0.7446,
-          "edge": 22.1
+          "modelProb": 0.5997,
+          "edge": 22.2
         },
         {
-          "player": "Jo Adell",
+          "player": "Shea Langeliers",
           "type": "1+ Hit",
-          "decimalOdds": 2.3,
+          "decimalOdds": 2.4,
           "line": 0.5,
-          "modelProb": 0.6441,
-          "edge": 20.9
-        },
-        {
-          "player": "Nolan Schanuel",
-          "type": "1+ Hit",
-          "decimalOdds": 2.15,
-          "line": 0.5,
-          "modelProb": 0.6659,
-          "edge": 20.1
-        },
-        {
-          "player": "Wade Meckler",
-          "type": "1+ Hit",
-          "decimalOdds": 1.95,
-          "line": 0.5,
-          "modelProb": 0.6992,
-          "edge": 18.6
+          "modelProb": 0.6366,
+          "edge": 22.0
         }
       ],
       "homeStarter": {
@@ -1692,6 +1582,22 @@
       "awayTeamId": 147,
       "homeScore": 6,
       "awayScore": 1
+    },
+    {
+      "gamePk": 824582,
+      "dateStr": "2026-06-26",
+      "homeTeamId": 145,
+      "awayTeamId": 118,
+      "homeScore": 22,
+      "awayScore": 1
+    },
+    {
+      "gamePk": 823773,
+      "dateStr": "2026-06-26",
+      "homeTeamId": 158,
+      "awayTeamId": 112,
+      "homeScore": 6,
+      "awayScore": 2
     }
   ]
 }
