@@ -185,6 +185,8 @@ def find_best_bets(games_out, teams_by_id):
         away = teams_by_id.get(g["awayTeamId"])
         if not home or not away:
             continue
+        if g.get("liveState"):
+            continue  # juego ya en curso o terminado — sus momios pre-partido ya no aplican
         ao = g.get("autoOdds") or {}
         if not ao.get("mlHome") and not ao.get("mlAway"):
             continue  # sin momios, no hay nada que evaluar
