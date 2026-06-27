@@ -426,6 +426,38 @@ def fetch_final_scores(day_str):
     return out
 
 
+def fetch_live_game_states(day_str):
+    """Estado actual de cada juego del día al momento de esta corrida del
+    pipeline: si ya empezó (Live) o terminó (Final), marcador actual, y
+    entrada/parte. Esto NO es un dato en vivo dentro de la app — es un
+    snapshot de cómo estaba el juego cuando corrió el pipeline (mañana o
+    tarde), igual que el resto de los datos. Se usa para explicar con
+    claridad por qué un momio pre-partido ya no aplica (juego en curso),
+    en vez de solo decir 'fuera de rango' sin contexto.
+    """
+    data = get_json(f"{STATS_BASE}/schedule?sportId=1&date={day_str}&hydrate=linescore")
+    out = {}
+    if not data or not data.get("dates"):
+        return out
+    for g in data["dates"][0].get("games", []):
+        status_state = g.get("status", {}).get("abstractGameState")  # "Preview", "Live", "Final"
+        if status_state not in ("Live", "Final"):
+            continue
+        linescore = g.get("linescore", {})
+        home_score = linescore.get("teams", {}).get("home", {}).get("runs")
+        away_score = linescore.get("teams", {}).get("away", {}).get("runs")
+        inning = linescore.get("currentInning")
+        inning_half = linescore.get("inningHalf")  # "Top" / "Bottom"
+        out[g["gamePk"]] = {
+            "status": status_state,
+            "homeScore": home_score,
+            "awayScore": away_score,
+            "inning": inning,
+            "inningHalf": inning_half,
+        }
+    return out
+
+
 # ---------------------------------------------------------------------------
 # MOMIOS AUTOMÁTICOS — The Odds API (https://the-odds-api.com).
 # Requiere la variable de entorno ODDS_API_KEY (ver workflow de GitHub
@@ -1038,6 +1070,7 @@ def main():
     # Siempre se refrescan, en ambos modos — son justo lo que más cambia.
     odds_api_key = os.environ.get("ODDS_API_KEY", "")
     live_odds_events = fetch_live_odds(odds_api_key, today.isoformat(), mode)
+    live_game_states = fetch_live_game_states(today.isoformat())
     print(f"  Momios automáticos: {len(live_odds_events)} evento(s) de The Odds API")
 
     for day_str in day_strs:
@@ -1119,6 +1152,7 @@ def main():
                 "awayTeamName": away_team["name"],
                 "autoOdds": auto_odds,
                 "lineMovement": line_movement,
+                "liveState": live_game_states.get(g["gamePk"]),
                 "autoProps": auto_props,
                 "homeStarter": {
                     "name": home_pitcher["fullName"] if home_pitcher else None,
