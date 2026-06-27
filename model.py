@@ -10,6 +10,7 @@ del Run Line, etc.), este archivo debe actualizarse en espejo.
 """
 
 import math
+from datetime import datetime, timezone
 
 
 def elo_win_prob(diff):
@@ -186,7 +187,15 @@ def find_best_bets(games_out, teams_by_id):
         if not home or not away:
             continue
         if g.get("liveState"):
-            continue  # juego ya en curso o terminado — sus momios pre-partido ya no aplican
+            continue  # juego ya en curso o terminado, detectado por el pipeline
+        game_date_str = g.get("gameDate")
+        if game_date_str:
+            try:
+                game_dt = datetime.fromisoformat(game_date_str.replace("Z", "+00:00"))
+                if game_dt <= datetime.now(timezone.utc):
+                    continue  # ya pasó la hora de inicio, aunque liveState no lo haya detectado todavía
+            except ValueError:
+                pass  # si el formato no se puede parsear, no bloqueamos por esto
         ao = g.get("autoOdds") or {}
         if not ao.get("mlHome") and not ao.get("mlAway"):
             continue  # sin momios, no hay nada que evaluar
