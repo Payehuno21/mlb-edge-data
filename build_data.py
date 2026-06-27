@@ -438,8 +438,10 @@ def fetch_live_game_states(day_str):
     data = get_json(f"{STATS_BASE}/schedule?sportId=1&date={day_str}&hydrate=linescore")
     out = {}
     if not data or not data.get("dates"):
+        print(f"WARN liveState: get_json devolvió vacío/None para {day_str} — no hay estados de juego disponibles.")
         return out
-    for g in data["dates"][0].get("games", []):
+    games_list = data["dates"][0].get("games", []) if data.get("dates") else []
+    for g in games_list:
         status_state = g.get("status", {}).get("abstractGameState")  # "Preview", "Live", "Final"
         if status_state not in ("Live", "Final"):
             continue
@@ -455,6 +457,7 @@ def fetch_live_game_states(day_str):
             "inning": inning,
             "inningHalf": inning_half,
         }
+    print(f"  Estados de juego (liveState): {len(out)} de {len(games_list)} juego(s) ya en curso/finalizados.")
     return out
 
 
