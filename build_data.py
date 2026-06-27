@@ -437,7 +437,42 @@ ODDS_API_BASE = "https://api.the-odds-api.com/v4/sports/baseball_mlb/odds"
 ODDS_API_SPORT_BASE = "https://api.the-odds-api.com/v4/sports/baseball_mlb"
 
 
-def fetch_live_odds(api_key):
+ODDS_CACHE_FILE = "odds_cache.json"
+
+
+def load_odds_cache():
+    try:
+        with open(ODDS_CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_odds_cache(cache):
+    try:
+        with open(ODDS_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False)
+    except OSError as e:
+        print(f"WARN: no se pudo guardar el caché de momios: {e}")
+
+
+def fetch_live_odds(api_key, today_str, mode):
+    """Cachea la respuesta de momios por (fecha, modo) en un archivo local
+    versionado junto a data.json. Si ya corriste este mismo modo hoy (por
+    ejemplo, probando varias veces 'full' el mismo día), reutiliza esa
+    respuesta sin gastar créditos nuevos de The Odds API. El caché se limpia
+    solo: cualquier entrada de un día distinto a hoy se descarta al guardar.
+    """
+    cache_key = f"{today_str}:{mode}"
+    cache = load_odds_cache()
+
+    # Limpieza: descarta entradas de días anteriores, conserva solo hoy.
+    cache = {k: v for k, v in cache.items() if k.startswith(today_str)}
+
+    if cache_key in cache:
+        print(f"  Momios automáticos: usando caché de esta corrida de hoy ({len(cache[cache_key])} evento(s), sin gastar créditos nuevos)")
+        return cache[cache_key]
+
     if not api_key:
         print("INFO: ODDS_API_KEY no configurada — se omiten momios automáticos.")
         return []
@@ -452,7 +487,11 @@ def fetch_live_odds(api_key):
     if isinstance(data, dict) and data.get("message"):
         print(f"WARN: The Odds API respondió error: {data.get('message')}")
         return []
-    return data if isinstance(data, list) else []
+    result = data if isinstance(data, list) else []
+
+    cache[cache_key] = result
+    save_odds_cache(cache)
+    return result
 
 
 def best_price_per_outcome(bookmakers, outcome_filter):
@@ -998,7 +1037,7 @@ def main():
     # Momios automáticos (opcional, requiere ODDS_API_KEY como secret de GitHub).
     # Siempre se refrescan, en ambos modos — son justo lo que más cambia.
     odds_api_key = os.environ.get("ODDS_API_KEY", "")
-    live_odds_events = fetch_live_odds(odds_api_key)
+    live_odds_events = fetch_live_odds(odds_api_key, today.isoformat(), mode)
     print(f"  Momios automáticos: {len(live_odds_events)} evento(s) de The Odds API")
 
     for day_str in day_strs:
