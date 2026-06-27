@@ -95,6 +95,20 @@ def get_json(url, retries=3, backoff=2.0):
     return None
 
 
+def debug_print_situation_codes():
+    """DIAGNÓSTICO TEMPORAL — confirma los valores reales de sitCodes que usa
+    MLB Stats API para splits vs. zurdo/derecho, antes de construir el
+    cálculo de splits del abridor. Solo imprime al log, no afecta data.json.
+    Quitar esta llamada una vez confirmado el código correcto.
+    """
+    data = get_json(f"{STATS_BASE}/situationCodes")
+    if not data:
+        print("DEBUG situationCodes: la consulta no devolvió nada (endpoint puede no existir en /v1 directo).")
+        return
+    codes = data.get("situationCodes", data) if isinstance(data, dict) else data
+    print(f"DEBUG situationCodes (primeros 30): {json.dumps(codes, ensure_ascii=False)[:2000]}")
+
+
 def fetch_weather_for_venue(venue_name, game_date_iso):
     """Clima por hora del juego, vía Open-Meteo (gratis, sin API key).
     Devuelve None si el venue no está en el diccionario o falla la consulta —
@@ -1048,6 +1062,7 @@ def main():
     yesterday = today - timedelta(days=1)
     days = [today]
     day_strs = [d.isoformat() for d in days]
+    debug_print_situation_codes()  # DIAGNÓSTICO TEMPORAL — quitar tras confirmar sitCodes
     print(f"Construyendo data.json para {day_strs} (modo: {mode})...")
 
     # Se carga el data.json existente SIEMPRE (no solo en modo refresh) para
