@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T02:17:25Z",
+  "generatedAt": "2026-06-27T02:25:16Z",
   "lastMode": "full",
   "date": "2026-06-27",
   "availableDates": [
@@ -263,9 +263,9 @@
       "awayWinPct": 0.375,
       "last10": 4,
       "elo": 1511,
-      "runsPerGame": 4.81,
-      "staffEra": 4.33,
-      "bullpenRecentIp": 9.7,
+      "runsPerGame": 4.83,
+      "staffEra": 4.35,
+      "bullpenRecentIp": 10.3,
       "topPowerHitter": {
         "name": "Randal Grichuk",
         "hrRate": 0.0763,
@@ -286,10 +286,10 @@
       "homeWinPct": 0.463,
       "awayWinPct": 0.366,
       "last10": 5,
-      "elo": 1426,
-      "runsPerGame": 3.91,
-      "staffEra": 4.95,
-      "bullpenRecentIp": 11.3,
+      "elo": 1438,
+      "runsPerGame": 4.07,
+      "staffEra": 4.98,
+      "bullpenRecentIp": 11.7,
       "topPowerHitter": {
         "name": "Jac Caglianone",
         "hrRate": 0.0479,
@@ -301,8 +301,7 @@
         "pa": 340
       },
       "missingStarters": [
-        "Maikel Garcia",
-        "Vinnie Pasquantino"
+        "Maikel Garcia"
       ]
     },
     {
@@ -463,7 +462,7 @@
       "elo": 1478,
       "runsPerGame": 4.84,
       "staffEra": 4.81,
-      "bullpenRecentIp": 3.7,
+      "bullpenRecentIp": 4.0,
       "topPowerHitter": {
         "name": "Byron Buxton",
         "hrRate": 0.0784,
@@ -486,8 +485,8 @@
       "last10": 6,
       "elo": 1437,
       "runsPerGame": 4.54,
-      "staffEra": 5.52,
-      "bullpenRecentIp": 5.0,
+      "staffEra": 5.51,
+      "bullpenRecentIp": 5.3,
       "topPowerHitter": {
         "name": "Mickey Moniak",
         "hrRate": 0.069,
@@ -509,9 +508,9 @@
       "awayWinPct": 0.632,
       "last10": 7,
       "elo": 1577,
-      "runsPerGame": 5.22,
+      "runsPerGame": 5.23,
       "staffEra": 3.36,
-      "bullpenRecentIp": 6.3,
+      "bullpenRecentIp": 6.7,
       "topPowerHitter": {
         "name": "Jake Bauers",
         "hrRate": 0.05,
@@ -534,8 +533,8 @@
       "last10": 7,
       "elo": 1526,
       "runsPerGame": 4.89,
-      "staffEra": 4.53,
-      "bullpenRecentIp": 15.0,
+      "staffEra": 4.55,
+      "bullpenRecentIp": 15.3,
       "topPowerHitter": {
         "name": "Pete Crow-Armstrong",
         "hrRate": 0.048,
@@ -607,13 +606,13 @@
       "awayWinPct": 0.526,
       "last10": 6,
       "elo": 1519,
-      "runsPerGame": 3.86,
+      "runsPerGame": 3.9,
       "staffEra": 3.85,
       "bullpenRecentIp": 3.3,
       "topPowerHitter": {
         "name": "Ty France",
-        "hrRate": 0.0511,
-        "pa": 176
+        "hrRate": 0.0565,
+        "pa": 177
       },
       "topContactHitter": {
         "name": "Samad Taylor",
@@ -632,7 +631,7 @@
       "last10": 7,
       "elo": 1585,
       "runsPerGame": 5.17,
-      "staffEra": 3.4,
+      "staffEra": 3.43,
       "bullpenRecentIp": 3.0,
       "topPowerHitter": {
         "name": "Max Muncy",
@@ -656,7 +655,7 @@
       "last10": 5,
       "elo": 1448,
       "runsPerGame": 4.05,
-      "staffEra": 4.42,
+      "staffEra": 4.41,
       "bullpenRecentIp": 6.3,
       "topPowerHitter": {
         "name": "Eric Haase",
@@ -684,8 +683,8 @@
       "bullpenRecentIp": 4.0,
       "topPowerHitter": {
         "name": "Matt Olson",
-        "hrRate": 0.058,
-        "pa": 345
+        "hrRate": 0.0578,
+        "pa": 346
       },
       "topContactHitter": {
         "name": "Michael Harris II",
@@ -739,8 +738,8 @@
       },
       "topContactHitter": {
         "name": "Henry Bolte",
-        "avg": 0.317,
-        "pa": 144
+        "avg": 0.315,
+        "pa": 145
       },
       "missingStarters": []
     }
@@ -755,7 +754,7 @@
         "tempF": 78,
         "precipProb": 1,
         "windMph": 7.8,
-        "windDirDeg": 72
+        "windDirDeg": 77
       },
       "homeTeamId": 116,
       "awayTeamId": 117,
@@ -797,8 +796,8 @@
       "weather": {
         "tempF": 67,
         "precipProb": 5,
-        "windMph": 6.3,
-        "windDirDeg": 73
+        "windMph": 5.9,
+        "windDirDeg": 79
       },
       "homeTeamId": 111,
       "awayTeamId": 147,
@@ -840,8 +839,8 @@
       "weather": {
         "tempF": 74,
         "precipProb": 0,
-        "windMph": 7.4,
-        "windDirDeg": 69
+        "windMph": 7.1,
+        "windDirDeg": 70
       },
       "homeTeamId": 141,
       "awayTeamId": 140,
@@ -878,8 +877,8 @@
       "weather": {
         "tempF": 74,
         "precipProb": 31,
-        "windMph": 1.6,
-        "windDirDeg": 8
+        "windMph": 2.2,
+        "windDirDeg": 45
       },
       "homeTeamId": 134,
       "awayTeamId": 113,
@@ -921,8 +920,8 @@
       "weather": {
         "tempF": 68,
         "precipProb": 7,
-        "windMph": 3.2,
-        "windDirDeg": 205
+        "windMph": 3.0,
+        "windDirDeg": 63
       },
       "homeTeamId": 121,
       "awayTeamId": 143,
@@ -975,56 +974,7 @@
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [
-        {
-          "player": "Michael Massey",
-          "type": "1+ Hit",
-          "decimalOdds": 5.0,
-          "line": 0.5,
-          "modelProb": 0.6673,
-          "edge": 46.7
-        },
-        {
-          "player": "Salvador Perez",
-          "type": "1+ Hit",
-          "decimalOdds": 6.0,
-          "line": 0.5,
-          "modelProb": 0.5665,
-          "edge": 40.0
-        },
-        {
-          "player": "Isaac Collins",
-          "type": "1+ Hit",
-          "decimalOdds": 4.5,
-          "line": 0.5,
-          "modelProb": 0.608,
-          "edge": 38.6
-        },
-        {
-          "player": "Nick Loftin",
-          "type": "1+ Hit",
-          "decimalOdds": 3.5,
-          "line": 0.5,
-          "modelProb": 0.6411,
-          "edge": 35.5
-        },
-        {
-          "player": "Nick Loftin",
-          "type": "HR",
-          "decimalOdds": 27.0,
-          "line": 0.5,
-          "modelProb": 0.0668,
-          "edge": 3.0
-        },
-        {
-          "player": "Josh Rojas",
-          "type": "1+ Hit",
-          "decimalOdds": 9.0,
-          "line": 1.5,
-          "modelProb": null,
-          "edge": null
-        }
-      ],
+      "autoProps": [],
       "homeStarter": {
         "name": "Davis Martin",
         "era": 3.18,
@@ -1046,8 +996,8 @@
       "weather": {
         "tempF": 88,
         "precipProb": 10,
-        "windMph": 7.3,
-        "windDirDeg": 79
+        "windMph": 7.7,
+        "windDirDeg": 280
       },
       "homeTeamId": 139,
       "awayTeamId": 109,
@@ -1089,8 +1039,8 @@
       "weather": {
         "tempF": 76,
         "precipProb": 16,
-        "windMph": 4.5,
-        "windDirDeg": 110
+        "windMph": 2.1,
+        "windDirDeg": 58
       },
       "homeTeamId": 110,
       "awayTeamId": 120,
@@ -1132,8 +1082,8 @@
       "weather": {
         "tempF": 77,
         "precipProb": 4,
-        "windMph": 6.4,
-        "windDirDeg": 25
+        "windMph": 9.3,
+        "windDirDeg": 30
       },
       "homeTeamId": 114,
       "awayTeamId": 136,
@@ -1175,7 +1125,7 @@
       "weather": {
         "tempF": 80,
         "precipProb": 3,
-        "windMph": 11.6,
+        "windMph": 11.1,
         "windDirDeg": 142
       },
       "homeTeamId": 142,
@@ -1200,10 +1150,10 @@
         {
           "player": "Cole Carrigg",
           "type": "HR",
-          "decimalOdds": 41.0,
+          "decimalOdds": 27.0,
           "line": 0.5,
           "modelProb": 0.1867,
-          "edge": 16.2
+          "edge": 15.0
         },
         {
           "player": "Royce Lewis",
@@ -1216,18 +1166,18 @@
         {
           "player": "Victor Caratini",
           "type": "HR",
-          "decimalOdds": 21.0,
+          "decimalOdds": 27.0,
           "line": 0.5,
           "modelProb": 0.118,
-          "edge": 7.0
+          "edge": 8.1
         },
         {
           "player": "Josh Bell",
           "type": "HR",
-          "decimalOdds": 16.0,
+          "decimalOdds": 21.0,
           "line": 0.5,
-          "modelProb": 0.1255,
-          "edge": 6.3
+          "modelProb": 0.1251,
+          "edge": 7.7
         },
         {
           "player": "Ezequiel Tovar",
@@ -1238,12 +1188,12 @@
           "edge": 4.7
         },
         {
-          "player": "Troy Johnston",
+          "player": "Edouard Julien",
           "type": "HR",
           "decimalOdds": 41.0,
           "line": 0.5,
-          "modelProb": 0.0447,
-          "edge": 2.0
+          "modelProb": 0.0383,
+          "edge": 1.4
         }
       ],
       "homeStarter": {
@@ -1267,8 +1217,8 @@
       "weather": {
         "tempF": 68,
         "precipProb": 1,
-        "windMph": 7.5,
-        "windDirDeg": 37
+        "windMph": 7.8,
+        "windDirDeg": 33
       },
       "homeTeamId": 158,
       "awayTeamId": 112,
@@ -1292,50 +1242,18 @@
         {
           "player": "Jackson Chourio",
           "type": "HR",
-          "decimalOdds": 21.0,
+          "decimalOdds": 14.0,
           "line": 0.5,
           "modelProb": 0.2014,
-          "edge": 15.4
+          "edge": 13.0
         },
         {
-          "player": "Pete Crow-Armstrong",
-          "type": "HR",
-          "decimalOdds": 27.0,
-          "line": 0.5,
-          "modelProb": 0.1626,
-          "edge": 12.6
-        },
-        {
-          "player": "Dansby Swanson",
+          "player": "Nico Hoerner",
           "type": "HR",
           "decimalOdds": 41.0,
           "line": 0.5,
-          "modelProb": 0.1259,
-          "edge": 10.1
-        },
-        {
-          "player": "Ian Happ",
-          "type": "HR",
-          "decimalOdds": 16.0,
-          "line": 0.5,
-          "modelProb": 0.1598,
-          "edge": 9.7
-        },
-        {
-          "player": "Christian Yelich",
-          "type": "HR",
-          "decimalOdds": 21.0,
-          "line": 0.5,
-          "modelProb": 0.1059,
-          "edge": 5.8
-        },
-        {
-          "player": "Carson Kelly",
-          "type": "HR",
-          "decimalOdds": 27.0,
-          "line": 0.5,
-          "modelProb": 0.0675,
-          "edge": 3.0
+          "modelProb": 0.0398,
+          "edge": 1.5
         }
       ],
       "homeStarter": {
@@ -1359,8 +1277,8 @@
       "weather": {
         "tempF": 81,
         "precipProb": 6,
-        "windMph": 6.5,
-        "windDirDeg": 196
+        "windMph": 3.0,
+        "windDirDeg": 216
       },
       "homeTeamId": 138,
       "awayTeamId": 146,
@@ -1472,12 +1390,20 @@
           "edge": 26.9
         },
         {
+          "player": "Alex Freeland",
+          "type": "1+ Hit",
+          "decimalOdds": 2.6,
+          "line": 0.5,
+          "modelProb": 0.6366,
+          "edge": 25.2
+        },
+        {
           "player": "Dalton Rushing",
           "type": "1+ Hit",
-          "decimalOdds": 2.45,
+          "decimalOdds": 2.4,
           "line": 0.5,
           "modelProb": 0.6396,
-          "edge": 23.1
+          "edge": 22.3
         },
         {
           "player": "Max Muncy",
@@ -1496,20 +1422,12 @@
           "edge": 12.6
         },
         {
-          "player": "Freddie Freeman",
+          "player": "Gavin Sheets",
           "type": "1+ Hit",
-          "decimalOdds": 1.74,
+          "decimalOdds": 2.15,
           "line": 0.5,
-          "modelProb": 0.6928,
-          "edge": 11.8
-        },
-        {
-          "player": "Alex Freeland",
-          "type": "1+ Hit",
-          "decimalOdds": 1.91,
-          "line": 0.5,
-          "modelProb": 0.6366,
-          "edge": 11.3
+          "modelProb": 0.5792,
+          "edge": 11.4
         }
       ],
       "homeStarter": {
@@ -1556,12 +1474,28 @@
       "liveState": null,
       "autoProps": [
         {
+          "player": "Ozzie Albies",
+          "type": "1+ Hit",
+          "decimalOdds": 1.62,
+          "line": 0.5,
+          "modelProb": 0.6915,
+          "edge": 7.4
+        },
+        {
           "player": "Drew Gilbert",
           "type": "1+ Hit",
           "decimalOdds": 1.81,
           "line": 0.5,
           "modelProb": 0.6242,
           "edge": 7.2
+        },
+        {
+          "player": "Matt Olson",
+          "type": "1+ Hit",
+          "decimalOdds": 1.65,
+          "line": 0.5,
+          "modelProb": 0.6769,
+          "edge": 7.1
         },
         {
           "player": "Bryce Eldridge",
@@ -1586,22 +1520,6 @@
           "line": 0.5,
           "modelProb": 0.6381,
           "edge": 5.7
-        },
-        {
-          "player": "Dominic Smith",
-          "type": "1+ Hit",
-          "decimalOdds": 1.55,
-          "line": 0.5,
-          "modelProb": 0.6902,
-          "edge": 4.5
-        },
-        {
-          "player": "Eric Haase",
-          "type": "1+ Hit",
-          "decimalOdds": 1.91,
-          "line": 0.5,
-          "modelProb": 0.5683,
-          "edge": 4.5
         }
       ],
       "homeStarter": {
@@ -1648,12 +1566,44 @@
       "liveState": null,
       "autoProps": [
         {
+          "player": "Henry Bolte",
+          "type": "1+ Hit",
+          "decimalOdds": 2.35,
+          "line": 0.5,
+          "modelProb": 0.7039,
+          "edge": 27.8
+        },
+        {
+          "player": "Nick Kurtz",
+          "type": "1+ Hit",
+          "decimalOdds": 2.38,
+          "line": 0.5,
+          "modelProb": 0.6558,
+          "edge": 23.6
+        },
+        {
           "player": "Donovan Walton",
           "type": "1+ Hit",
-          "decimalOdds": 1.87,
+          "decimalOdds": 1.91,
           "line": 0.5,
           "modelProb": 0.7446,
-          "edge": 21.0
+          "edge": 22.1
+        },
+        {
+          "player": "Jo Adell",
+          "type": "1+ Hit",
+          "decimalOdds": 2.3,
+          "line": 0.5,
+          "modelProb": 0.6441,
+          "edge": 20.9
+        },
+        {
+          "player": "Nolan Schanuel",
+          "type": "1+ Hit",
+          "decimalOdds": 2.15,
+          "line": 0.5,
+          "modelProb": 0.6659,
+          "edge": 20.1
         },
         {
           "player": "Wade Meckler",
@@ -1662,38 +1612,6 @@
           "line": 0.5,
           "modelProb": 0.6992,
           "edge": 18.6
-        },
-        {
-          "player": "Jeff McNeil",
-          "type": "1+ Hit",
-          "decimalOdds": 2.3,
-          "line": 0.5,
-          "modelProb": 0.5982,
-          "edge": 16.3
-        },
-        {
-          "player": "Henry Bolte",
-          "type": "1+ Hit",
-          "decimalOdds": 1.83,
-          "line": 0.5,
-          "modelProb": 0.7062,
-          "edge": 16.0
-        },
-        {
-          "player": "Logan O'Hoppe",
-          "type": "1+ Hit",
-          "decimalOdds": 2.05,
-          "line": 0.5,
-          "modelProb": 0.632,
-          "edge": 14.4
-        },
-        {
-          "player": "Jorge Soler",
-          "type": "1+ Hit",
-          "decimalOdds": 2.05,
-          "line": 0.5,
-          "modelProb": 0.6014,
-          "edge": 11.4
         }
       ],
       "homeStarter": {
