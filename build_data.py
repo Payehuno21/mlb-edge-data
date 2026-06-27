@@ -1073,7 +1073,12 @@ def main():
     # Siempre se refrescan, en ambos modos — son justo lo que más cambia.
     odds_api_key = os.environ.get("ODDS_API_KEY", "")
     live_odds_events = fetch_live_odds(odds_api_key, today.isoformat(), mode)
-    live_game_states = fetch_live_game_states(today.isoformat())
+    # Se busca en AYER y HOY (no solo hoy) porque el servidor de GitHub
+    # Actions corre en UTC, y para horas de la tarde/noche en Puerto
+    # Vallarta (UTC-6) la fecha UTC ya cambió al día siguiente — sin esto,
+    # los juegos de la noche aparecían como "ayer" para el servidor y
+    # nunca se detectaban como en curso/finalizados.
+    live_game_states = {**fetch_live_game_states(yesterday.isoformat()), **fetch_live_game_states(today.isoformat())}
     print(f"  Momios automáticos: {len(live_odds_events)} evento(s) de The Odds API")
 
     for day_str in day_strs:
