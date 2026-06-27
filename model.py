@@ -236,3 +236,20 @@ def find_best_bets(games_out, teams_by_id):
 
     candidates.sort(key=lambda c: c["edge"], reverse=True)
     return candidates
+
+
+def top_diverse_picks(candidates, n=3):
+    """Devuelve hasta n candidatos, sin repetir el mismo juego (matchup) más
+    de una vez — para que el Top N muestre partidos distintos en vez de
+    varios mercados del mismo cruce. Misma lógica que usa la app.
+    """
+    seen_matchups = set()
+    diverse = []
+    for c in candidates:
+        if c["matchup"] in seen_matchups:
+            continue
+        seen_matchups.add(c["matchup"])
+        diverse.append(c)
+        if len(diverse) >= n:
+            break
+    return diverse
