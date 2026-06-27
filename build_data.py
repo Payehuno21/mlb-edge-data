@@ -36,7 +36,7 @@ from datetime import date, timedelta
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
-from model import find_best_bets
+from model import find_best_bets, top_diverse_picks
 
 STATS_BASE = "https://statsapi.mlb.com/api/v1"
 WEATHER_BASE = "https://api.open-meteo.com/v1/forecast"
@@ -106,7 +106,25 @@ def debug_print_situation_codes():
         print("DEBUG situationCodes: la consulta no devolvió nada (endpoint puede no existir en /v1 directo).")
         return
     codes = data.get("situationCodes", data) if isinstance(data, dict) else data
-    print(f"DEBUG situationCodes (primeros 30): {json.dumps(codes, ensure_ascii=False)[:2000]}")
+    print(f"DEBUG situationCodes: {len(codes)} código(s) totales encontrados.")
+    keywords = ["hand", "left", "right", "vs.", "vs ", "lhp", "rhp", "vl", "vr"]
+    relevant = [
+        c for c in codes
+        if any(kw in (c.get("description", "") + c.get("code", "")).lower() for kw in keywords)
+    ]
+    print(f"DEBUG situationCodes relacionados con zurdo/derecho: {json.dumps(relevant, ensure_ascii=False)}")
+
+
+def debug_print_schedule_hydrations():
+    """DIAGNÓSTICO TEMPORAL — lista las hidrataciones disponibles para el
+    endpoint /schedule, para confirmar con certeza el nombre correcto de la
+    hidratación de lineups confirmados (en vez de adivinar 'lineups').
+    """
+    data = get_json(f"{STATS_BASE}/schedule?sportId=1&hydrate=hydrations")
+    if not data:
+        print("DEBUG hydrations: la consulta no devolvió nada.")
+        return
+    print(f"DEBUG hydrations disponibles para /schedule: {json.dumps(data, ensure_ascii=False)[:3000]}")
 
 
 def fetch_weather_for_venue(venue_name, game_date_iso):
@@ -1037,6 +1055,24 @@ def build_alert_email_html(best_bets, run_label, today_str):
         </div>
         """.format(label=top["label"], matchup=top["matchup"], edge=top["edge"])
 
+        top3 = top_diverse_picks(best_bets, n=3)
+        top3_rows = "".join(f"""
+          <tr style="border-bottom:1px solid #1F2329;">
+            <td style="padding:8px 0;color:#6B7280;font-size:12px;width:24px;">#{i+1}</td>
+            <td style="padding:8px 0;color:#FFFFFF;font-size:13px;font-weight:600;">{b['label']}</td>
+            <td style="padding:8px 0;color:#9CA3AF;font-size:12px;">{b['matchup']}</td>
+            <td style="padding:8px 0;color:{'#00FFB2' if b['tier']=='BET' else '#FFB200' if b['tier']=='LEAN' else '#9CA3AF'};font-size:13px;font-weight:700;text-align:right;">+{b['edge']:.1f}%</td>
+          </tr>
+        """ for i, b in enumerate(top3))
+        top3_html = f"""
+        <table style="width:100%;border-collapse:collapse;margin-bottom:20px;">
+          <thead>
+            <tr><td colspan="4" style="color:#6B7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;padding-bottom:8px;">Top {len(top3)} del día (un pick por juego)</td></tr>
+          </thead>
+          <tbody>{top3_rows}</tbody>
+        </table>
+        """ if len(top3) > 1 else ""
+
         rows_html = "".join(f"""
           <tr style="border-bottom:1px solid #1F2329;">
             <td style="padding:10px 0;color:#FFFFFF;font-size:13px;font-weight:600;">{b['label']}</td>
@@ -1054,7 +1090,7 @@ def build_alert_email_html(best_bets, run_label, today_str):
         </table>
         """ if rows_html else ""
 
-        body = top_html + rest_html
+        body = top_html + top3_html + rest_html
 
     return f"""
     <div style="background:#06070A;padding:24px;font-family:-apple-system,sans-serif;">
@@ -1106,6 +1142,7 @@ def main():
     days = [today]
     day_strs = [d.isoformat() for d in days]
     debug_print_situation_codes()  # DIAGNÓSTICO TEMPORAL — quitar tras confirmar sitCodes
+    debug_print_schedule_hydrations()  # DIAGNÓSTICO TEMPORAL — quitar tras confirmar hidratación de lineups
     print(f"Construyendo data.json para {day_strs} (modo: {mode})...")
 
     # Se carga el data.json existente SIEMPRE (no solo en modo refresh) para
