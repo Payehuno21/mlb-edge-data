@@ -21,12 +21,10 @@ def pitcher_score(starter):
     if not starter or starter.get("era") is None:
         return 0
     league_era, league_whip, league_k9 = 4.20, 1.30, 8.5
-    era = max(starter["era"], 2.0)  # floor: ERAs de muestra pequeña (<2.0) son poco confiables
-    era_adj = (league_era - era) * 55
+    era_adj = (league_era - starter["era"]) * 55
     whip_adj = (league_whip - (starter.get("whip") or league_whip)) * 70
     k9_adj = ((starter.get("k9") or league_k9) - league_k9) * 5
-    raw = era_adj + whip_adj + k9_adj
-    return max(-120, min(120, raw))  # cap: el abridor influye pero no domina al equipo
+    return era_adj + whip_adj + k9_adj
 
 
 def weather_run_factor(weather):
@@ -52,6 +50,23 @@ def weather_run_factor(weather):
     return factor
 
 
+# CALIBRACIÓN — el modelo, al combinar varios factores (abridor + ausencias
+# + bullpen + splits + forma) en la misma dirección, puede acumular más
+# confianza de la que la realidad respalda. Datos reales de la bitácora
+# (210 apuestas liquidadas, días 1-3) mostraron: cuando el modelo dice
+# 70-80%, la realidad fue 53.7% (-21pp); cuando dice 80%+, fue 50.0% (-40pp).
+# SHRINKAGE_FACTOR comprime la probabilidad hacia 50% proporcionalmente a su
+# distancia del centro — corrige justo ese patrón de sobreconfianza en los
+# extremos sin tener que tocar cada peso individual del modelo. Revisar este
+# valor conforme crezca la muestra: si la calibración mejora, se puede subir
+# (acercar a 1.0); si sigue sobreconfiado, bajarlo más.
+SHRINKAGE_FACTOR = 0.75
+
+
+def shrink_prob(p, factor=SHRINKAGE_FACTOR):
+    return 0.5 + (p - 0.5) * factor
+
+
 def build_model(home, away, home_starter, away_starter, weather, park_factor=1.0):
     """home/away: dicts con elo, homeWinPct/awayWinPct (o winPct), last10,
     runsPerGame, staffEra. home_starter/away_starter: dicts con era/whip/k9.
@@ -73,7 +88,7 @@ def build_model(home, away, home_starter, away_starter, weather, park_factor=1.0
     bullpen_adj = ((away.get("staffEra") or 4.0) - (home.get("staffEra") or 4.0)) * 18
     diff += bullpen_adj
 
-    home_win_prob = elo_win_prob(diff)
+    home_win_prob = shrink_prob(elo_win_prob(diff))
 
     league_avg_total = 8.6
     offense_factor = ((home.get("runsPerGame") or 4.3) + (away.get("runsPerGame") or 4.3)) / 8.6
@@ -90,7 +105,7 @@ def build_model(home, away, home_starter, away_starter, weather, park_factor=1.0
     dog_plus_1_5 = 1 - fav_minus_1_5
 
     f5_diff = diff * 0.62
-    f5_home_win_prob = elo_win_prob(f5_diff)
+    f5_home_win_prob = shrink_prob(elo_win_prob(f5_diff))
     f5_expected_margin = (f5_diff / 400) * 1.4
     f5_home_is_favorite = f5_home_win_prob >= 0.5
     f5_fav_minus_0_5 = 1 / (1 + math.exp(-(abs(f5_expected_margin) - 0.5) / 1.4))
@@ -136,7 +151,7 @@ def edge_pct(model_prob, dec_odds):
 def edge_tier(edge):
     if edge is None:
         return None
-    if edge >= 8:
+    if edge >= 6:
         return "BET"
     if edge >= 2.5:
         return "LEAN"
