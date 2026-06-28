@@ -21,10 +21,12 @@ def pitcher_score(starter):
     if not starter or starter.get("era") is None:
         return 0
     league_era, league_whip, league_k9 = 4.20, 1.30, 8.5
-    era_adj = (league_era - starter["era"]) * 55
+    era = max(starter["era"], 2.0)  # floor: ERAs de muestra pequeña (<2.0) son poco confiables
+    era_adj = (league_era - era) * 55
     whip_adj = (league_whip - (starter.get("whip") or league_whip)) * 70
     k9_adj = ((starter.get("k9") or league_k9) - league_k9) * 5
-    return era_adj + whip_adj + k9_adj
+    raw = era_adj + whip_adj + k9_adj
+    return max(-120, min(120, raw))  # cap: el abridor influye pero no domina al equipo
 
 
 def weather_run_factor(weather):
@@ -134,7 +136,7 @@ def edge_pct(model_prob, dec_odds):
 def edge_tier(edge):
     if edge is None:
         return None
-    if edge >= 6:
+    if edge >= 8:
         return "BET"
     if edge >= 2.5:
         return "LEAN"
