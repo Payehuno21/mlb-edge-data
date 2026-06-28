@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T14:36:53Z",
+  "generatedAt": "2026-06-28T14:51:56Z",
   "lastMode": "full",
   "date": "2026-06-28",
   "availableDates": [
@@ -750,10 +750,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Oriole Park at Camden Yards",
       "weather": {
-        "tempF": 77,
+        "tempF": 76,
         "precipProb": 7,
-        "windMph": 1.6,
-        "windDirDeg": 98
+        "windMph": 1.0,
+        "windDirDeg": 153
       },
       "homeTeamId": 110,
       "awayTeamId": 120,
@@ -777,18 +777,18 @@
         {
           "player": "Jorbit Vivas",
           "type": "1+ Hit",
-          "decimalOdds": 1.72,
+          "decimalOdds": 1.79,
           "line": 0.5,
           "modelProb": 0.6994,
-          "edge": 11.8
+          "edge": 14.1
         },
         {
           "player": "Keibert Ruiz",
           "type": "1+ Hit",
-          "decimalOdds": 1.65,
+          "decimalOdds": 1.67,
           "line": 0.5,
           "modelProb": 0.714,
-          "edge": 10.8
+          "edge": 11.5
         },
         {
           "player": "Blaze Alexander",
@@ -807,20 +807,20 @@
           "edge": 5.1
         },
         {
-          "player": "James Wood",
+          "player": "Jacob Young",
           "type": "1+ Hit",
-          "decimalOdds": 1.53,
+          "decimalOdds": 1.67,
           "line": 0.5,
-          "modelProb": 0.6883,
-          "edge": 3.5
+          "modelProb": 0.6445,
+          "edge": 4.6
         },
         {
           "player": "Jacob Young",
-          "type": "1+ Hit",
-          "decimalOdds": 1.64,
+          "type": "HR",
+          "decimalOdds": 12.0,
           "line": 0.5,
-          "modelProb": 0.6445,
-          "edge": 3.5
+          "modelProb": 0.1199,
+          "edge": 3.7
         }
       ],
       "homeStarter": {
@@ -842,10 +842,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "PNC Park",
       "weather": {
-        "tempF": 77,
+        "tempF": 76,
         "precipProb": 12,
-        "windMph": 5.2,
-        "windDirDeg": 115
+        "windMph": 4.7,
+        "windDirDeg": 90
       },
       "homeTeamId": 134,
       "awayTeamId": 113,
@@ -883,20 +883,20 @@
           "edge": 5.8
         },
         {
+          "player": "Noelvi Marte",
+          "type": "HR",
+          "decimalOdds": 8.0,
+          "line": 0.5,
+          "modelProb": 0.1831,
+          "edge": 5.8
+        },
+        {
           "player": "Jared Triolo",
           "type": "1+ Hit",
           "decimalOdds": 1.65,
           "line": 0.5,
           "modelProb": 0.6603,
           "edge": 5.4
-        },
-        {
-          "player": "Marcell Ozuna",
-          "type": "1+ Hit",
-          "decimalOdds": 1.81,
-          "line": 0.5,
-          "modelProb": 0.6036,
-          "edge": 5.1
         },
         {
           "player": "Jake Mangum",
@@ -936,8 +936,8 @@
       "weather": {
         "tempF": 77,
         "precipProb": 0,
-        "windMph": 7.0,
-        "windDirDeg": 73
+        "windMph": 7.2,
+        "windDirDeg": 76
       },
       "homeTeamId": 141,
       "awayTeamId": 140,
@@ -983,20 +983,20 @@
           "edge": 9.4
         },
         {
-          "player": "Josh Jung",
-          "type": "1+ Hit",
-          "decimalOdds": 3.1,
-          "line": 1.5,
-          "modelProb": 0.3802,
-          "edge": 5.8
-        },
-        {
           "player": "Ezequiel Duran",
           "type": "1+ Hit",
           "decimalOdds": 1.53,
           "line": 0.5,
           "modelProb": 0.7021,
           "edge": 4.9
+        },
+        {
+          "player": "Nathan Lukes",
+          "type": "1+ Hit",
+          "decimalOdds": 1.48,
+          "line": 0.5,
+          "modelProb": 0.7222,
+          "edge": 4.7
         },
         {
           "player": "Jake Burger",
@@ -1026,10 +1026,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Comerica Park",
       "weather": {
-        "tempF": 84,
+        "tempF": 83,
         "precipProb": 0,
-        "windMph": 7.4,
-        "windDirDeg": 76
+        "windMph": 7.7,
+        "windDirDeg": 75
       },
       "homeTeamId": 116,
       "awayTeamId": 117,
@@ -1118,10 +1118,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Progressive Field",
       "weather": {
-        "tempF": 79,
+        "tempF": 80,
         "precipProb": 1,
-        "windMph": 9.9,
-        "windDirDeg": 18
+        "windMph": 8.1,
+        "windDirDeg": 21
       },
       "homeTeamId": 114,
       "awayTeamId": 136,
@@ -1210,10 +1210,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Tropicana Field",
       "weather": {
-        "tempF": 83,
-        "precipProb": 9,
-        "windMph": 6.0,
-        "windDirDeg": 297
+        "tempF": 86,
+        "precipProb": 18,
+        "windMph": 4.6,
+        "windDirDeg": 281
       },
       "homeTeamId": 139,
       "awayTeamId": 109,
@@ -1269,10 +1269,10 @@
         {
           "player": "Jonathan Aranda",
           "type": "1+ Hit",
-          "decimalOdds": 2.98,
+          "decimalOdds": 2.99,
           "line": 1.5,
           "modelProb": 0.377,
-          "edge": 4.1
+          "edge": 4.3
         },
         {
           "player": "Nolan Arenado",
@@ -1302,10 +1302,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Citi Field",
       "weather": {
-        "tempF": 78,
+        "tempF": 77,
         "precipProb": 2,
-        "windMph": 7.0,
-        "windDirDeg": 153
+        "windMph": 7.7,
+        "windDirDeg": 158
       },
       "homeTeamId": 121,
       "awayTeamId": 143,
@@ -1327,28 +1327,28 @@
       "liveState": null,
       "autoProps": [
         {
-          "player": "A.J. Ewing",
-          "type": "1+ Hit",
-          "decimalOdds": 1.88,
-          "line": 0.5,
-          "modelProb": 0.6796,
-          "edge": 14.8
-        },
-        {
           "player": "Juan Soto",
           "type": "1+ Hit",
-          "decimalOdds": 1.66,
+          "decimalOdds": 1.63,
           "line": 0.5,
           "modelProb": 0.7152,
-          "edge": 11.3
+          "edge": 10.2
         },
         {
           "player": "Francisco Alvarez",
           "type": "1+ Hit",
-          "decimalOdds": 1.77,
+          "decimalOdds": 1.74,
           "line": 0.5,
           "modelProb": 0.6501,
-          "edge": 8.5
+          "edge": 7.5
+        },
+        {
+          "player": "A.J. Ewing",
+          "type": "1+ Hit",
+          "decimalOdds": 1.65,
+          "line": 0.5,
+          "modelProb": 0.6796,
+          "edge": 7.4
         },
         {
           "player": "Carson Benge",
@@ -1361,18 +1361,18 @@
         {
           "player": "Justin Crawford",
           "type": "1+ Hit",
-          "decimalOdds": 1.68,
+          "decimalOdds": 1.7,
           "line": 0.5,
           "modelProb": 0.6381,
-          "edge": 4.3
+          "edge": 5.0
         },
         {
           "player": "Brandon Marsh",
           "type": "1+ Hit",
-          "decimalOdds": 2.9,
+          "decimalOdds": 2.88,
           "line": 1.5,
           "modelProb": 0.3857,
-          "edge": 4.1
+          "edge": 3.9
         }
       ],
       "homeStarter": {
@@ -1394,10 +1394,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Target Field",
       "weather": {
-        "tempF": 74,
+        "tempF": 79,
         "precipProb": 20,
-        "windMph": 7.3,
-        "windDirDeg": 117
+        "windMph": 12.8,
+        "windDirDeg": 133
       },
       "homeTeamId": 142,
       "awayTeamId": 115,
@@ -1451,20 +1451,20 @@
           "edge": 6.6
         },
         {
-          "player": "Tristan Gray",
+          "player": "Ezequiel Tovar",
           "type": "1+ Hit",
-          "decimalOdds": 1.67,
+          "decimalOdds": 1.73,
           "line": 0.5,
-          "modelProb": 0.6471,
-          "edge": 4.8
+          "modelProb": 0.616,
+          "edge": 3.8
         },
         {
-          "player": "Trevor Larnach",
+          "player": "Cole Carrigg",
           "type": "1+ Hit",
-          "decimalOdds": 1.51,
+          "decimalOdds": 1.57,
           "line": 0.5,
-          "modelProb": 0.7017,
-          "edge": 3.9
+          "modelProb": 0.6709,
+          "edge": 3.4
         }
       ],
       "homeStarter": {
@@ -1508,26 +1508,18 @@
         {
           "player": "Michael Massey",
           "type": "1+ Hit",
-          "decimalOdds": 1.9,
+          "decimalOdds": 2.0,
           "line": 0.5,
           "modelProb": 0.6755,
-          "edge": 14.9
+          "edge": 17.6
         },
         {
           "player": "Tristan Peters",
           "type": "1+ Hit",
-          "decimalOdds": 1.64,
+          "decimalOdds": 1.66,
           "line": 0.5,
           "modelProb": 0.7242,
-          "edge": 11.4
-        },
-        {
-          "player": "Carter Jensen",
-          "type": "1+ Hit",
-          "decimalOdds": 1.81,
-          "line": 0.5,
-          "modelProb": 0.6411,
-          "edge": 8.9
+          "edge": 12.2
         },
         {
           "player": "Jacob Gonzalez",
@@ -1544,6 +1536,14 @@
           "line": 0.5,
           "modelProb": 0.7179,
           "edge": 6.9
+        },
+        {
+          "player": "Carter Jensen",
+          "type": "1+ Hit",
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.6411,
+          "edge": 5.6
         },
         {
           "player": "Sam Antonacci",
@@ -1573,10 +1573,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "American Family Field",
       "weather": {
-        "tempF": 74,
+        "tempF": 73,
         "precipProb": 3,
-        "windMph": 7.0,
-        "windDirDeg": 99
+        "windMph": 8.6,
+        "windDirDeg": 107
       },
       "homeTeamId": 158,
       "awayTeamId": 112,
@@ -1600,18 +1600,18 @@
         {
           "player": "David Hamilton",
           "type": "1+ Hit",
-          "decimalOdds": 1.97,
+          "decimalOdds": 2.0,
           "line": 0.5,
           "modelProb": 0.6257,
-          "edge": 11.8
+          "edge": 12.6
         },
         {
           "player": "Carson Kelly",
           "type": "1+ Hit",
-          "decimalOdds": 1.77,
+          "decimalOdds": 1.75,
           "line": 0.5,
           "modelProb": 0.6571,
-          "edge": 9.2
+          "edge": 8.6
         },
         {
           "player": "Matt Shaw",
@@ -1665,10 +1665,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Busch Stadium",
       "weather": {
-        "tempF": 92,
-        "precipProb": 3,
-        "windMph": 9.7,
-        "windDirDeg": 172
+        "tempF": 91,
+        "precipProb": 2,
+        "windMph": 10.2,
+        "windDirDeg": 171
       },
       "homeTeamId": 138,
       "awayTeamId": 146,
@@ -1757,10 +1757,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Angel Stadium",
       "weather": {
-        "tempF": 68,
+        "tempF": 67,
         "precipProb": 0,
-        "windMph": 7.9,
-        "windDirDeg": 220
+        "windMph": 7.7,
+        "windDirDeg": 210
       },
       "homeTeamId": 108,
       "awayTeamId": 133,
@@ -1849,10 +1849,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Oracle Park",
       "weather": {
-        "tempF": 70,
+        "tempF": 68,
         "precipProb": 0,
-        "windMph": 13.7,
-        "windDirDeg": 294
+        "windMph": 14.6,
+        "windDirDeg": 293
       },
       "homeTeamId": 137,
       "awayTeamId": 144,
@@ -1906,20 +1906,20 @@
           "edge": 5.7
         },
         {
+          "player": "Eric Haase",
+          "type": "1+ Hit",
+          "decimalOdds": 2.06,
+          "line": 0.5,
+          "modelProb": 0.5383,
+          "edge": 5.3
+        },
+        {
           "player": "Joey Bart",
           "type": "1+ Hit",
           "decimalOdds": 1.68,
           "line": 0.5,
           "modelProb": 0.6441,
           "edge": 4.9
-        },
-        {
-          "player": "Drake Baldwin",
-          "type": "1+ Hit",
-          "decimalOdds": 1.62,
-          "line": 0.5,
-          "modelProb": 0.6645,
-          "edge": 4.7
         }
       ],
       "homeStarter": {
@@ -1943,8 +1943,8 @@
       "weather": {
         "tempF": 66,
         "precipProb": 0,
-        "windMph": 6.5,
-        "windDirDeg": 256
+        "windMph": 6.0,
+        "windDirDeg": 243
       },
       "homeTeamId": 135,
       "awayTeamId": 119,
@@ -2033,10 +2033,10 @@
       "gameDateStr": "2026-06-28",
       "venue": "Fenway Park",
       "weather": {
-        "tempF": 72,
-        "precipProb": 2,
-        "windMph": 5.6,
-        "windDirDeg": 74
+        "tempF": 70,
+        "precipProb": 1,
+        "windMph": 4.9,
+        "windDirDeg": 93
       },
       "homeTeamId": 111,
       "awayTeamId": 147,
@@ -2066,20 +2066,20 @@
           "edge": 8.6
         },
         {
-          "player": "Connor Wong",
-          "type": "1+ Hit",
-          "decimalOdds": 1.63,
-          "line": 0.5,
-          "modelProb": 0.6849,
-          "edge": 7.1
-        },
-        {
           "player": "Spencer Jones",
           "type": "1+ Hit",
           "decimalOdds": 1.83,
           "line": 0.5,
           "modelProb": 0.6129,
           "edge": 6.7
+        },
+        {
+          "player": "Connor Wong",
+          "type": "1+ Hit",
+          "decimalOdds": 1.59,
+          "line": 0.5,
+          "modelProb": 0.6849,
+          "edge": 5.6
         },
         {
           "player": "Andruw Monasterio",
