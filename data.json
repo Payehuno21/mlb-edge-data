@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-29T16:40:33Z",
-  "lastMode": "full",
+  "generatedAt": "2026-06-29T21:17:47Z",
+  "lastMode": "refresh",
   "date": "2026-06-29",
   "availableDates": [
     "2026-06-29"
@@ -661,15 +661,15 @@
       "homeTeamName": "Baltimore Orioles",
       "awayTeamName": "Chicago White Sox",
       "autoOdds": {
-        "mlHome": 1.77,
-        "mlAway": 2.18,
+        "mlHome": 1.76,
+        "mlAway": 2.2,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.55,
+        "rlHomePrice": 2.52,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.58,
+        "rlAwayPrice": 1.59,
         "totalPoint": 9.5,
-        "totalOverPrice": 2.0,
-        "totalUnderPrice": 1.85,
+        "totalOverPrice": 2.03,
+        "totalUnderPrice": 1.87,
         "lastUpdate": "2026-06-29T22:36:00Z"
       },
       "lineMovement": [],
@@ -756,15 +756,30 @@
         "mlHome": 1.94,
         "mlAway": 1.96,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.55,
+        "rlHomePrice": 1.56,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.6,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.93,
+        "totalOverPrice": 1.81,
+        "totalUnderPrice": 2.1,
         "lastUpdate": "2026-06-29T22:41:00Z"
       },
-      "lineMovement": [],
+      "lineMovement": [
+        {
+          "market": "Total Over",
+          "side": null,
+          "fromProb": 51.3,
+          "toProb": 55.2,
+          "deltaPct": 4.0
+        },
+        {
+          "market": "Total Under",
+          "side": null,
+          "fromProb": 51.8,
+          "toProb": 47.6,
+          "deltaPct": -4.2
+        }
+      ],
       "liveState": null,
       "autoProps": [
         {
@@ -845,18 +860,26 @@
       "homeTeamName": "New York Yankees",
       "awayTeamName": "Detroit Tigers",
       "autoOdds": {
-        "mlHome": 1.8,
-        "mlAway": 2.2,
+        "mlHome": 1.79,
+        "mlAway": 2.18,
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.61,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.56,
-        "totalPoint": 7.5,
-        "totalOverPrice": 1.81,
-        "totalUnderPrice": 2.07,
+        "totalPoint": 8.0,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.92,
         "lastUpdate": "2026-06-29T23:06:00Z"
       },
-      "lineMovement": [],
+      "lineMovement": [
+        {
+          "market": "Total Over",
+          "side": null,
+          "fromProb": 55.2,
+          "toProb": 51.3,
+          "deltaPct": -4.0
+        }
+      ],
       "liveState": null,
       "autoProps": [
         {
@@ -939,16 +962,31 @@
       "autoOdds": {
         "mlHome": 1.82,
         "mlAway": 2.12,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.52,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.58,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.65,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.54,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.85,
-        "totalUnderPrice": 2.03,
+        "totalOverPrice": 1.93,
+        "totalUnderPrice": 1.93,
         "lastUpdate": "2026-06-29T23:08:00Z"
       },
-      "lineMovement": [],
+      "lineMovement": [
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 65.8,
+          "toProb": 37.7,
+          "deltaPct": -28.1
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 38.8,
+          "toProb": 64.9,
+          "deltaPct": 26.2
+        }
+      ],
       "liveState": null,
       "autoProps": [
         {
@@ -1029,15 +1067,15 @@
       "homeTeamName": "Boston Red Sox",
       "awayTeamName": "Washington Nationals",
       "autoOdds": {
-        "mlHome": 1.61,
-        "mlAway": 2.55,
+        "mlHome": 1.6,
+        "mlAway": 2.52,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.27,
+        "rlHomePrice": 2.23,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.74,
+        "rlAwayPrice": 1.73,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.92,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.96,
         "lastUpdate": "2026-06-29T23:11:00Z"
       },
       "lineMovement": [],
@@ -1121,15 +1159,15 @@
       "homeTeamName": "Cleveland Guardians",
       "awayTeamName": "Texas Rangers",
       "autoOdds": {
-        "mlHome": 1.7,
-        "mlAway": 2.3,
+        "mlHome": 1.65,
+        "mlAway": 2.39,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.6,
+        "rlHomePrice": 2.46,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.59,
+        "rlAwayPrice": 1.61,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.88,
-        "totalUnderPrice": 1.98,
+        "totalOverPrice": 1.93,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-29T23:11:00Z"
       },
       "lineMovement": [],
@@ -1213,15 +1251,15 @@
       "homeTeamName": "Milwaukee Brewers",
       "awayTeamName": "Cincinnati Reds",
       "autoOdds": {
-        "mlHome": 1.68,
-        "mlAway": 2.34,
+        "mlHome": 1.76,
+        "mlAway": 2.2,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.41,
+        "rlHomePrice": 2.5,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.62,
+        "rlAwayPrice": 1.59,
         "totalPoint": 9.0,
-        "totalOverPrice": 2.0,
-        "totalUnderPrice": 1.91,
+        "totalOverPrice": 1.93,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-06-29T23:41:00Z"
       },
       "lineMovement": [],
@@ -1305,15 +1343,15 @@
       "homeTeamName": "Chicago Cubs",
       "awayTeamName": "San Diego Padres",
       "autoOdds": {
-        "mlHome": 1.69,
-        "mlAway": 2.31,
+        "mlHome": 1.64,
+        "mlAway": 2.44,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.3,
+        "rlHomePrice": 2.25,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.7,
-        "totalPoint": 11.0,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.96,
+        "rlAwayPrice": 1.75,
+        "totalPoint": 11.5,
+        "totalOverPrice": 2.0,
+        "totalUnderPrice": 1.85,
         "lastUpdate": "2026-06-30T00:06:00Z"
       },
       "lineMovement": [],
@@ -1374,7 +1412,12 @@
         "whip": 1.05,
         "k9": 8.6
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Griffin Canning",
+        "era": 7.38,
+        "whip": 1.66,
+        "k9": 9.1
+      }
     },
     {
       "gamePk": 824176,
@@ -1388,17 +1431,32 @@
       "awayTeamName": "Minnesota Twins",
       "autoOdds": {
         "mlHome": 1.77,
-        "mlAway": 2.2,
+        "mlAway": 2.18,
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.58,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.58,
-        "totalPoint": 9.0,
-        "totalOverPrice": 2.0,
-        "totalUnderPrice": 1.87,
+        "rlAwayPrice": 1.59,
+        "totalPoint": 8.5,
+        "totalOverPrice": 1.83,
+        "totalUnderPrice": 2.02,
         "lastUpdate": "2026-06-30T00:11:00Z"
       },
-      "lineMovement": [],
+      "lineMovement": [
+        {
+          "market": "Total Over",
+          "side": null,
+          "fromProb": 50.0,
+          "toProb": 54.6,
+          "deltaPct": 4.6
+        },
+        {
+          "market": "Total Under",
+          "side": null,
+          "fromProb": 53.5,
+          "toProb": 49.5,
+          "deltaPct": -4.0
+        }
+      ],
       "liveState": null,
       "autoProps": [
         {
@@ -1479,15 +1537,15 @@
       "homeTeamName": "Colorado Rockies",
       "awayTeamName": "Miami Marlins",
       "autoOdds": {
-        "mlHome": 2.22,
-        "mlAway": 1.74,
+        "mlHome": 2.35,
+        "mlAway": 1.7,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.83,
+        "rlHomePrice": 1.87,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.08,
+        "rlAwayPrice": 2.05,
         "totalPoint": 11.5,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.98,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-06-30T00:41:00Z"
       },
       "lineMovement": [],
@@ -1542,7 +1600,12 @@
           "edge": -0.3
         }
       ],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Sean Sullivan",
+        "era": 8.25,
+        "whip": 1.92,
+        "k9": 5.2
+      },
       "awayStarter": {
         "name": "Sandy Alcantara",
         "era": 4.01,
@@ -1566,15 +1629,15 @@
       "homeTeamName": "Athletics",
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": {
-        "mlHome": 1.98,
+        "mlHome": 2.01,
         "mlAway": 1.93,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.65,
+        "rlHomePrice": 1.67,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.4,
+        "rlAwayPrice": 2.35,
         "totalPoint": 10.5,
         "totalOverPrice": 1.91,
-        "totalUnderPrice": 1.98,
+        "totalUnderPrice": 1.97,
         "lastUpdate": "2026-06-30T01:41:00Z"
       },
       "lineMovement": [],
@@ -1661,12 +1724,12 @@
         "mlHome": 1.52,
         "mlAway": 2.8,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.08,
+        "rlHomePrice": 2.1,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.85,
+        "rlAwayPrice": 1.84,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.87,
-        "totalUnderPrice": 2.03,
+        "totalOverPrice": 1.88,
+        "totalUnderPrice": 2.02,
         "lastUpdate": "2026-06-30T01:41:00Z"
       },
       "lineMovement": [],
@@ -1750,15 +1813,15 @@
       "homeTeamName": "Arizona Diamondbacks",
       "awayTeamName": "San Francisco Giants",
       "autoOdds": {
-        "mlHome": 1.78,
-        "mlAway": 2.19,
+        "mlHome": 1.77,
+        "mlAway": 2.21,
         "rlHomePoint": -1.5,
         "rlHomePrice": 2.55,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.58,
+        "rlAwayPrice": 1.59,
         "totalPoint": 9.0,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.95,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 1.97,
         "lastUpdate": "2026-06-30T01:41:00Z"
       },
       "lineMovement": [],
