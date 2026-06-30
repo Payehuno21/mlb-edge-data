@@ -36,7 +36,7 @@ from datetime import date, timedelta
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
-from model import find_best_bets, top_diverse_picks
+from model import find_best_bets, top_diverse_picks, edge_tier
 
 STATS_BASE = "https://statsapi.mlb.com/api/v1"
 WEATHER_BASE = "https://api.open-meteo.com/v1/forecast"
@@ -1068,7 +1068,7 @@ def load_existing_payload():
 RESEND_API_URL = "https://api.resend.com/emails"
 
 
-def build_alert_email_html(best_bets, run_label, today_str):
+def build_alert_email_html(best_bets, games_out, teams_by_id, run_label, today_str):
     if not best_bets:
         body = "<p>Sin candidatos con momios automáticos suficientes hoy para calcular edge.</p>"
     else:
@@ -1124,7 +1124,57 @@ def build_alert_email_html(best_bets, run_label, today_str):
         </table>
         """ if rows_html else ""
 
-        body = top_html + top3_html + rest_html
+        # Reporte completo: TODO lo que tenga tier BET/LEAN hoy (ML, RL,
+        # Total, F5 y props), organizado por partido — sin límite de 8 como
+        # "rest" arriba, para no perder ningún candidato del día.
+        bets_by_matchup = {}
+        for b in best_bets:
+            if b["tier"] not in ("BET", "LEAN"):
+                continue
+            bets_by_matchup.setdefault(b["matchup"], []).append(("market", b))
+
+        for g in games_out:
+            home = teams_by_id.get(g["homeTeamId"])
+            away = teams_by_id.get(g["awayTeamId"])
+            if not home or not away:
+                continue
+            matchup_label = f"{away['abbr']} @ {home['abbr']}"
+            for p in g.get("autoProps", []):
+                edge = p.get("edge")
+                tier = edge_tier(edge)
+                if tier not in ("BET", "LEAN"):
+                    continue
+                line_suffix = f" {p['line']}+" if p.get("line") else ""
+                prop_label = f"{p['player']} · {p['type']}{line_suffix}"
+                bets_by_matchup.setdefault(matchup_label, []).append(
+                    ("prop", {"label": prop_label, "edge": edge, "tier": tier, "odd": p["decimalOdds"]})
+                )
+
+        full_report_sections = []
+        for matchup_label, items in bets_by_matchup.items():
+            items.sort(key=lambda kv: -kv[1]["edge"])
+            rows = "".join(f"""
+              <tr style="border-bottom:1px solid #1F2329;">
+                <td style="padding:6px 0;color:#FFFFFF;font-size:12px;">{b['label']}</td>
+                <td style="padding:6px 0;color:#9CA3AF;font-size:11px;text-align:right;">{b['odd']}</td>
+                <td style="padding:6px 0;color:{'#00FFB2' if b['tier']=='BET' else '#FFB200'};font-size:12px;font-weight:700;text-align:right;width:80px;">+{b['edge']:.1f}%</td>
+              </tr>
+            """ for _, b in items)
+            full_report_sections.append(f"""
+            <div style="margin-bottom:14px;">
+              <p style="color:#9CA3AF;font-size:12px;font-weight:700;margin:0 0 4px;">{matchup_label}</p>
+              <table style="width:100%;border-collapse:collapse;">{rows}</table>
+            </div>
+            """)
+
+        full_report_html = f"""
+        <div style="margin-top:24px;padding-top:20px;border-top:1px solid #1F2329;">
+          <p style="color:#6B7280;font-size:11px;text-transform:uppercase;letter-spacing:0.05em;margin:0 0 14px;">Reporte completo — todo BET/LEAN encontrado hoy (ML, RL, Total, F5, props)</p>
+          {"".join(full_report_sections)}
+        </div>
+        """ if full_report_sections else ""
+
+        body = top_html + top3_html + rest_html + full_report_html
 
     return f"""
     <div style="background:#06070A;padding:24px;font-family:-apple-system,sans-serif;">
@@ -1348,7 +1398,7 @@ def main():
     teams_by_id = team_cache
     best_bets = find_best_bets(todays_games, teams_by_id)
     run_label = "Corrida completa (mañana)" if mode == "full" else "Actualización (tarde)"
-    html_body = build_alert_email_html(best_bets, run_label, today.isoformat())
+    html_body = build_alert_email_html(best_bets, todays_games, teams_by_id, run_label, today.isoformat())
     resend_key = os.environ.get("RESEND_API_KEY", "")
     alert_to = os.environ.get("ALERT_EMAIL_TO", "")
     subject = f"MLB Edge — {today.isoformat()} ({run_label})"
