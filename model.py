@@ -60,7 +60,7 @@ def weather_run_factor(weather):
 # extremos sin tener que tocar cada peso individual del modelo. Revisar este
 # valor conforme crezca la muestra: si la calibración mejora, se puede subir
 # (acercar a 1.0); si sigue sobreconfiado, bajarlo más.
-SHRINKAGE_FACTOR = 0.75
+SHRINKAGE_FACTOR = 0.65
 
 
 def shrink_prob(p, factor=SHRINKAGE_FACTOR):
