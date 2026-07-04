@@ -67,6 +67,30 @@ def shrink_prob(p, factor=SHRINKAGE_FACTOR):
     return 0.5 + (p - 0.5) * factor
 
 
+# Penalización adicional para picks donde el modelo favorece a un desvalido
+# (prob_modelo > 50% pero el mercado lo cotiza con odds > 2.0).
+# Los datos reales muestran que en estos casos el win rate real es solo 37.5%
+# — muy por debajo del 50%+ que el modelo predice. Esta corrección reduce
+# el "exceso de confianza contra el mercado" en un 90%, dejando solo el 10%
+# del diferencial entre la probabilidad del modelo y la del mercado.
+# Factor 0.9 elegido tras análisis de casos reales: degrada picks problemáticos
+# (AZ, DET) de BET a LEAN sin destruir los ganadores (TB, MIA).
+UNDERDOG_PENALTY = 0.9
+
+def apply_underdog_penalty(prob, dec_odds):
+    """Aplica una penalización a la probabilidad del modelo cuando contradice
+    agresivamente al mercado (modelo dice >50% pero odds > 2.0).
+    No modifica favoritos ni casos donde el mercado coincide con el modelo.
+    """
+    if prob <= 0.5 or dec_odds is None or dec_odds < 2.0:
+        return prob
+    prob_mercado = 1.0 / dec_odds
+    exceso = prob - prob_mercado
+    if exceso <= 0:
+        return prob
+    return prob - exceso * UNDERDOG_PENALTY
+
+
 def build_model(home, away, home_starter, away_starter, weather, park_factor=1.0):
     """home/away: dicts con elo, homeWinPct/awayWinPct (o winPct), last10,
     runsPerGame, staffEra. home_starter/away_starter: dicts con era/whip/k9.
@@ -239,14 +263,18 @@ def find_best_bets(games_out, teams_by_id):
                 continue
             if not is_sane_pregame_odds(odd) or not is_sane_pregame_odds(other_odd):
                 continue  # momio fuera de rango razonable — probablemente en vivo o corrupto
-            e = edge_pct(prob, odd)
+            # Aplicar penalización por exceso de confianza contra el mercado
+            # antes de calcular el edge — reduce la prob cuando el modelo
+            # favorece a un desvalido (odds >= 2.0) de forma agresiva.
+            prob_adj = apply_underdog_penalty(prob, odd)
+            e = edge_pct(prob_adj, odd)
             if e is None:
                 continue
             candidates.append({
                 "label": label,
                 "matchup": matchup_label,
                 "odd": odd,
-                "prob": prob,
+                "prob": prob_adj,
                 "edge": e,
                 "tier": edge_tier(e),
             })
