@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-05T14:48:58Z",
-  "lastMode": "full",
+  "generatedAt": "2026-07-05T20:48:48Z",
+  "lastMode": "refresh",
   "date": "2026-07-05",
   "availableDates": [
     "2026-07-05"
@@ -760,19 +760,40 @@
       "homeTeamName": "Atlanta Braves",
       "awayTeamName": "New York Mets",
       "autoOdds": {
-        "mlHome": 1.89,
-        "mlAway": 2.05,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.53,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.61,
-        "totalPoint": 9.0,
-        "totalOverPrice": 2.03,
-        "totalUnderPrice": 1.85,
-        "lastUpdate": "2026-07-05T16:30:00Z"
+        "mlHome": 1.83,
+        "mlAway": 2.1,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.68,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.53,
+        "totalPoint": 8.5,
+        "totalOverPrice": 1.88,
+        "totalUnderPrice": 1.98,
+        "lastUpdate": "2026-07-06T23:16:00Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 65.4,
+          "toProb": 37.3,
+          "deltaPct": -28.0
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 38.3,
+          "toProb": 65.4,
+          "deltaPct": 27.0
+        }
+      ],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 6,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Mike Yastrzemski",
@@ -825,15 +846,15 @@
       ],
       "homeStarter": {
         "name": "Martín Pérez",
-        "era": 3.27,
-        "whip": 1.16,
-        "k9": 7.1
+        "era": 3.54,
+        "whip": 1.19,
+        "k9": 6.9
       },
       "awayStarter": {
         "name": "Nolan McLean",
-        "era": 3.78,
+        "era": 3.73,
         "whip": 1.12,
-        "k9": 10.7
+        "k9": 10.5
       }
     },
     {
@@ -851,20 +872,15 @@
       "awayTeamId": 134,
       "homeTeamName": "Washington Nationals",
       "awayTeamName": "Pittsburgh Pirates",
-      "autoOdds": {
-        "mlHome": 1.79,
-        "mlAway": 2.16,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.52,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.6,
-        "totalPoint": 9.5,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.92,
-        "lastUpdate": "2026-07-05T17:01:00Z"
-      },
+      "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 5,
+        "awayScore": 11,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Esmerlyn Valdez",
@@ -917,15 +933,15 @@
       ],
       "homeStarter": {
         "name": "Cade Cavalli",
-        "era": 3.69,
-        "whip": 1.33,
+        "era": 3.88,
+        "whip": 1.38,
         "k9": 10.2
       },
       "awayStarter": {
         "name": "Bubba Chandler",
-        "era": 4.62,
-        "whip": 1.39,
-        "k9": 8.3
+        "era": 4.82,
+        "whip": 1.44,
+        "k9": 7.9
       }
     },
     {
@@ -943,20 +959,15 @@
       "awayTeamId": 110,
       "homeTeamName": "Cincinnati Reds",
       "awayTeamName": "Baltimore Orioles",
-      "autoOdds": {
-        "mlHome": 1.99,
-        "mlAway": 1.93,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.59,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.5,
-        "totalPoint": 9.5,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.95,
-        "lastUpdate": "2026-07-05T17:05:00Z"
-      },
+      "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 3,
+        "awayScore": 2,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Blaze Alexander",
@@ -1009,15 +1020,15 @@
       ],
       "homeStarter": {
         "name": "Nick Lodolo",
-        "era": 5.05,
-        "whip": 1.47,
-        "k9": 7.3
+        "era": 4.68,
+        "whip": 1.46,
+        "k9": 7.2
       },
       "awayStarter": {
         "name": "Kyle Bradish",
-        "era": 3.77,
-        "whip": 1.45,
-        "k9": 9.3
+        "era": 3.75,
+        "whip": 1.4,
+        "k9": 9.0
       }
     },
     {
@@ -1035,20 +1046,15 @@
       "awayTeamId": 142,
       "homeTeamName": "New York Yankees",
       "awayTeamName": "Minnesota Twins",
-      "autoOdds": {
-        "mlHome": 1.79,
-        "mlAway": 2.16,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.62,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.54,
-        "totalPoint": 8.5,
-        "totalOverPrice": 2.03,
-        "totalUnderPrice": 1.88,
-        "lastUpdate": "2026-07-05T17:35:00Z"
-      },
+      "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 1,
+        "awayScore": 6,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Ryan Kreidler",
@@ -1101,15 +1107,15 @@
       ],
       "homeStarter": {
         "name": "Ryan Weathers",
-        "era": 4.08,
-        "whip": 1.21,
-        "k9": 10.0
+        "era": 4.29,
+        "whip": 1.25,
+        "k9": 10.1
       },
       "awayStarter": {
         "name": "Joe Ryan",
-        "era": 3.61,
-        "whip": 1.08,
-        "k9": 10.4
+        "era": 3.36,
+        "whip": 1.04,
+        "k9": 10.5
       }
     },
     {
@@ -1128,19 +1134,40 @@
       "homeTeamName": "Cleveland Guardians",
       "awayTeamName": "Chicago White Sox",
       "autoOdds": {
-        "mlHome": 1.74,
-        "mlAway": 2.26,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.5,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.62,
-        "totalPoint": 8.5,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.88,
-        "lastUpdate": "2026-07-05T18:00:00Z"
+        "mlHome": 5.75,
+        "mlAway": 1.18,
+        "rlHomePoint": 2.5,
+        "rlHomePrice": 2.3,
+        "rlAwayPoint": -2.5,
+        "rlAwayPrice": 1.7,
+        "totalPoint": 13.5,
+        "totalOverPrice": 2.1,
+        "totalUnderPrice": 1.83,
+        "lastUpdate": "2026-07-05T19:32:02Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "ML",
+          "side": "home",
+          "fromProb": 57.5,
+          "toProb": 17.4,
+          "deltaPct": -40.1
+        },
+        {
+          "market": "ML",
+          "side": "away",
+          "fromProb": 44.2,
+          "toProb": 84.7,
+          "deltaPct": 40.5
+        }
+      ],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 6,
+        "inning": 5,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Tristan Peters",
@@ -1193,15 +1220,15 @@
       ],
       "homeStarter": {
         "name": "Tanner Bibee",
-        "era": 3.69,
-        "whip": 1.11,
-        "k9": 7.3
+        "era": 4.06,
+        "whip": 1.14,
+        "k9": 7.1
       },
       "awayStarter": {
         "name": "Chris Murphy",
-        "era": 3.79,
-        "whip": 1.37,
-        "k9": 8.5
+        "era": 5.03,
+        "whip": 1.53,
+        "k9": 8.7
       }
     },
     {
@@ -1219,20 +1246,15 @@
       "awayTeamId": 138,
       "homeTeamName": "Chicago Cubs",
       "awayTeamName": "St. Louis Cardinals",
-      "autoOdds": {
-        "mlHome": 1.69,
-        "mlAway": 2.31,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.5,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.61,
-        "totalPoint": 8.0,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.93,
-        "lastUpdate": "2026-07-05T18:30:00Z"
-      },
+      "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 6,
+        "awayScore": 3,
+        "inning": 7,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Lars Nootbaar",
@@ -1285,15 +1307,15 @@
       ],
       "homeStarter": {
         "name": "Javier Assad",
-        "era": 4.53,
-        "whip": 1.12,
-        "k9": 5.4
+        "era": 4.15,
+        "whip": 1.1,
+        "k9": 5.3
       },
       "awayStarter": {
         "name": "Matthew Liberatore",
-        "era": 5.33,
-        "whip": 1.55,
-        "k9": 8.6
+        "era": 5.44,
+        "whip": 1.53,
+        "k9": 8.4
       }
     },
     {
@@ -1312,19 +1334,61 @@
       "homeTeamName": "Kansas City Royals",
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": {
-        "mlHome": 2.22,
-        "mlAway": 1.74,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.78,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.18,
-        "totalPoint": 10.0,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.95,
+        "mlHome": 1.77,
+        "mlAway": 4.1,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.65,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.95,
+        "totalPoint": 7.5,
+        "totalOverPrice": 2.2,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-07-05T19:01:00Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "ML",
+          "side": "home",
+          "fromProb": 45.0,
+          "toProb": 56.5,
+          "deltaPct": 11.5
+        },
+        {
+          "market": "ML",
+          "side": "away",
+          "fromProb": 57.5,
+          "toProb": 24.4,
+          "deltaPct": -33.1
+        },
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 56.2,
+          "toProb": 37.7,
+          "deltaPct": -18.4
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 45.9,
+          "toProb": 51.3,
+          "deltaPct": 5.4
+        },
+        {
+          "market": "Total Over",
+          "side": null,
+          "fromProb": 50.5,
+          "toProb": 45.5,
+          "deltaPct": -5.1
+        }
+      ],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 1,
+        "inning": 7,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Michael Massey",
@@ -1377,15 +1441,15 @@
       ],
       "homeStarter": {
         "name": "Luinder Avila",
-        "era": 5.4,
-        "whip": 1.67,
-        "k9": 8.3
+        "era": 5.05,
+        "whip": 1.59,
+        "k9": 8.2
       },
       "awayStarter": {
         "name": "Aaron Nola",
-        "era": 6.04,
-        "whip": 1.49,
-        "k9": 9.2
+        "era": 5.93,
+        "whip": 1.47,
+        "k9": 9.0
       }
     },
     {
@@ -1399,19 +1463,54 @@
       "homeTeamName": "Houston Astros",
       "awayTeamName": "Tampa Bay Rays",
       "autoOdds": {
-        "mlHome": 1.91,
-        "mlAway": 2.0,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.57,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.62,
-        "totalPoint": 9.0,
-        "totalOverPrice": 1.97,
-        "totalUnderPrice": 1.93,
+        "mlHome": 1.67,
+        "mlAway": 2.6,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.78,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.55,
+        "totalPoint": 5.5,
+        "totalOverPrice": 1.92,
+        "totalUnderPrice": 2.05,
         "lastUpdate": "2026-07-05T19:31:00Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "ML",
+          "side": "home",
+          "fromProb": 52.4,
+          "toProb": 59.9,
+          "deltaPct": 7.5
+        },
+        {
+          "market": "ML",
+          "side": "away",
+          "fromProb": 50.0,
+          "toProb": 38.5,
+          "deltaPct": -11.5
+        },
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 63.7,
+          "toProb": 36.0,
+          "deltaPct": -27.7
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 38.2,
+          "toProb": 64.5,
+          "deltaPct": 26.3
+        }
+      ],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 0,
+        "inning": 5,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Hunter Feduccia",
@@ -1464,11 +1563,16 @@
       ],
       "homeStarter": {
         "name": "Peter Lambert",
-        "era": 3.51,
-        "whip": 1.18,
-        "k9": 8.2
+        "era": 3.33,
+        "whip": 1.16,
+        "k9": 8.3
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Mason Englert",
+        "era": 3.72,
+        "whip": 1.34,
+        "k9": 7.8
+      }
     },
     {
       "gamePk": 822879,
@@ -1486,19 +1590,68 @@
       "homeTeamName": "Texas Rangers",
       "awayTeamName": "Detroit Tigers",
       "autoOdds": {
-        "mlHome": 2.07,
-        "mlAway": 1.85,
+        "mlHome": 2.85,
+        "mlAway": 1.49,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.61,
+        "rlHomePrice": 1.83,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.46,
+        "rlAwayPrice": 2.08,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.88,
-        "totalUnderPrice": 1.97,
+        "totalOverPrice": 2.14,
+        "totalUnderPrice": 1.75,
         "lastUpdate": "2026-07-05T19:31:00Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "ML",
+          "side": "home",
+          "fromProb": 48.3,
+          "toProb": 35.1,
+          "deltaPct": -13.2
+        },
+        {
+          "market": "ML",
+          "side": "away",
+          "fromProb": 54.1,
+          "toProb": 67.1,
+          "deltaPct": 13.1
+        },
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 62.1,
+          "toProb": 54.6,
+          "deltaPct": -7.5
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 40.7,
+          "toProb": 48.1,
+          "deltaPct": 7.4
+        },
+        {
+          "market": "Total Over",
+          "side": null,
+          "fromProb": 53.2,
+          "toProb": 46.7,
+          "deltaPct": -6.5
+        },
+        {
+          "market": "Total Under",
+          "side": null,
+          "fromProb": 50.8,
+          "toProb": 57.1,
+          "deltaPct": 6.4
+        }
+      ],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 2,
+        "inning": 5,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Nicky Lopez",
@@ -1551,13 +1704,13 @@
       ],
       "homeStarter": {
         "name": "Kumar Rocker",
-        "era": 3.83,
-        "whip": 1.34,
-        "k9": 7.9
+        "era": 3.86,
+        "whip": 1.33,
+        "k9": 7.8
       },
       "awayStarter": {
         "name": "Casey Mize",
-        "era": 2.63,
+        "era": 2.61,
         "whip": 0.97,
         "k9": 9.4
       }
@@ -1578,19 +1731,61 @@
       "homeTeamName": "Colorado Rockies",
       "awayTeamName": "San Francisco Giants",
       "autoOdds": {
-        "mlHome": 2.05,
-        "mlAway": 1.87,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.72,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.24,
-        "totalPoint": 13.0,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.91,
-        "lastUpdate": "2026-07-05T20:00:00Z"
+        "mlHome": 1.75,
+        "mlAway": 2.4,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.4,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.69,
+        "totalPoint": 14.5,
+        "totalOverPrice": 1.87,
+        "totalUnderPrice": 2.1,
+        "lastUpdate": "2026-07-05T20:07:34Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "ML",
+          "side": "home",
+          "fromProb": 48.8,
+          "toProb": 57.1,
+          "deltaPct": 8.4
+        },
+        {
+          "market": "ML",
+          "side": "away",
+          "fromProb": 53.5,
+          "toProb": 41.7,
+          "deltaPct": -11.8
+        },
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 58.1,
+          "toProb": 41.7,
+          "deltaPct": -16.5
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 44.6,
+          "toProb": 59.2,
+          "deltaPct": 14.5
+        },
+        {
+          "market": "Total Under",
+          "side": null,
+          "fromProb": 52.4,
+          "toProb": 47.6,
+          "deltaPct": -4.7
+        }
+      ],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 2,
+        "inning": 3,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Troy Johnston",
@@ -1643,15 +1838,15 @@
       ],
       "homeStarter": {
         "name": "Tanner Gordon",
-        "era": 6.69,
-        "whip": 1.59,
-        "k9": 8.7
+        "era": 6.8,
+        "whip": 1.58,
+        "k9": 8.9
       },
       "awayStarter": {
         "name": "Tyler Mahle",
-        "era": 5.67,
-        "whip": 1.47,
-        "k9": 8.6
+        "era": 5.77,
+        "whip": 1.5,
+        "k9": 8.8
       }
     },
     {
@@ -1670,19 +1865,54 @@
       "homeTeamName": "Arizona Diamondbacks",
       "awayTeamName": "Milwaukee Brewers",
       "autoOdds": {
-        "mlHome": 2.08,
-        "mlAway": 1.85,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.67,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.36,
-        "totalPoint": 9.0,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.98,
-        "lastUpdate": "2026-07-05T20:00:00Z"
+        "mlHome": 1.65,
+        "mlAway": 2.5,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.45,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.69,
+        "totalPoint": 7.5,
+        "totalOverPrice": 2.08,
+        "totalUnderPrice": 1.9,
+        "lastUpdate": "2026-07-05T20:05:53Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "ML",
+          "side": "home",
+          "fromProb": 48.1,
+          "toProb": 60.6,
+          "deltaPct": 12.5
+        },
+        {
+          "market": "ML",
+          "side": "away",
+          "fromProb": 54.1,
+          "toProb": 40.0,
+          "deltaPct": -14.1
+        },
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 59.9,
+          "toProb": 40.8,
+          "deltaPct": -19.1
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 42.4,
+          "toProb": 59.2,
+          "deltaPct": 16.8
+        }
+      ],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 0,
+        "inning": 3,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Andrew Vaughn",
@@ -1735,14 +1965,14 @@
       ],
       "homeStarter": {
         "name": "Eduardo Rodriguez",
-        "era": 2.21,
-        "whip": 1.18,
-        "k9": 6.3
+        "era": 2.16,
+        "whip": 1.16,
+        "k9": 6.2
       },
       "awayStarter": {
         "name": "Brandon Sproat",
-        "era": 5.28,
-        "whip": 1.33,
+        "era": 5.26,
+        "whip": 1.35,
         "k9": 9.6
       }
     },
@@ -1762,19 +1992,54 @@
       "homeTeamName": "Athletics",
       "awayTeamName": "Miami Marlins",
       "autoOdds": {
-        "mlHome": 1.87,
-        "mlAway": 2.06,
+        "mlHome": 2.06,
+        "mlAway": 1.83,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.56,
+        "rlHomePrice": 1.69,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.6,
-        "totalPoint": 10.0,
-        "totalOverPrice": 1.97,
-        "totalUnderPrice": 1.93,
+        "rlAwayPrice": 2.3,
+        "totalPoint": 10.5,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 1.9,
         "lastUpdate": "2026-07-05T20:31:00Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "ML",
+          "side": "home",
+          "fromProb": 53.5,
+          "toProb": 48.5,
+          "deltaPct": -4.9
+        },
+        {
+          "market": "ML",
+          "side": "away",
+          "fromProb": 48.5,
+          "toProb": 54.6,
+          "deltaPct": 6.1
+        },
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 64.1,
+          "toProb": 59.2,
+          "deltaPct": -4.9
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 38.5,
+          "toProb": 43.5,
+          "deltaPct": 5.0
+        }
+      ],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 1,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Alika Williams",
@@ -1827,9 +2092,9 @@
       ],
       "homeStarter": {
         "name": "Gage Jump",
-        "era": 2.93,
-        "whip": 1.13,
-        "k9": 9.0
+        "era": 3.07,
+        "whip": 1.17,
+        "k9": 8.8
       },
       "awayStarter": {
         "name": "Eury Pérez",
@@ -1854,19 +2119,40 @@
       "homeTeamName": "Seattle Mariners",
       "awayTeamName": "Toronto Blue Jays",
       "autoOdds": {
-        "mlHome": 1.81,
-        "mlAway": 2.12,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.68,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.54,
+        "mlHome": 1.94,
+        "mlAway": 2.01,
+        "rlHomePoint": 1.5,
+        "rlHomePrice": 1.53,
+        "rlAwayPoint": -1.5,
+        "rlAwayPrice": 2.76,
         "totalPoint": 7.5,
         "totalOverPrice": 2.05,
-        "totalUnderPrice": 1.85,
+        "totalUnderPrice": 1.87,
         "lastUpdate": "2026-07-05T21:00:00Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 37.3,
+          "toProb": 65.4,
+          "deltaPct": 28.0
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 64.9,
+          "toProb": 36.2,
+          "deltaPct": -28.7
+        }
+      ],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Victor Robles",
@@ -1941,14 +2227,14 @@
       "homeTeamName": "Los Angeles Dodgers",
       "awayTeamName": "San Diego Padres",
       "autoOdds": {
-        "mlHome": 1.53,
-        "mlAway": 2.76,
+        "mlHome": 1.46,
+        "mlAway": 2.95,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.03,
+        "rlHomePrice": 1.91,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.89,
+        "rlAwayPrice": 1.98,
         "totalPoint": 9.5,
-        "totalOverPrice": 1.89,
+        "totalOverPrice": 1.87,
         "totalUnderPrice": 1.98,
         "lastUpdate": "2026-07-05T23:21:00Z"
       },
@@ -2036,12 +2322,12 @@
         "mlHome": 2.4,
         "mlAway": 1.65,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.83,
+        "rlHomePrice": 1.8,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.07,
+        "rlAwayPrice": 2.13,
         "totalPoint": 8.0,
         "totalOverPrice": 1.91,
-        "totalUnderPrice": 1.98,
+        "totalUnderPrice": 1.97,
         "lastUpdate": "2026-07-06T01:31:00Z"
       },
       "lineMovement": [],
@@ -2230,6 +2516,30 @@
       "awayTeamId": 135,
       "homeScore": 3,
       "awayScore": 0
+    },
+    {
+      "gamePk": 822715,
+      "dateStr": "2026-07-05",
+      "homeTeamId": 120,
+      "awayTeamId": 134,
+      "homeScore": 5,
+      "awayScore": 11
+    },
+    {
+      "gamePk": 824497,
+      "dateStr": "2026-07-05",
+      "homeTeamId": 113,
+      "awayTeamId": 110,
+      "homeScore": 3,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 823525,
+      "dateStr": "2026-07-05",
+      "homeTeamId": 147,
+      "awayTeamId": 142,
+      "homeScore": 1,
+      "awayScore": 6
     }
   ]
 }
