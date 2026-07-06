@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T15:55:26Z",
+  "generatedAt": "2026-07-06T16:25:33Z",
   "lastMode": "full",
   "date": "2026-07-06",
   "availableDates": [
@@ -463,10 +463,10 @@
         {
           "player": "Jac Caglianone",
           "type": "1+ Hit",
-          "decimalOdds": 1.66,
+          "decimalOdds": 1.68,
           "line": 0.5,
           "modelProb": 0.631,
-          "edge": 2.9
+          "edge": 3.6
         },
         {
           "player": "Isaac Collins",
@@ -589,7 +589,7 @@
       "venue": "Nationals Park",
       "weather": {
         "tempF": 78,
-        "precipProb": 28,
+        "precipProb": 23,
         "windMph": 3.4,
         "windDirDeg": 67
       },
@@ -1021,12 +1021,12 @@
           "edge": 2.4
         },
         {
-          "player": "Kazuma Okamoto",
+          "player": "Daulton Varsho",
           "type": "1+ Hit",
-          "decimalOdds": 1.62,
+          "decimalOdds": 1.57,
           "line": 0.5,
-          "modelProb": 0.6273,
-          "edge": 1.0
+          "modelProb": 0.6486,
+          "edge": 1.2
         }
       ],
       "homeStarter": {
@@ -1092,20 +1092,20 @@
           "edge": 8.6
         },
         {
+          "player": "Cole Carrigg",
+          "type": "1+ Hit",
+          "decimalOdds": 1.61,
+          "line": 0.5,
+          "modelProb": 0.7029,
+          "edge": 8.2
+        },
+        {
           "player": "Dalton Rushing",
           "type": "1+ Hit",
           "decimalOdds": 1.61,
           "line": 0.5,
           "modelProb": 0.6911,
           "edge": 7.0
-        },
-        {
-          "player": "Cole Carrigg",
-          "type": "1+ Hit",
-          "decimalOdds": 1.57,
-          "line": 0.5,
-          "modelProb": 0.7029,
-          "edge": 6.6
         },
         {
           "player": "Max Muncy",
