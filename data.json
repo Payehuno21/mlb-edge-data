@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-06T16:25:33Z",
-  "lastMode": "full",
+  "generatedAt": "2026-07-06T21:22:19Z",
+  "lastMode": "refresh",
   "date": "2026-07-06",
   "availableDates": [
     "2026-07-06"
@@ -414,19 +414,54 @@
       "homeTeamName": "Kansas City Royals",
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": {
-        "mlHome": 2.8,
-        "mlAway": 1.51,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 2.1,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 1.82,
-        "totalPoint": 8.5,
-        "totalOverPrice": 1.96,
-        "totalUnderPrice": 1.89,
+        "mlHome": null,
+        "mlAway": null,
+        "rlHomePoint": -13.5,
+        "rlHomePrice": 1.16,
+        "rlAwayPoint": 13.5,
+        "rlAwayPrice": 11.6,
+        "totalPoint": 16.5,
+        "totalOverPrice": 18.0,
+        "totalUnderPrice": 1.13,
         "lastUpdate": "2026-07-06T18:11:00Z"
       },
-      "lineMovement": [],
-      "liveState": null,
+      "lineMovement": [
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 47.6,
+          "toProb": 86.2,
+          "deltaPct": 38.6
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 54.9,
+          "toProb": 8.6,
+          "deltaPct": -46.3
+        },
+        {
+          "market": "Total Over",
+          "side": null,
+          "fromProb": 51.0,
+          "toProb": 5.6,
+          "deltaPct": -45.5
+        },
+        {
+          "market": "Total Under",
+          "side": null,
+          "fromProb": 52.9,
+          "toProb": 88.5,
+          "deltaPct": 35.6
+        }
+      ],
+      "liveState": {
+        "status": "Final",
+        "homeScore": 15,
+        "awayScore": 1,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Derek Hill",
@@ -479,15 +514,15 @@
       ],
       "homeStarter": {
         "name": "Noah Cameron",
-        "era": 4.95,
-        "whip": 1.41,
-        "k9": 8.1
+        "era": 4.77,
+        "whip": 1.45,
+        "k9": 8.3
       },
       "awayStarter": {
         "name": "Cristopher Sánchez",
-        "era": 2.0,
-        "whip": 1.09,
-        "k9": 10.5
+        "era": 2.62,
+        "whip": 1.16,
+        "k9": 10.2
       }
     },
     {
@@ -506,15 +541,15 @@
       "homeTeamName": "Tampa Bay Rays",
       "awayTeamName": "New York Yankees",
       "autoOdds": {
-        "mlHome": 1.94,
-        "mlAway": 1.96,
+        "mlHome": 2.09,
+        "mlAway": 1.85,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.54,
+        "rlHomePrice": 1.61,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.7,
+        "rlAwayPrice": 2.5,
         "totalPoint": 7.5,
-        "totalOverPrice": 2.05,
-        "totalUnderPrice": 1.85,
+        "totalOverPrice": 2.1,
+        "totalUnderPrice": 1.87,
         "lastUpdate": "2026-07-06T22:41:00Z"
       },
       "lineMovement": [],
@@ -599,13 +634,13 @@
       "awayTeamName": "Houston Astros",
       "autoOdds": {
         "mlHome": 1.88,
-        "mlAway": 2.04,
+        "mlAway": 2.05,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.54,
+        "rlHomePrice": 1.56,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.55,
+        "rlAwayPrice": 2.58,
         "totalPoint": 9.5,
-        "totalOverPrice": 1.85,
+        "totalOverPrice": 1.87,
         "totalUnderPrice": 2.0,
         "lastUpdate": "2026-07-06T22:46:00Z"
       },
@@ -690,14 +725,14 @@
       "homeTeamName": "Atlanta Braves",
       "awayTeamName": "New York Mets",
       "autoOdds": {
-        "mlHome": 1.8,
-        "mlAway": 2.14,
+        "mlHome": 1.81,
+        "mlAway": 2.15,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.61,
+        "rlHomePrice": 2.6,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.56,
         "totalPoint": 9.0,
-        "totalOverPrice": 1.95,
+        "totalOverPrice": 1.93,
         "totalUnderPrice": 1.95,
         "lastUpdate": "2026-07-06T23:16:00Z"
       },
@@ -782,15 +817,15 @@
       "homeTeamName": "St. Louis Cardinals",
       "awayTeamName": "Milwaukee Brewers",
       "autoOdds": {
-        "mlHome": 1.97,
-        "mlAway": 1.93,
+        "mlHome": 1.95,
+        "mlAway": 1.95,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.59,
+        "rlHomePrice": 1.58,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.58,
+        "rlAwayPrice": 2.55,
         "totalPoint": 8.0,
         "totalOverPrice": 1.93,
-        "totalUnderPrice": 2.0,
+        "totalUnderPrice": 1.96,
         "lastUpdate": "2026-07-06T23:46:00Z"
       },
       "lineMovement": [],
@@ -874,15 +909,15 @@
       "homeTeamName": "San Diego Padres",
       "awayTeamName": "Arizona Diamondbacks",
       "autoOdds": {
-        "mlHome": 1.83,
-        "mlAway": 2.09,
+        "mlHome": 1.82,
+        "mlAway": 2.13,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.49,
+        "rlHomePrice": 1.48,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.7,
+        "rlAwayPrice": 2.75,
         "totalPoint": 8.5,
         "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.93,
+        "totalUnderPrice": 1.95,
         "lastUpdate": "2026-07-07T01:41:00Z"
       },
       "lineMovement": [],
@@ -966,15 +1001,15 @@
       "homeTeamName": "San Francisco Giants",
       "awayTeamName": "Toronto Blue Jays",
       "autoOdds": {
-        "mlHome": 1.97,
-        "mlAway": 1.93,
+        "mlHome": 1.99,
+        "mlAway": 1.94,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.57,
+        "rlHomePrice": 1.59,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.55,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.92,
-        "totalUnderPrice": 1.98,
+        "totalOverPrice": 1.85,
+        "totalUnderPrice": 2.03,
         "lastUpdate": "2026-07-07T01:46:00Z"
       },
       "lineMovement": [],
@@ -1053,14 +1088,14 @@
       "homeTeamName": "Los Angeles Dodgers",
       "awayTeamName": "Colorado Rockies",
       "autoOdds": {
-        "mlHome": 1.45,
-        "mlAway": 2.97,
+        "mlHome": 1.44,
+        "mlAway": 3.15,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 1.88,
+        "rlHomePrice": 1.87,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 2.04,
+        "rlAwayPrice": 2.02,
         "totalPoint": 9.5,
-        "totalOverPrice": 1.87,
+        "totalOverPrice": 1.85,
         "totalUnderPrice": 2.05,
         "lastUpdate": "2026-07-07T02:11:00Z"
       },
@@ -1250,6 +1285,14 @@
       "awayTeamId": 111,
       "homeScore": 5,
       "awayScore": 7
+    },
+    {
+      "gamePk": 824089,
+      "dateStr": "2026-07-06",
+      "homeTeamId": 118,
+      "awayTeamId": 143,
+      "homeScore": 15,
+      "awayScore": 1
     }
   ]
 }
