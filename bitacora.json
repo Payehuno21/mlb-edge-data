@@ -1276,5 +1276,27 @@
     "odds": 2.02,
     "edge": 0.30960035533798,
     "stake": 1.5328252886831484
+  },
+  {
+    "id": "1783397113115-733",
+    "date": "6/7/2026",
+    "dateISO": "2026-07-07",
+    "result": "pending",
+    "isSimulation": false,
+    "matchup": "COL @ LAD",
+    "gamePk": 823930,
+    "homeTeamId": 119,
+    "awayTeamId": 115,
+    "homeAbbr": "LAD",
+    "awayAbbr": "COL",
+    "market": "Total 9.5",
+    "betType": "Total",
+    "side": "over",
+    "line": 9.5,
+    "label": "Over",
+    "prob": 0.599,
+    "odds": 1.85,
+    "edge": 5.845945945945951,
+    "stake": 31.80882352941175
   }
 ]
