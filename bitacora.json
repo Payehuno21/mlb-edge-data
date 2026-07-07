@@ -1193,5 +1193,25 @@
     "odds": 1.94,
     "edge": 2.7003390358792845,
     "stake": 13.932600344696338
+  },
+  {
+    "id": "1783397098625-229",
+    "date": "6/7/2026",
+    "dateISO": "2026-07-07",
+    "result": "pending",
+    "isSimulation": false,
+    "matchup": "TOR @ SF",
+    "gamePk": 823205,
+    "homeTeamId": 137,
+    "awayTeamId": 141,
+    "homeAbbr": "SF",
+    "awayAbbr": "TOR",
+    "betType": "RL",
+    "market": "Run Line +1.5",
+    "label": "SF +1.5",
+    "prob": 0.6308991241142262,
+    "odds": 1.59,
+    "edge": 0.1968306504163353,
+    "stake": 1.3261048057710638
   }
 ]
