@@ -1150,5 +1150,27 @@
     "odds": 2.75,
     "edge": 25.22466797155981,
     "stake": 99.09690988827067
+  },
+  {
+    "id": "1783397091916-892",
+    "date": "6/7/2026",
+    "dateISO": "2026-07-07",
+    "result": "pending",
+    "isSimulation": false,
+    "matchup": "AZ @ SD",
+    "gamePk": 823282,
+    "homeTeamId": 135,
+    "awayTeamId": 109,
+    "homeAbbr": "SD",
+    "awayAbbr": "AZ",
+    "market": "Total 8.5",
+    "betType": "Total",
+    "side": "over",
+    "line": 8.5,
+    "label": "Over",
+    "prob": 0.545,
+    "odds": 1.95,
+    "edge": 3.2179487179487154,
+    "stake": 16.513157894736864
   }
 ]
