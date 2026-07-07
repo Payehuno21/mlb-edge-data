@@ -863,7 +863,7 @@
     "id": "1783397029218-813",
     "date": "6/7/2026",
     "dateISO": "2026-07-07",
-    "result": "pending",
+    "result": "lost",
     "isSimulation": false,
     "matchup": "PHI @ KC",
     "gamePk": 824089,
@@ -877,7 +877,8 @@
     "prob": 0.45452055138494724,
     "odds": 11.6,
     "edge": 36.83136548332231,
-    "stake": 100.76505651097612
+    "stake": 100.76505651097612,
+    "autoGraded": true
   },
   {
     "id": "1783397036328-667",
