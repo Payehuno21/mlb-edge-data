@@ -1024,5 +1024,27 @@
     "odds": 2.6,
     "edge": 7.047794873154784,
     "stake": 28.631666672191308
+  },
+  {
+    "id": "1783397068388-994",
+    "date": "6/7/2026",
+    "dateISO": "2026-07-07",
+    "result": "pending",
+    "isSimulation": false,
+    "matchup": "NYM @ ATL",
+    "gamePk": 824900,
+    "homeTeamId": 144,
+    "awayTeamId": 121,
+    "homeAbbr": "ATL",
+    "awayAbbr": "NYM",
+    "market": "Total 9",
+    "betType": "Total",
+    "side": "under",
+    "line": 9,
+    "label": "Under",
+    "prob": 0.536,
+    "odds": 1.95,
+    "edge": 2.3179487179487146,
+    "stake": 11.894736842105269
   }
 ]
