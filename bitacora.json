@@ -1087,5 +1087,27 @@
     "odds": 2.55,
     "edge": 1.758708081988275,
     "stake": 7.23339614366146
+  },
+  {
+    "id": "1783397080776-220",
+    "date": "6/7/2026",
+    "dateISO": "2026-07-07",
+    "result": "pending",
+    "isSimulation": false,
+    "matchup": "MIL @ STL",
+    "gamePk": 823036,
+    "homeTeamId": 138,
+    "awayTeamId": 158,
+    "homeAbbr": "STL",
+    "awayAbbr": "MIL",
+    "market": "Total 8",
+    "betType": "Total",
+    "side": "over",
+    "line": 8,
+    "label": "Over",
+    "prob": 0.6079999999999999,
+    "odds": 1.93,
+    "edge": 8.986528497409306,
+    "stake": 46.62365591397842
   }
 ]
