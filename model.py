@@ -73,13 +73,24 @@ def shrink_prob(p, factor=SHRINKAGE_FACTOR):
 # — muy por debajo del 50%+ que el modelo predice. Esta corrección reduce
 # el "exceso de confianza contra el mercado" en un 90%, dejando solo el 10%
 # del diferencial entre la probabilidad del modelo y la del mercado.
-# Factor 0.9 elegido tras análisis de casos reales: degrada picks problemáticos
-# (AZ, DET) de BET a LEAN sin destruir los ganadores (TB, MIA).
 UNDERDOG_PENALTY = 0.9
 
-def apply_underdog_penalty(prob, dec_odds):
+# Descuento adicional específico para Run Line (±1.5).
+# Datos reales (n=50): RL desvalido (+1.5) con odds 2.0-3.0 gana solo 36.4%,
+# y los picks de mayor edge perdidos (HOU, AZ, DET, NYY +1.5 con edge 20-25%)
+# todos tenían odds ~2.60-2.70. El mercado de RL es más eficiente que ML
+# porque ya descuenta la dificultad de ganar POR MÁS de 1.5 carreras.
+# Este factor reduce el exceso residual después de UNDERDOG_PENALTY, llevando
+# picks como HOU +1.5 (edge 5% tras penalización) a PASS en vez de LEAN.
+RL_EXTRA_DISCOUNT = 0.70
+
+
+def apply_underdog_penalty(prob, dec_odds, is_rl=False):
     """Aplica una penalización a la probabilidad del modelo cuando contradice
     agresivamente al mercado (modelo dice >50% pero odds > 2.0).
+    Para Run Line (is_rl=True), aplica un descuento adicional porque el
+    mercado de RL es más eficiente — los datos muestran 36% WR real en RL
+    desvalido vs el 50%+ que el modelo predice.
     No modifica favoritos ni casos donde el mercado coincide con el modelo.
     """
     if prob <= 0.5 or dec_odds is None or dec_odds < 2.0:
@@ -88,7 +99,11 @@ def apply_underdog_penalty(prob, dec_odds):
     exceso = prob - prob_mercado
     if exceso <= 0:
         return prob
-    return prob - exceso * UNDERDOG_PENALTY
+    prob_adj = prob - exceso * UNDERDOG_PENALTY
+    if is_rl:
+        exceso_restante = max(prob_adj - prob_mercado, 0)
+        prob_adj = prob_adj - exceso_restante * RL_EXTRA_DISCOUNT
+    return prob_adj
 
 
 def build_model(home, away, home_starter, away_starter, weather, park_factor=1.0):
@@ -213,6 +228,17 @@ def is_sane_pregame_odds(dec_odds):
     return 0.08 <= imp <= 0.92
 
 
+def is_sane_runline_odds(dec_odds):
+    """Para Run Line (+-1.5), los rangos razonables son mas estrictos que ML.
+    Un RL -1.5 a mas de 5.00 (20% implícita) es casi siempre un dato
+    corrupto o un mercado en vivo.
+    """
+    imp = implied_prob_decimal(dec_odds)
+    if imp is None:
+        return False
+    return 0.20 <= imp <= 0.92
+
+
 def find_best_bets(games_out, teams_by_id):
     """Recorre los juegos del día y devuelve la lista de candidatos con
     edge calculado para ML y Run Line (juego completo), usando los momios
@@ -228,18 +254,18 @@ def find_best_bets(games_out, teams_by_id):
         if not home or not away:
             continue
         if g.get("liveState"):
-            continue  # juego ya en curso o terminado, detectado por el pipeline
+            continue
         game_date_str = g.get("gameDate")
         if game_date_str:
             try:
                 game_dt = datetime.fromisoformat(game_date_str.replace("Z", "+00:00"))
                 if game_dt <= datetime.now(timezone.utc):
-                    continue  # ya pasó la hora de inicio, aunque liveState no lo haya detectado todavía
+                    continue
             except ValueError:
-                pass  # si el formato no se puede parsear, no bloqueamos por esto
+                pass
         ao = g.get("autoOdds") or {}
         if not ao.get("mlHome") and not ao.get("mlAway"):
-            continue  # sin momios, no hay nada que evaluar
+            continue
 
         model = build_model(home, away, g.get("homeStarter"), g.get("awayStarter"), g.get("weather"))
         matchup_label = f"{away['abbr']} @ {home['abbr']}"
@@ -253,20 +279,18 @@ def find_best_bets(games_out, teams_by_id):
         rl_dog = ao.get("rlAwayPrice") if home_is_fav else ao.get("rlHomePrice")
 
         rows = [
-            (f"ML {home['abbr']}", model["homeWinProb"], ml_home, ml_away),
-            (f"ML {away['abbr']}", model["awayWinProb"], ml_away, ml_home),
-            (f"{fav_abbr} -1.5", model["favMinus1_5"], rl_fav, rl_dog),
-            (f"{dog_abbr} +1.5", model["dogPlus1_5"], rl_dog, rl_fav),
+            (f"ML {home['abbr']}", model["homeWinProb"], ml_home, ml_away, False),
+            (f"ML {away['abbr']}", model["awayWinProb"], ml_away, ml_home, False),
+            (f"{fav_abbr} -1.5", model["favMinus1_5"], rl_fav, rl_dog, True),
+            (f"{dog_abbr} +1.5", model["dogPlus1_5"], rl_dog, rl_fav, True),
         ]
-        for label, prob, odd, other_odd in rows:
+        for label, prob, odd, other_odd, is_rl in rows:
             if not odd or not other_odd:
                 continue
-            if not is_sane_pregame_odds(odd) or not is_sane_pregame_odds(other_odd):
-                continue  # momio fuera de rango razonable — probablemente en vivo o corrupto
-            # Aplicar penalización por exceso de confianza contra el mercado
-            # antes de calcular el edge — reduce la prob cuando el modelo
-            # favorece a un desvalido (odds >= 2.0) de forma agresiva.
-            prob_adj = apply_underdog_penalty(prob, odd)
+            sane_fn = is_sane_runline_odds if is_rl else is_sane_pregame_odds
+            if not sane_fn(odd) or not sane_fn(other_odd):
+                continue
+            prob_adj = apply_underdog_penalty(prob, odd, is_rl=is_rl)
             e = edge_pct(prob_adj, odd)
             if e is None:
                 continue
