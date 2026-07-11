@@ -84,6 +84,14 @@ UNDERDOG_PENALTY = 0.9
 # picks como HOU +1.5 (edge 5% tras penalización) a PASS en vez de LEAN.
 RL_EXTRA_DISCOUNT = 0.70
 
+# Techo de edge creíble — datos reales (n=26) muestran que picks con edge
+# calculado >20% tienen solo 34.6% de win rate, peor que un volado. El modelo
+# está tan seguro de sí mismo en esos casos que el mercado lo está corrigiendo
+# brutalmente. Cualquier edge calculado por encima de este techo se comprime
+# a 20% para evitar que picks sobreconfiados aparezcan como Apuesta Máxima
+# o dominen la lista de picks del día.
+MAX_CREDIBLE_EDGE = 20.0
+
 
 def apply_underdog_penalty(prob, dec_odds, is_rl=False):
     """Aplica una penalización a la probabilidad del modelo cuando contradice
@@ -184,7 +192,10 @@ def edge_pct(model_prob, dec_odds):
     imp = implied_prob_decimal(dec_odds)
     if imp is None or model_prob is None:
         return None
-    return (model_prob - imp) * 100
+    raw = (model_prob - imp) * 100
+    # Comprimir edges excesivamente altos — el modelo sobreestima su propia
+    # certeza en estos casos, y los datos reales lo confirman.
+    return min(raw, MAX_CREDIBLE_EDGE)
 
 
 def edge_tier(edge):
