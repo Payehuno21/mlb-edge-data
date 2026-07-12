@@ -578,9 +578,15 @@ def fetch_live_odds(api_key, today_str, mode):
     if not api_key:
         print("INFO: ODDS_API_KEY no configurada — se omiten momios automáticos.")
         return []
+    # Incluimos múltiples bookmakers para detectar consenso y sharp movement.
+    # DraftKings, FanDuel, BetMGM, Caesars y BetRivers son los más líquidos
+    # del mercado US — cuando todas coinciden en una dirección, es señal fuerte.
+    # No especificamos bookmakers= para obtener TODOS los disponibles en el plan
+    # y luego analizar el spread entre ellos para detectar movimiento.
     url = (
         f"{ODDS_API_BASE}?regions=us&markets=h2h,spreads,totals"
-        f"&oddsFormat=decimal&apiKey={api_key}"
+        f"&oddsFormat=decimal&bookmakers=draftkings,fanduel,betmgm,caesars,betrivers"
+        f"&apiKey={api_key}"
     )
     data = get_json(url, retries=2)
     if data is None:
@@ -602,6 +608,43 @@ def fetch_live_odds(api_key, today_str, mode):
     cache[cache_key] = result
     save_odds_cache(cache)
     return result
+
+
+def consensus_and_sharp_movement(bookmakers, outcome_filter):
+    """Analiza el consenso entre múltiples casas de apuestas para detectar
+    movimiento de línea significativo. Devuelve un dict con:
+    - consensus_prob: probabilidad implícita promedio entre todas las casas
+    - spread_pp: diferencia en pp entre la casa más alta y más baja (>3pp = movimiento)
+    - books_count: número de casas que publicaron momios para este mercado
+    Solo aplica para h2h (ML) por ahora — es donde el movimiento de línea
+    entre casas es más informativo sobre dinero sharp.
+    """
+    results = {}
+    for market_key in outcome_filter:
+        if market_key != "h2h":
+            continue
+        by_outcome = {}
+        for book in bookmakers:
+            for market in book.get("markets", []):
+                if market.get("key") != market_key:
+                    continue
+                for outcome in market.get("outcomes", []):
+                    name = outcome.get("name")
+                    price = outcome.get("price")
+                    if not name or not price or price <= 1:
+                        continue
+                    by_outcome.setdefault(name, []).append(1/price)  # prob implícita
+        for name, probs in by_outcome.items():
+            if len(probs) < 2:
+                continue
+            avg_prob = sum(probs) / len(probs)
+            spread = (max(probs) - min(probs)) * 100  # en pp
+            results[name] = {
+                "consensusProb": round(avg_prob, 4),
+                "spreadPp": round(spread, 2),
+                "booksCount": len(probs),
+            }
+    return results
 
 
 def best_price_per_outcome(bookmakers, outcome_filter):
@@ -716,6 +759,9 @@ def extract_market_odds(event):
         "totalOverPrice": total_over[1],
         "totalUnderPrice": total_under[1],
         "lastUpdate": event.get("commence_time"),
+        # Consenso entre múltiples casas — útil para detectar sharp movement.
+        # Si el spread entre casas es >3pp en ML, hay dinero moviéndose.
+        "consensus": consensus_and_sharp_movement(bookmakers, {"h2h"}),
     }
 
 
