@@ -1555,12 +1555,16 @@ def main():
     # Guardar historial de líneas para análisis de apertura/cierre
     save_line_history(todays_games, today.isoformat(), mode)
 
-    # Correo principal de picks del día
-    html_body = build_alert_email_html(best_bets, todays_games, teams_by_id, run_label, today.isoformat())
+    # Correo principal de picks del día — SOLO en corridas full (7am y 9am)
+    # En modo refresh (1pm y 6pm) solo se actualiza data.json silenciosamente
     resend_key = os.environ.get("RESEND_API_KEY", "")
     alert_to = os.environ.get("ALERT_EMAIL_TO", "")
-    subject = f"MLB Edge — {today.isoformat()} ({run_label})"
-    send_alert_email(resend_key, alert_to, html_body, subject)
+    if mode == "full":
+        html_body = build_alert_email_html(best_bets, todays_games, teams_by_id, run_label, today.isoformat())
+        subject = f"MLB Edge — {today.isoformat()} ({run_label})"
+        send_alert_email(resend_key, alert_to, html_body, subject)
+    else:
+        print("INFO: Modo refresh — se omite correo de picks (solo se actualizan momios/abridores/clima).")
 
     # Alerta especial de movimiento de línea — solo en la corrida de las 9am
     # (15:00 UTC), comparando contra la de las 7am (13:00 UTC).
