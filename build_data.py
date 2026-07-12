@@ -30,6 +30,7 @@ sin necesidad de fetch en vivo ni proxies CORS.
 import json
 import math
 import os
+import subprocess
 import sys
 import time
 from datetime import date, timedelta, datetime, timezone
@@ -1121,19 +1122,22 @@ def build_alert_email_html(best_bets, games_out, teams_by_id, run_label, today_s
         top = best_bets[0]
         rest = [b for b in best_bets[1:] if b["tier"] in ("BET", "LEAN")][:8]
 
-        top_html = f"""
-        <div style="background:#0D0F14;border-radius:12px;padding:20px;margin-bottom:20px;">
-          <p style="color:#00FFB2;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;margin:0 0 8px;font-weight:700;">Apuesta máxima</p>
-          <p style="color:#FFFFFF;font-size:22px;font-weight:700;margin:0 0 4px;">{top['label']}</p>
-          <p style="color:#9CA3AF;font-size:13px;margin:0 0 10px;">{top['matchup']} · momio {top['odd']}</p>
-          <p style="color:#00FFB2;font-size:28px;font-weight:700;margin:0;">+{top['edge']:.1f}%</p>
-        </div>
-        """ if top["tier"] == "BET" else """
-        <div style="background:#0D0F14;border-radius:12px;padding:20px;margin-bottom:20px;">
-          <p style="color:#9CA3AF;font-size:13px;margin:0;">Ningún candidato alcanzó hoy el umbral BET (≥6% edge). El mejor disponible fue:</p>
-          <p style="color:#FFFFFF;font-size:16px;font-weight:700;margin:8px 0 0;">{label} ({matchup}) — {edge:.1f}%</p>
-        </div>
-        """.format(label=top["label"], matchup=top["matchup"], edge=top["edge"])
+        if top["tier"] == "BET":
+            top_html = f"""
+            <div style="background:#0D0F14;border-radius:12px;padding:20px;margin-bottom:20px;">
+              <p style="color:#00FFB2;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;margin:0 0 8px;font-weight:700;">Apuesta máxima</p>
+              <p style="color:#FFFFFF;font-size:22px;font-weight:700;margin:0 0 4px;">{top['label']}</p>
+              <p style="color:#9CA3AF;font-size:13px;margin:0 0 10px;">{top['matchup']} · momio {top['odd']}</p>
+              <p style="color:#00FFB2;font-size:28px;font-weight:700;margin:0;">+{top['edge']:.1f}%</p>
+            </div>
+            """
+        else:
+            top_html = f"""
+            <div style="background:#0D0F14;border-radius:12px;padding:20px;margin-bottom:20px;">
+              <p style="color:#9CA3AF;font-size:13px;margin:0;">Ningún candidato alcanzó hoy el umbral BET (≥6% edge). El mejor disponible fue:</p>
+              <p style="color:#FFFFFF;font-size:16px;font-weight:700;margin:8px 0 0;">{top['label']} ({top['matchup']}) — {top['edge']:.1f}%</p>
+            </div>
+            """
 
         top3 = top_diverse_picks(best_bets, n=3)
         top3_rows = "".join(f"""
@@ -1585,7 +1589,6 @@ def main():
             print("  Sin movimientos significativos de línea en la corrida de las 9am.")
 
     # Agregar line_history.json al commit de GitHub Actions
-    import subprocess
     try:
         subprocess.run(["git", "add", "line_history.json"], check=False, capture_output=True)
     except Exception:
