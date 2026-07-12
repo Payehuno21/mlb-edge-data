@@ -32,7 +32,7 @@ import math
 import os
 import sys
 import time
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime, timezone
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
