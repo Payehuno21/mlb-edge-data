@@ -4,14 +4,13 @@ on:
   schedule:
     # Corrida completa (mañana) — 7am hora de Puerto Vallarta (UTC-6) = 13:00 UTC
     - cron: '0 13 * * *'
+    # Corrida anticipada — 9am hora de Puerto Vallarta = 15:00 UTC
+    # Detecta movimiento de línea vs corrida de 7am y envía alerta si hay cambios
+    - cron: '0 15 * * *'
     # Corrida refresh (tarde) — 1pm hora de Puerto Vallarta = 19:00 UTC
     - cron: '0 19 * * *'
-    # NUEVA: Corrida anticipada — 9am hora de Puerto Vallarta = 15:00 UTC
-    # Para capturar abridores confirmados y movimiento de línea temprano
-    - cron: '0 15 * * *'
-    # NUEVA: Corrida nocturna — 6pm hora de Puerto Vallarta = 00:00 UTC
-    # Para registrar el cierre de líneas antes del fin del día (datos valiosos
-    # para el análisis de movimiento de línea y calibración del modelo)
+    # Corrida de cierre — 6pm hora de Puerto Vallarta = 00:00 UTC
+    # Guarda el precio de cierre de líneas para análisis histórico
     - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
@@ -42,16 +41,10 @@ jobs:
       - name: Determinar modo de corrida
         id: mode
         run: |
-          # workflow_dispatch usa el input directo
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
-          # 13:00 UTC y 15:00 UTC = corrida completa (mañana y anticipada)
           elif [ "$(date -u +%H)" = "13" ] || [ "$(date -u +%H)" = "15" ]; then
             echo "mode=full" >> $GITHUB_OUTPUT
-          # 19:00 UTC = refresh tarde
-          elif [ "$(date -u +%H)" = "19" ]; then
-            echo "mode=refresh" >> $GITHUB_OUTPUT
-          # 00:00 UTC = refresh nocturno (cierre de líneas)
           else
             echo "mode=refresh" >> $GITHUB_OUTPUT
           fi
@@ -67,6 +60,6 @@ jobs:
         run: |
           git config user.name "actions-user"
           git config user.email "actions@github.com"
-          git add data.json odds_cache.json
+          git add data.json odds_cache.json line_history.json
           git diff --staged --quiet || git commit -m "Actualizar datos MLB Edge (${{ steps.mode.outputs.mode }}) - $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
