@@ -1232,6 +1232,99 @@ def build_alert_email_html(best_bets, games_out, teams_by_id, run_label, today_s
     """
 
 
+def build_line_movement_email_html(movements_by_game, today_str):
+    """Construye el HTML del correo de alerta de movimiento de línea.
+    Solo se envía cuando hay movimientos significativos (>=4pp) entre
+    la corrida de las 7am y la de las 9am — señal de que algo cambió
+    (alineación, lesión, clima) que el modelo aún no sabe.
+    """
+    rows = ""
+    for matchup, moves in movements_by_game.items():
+        for m in moves:
+            direction = "▲" if m["deltaPct"] > 0 else "▼"
+            color = "#00FFB2" if m["deltaPct"] > 0 else "#FF3D71"
+            side_label = f"{m['side'].upper()} " if m.get("side") else ""
+            rows += f"""
+            <tr style="border-bottom:1px solid #1F2329;">
+              <td style="padding:8px 0;color:#FFFFFF;font-size:13px;">{matchup}</td>
+              <td style="padding:8px 0;color:#9CA3AF;font-size:12px;">{m['market']} {side_label}</td>
+              <td style="padding:8px 0;font-size:12px;color:#9CA3AF;">{m['fromProb']}% → {m['toProb']}%</td>
+              <td style="padding:8px 0;color:{color};font-size:13px;font-weight:700;text-align:right;">{direction} {abs(m['deltaPct']):.1f}pp</td>
+            </tr>"""
+
+    return f"""
+    <div style="background:#0D1117;padding:24px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:600px;margin:0 auto;">
+      <h1 style="color:#00FFB2;font-size:22px;margin:0 0 4px;">MLB EDGE</h1>
+      <p style="color:#6B7280;font-size:12px;margin:0 0 20px;">Alerta de movimiento de línea · {today_str}</p>
+      <p style="color:#9CA3AF;font-size:13px;margin:0 0 16px;">Se detectaron movimientos significativos (≥4pp) entre la corrida de las 7am y las 9am. Esto puede indicar una lesión, cambio de alineación o movimiento de dinero.</p>
+      <table style="width:100%;border-collapse:collapse;">
+        <thead>
+          <tr style="border-bottom:1px solid #30363D;">
+            <td style="color:#6B7280;font-size:11px;text-transform:uppercase;padding-bottom:8px;">Partido</td>
+            <td style="color:#6B7280;font-size:11px;text-transform:uppercase;padding-bottom:8px;">Mercado</td>
+            <td style="color:#6B7280;font-size:11px;text-transform:uppercase;padding-bottom:8px;">Movimiento</td>
+            <td style="color:#6B7280;font-size:11px;text-transform:uppercase;padding-bottom:8px;text-align:right;">Δ</td>
+          </tr>
+        </thead>
+        <tbody>{rows}</tbody>
+      </table>
+      <p style="color:#6B7280;font-size:11px;margin:20px 0 0;">Herramienta de análisis — no garantiza resultados. Apuesta con responsabilidad.</p>
+    </div>"""
+
+
+def save_line_history(games_out, today_str, mode):
+    """Guarda el historial de líneas de apertura y cierre en line_history.json.
+    La corrida de las 7am (full) guarda la línea de APERTURA.
+    Las corridas posteriores actualizan el CIERRE.
+    Esto permite analizar después qué tan bien predice el movimiento de línea
+    los resultados reales — la señal más valiosa para calibrar el modelo.
+    """
+    history_file = "line_history.json"
+    try:
+        with open(history_file) as f:
+            history = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        history = {}
+
+    date_key = today_str
+    if date_key not in history:
+        history[date_key] = {}
+
+    for g in games_out:
+        if g.get("gameDateStr") != today_str:
+            continue
+        matchup = f"{g.get('awayTeamId','?')}@{g.get('homeTeamId','?')}"
+        ao = g.get("autoOdds") or {}
+        if not ao.get("mlHome") and not ao.get("mlAway"):
+            continue
+
+        snap = {
+            "mlHome": ao.get("mlHome"),
+            "mlAway": ao.get("mlAway"),
+            "totalOverPrice": ao.get("totalOverPrice"),
+            "totalUnderPrice": ao.get("totalUnderPrice"),
+            "totalPoint": ao.get("totalPoint"),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+        }
+
+        if matchup not in history[date_key]:
+            history[date_key][matchup] = {"open": snap, "snapshots": [snap]}
+        else:
+            history[date_key][matchup]["snapshots"].append(snap)
+            history[date_key][matchup]["close"] = snap  # siempre el más reciente
+
+    # Limpiar historial de más de 14 días para no crecer infinitamente
+    cutoff = (datetime.now(timezone.utc).date() - timedelta(days=14)).isoformat()
+    history = {k: v for k, v in history.items() if k >= cutoff}
+
+    try:
+        with open(history_file, "w") as f:
+            json.dump(history, f, indent=2, ensure_ascii=False)
+        print(f"  Historial de líneas guardado: {len(history.get(date_key, {}))} juego(s) en {date_key}")
+    except Exception as e:
+        print(f"WARN: no se pudo guardar line_history.json: {e}")
+
+
 def send_alert_email(api_key, to_email, html_body, subject):
     if not api_key or not to_email:
         print("INFO: RESEND_API_KEY o ALERT_EMAIL_TO no configurados — se omite correo de alerta.")
@@ -1443,12 +1536,60 @@ def main():
     todays_games = [g for g in games_out if g["gameDateStr"] == today.isoformat()]
     teams_by_id = team_cache
     best_bets = find_best_bets(todays_games, teams_by_id)
-    run_label = "Corrida completa (mañana)" if mode == "full" else "Actualización (tarde)"
+
+    # Etiqueta de corrida según la hora UTC del servidor
+    hour_utc = datetime.now(timezone.utc).hour
+    if mode == "full" and hour_utc == 13:
+        run_label = "Corrida completa (mañana)"
+    elif mode == "full" and hour_utc == 15:
+        run_label = "Corrida anticipada (9am)"
+    elif hour_utc == 0:
+        run_label = "Cierre de líneas (noche)"
+    else:
+        run_label = "Actualización (tarde)"
+
+    # Guardar historial de líneas para análisis de apertura/cierre
+    save_line_history(todays_games, today.isoformat(), mode)
+
+    # Correo principal de picks del día
     html_body = build_alert_email_html(best_bets, todays_games, teams_by_id, run_label, today.isoformat())
     resend_key = os.environ.get("RESEND_API_KEY", "")
     alert_to = os.environ.get("ALERT_EMAIL_TO", "")
     subject = f"MLB Edge — {today.isoformat()} ({run_label})"
     send_alert_email(resend_key, alert_to, html_body, subject)
+
+    # Alerta especial de movimiento de línea — solo en la corrida de las 9am
+    # (15:00 UTC), comparando contra la de las 7am (13:00 UTC).
+    # Si hay movimientos significativos (>=4pp), manda un correo separado
+    # para que puedas revisar antes de apostar.
+    if hour_utc == 15 and mode == "full":
+        movements_by_game = {}
+        for g in todays_games:
+            lm = g.get("lineMovement") or []
+            if lm:
+                home = teams_by_id.get(g["homeTeamId"])
+                away = teams_by_id.get(g["awayTeamId"])
+                if home and away:
+                    matchup_label = f"{away['abbr']} @ {home['abbr']}"
+                    movements_by_game[matchup_label] = lm
+
+        if movements_by_game:
+            total_moves = sum(len(v) for v in movements_by_game.values())
+            print(f"  Movimientos de línea detectados: {total_moves} en {len(movements_by_game)} partido(s) — enviando alerta.")
+            move_html = build_line_movement_email_html(movements_by_game, today.isoformat())
+            send_alert_email(
+                resend_key, alert_to, move_html,
+                f"⚠️ MLB Edge — Movimiento de línea detectado ({today.isoformat()})"
+            )
+        else:
+            print("  Sin movimientos significativos de línea en la corrida de las 9am.")
+
+    # Agregar line_history.json al commit de GitHub Actions
+    import subprocess
+    try:
+        subprocess.run(["git", "add", "line_history.json"], check=False, capture_output=True)
+    except Exception:
+        pass
 
 
 if __name__ == "__main__":
