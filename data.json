@@ -1,132 +1,95 @@
 {
-  "generatedAt": "2026-07-13T20:14:59Z",
+  "generatedAt": "2026-07-14T02:52:22Z",
   "lastMode": "refresh",
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "availableDates": [
-    "2026-07-13"
+    "2026-07-14"
   ],
-  "teams": [],
-  "games": [],
-  "results": [
+  "teams": [
     {
-      "gamePk": 823358,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 134,
-      "awayTeamId": 158,
-      "homeScore": 14,
-      "awayScore": 5
+      "id": 160,
+      "abbr": "NL",
+      "name": "National League All-Stars",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.3,
+      "staffEra": 4.0,
+      "bullpenRecentIp": 0.0,
+      "topPowerHitter": null,
+      "topContactHitter": null,
+      "missingStarters": []
     },
     {
-      "gamePk": 824814,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 110,
-      "awayTeamId": 118,
-      "homeScore": 8,
-      "awayScore": 2
-    },
-    {
-      "gamePk": 822708,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 120,
-      "awayTeamId": 147,
-      "homeScore": 3,
-      "awayScore": 5
-    },
-    {
-      "gamePk": 824491,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 113,
-      "awayTeamId": 112,
-      "homeScore": 4,
-      "awayScore": 8
-    },
-    {
-      "gamePk": 823602,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 121,
-      "awayTeamId": 111,
-      "homeScore": 2,
-      "awayScore": 3
-    },
-    {
-      "gamePk": 822951,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 139,
-      "awayTeamId": 136,
-      "homeScore": 2,
-      "awayScore": 8
-    },
-    {
-      "gamePk": 824250,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 116,
-      "awayTeamId": 143,
-      "homeScore": 0,
-      "awayScore": 5
-    },
-    {
-      "gamePk": 823842,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 146,
-      "awayTeamId": 114,
-      "homeScore": 2,
-      "awayScore": 5
-    },
-    {
-      "gamePk": 823681,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 142,
-      "awayTeamId": 108,
-      "homeScore": 4,
-      "awayScore": 2
-    },
-    {
-      "gamePk": 824574,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 145,
-      "awayTeamId": 133,
-      "homeScore": 9,
-      "awayScore": 1
-    },
-    {
-      "gamePk": 823029,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 138,
-      "awayTeamId": 144,
-      "homeScore": 3,
-      "awayScore": 4
-    },
-    {
-      "gamePk": 822876,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 140,
-      "awayTeamId": 117,
-      "homeScore": 6,
-      "awayScore": 5
-    },
-    {
-      "gamePk": 823199,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 137,
-      "awayTeamId": 115,
-      "homeScore": 3,
-      "awayScore": 1
-    },
-    {
-      "gamePk": 823925,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 119,
-      "awayTeamId": 109,
-      "homeScore": 3,
-      "awayScore": 5
-    },
-    {
-      "gamePk": 823274,
-      "dateStr": "2026-07-12",
-      "homeTeamId": 135,
-      "awayTeamId": 141,
-      "homeScore": 5,
-      "awayScore": 4
+      "id": 159,
+      "abbr": "AL",
+      "name": "American League All-Stars",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.3,
+      "staffEra": 4.0,
+      "bullpenRecentIp": 0.0,
+      "topPowerHitter": null,
+      "topContactHitter": null,
+      "missingStarters": []
     }
-  ]
+  ],
+  "games": [
+    {
+      "gamePk": 823443,
+      "gameDate": "2026-07-15T00:00:00Z",
+      "gameDateStr": "2026-07-14",
+      "venue": "Citizens Bank Park",
+      "weather": null,
+      "homeTeamId": 160,
+      "awayTeamId": 159,
+      "homeTeamName": "National League All-Stars",
+      "awayTeamName": "American League All-Stars",
+      "autoOdds": {
+        "mlHome": 1.71,
+        "mlAway": 2.2,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.5,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.55,
+        "totalPoint": 7.5,
+        "totalOverPrice": 1.82,
+        "totalUnderPrice": 2.0,
+        "lastUpdate": "2026-07-15T00:01:00Z",
+        "consensus": {
+          "American League": {
+            "consensusProb": 0.4598,
+            "spreadPp": 1.06,
+            "booksCount": 2
+          },
+          "National League": {
+            "consensusProb": 0.5865,
+            "spreadPp": 0.34,
+            "booksCount": 2
+          }
+        }
+      },
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Cristopher Sánchez",
+        "era": 2.62,
+        "whip": 1.19,
+        "k9": 10.2
+      },
+      "awayStarter": {
+        "name": "Dylan Cease",
+        "era": 2.56,
+        "whip": 1.13,
+        "k9": 13.6
+      }
+    }
+  ],
+  "results": []
 }

@@ -429,5 +429,27 @@
       }
     }
   },
-  "2026-07-13": {}
+  "2026-07-13": {},
+  "2026-07-14": {
+    "159@160": {
+      "open": {
+        "mlHome": 1.71,
+        "mlAway": 2.2,
+        "totalOverPrice": 1.82,
+        "totalUnderPrice": 2.0,
+        "totalPoint": 7.5,
+        "timestamp": "2026-07-14T02:52:22.884405+00:00"
+      },
+      "snapshots": [
+        {
+          "mlHome": 1.71,
+          "mlAway": 2.2,
+          "totalOverPrice": 1.82,
+          "totalUnderPrice": 2.0,
+          "totalPoint": 7.5,
+          "timestamp": "2026-07-14T02:52:22.884405+00:00"
+        }
+      ]
+    }
+  }
 }
