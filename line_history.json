@@ -464,6 +464,14 @@
           "totalUnderPrice": 2.0,
           "totalPoint": 7.5,
           "timestamp": "2026-07-14T16:15:13.303358+00:00"
+        },
+        {
+          "mlHome": 1.71,
+          "mlAway": 2.2,
+          "totalOverPrice": 1.82,
+          "totalUnderPrice": 2.0,
+          "totalPoint": 7.5,
+          "timestamp": "2026-07-14T20:12:27.400470+00:00"
         }
       ],
       "close": {
@@ -472,7 +480,7 @@
         "totalOverPrice": 1.82,
         "totalUnderPrice": 2.0,
         "totalPoint": 7.5,
-        "timestamp": "2026-07-14T16:15:13.303358+00:00"
+        "timestamp": "2026-07-14T20:12:27.400470+00:00"
       }
     }
   }
