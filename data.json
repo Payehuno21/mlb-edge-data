@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T16:17:06Z",
+  "generatedAt": "2026-07-16T20:02:32Z",
   "lastMode": "refresh",
   "date": "2026-07-16",
   "availableDates": [
@@ -97,22 +97,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 39.2,
-          "toProb": 65.8,
-          "deltaPct": 26.6
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 63.7,
-          "toProb": 38.8,
-          "deltaPct": -24.9
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
