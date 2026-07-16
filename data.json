@@ -1,20 +1,113 @@
 {
-  "generatedAt": "2026-07-15T20:08:48Z",
+  "generatedAt": "2026-07-16T02:57:09Z",
   "lastMode": "refresh",
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "availableDates": [
-    "2026-07-15"
+    "2026-07-16"
   ],
-  "teams": [],
-  "games": [],
-  "results": [
+  "teams": [
     {
-      "gamePk": 823443,
-      "dateStr": "2026-07-14",
-      "homeTeamId": 160,
-      "awayTeamId": 159,
-      "homeScore": 0,
-      "awayScore": 4
+      "id": 143,
+      "abbr": "PHI",
+      "name": "Philadelphia Phillies",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.37,
+      "staffEra": 4.23,
+      "bullpenRecentIp": 0.0,
+      "topPowerHitter": {
+        "name": "Kyle Schwarber",
+        "hrRate": 0.0773,
+        "pa": 414
+      },
+      "topContactHitter": {
+        "name": "Brandon Marsh",
+        "avg": 0.301,
+        "pa": 363
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 121,
+      "abbr": "NYM",
+      "name": "New York Mets",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1489,
+      "runsPerGame": 3.95,
+      "staffEra": 4.27,
+      "bullpenRecentIp": 0.0,
+      "topPowerHitter": {
+        "name": "Juan Soto",
+        "hrRate": 0.0629,
+        "pa": 334
+      },
+      "topContactHitter": {
+        "name": "Juan Soto",
+        "avg": 0.29,
+        "pa": 334
+      },
+      "missingStarters": [
+        "Marcus Semien"
+      ]
     }
-  ]
+  ],
+  "games": [
+    {
+      "gamePk": 823440,
+      "gameDate": "2026-07-16T23:10:00Z",
+      "gameDateStr": "2026-07-16",
+      "venue": "Citizens Bank Park",
+      "weather": null,
+      "homeTeamId": 143,
+      "awayTeamId": 121,
+      "homeTeamName": "Philadelphia Phillies",
+      "awayTeamName": "New York Mets",
+      "autoOdds": {
+        "mlHome": 1.81,
+        "mlAway": 2.12,
+        "rlHomePoint": 1.5,
+        "rlHomePrice": 1.52,
+        "rlAwayPoint": -1.5,
+        "rlAwayPrice": 2.58,
+        "totalPoint": 9.5,
+        "totalOverPrice": 1.92,
+        "totalUnderPrice": 1.96,
+        "lastUpdate": "2026-07-16T23:11:00Z",
+        "consensus": {
+          "New York Mets": {
+            "consensusProb": 0.4844,
+            "spreadPp": 2.09,
+            "booksCount": 4
+          },
+          "Philadelphia Phillies": {
+            "consensusProb": 0.5595,
+            "spreadPp": 1.57,
+            "booksCount": 4
+          }
+        }
+      },
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Aaron Nola",
+        "era": 5.75,
+        "whip": 1.43,
+        "k9": 9.5
+      },
+      "awayStarter": {
+        "name": "Christian Scott",
+        "era": 3.17,
+        "whip": 1.3,
+        "k9": 10.8
+      }
+    }
+  ],
+  "results": []
 }
