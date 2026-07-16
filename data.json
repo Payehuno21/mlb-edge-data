@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T02:57:09Z",
-  "lastMode": "refresh",
+  "generatedAt": "2026-07-16T15:07:42Z",
+  "lastMode": "full",
   "date": "2026-07-16",
   "availableDates": [
     "2026-07-16"
@@ -10,11 +10,11 @@
       "id": 143,
       "abbr": "PHI",
       "name": "Philadelphia Phillies",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
+      "winPct": 0.557,
+      "homeWinPct": 0.543,
+      "awayWinPct": 0.569,
       "last10": 5,
-      "elo": 1500,
+      "elo": 1534,
       "runsPerGame": 4.37,
       "staffEra": 4.23,
       "bullpenRecentIp": 0.0,
@@ -34,11 +34,11 @@
       "id": 121,
       "abbr": "NYM",
       "name": "New York Mets",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1489,
+      "winPct": 0.412,
+      "homeWinPct": 0.429,
+      "awayWinPct": 0.396,
+      "last10": 4,
+      "elo": 1436,
       "runsPerGame": 3.95,
       "staffEra": 4.27,
       "bullpenRecentIp": 0.0,
@@ -63,38 +63,107 @@
       "gameDate": "2026-07-16T23:10:00Z",
       "gameDateStr": "2026-07-16",
       "venue": "Citizens Bank Park",
-      "weather": null,
+      "weather": {
+        "tempF": 97,
+        "precipProb": 4,
+        "windMph": 14.1,
+        "windDirDeg": 285
+      },
       "homeTeamId": 143,
       "awayTeamId": 121,
       "homeTeamName": "Philadelphia Phillies",
       "awayTeamName": "New York Mets",
       "autoOdds": {
-        "mlHome": 1.81,
-        "mlAway": 2.12,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.52,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.58,
+        "mlHome": 1.79,
+        "mlAway": 2.1,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.55,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.57,
         "totalPoint": 9.5,
         "totalOverPrice": 1.92,
-        "totalUnderPrice": 1.96,
+        "totalUnderPrice": 1.93,
         "lastUpdate": "2026-07-16T23:11:00Z",
         "consensus": {
           "New York Mets": {
-            "consensusProb": 0.4844,
-            "spreadPp": 2.09,
+            "consensusProb": 0.4779,
+            "spreadPp": 0.46,
             "booksCount": 4
           },
           "Philadelphia Phillies": {
-            "consensusProb": 0.5595,
-            "spreadPp": 1.57,
+            "consensusProb": 0.5666,
+            "spreadPp": 1.61,
             "booksCount": 4
           }
         }
       },
-      "lineMovement": [],
+      "lineMovement": [
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 65.8,
+          "toProb": 39.2,
+          "deltaPct": -26.6
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 38.8,
+          "toProb": 63.7,
+          "deltaPct": 24.9
+        }
+      ],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Francisco Alvarez",
+          "type": "1+ Hit",
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.684,
+          "edge": 9.9
+        },
+        {
+          "player": "Jared Young",
+          "type": "1+ Hit",
+          "decimalOdds": 1.69,
+          "line": 0.5,
+          "modelProb": 0.6753,
+          "edge": 8.4
+        },
+        {
+          "player": "Brett Baty",
+          "type": "1+ Hit",
+          "decimalOdds": 1.72,
+          "line": 0.5,
+          "modelProb": 0.633,
+          "edge": 5.2
+        },
+        {
+          "player": "Juan Soto",
+          "type": "1+ Hit",
+          "decimalOdds": 1.44,
+          "line": 0.5,
+          "modelProb": 0.7316,
+          "edge": 3.7
+        },
+        {
+          "player": "Kyle Schwarber",
+          "type": "1+ Hit",
+          "decimalOdds": 1.61,
+          "line": 0.5,
+          "modelProb": 0.6559,
+          "edge": 3.5
+        },
+        {
+          "player": "Carson Benge",
+          "type": "1+ Hit",
+          "decimalOdds": 1.5,
+          "line": 0.5,
+          "modelProb": 0.6967,
+          "edge": 3.0
+        }
+      ],
       "homeStarter": {
         "name": "Aaron Nola",
         "era": 5.75,
