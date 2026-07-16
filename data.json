@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T15:07:42Z",
-  "lastMode": "full",
+  "generatedAt": "2026-07-16T16:17:06Z",
+  "lastMode": "refresh",
   "date": "2026-07-16",
   "availableDates": [
     "2026-07-16"
@@ -74,25 +74,25 @@
       "homeTeamName": "Philadelphia Phillies",
       "awayTeamName": "New York Mets",
       "autoOdds": {
-        "mlHome": 1.79,
-        "mlAway": 2.1,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.55,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.57,
+        "mlHome": 1.81,
+        "mlAway": 2.12,
+        "rlHomePoint": 1.5,
+        "rlHomePrice": 1.52,
+        "rlAwayPoint": -1.5,
+        "rlAwayPrice": 2.58,
         "totalPoint": 9.5,
         "totalOverPrice": 1.92,
-        "totalUnderPrice": 1.93,
+        "totalUnderPrice": 1.96,
         "lastUpdate": "2026-07-16T23:11:00Z",
         "consensus": {
           "New York Mets": {
-            "consensusProb": 0.4779,
-            "spreadPp": 0.46,
+            "consensusProb": 0.4844,
+            "spreadPp": 2.09,
             "booksCount": 4
           },
           "Philadelphia Phillies": {
-            "consensusProb": 0.5666,
-            "spreadPp": 1.61,
+            "consensusProb": 0.5595,
+            "spreadPp": 1.57,
             "booksCount": 4
           }
         }
@@ -101,16 +101,16 @@
         {
           "market": "RL",
           "side": "home",
-          "fromProb": 65.8,
-          "toProb": 39.2,
-          "deltaPct": -26.6
+          "fromProb": 39.2,
+          "toProb": 65.8,
+          "deltaPct": 26.6
         },
         {
           "market": "RL",
           "side": "away",
-          "fromProb": 38.8,
-          "toProb": 63.7,
-          "deltaPct": 24.9
+          "fromProb": 63.7,
+          "toProb": 38.8,
+          "deltaPct": -24.9
         }
       ],
       "liveState": null,
