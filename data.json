@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T16:15:47Z",
+  "generatedAt": "2026-07-17T20:05:35Z",
   "lastMode": "refresh",
   "date": "2026-07-17",
   "availableDates": [
@@ -736,7 +736,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 10,
+        "awayScore": 0,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Nick Fortes",
@@ -789,15 +795,15 @@
       ],
       "homeStarter": {
         "name": "Jake Bennett",
-        "era": 2.64,
-        "whip": 0.94,
-        "k9": 6.6
+        "era": 2.35,
+        "whip": 0.88,
+        "k9": 6.4
       },
       "awayStarter": {
         "name": "Griffin Jax",
-        "era": 3.47,
-        "whip": 1.23,
-        "k9": 9.1
+        "era": 4.08,
+        "whip": 1.27,
+        "k9": 9.2
       }
     },
     {
@@ -892,7 +898,12 @@
         }
       ],
       "homeStarter": null,
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Mason Englert",
+        "era": 3.82,
+        "whip": 1.37,
+        "k9": 8.2
+      }
     },
     {
       "gamePk": 823524,
@@ -1037,22 +1048,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 37.3,
-          "toProb": 69.0,
-          "deltaPct": 31.7
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 66.7,
-          "toProb": 35.7,
-          "deltaPct": -31.0
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1983,36 +1979,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 46.3,
-          "toProb": 52.4,
-          "deltaPct": 6.1
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 56.5,
-          "toProb": 51.0,
-          "deltaPct": -5.5
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 56.8,
-          "toProb": 63.7,
-          "deltaPct": 6.9
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 45.5,
-          "toProb": 39.7,
-          "deltaPct": -5.8
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2220,15 +2187,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 37.7,
-          "toProb": 43.5,
-          "deltaPct": 5.7
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2302,6 +2261,14 @@
       "awayTeamId": 121,
       "homeScore": 1,
       "awayScore": 4
+    },
+    {
+      "gamePk": 824766,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 111,
+      "awayTeamId": 139,
+      "homeScore": 10,
+      "awayScore": 0
     }
   ]
 }
