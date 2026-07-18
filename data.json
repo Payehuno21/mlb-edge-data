@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T02:51:54Z",
+  "generatedAt": "2026-07-18T14:22:03Z",
   "lastMode": "refresh",
   "date": "2026-07-18",
   "availableDates": [
@@ -1036,7 +1036,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Tomoyuki Sugano",
+        "era": 4.8,
+        "whip": 1.32,
+        "k9": 5.1
+      },
       "awayStarter": {
         "name": "Rhett Lowder",
         "era": 4.91,
@@ -1181,7 +1186,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Randy Dobnak",
+        "era": 1.86,
+        "whip": 1.34,
+        "k9": 3.7
+      },
       "awayStarter": {
         "name": "Griffin Canning",
         "era": 6.47,
@@ -1630,6 +1640,78 @@
       "awayTeamId": 145,
       "homeScore": 4,
       "awayScore": 12
+    },
+    {
+      "gamePk": 823766,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 158,
+      "awayTeamId": 146,
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "gamePk": 824655,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 112,
+      "awayTeamId": 142,
+      "homeScore": 2,
+      "awayScore": 5
+    },
+    {
+      "gamePk": 824170,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 117,
+      "awayTeamId": 110,
+      "homeScore": 2,
+      "awayScore": 3
+    },
+    {
+      "gamePk": 824090,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 118,
+      "awayTeamId": 135,
+      "homeScore": 7,
+      "awayScore": 6
+    },
+    {
+      "gamePk": 824332,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 115,
+      "awayTeamId": 113,
+      "homeScore": 2,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 824009,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 108,
+      "awayTeamId": 116,
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 824981,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 133,
+      "awayTeamId": 120,
+      "homeScore": 4,
+      "awayScore": 23
+    },
+    {
+      "gamePk": 825060,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 109,
+      "awayTeamId": 138,
+      "homeScore": 4,
+      "awayScore": 5
+    },
+    {
+      "gamePk": 823115,
+      "dateStr": "2026-07-17",
+      "homeTeamId": 136,
+      "awayTeamId": 137,
+      "homeScore": 0,
+      "awayScore": 7
     },
     {
       "gamePk": 824414,
