@@ -1479,15 +1479,31 @@
           "totalUnderPrice": 1.89,
           "totalPoint": 7.5,
           "timestamp": "2026-07-18T15:57:58.420784+00:00"
+        },
+        {
+          "mlHome": 1.82,
+          "mlAway": 2.1,
+          "totalOverPrice": 1.95,
+          "totalUnderPrice": 1.91,
+          "totalPoint": 7.5,
+          "timestamp": "2026-07-18T20:03:47.775423+00:00"
+        },
+        {
+          "mlHome": 1.82,
+          "mlAway": 2.1,
+          "totalOverPrice": 1.95,
+          "totalUnderPrice": 1.91,
+          "totalPoint": 7.5,
+          "timestamp": "2026-07-18T20:03:47.775432+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.79,
-        "mlAway": 2.12,
-        "totalOverPrice": 1.97,
-        "totalUnderPrice": 1.89,
+        "mlHome": 1.82,
+        "mlAway": 2.1,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.91,
         "totalPoint": 7.5,
-        "timestamp": "2026-07-18T15:57:58.420784+00:00"
+        "timestamp": "2026-07-18T20:03:47.775432+00:00"
       }
     },
     "142@112": {
@@ -1523,15 +1539,23 @@
           "totalUnderPrice": 2.02,
           "totalPoint": 8.5,
           "timestamp": "2026-07-18T15:57:58.420788+00:00"
+        },
+        {
+          "mlHome": 1.7,
+          "mlAway": 2.3,
+          "totalOverPrice": 1.95,
+          "totalUnderPrice": 1.92,
+          "totalPoint": 9.0,
+          "timestamp": "2026-07-18T20:03:47.775437+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.74,
-        "mlAway": 2.23,
-        "totalOverPrice": 1.87,
-        "totalUnderPrice": 2.02,
-        "totalPoint": 8.5,
-        "timestamp": "2026-07-18T15:57:58.420788+00:00"
+        "mlHome": 1.7,
+        "mlAway": 2.3,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.92,
+        "totalPoint": 9.0,
+        "timestamp": "2026-07-18T20:03:47.775437+00:00"
       }
     },
     "145@141": {
@@ -1567,15 +1591,23 @@
           "totalUnderPrice": 1.85,
           "totalPoint": 9.5,
           "timestamp": "2026-07-18T15:57:58.420795+00:00"
+        },
+        {
+          "mlHome": 1.98,
+          "mlAway": 1.86,
+          "totalOverPrice": 1.91,
+          "totalUnderPrice": 1.93,
+          "totalPoint": 8.5,
+          "timestamp": "2026-07-18T20:03:47.775443+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.93,
-        "mlAway": 1.95,
-        "totalOverPrice": 2.02,
-        "totalUnderPrice": 1.85,
-        "totalPoint": 9.5,
-        "timestamp": "2026-07-18T15:57:58.420795+00:00"
+        "mlHome": 1.98,
+        "mlAway": 1.86,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 1.93,
+        "totalPoint": 8.5,
+        "timestamp": "2026-07-18T20:03:47.775443+00:00"
       }
     },
     "113@115": {
@@ -1611,15 +1643,23 @@
           "totalUnderPrice": 1.94,
           "totalPoint": 12.5,
           "timestamp": "2026-07-18T15:57:58.420799+00:00"
+        },
+        {
+          "mlHome": 2.0,
+          "mlAway": 1.89,
+          "totalOverPrice": 1.88,
+          "totalUnderPrice": 1.94,
+          "totalPoint": 12.5,
+          "timestamp": "2026-07-18T20:03:47.775446+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.96,
-        "mlAway": 1.91,
-        "totalOverPrice": 1.93,
+        "mlHome": 2.0,
+        "mlAway": 1.89,
+        "totalOverPrice": 1.88,
         "totalUnderPrice": 1.94,
         "totalPoint": 12.5,
-        "timestamp": "2026-07-18T15:57:58.420799+00:00"
+        "timestamp": "2026-07-18T20:03:47.775446+00:00"
       }
     },
     "121@143": {
@@ -1655,15 +1695,23 @@
           "totalUnderPrice": 2.0,
           "totalPoint": 8.5,
           "timestamp": "2026-07-18T15:57:58.420792+00:00"
+        },
+        {
+          "mlHome": 1.62,
+          "mlAway": 2.4,
+          "totalOverPrice": 1.85,
+          "totalUnderPrice": 1.98,
+          "totalPoint": 8.5,
+          "timestamp": "2026-07-18T20:03:47.775440+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.6,
-        "mlAway": 2.53,
-        "totalOverPrice": 1.91,
-        "totalUnderPrice": 2.0,
+        "mlHome": 1.62,
+        "mlAway": 2.4,
+        "totalOverPrice": 1.85,
+        "totalUnderPrice": 1.98,
         "totalPoint": 8.5,
-        "timestamp": "2026-07-18T15:57:58.420792+00:00"
+        "timestamp": "2026-07-18T20:03:47.775440+00:00"
       }
     },
     "110@117": {
@@ -1699,15 +1747,23 @@
           "totalUnderPrice": 1.87,
           "totalPoint": 9.0,
           "timestamp": "2026-07-18T15:57:58.420802+00:00"
+        },
+        {
+          "mlHome": 3.32,
+          "mlAway": 1.33,
+          "totalOverPrice": 1.98,
+          "totalUnderPrice": 1.85,
+          "totalPoint": 6.5,
+          "timestamp": "2026-07-18T20:03:47.775449+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.93,
-        "mlAway": 1.93,
+        "mlHome": 3.32,
+        "mlAway": 1.33,
         "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.87,
-        "totalPoint": 9.0,
-        "timestamp": "2026-07-18T15:57:58.420802+00:00"
+        "totalUnderPrice": 1.85,
+        "totalPoint": 6.5,
+        "timestamp": "2026-07-18T20:03:47.775449+00:00"
       }
     },
     "135@118": {
@@ -1743,15 +1799,23 @@
           "totalUnderPrice": 1.93,
           "totalPoint": 11.0,
           "timestamp": "2026-07-18T15:57:58.420809+00:00"
+        },
+        {
+          "mlHome": 1.95,
+          "mlAway": 1.87,
+          "totalOverPrice": 2.1,
+          "totalUnderPrice": 1.93,
+          "totalPoint": 8.5,
+          "timestamp": "2026-07-18T20:03:47.775456+00:00"
         }
       ],
       "close": {
-        "mlHome": 2.0,
-        "mlAway": 1.91,
-        "totalOverPrice": 1.95,
+        "mlHome": 1.95,
+        "mlAway": 1.87,
+        "totalOverPrice": 2.1,
         "totalUnderPrice": 1.93,
-        "totalPoint": 11.0,
-        "timestamp": "2026-07-18T15:57:58.420809+00:00"
+        "totalPoint": 8.5,
+        "timestamp": "2026-07-18T20:03:47.775456+00:00"
       }
     },
     "138@109": {
@@ -1787,15 +1851,23 @@
           "totalUnderPrice": 1.85,
           "totalPoint": 9.0,
           "timestamp": "2026-07-18T15:57:58.420813+00:00"
+        },
+        {
+          "mlHome": 1.72,
+          "mlAway": 2.13,
+          "totalOverPrice": 1.98,
+          "totalUnderPrice": 1.96,
+          "totalPoint": 8.5,
+          "timestamp": "2026-07-18T20:03:47.775460+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.85,
-        "mlAway": 2.04,
-        "totalOverPrice": 2.0,
-        "totalUnderPrice": 1.85,
-        "totalPoint": 9.0,
-        "timestamp": "2026-07-18T15:57:58.420813+00:00"
+        "mlHome": 1.72,
+        "mlAway": 2.13,
+        "totalOverPrice": 1.98,
+        "totalUnderPrice": 1.96,
+        "totalPoint": 8.5,
+        "timestamp": "2026-07-18T20:03:47.775460+00:00"
       }
     },
     "139@111": {
@@ -1831,15 +1903,23 @@
           "totalUnderPrice": 1.95,
           "totalPoint": 9.5,
           "timestamp": "2026-07-18T15:57:58.420816+00:00"
+        },
+        {
+          "mlHome": 1.85,
+          "mlAway": 2.02,
+          "totalOverPrice": 1.93,
+          "totalUnderPrice": 1.91,
+          "totalPoint": 9.5,
+          "timestamp": "2026-07-18T20:03:47.775463+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.92,
-        "mlAway": 1.97,
-        "totalOverPrice": 1.89,
-        "totalUnderPrice": 1.95,
+        "mlHome": 1.85,
+        "mlAway": 2.02,
+        "totalOverPrice": 1.93,
+        "totalUnderPrice": 1.91,
         "totalPoint": 9.5,
-        "timestamp": "2026-07-18T15:57:58.420816+00:00"
+        "timestamp": "2026-07-18T20:03:47.775463+00:00"
       }
     },
     "140@144": {
@@ -1875,15 +1955,23 @@
           "totalUnderPrice": 1.91,
           "totalPoint": 9.0,
           "timestamp": "2026-07-18T15:57:58.420819+00:00"
+        },
+        {
+          "mlHome": 1.89,
+          "mlAway": 1.96,
+          "totalOverPrice": 1.91,
+          "totalUnderPrice": 1.93,
+          "totalPoint": 9.0,
+          "timestamp": "2026-07-18T20:03:47.775466+00:00"
         }
       ],
       "close": {
         "mlHome": 1.89,
-        "mlAway": 2.0,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.91,
+        "mlAway": 1.96,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 1.93,
         "totalPoint": 9.0,
-        "timestamp": "2026-07-18T15:57:58.420819+00:00"
+        "timestamp": "2026-07-18T20:03:47.775466+00:00"
       }
     },
     "146@158": {
@@ -1919,15 +2007,23 @@
           "totalUnderPrice": 1.93,
           "totalPoint": 8.0,
           "timestamp": "2026-07-18T15:57:58.420822+00:00"
+        },
+        {
+          "mlHome": 1.44,
+          "mlAway": 2.96,
+          "totalOverPrice": 2.56,
+          "totalUnderPrice": 1.61,
+          "totalPoint": 3.5,
+          "timestamp": "2026-07-18T20:03:47.775468+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.74,
-        "mlAway": 2.25,
-        "totalOverPrice": 1.91,
-        "totalUnderPrice": 1.93,
-        "totalPoint": 8.0,
-        "timestamp": "2026-07-18T15:57:58.420822+00:00"
+        "mlHome": 1.44,
+        "mlAway": 2.96,
+        "totalOverPrice": 2.56,
+        "totalUnderPrice": 1.61,
+        "totalPoint": 3.5,
+        "timestamp": "2026-07-18T20:03:47.775468+00:00"
       }
     },
     "137@136": {
@@ -1963,15 +2059,23 @@
           "totalUnderPrice": 1.98,
           "totalPoint": 7.0,
           "timestamp": "2026-07-18T15:57:58.420825+00:00"
+        },
+        {
+          "mlHome": 1.44,
+          "mlAway": 2.82,
+          "totalOverPrice": 2.18,
+          "totalUnderPrice": 1.77,
+          "totalPoint": 5.5,
+          "timestamp": "2026-07-18T20:03:47.775471+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.7,
-        "mlAway": 2.3,
-        "totalOverPrice": 1.92,
-        "totalUnderPrice": 1.98,
-        "totalPoint": 7.0,
-        "timestamp": "2026-07-18T15:57:58.420825+00:00"
+        "mlHome": 1.44,
+        "mlAway": 2.82,
+        "totalOverPrice": 2.18,
+        "totalUnderPrice": 1.77,
+        "totalPoint": 5.5,
+        "timestamp": "2026-07-18T20:03:47.775471+00:00"
       }
     },
     "119@147": {
@@ -2007,15 +2111,23 @@
           "totalUnderPrice": 1.85,
           "totalPoint": 9.0,
           "timestamp": "2026-07-18T15:57:58.420827+00:00"
+        },
+        {
+          "mlHome": 1.95,
+          "mlAway": 1.91,
+          "totalOverPrice": 1.87,
+          "totalUnderPrice": 1.96,
+          "totalPoint": 8.5,
+          "timestamp": "2026-07-18T20:03:47.775473+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.96,
-        "mlAway": 1.95,
-        "totalOverPrice": 2.04,
-        "totalUnderPrice": 1.85,
-        "totalPoint": 9.0,
-        "timestamp": "2026-07-18T15:57:58.420827+00:00"
+        "mlHome": 1.95,
+        "mlAway": 1.91,
+        "totalOverPrice": 1.87,
+        "totalUnderPrice": 1.96,
+        "totalPoint": 8.5,
+        "timestamp": "2026-07-18T20:03:47.775473+00:00"
       }
     },
     "120@133": {
@@ -2051,15 +2163,23 @@
           "totalUnderPrice": 1.95,
           "totalPoint": 11.0,
           "timestamp": "2026-07-18T15:57:58.420830+00:00"
+        },
+        {
+          "mlHome": 6.2,
+          "mlAway": 1.12,
+          "totalOverPrice": 2.0,
+          "totalUnderPrice": 1.83,
+          "totalPoint": 10.5,
+          "timestamp": "2026-07-18T20:03:47.775476+00:00"
         }
       ],
       "close": {
-        "mlHome": 1.96,
-        "mlAway": 1.91,
-        "totalOverPrice": 1.88,
-        "totalUnderPrice": 1.95,
-        "totalPoint": 11.0,
-        "timestamp": "2026-07-18T15:57:58.420830+00:00"
+        "mlHome": 6.2,
+        "mlAway": 1.12,
+        "totalOverPrice": 2.0,
+        "totalUnderPrice": 1.83,
+        "totalPoint": 10.5,
+        "timestamp": "2026-07-18T20:03:47.775476+00:00"
       }
     },
     "116@108": {
@@ -2095,15 +2215,23 @@
           "totalUnderPrice": 1.95,
           "totalPoint": 8.0,
           "timestamp": "2026-07-18T15:57:58.420833+00:00"
+        },
+        {
+          "mlHome": 1.61,
+          "mlAway": 2.4,
+          "totalOverPrice": 1.94,
+          "totalUnderPrice": 1.85,
+          "totalPoint": 5.5,
+          "timestamp": "2026-07-18T20:03:47.775479+00:00"
         }
       ],
       "close": {
-        "mlHome": 2.7,
-        "mlAway": 1.51,
-        "totalOverPrice": 1.89,
-        "totalUnderPrice": 1.95,
-        "totalPoint": 8.0,
-        "timestamp": "2026-07-18T15:57:58.420833+00:00"
+        "mlHome": 1.61,
+        "mlAway": 2.4,
+        "totalOverPrice": 1.94,
+        "totalUnderPrice": 1.85,
+        "totalPoint": 5.5,
+        "timestamp": "2026-07-18T20:03:47.775479+00:00"
       }
     }
   }
