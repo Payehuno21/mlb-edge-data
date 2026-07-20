@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T16:24:00Z",
+  "generatedAt": "2026-07-20T20:20:49Z",
   "lastMode": "refresh",
   "date": "2026-07-20",
   "availableDates": [
@@ -883,22 +883,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 66.7,
-          "toProb": 36.8,
-          "deltaPct": -29.9
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 36.8,
-          "toProb": 67.6,
-          "deltaPct": 30.8
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2242,15 +2227,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 50.0,
-          "toProb": 54.6,
-          "deltaPct": 4.6
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
