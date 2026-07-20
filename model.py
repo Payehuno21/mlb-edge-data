@@ -60,7 +60,7 @@ def weather_run_factor(weather):
 # extremos sin tener que tocar cada peso individual del modelo. Revisar este
 # valor conforme crezca la muestra: si la calibración mejora, se puede subir
 # (acercar a 1.0); si sigue sobreconfiado, bajarlo más.
-SHRINKAGE_FACTOR = 0.65
+SHRINKAGE_FACTOR = 0.75  # Calibrado 20 JUL: comprime más extremos (era 0.65, n=327)
 
 
 def shrink_prob(p, factor=SHRINKAGE_FACTOR):
@@ -82,7 +82,7 @@ UNDERDOG_PENALTY = 0.9
 # porque ya descuenta la dificultad de ganar POR MÁS de 1.5 carreras.
 # Este factor reduce el exceso residual después de UNDERDOG_PENALTY, llevando
 # picks como HOU +1.5 (edge 5% tras penalización) a PASS en vez de LEAN.
-RL_EXTRA_DISCOUNT = 0.70
+RL_EXTRA_DISCOUNT = 0.88  # Calibrado 20 JUL: RL 37.7% WR → penaliza más (era 0.70)
 
 # Techo de edge creíble — datos reales (n=26) muestran que picks con edge
 # calculado >20% tienen solo 34.6% de win rate, peor que un volado. El modelo
@@ -90,7 +90,7 @@ RL_EXTRA_DISCOUNT = 0.70
 # brutalmente. Cualquier edge calculado por encima de este techo se comprime
 # a 20% para evitar que picks sobreconfiados aparezcan como Apuesta Máxima
 # o dominen la lista de picks del día.
-MAX_CREDIBLE_EDGE = 20.0
+MAX_CREDIBLE_EDGE = 18.0  # Calibrado 20 JUL: techo más bajo (era 20.0, n=327)
 
 
 def apply_underdog_penalty(prob, dec_odds, is_rl=False):
