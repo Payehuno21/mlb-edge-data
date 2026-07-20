@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T03:36:39Z",
-  "lastMode": "refresh",
+  "generatedAt": "2026-07-20T15:16:49Z",
+  "lastMode": "full",
   "date": "2026-07-20",
   "availableDates": [
     "2026-07-20"
@@ -10,18 +10,18 @@
       "id": 114,
       "abbr": "CLE",
       "name": "Cleveland Guardians",
-      "winPct": 0.525,
-      "homeWinPct": 0.521,
+      "winPct": 0.52,
+      "homeWinPct": 0.51,
       "awayWinPct": 0.529,
       "last10": 5,
-      "elo": 1504,
-      "runsPerGame": 3.8,
-      "staffEra": 3.84,
-      "bullpenRecentIp": 11.7,
+      "elo": 1501,
+      "runsPerGame": 3.77,
+      "staffEra": 4.03,
+      "bullpenRecentIp": 15.7,
       "topPowerHitter": {
         "name": "Gabriel Arias",
-        "hrRate": 0.049,
-        "pa": 102
+        "hrRate": 0.0476,
+        "pa": 105
       },
       "topContactHitter": {
         "name": "Austin Hedges",
@@ -36,23 +36,23 @@
       "id": 142,
       "abbr": "MIN",
       "name": "Minnesota Twins",
-      "winPct": 0.495,
+      "winPct": 0.49,
       "homeWinPct": 0.51,
-      "awayWinPct": 0.479,
-      "last10": 7,
-      "elo": 1486,
-      "runsPerGame": 4.65,
-      "staffEra": 4.62,
-      "bullpenRecentIp": 6.7,
+      "awayWinPct": 0.469,
+      "last10": 6,
+      "elo": 1483,
+      "runsPerGame": 4.61,
+      "staffEra": 4.77,
+      "bullpenRecentIp": 11.7,
       "topPowerHitter": {
         "name": "Kody Clemens",
-        "hrRate": 0.0529,
-        "pa": 340
+        "hrRate": 0.0526,
+        "pa": 342
       },
       "topContactHitter": {
         "name": "Ryan Jeffers",
-        "avg": 0.292,
-        "pa": 165
+        "avg": 0.288,
+        "pa": 168
       },
       "missingStarters": [
         "Byron Buxton"
@@ -62,23 +62,23 @@
       "id": 147,
       "abbr": "NYY",
       "name": "New York Yankees",
-      "winPct": 0.557,
-      "homeWinPct": 0.523,
+      "winPct": 0.556,
+      "homeWinPct": 0.522,
       "awayWinPct": 0.585,
-      "last10": 5,
-      "elo": 1534,
-      "runsPerGame": 4.77,
-      "staffEra": 3.38,
-      "bullpenRecentIp": 3.0,
+      "last10": 6,
+      "elo": 1533,
+      "runsPerGame": 4.72,
+      "staffEra": 3.7,
+      "bullpenRecentIp": 18.7,
       "topPowerHitter": {
         "name": "Ben Rice",
-        "hrRate": 0.0736,
-        "pa": 394
+        "hrRate": 0.0721,
+        "pa": 402
       },
       "topContactHitter": {
         "name": "Ben Rice",
-        "avg": 0.282,
-        "pa": 394
+        "avg": 0.281,
+        "pa": 402
       },
       "missingStarters": []
     },
@@ -86,23 +86,23 @@
       "id": 134,
       "abbr": "PIT",
       "name": "Pittsburgh Pirates",
-      "winPct": 0.515,
+      "winPct": 0.52,
       "homeWinPct": 0.529,
-      "awayWinPct": 0.5,
+      "awayWinPct": 0.51,
       "last10": 7,
-      "elo": 1499,
-      "runsPerGame": 5.14,
-      "staffEra": 4.55,
-      "bullpenRecentIp": 15.3,
+      "elo": 1503,
+      "runsPerGame": 5.16,
+      "staffEra": 4.56,
+      "bullpenRecentIp": 17.3,
       "topPowerHitter": {
         "name": "Esmerlyn Valdez",
-        "hrRate": 0.0973,
-        "pa": 113
+        "hrRate": 0.1017,
+        "pa": 118
       },
       "topContactHitter": {
         "name": "Nick Gonzales",
-        "avg": 0.309,
-        "pa": 381
+        "avg": 0.311,
+        "pa": 386
       },
       "missingStarters": [
         "Spencer Horwitz"
@@ -112,23 +112,23 @@
       "id": 141,
       "abbr": "TOR",
       "name": "Toronto Blue Jays",
-      "winPct": 0.469,
-      "homeWinPct": 0.49,
+      "winPct": 0.465,
+      "homeWinPct": 0.481,
       "awayWinPct": 0.447,
       "last10": 4,
-      "elo": 1482,
-      "runsPerGame": 4.05,
-      "staffEra": 4.15,
-      "bullpenRecentIp": 8.0,
+      "elo": 1479,
+      "runsPerGame": 4.01,
+      "staffEra": 4.22,
+      "bullpenRecentIp": 11.0,
       "topPowerHitter": {
         "name": "Kazuma Okamoto",
-        "hrRate": 0.0563,
-        "pa": 391
+        "hrRate": 0.0557,
+        "pa": 395
       },
       "topContactHitter": {
         "name": "Ernie Clement",
         "avg": 0.295,
-        "pa": 383
+        "pa": 387
       },
       "missingStarters": []
     },
@@ -136,23 +136,23 @@
       "id": 139,
       "abbr": "TB",
       "name": "Tampa Bay Rays",
-      "winPct": 0.577,
+      "winPct": 0.571,
       "homeWinPct": 0.7,
-      "awayWinPct": 0.447,
+      "awayWinPct": 0.438,
       "last10": 4,
-      "elo": 1546,
-      "runsPerGame": 4.47,
-      "staffEra": 3.97,
-      "bullpenRecentIp": 11.0,
+      "elo": 1543,
+      "runsPerGame": 4.44,
+      "staffEra": 4.1,
+      "bullpenRecentIp": 14.0,
       "topPowerHitter": {
         "name": "Junior Caminero",
-        "hrRate": 0.0686,
-        "pa": 423
+        "hrRate": 0.0678,
+        "pa": 428
       },
       "topContactHitter": {
         "name": "Yandy Díaz",
-        "avg": 0.315,
-        "pa": 407
+        "avg": 0.31,
+        "pa": 412
       },
       "missingStarters": []
     },
@@ -160,23 +160,23 @@
       "id": 111,
       "abbr": "BOS",
       "name": "Boston Red Sox",
-      "winPct": 0.505,
-      "homeWinPct": 0.426,
+      "winPct": 0.51,
+      "homeWinPct": 0.438,
       "awayWinPct": 0.58,
       "last10": 10,
-      "elo": 1503,
-      "runsPerGame": 4.2,
-      "staffEra": 3.75,
-      "bullpenRecentIp": 13.7,
+      "elo": 1506,
+      "runsPerGame": 4.21,
+      "staffEra": 3.83,
+      "bullpenRecentIp": 16.7,
       "topPowerHitter": {
         "name": "Willson Contreras",
-        "hrRate": 0.0565,
-        "pa": 372
+        "hrRate": 0.0585,
+        "pa": 376
       },
       "topContactHitter": {
-        "name": "Connor Wong",
+        "name": "Willson Contreras",
         "avg": 0.283,
-        "pa": 137
+        "pa": 376
       },
       "missingStarters": []
     },
@@ -184,23 +184,23 @@
       "id": 110,
       "abbr": "BAL",
       "name": "Baltimore Orioles",
-      "winPct": 0.485,
+      "winPct": 0.49,
       "homeWinPct": 0.528,
-      "awayWinPct": 0.435,
+      "awayWinPct": 0.447,
       "last10": 7,
-      "elo": 1491,
+      "elo": 1494,
       "runsPerGame": 4.59,
-      "staffEra": 4.26,
-      "bullpenRecentIp": 9.7,
+      "staffEra": 4.32,
+      "bullpenRecentIp": 11.7,
       "topPowerHitter": {
         "name": "Samuel Basallo",
-        "hrRate": 0.0516,
-        "pa": 310
+        "hrRate": 0.0514,
+        "pa": 311
       },
       "topContactHitter": {
-        "name": "Taylor Ward",
-        "avg": 0.253,
-        "pa": 448
+        "name": "Jeremiah Jackson",
+        "avg": 0.252,
+        "pa": 215
       },
       "missingStarters": []
     },
@@ -208,23 +208,23 @@
       "id": 143,
       "abbr": "PHI",
       "name": "Philadelphia Phillies",
-      "winPct": 0.556,
-      "homeWinPct": 0.542,
+      "winPct": 0.55,
+      "homeWinPct": 0.531,
       "awayWinPct": 0.569,
       "last10": 5,
-      "elo": 1533,
-      "runsPerGame": 4.35,
-      "staffEra": 4.2,
-      "bullpenRecentIp": 7.0,
+      "elo": 1530,
+      "runsPerGame": 4.32,
+      "staffEra": 4.21,
+      "bullpenRecentIp": 9.0,
       "topPowerHitter": {
         "name": "Kyle Schwarber",
-        "hrRate": 0.078,
-        "pa": 423
+        "hrRate": 0.0773,
+        "pa": 427
       },
       "topContactHitter": {
         "name": "Brandon Marsh",
-        "avg": 0.294,
-        "pa": 372
+        "avg": 0.293,
+        "pa": 376
       },
       "missingStarters": []
     },
@@ -232,23 +232,23 @@
       "id": 119,
       "abbr": "LAD",
       "name": "Los Angeles Dodgers",
-      "winPct": 0.633,
+      "winPct": 0.63,
       "homeWinPct": 0.62,
-      "awayWinPct": 0.646,
-      "last10": 5,
-      "elo": 1580,
-      "runsPerGame": 5.18,
-      "staffEra": 3.52,
-      "bullpenRecentIp": 3.3,
+      "awayWinPct": 0.64,
+      "last10": 4,
+      "elo": 1578,
+      "runsPerGame": 5.17,
+      "staffEra": 3.54,
+      "bullpenRecentIp": 10.3,
       "topPowerHitter": {
         "name": "Shohei Ohtani",
-        "hrRate": 0.0537,
-        "pa": 410
+        "hrRate": 0.0525,
+        "pa": 419
       },
       "topContactHitter": {
         "name": "Tommy Edman",
-        "avg": 0.343,
-        "pa": 81
+        "avg": 0.355,
+        "pa": 88
       },
       "missingStarters": []
     },
@@ -256,23 +256,23 @@
       "id": 144,
       "abbr": "ATL",
       "name": "Atlanta Braves",
-      "winPct": 0.577,
-      "homeWinPct": 0.596,
+      "winPct": 0.582,
+      "homeWinPct": 0.604,
       "awayWinPct": 0.56,
-      "last10": 4,
-      "elo": 1546,
-      "runsPerGame": 4.96,
-      "staffEra": 3.6,
-      "bullpenRecentIp": 8.3,
+      "last10": 5,
+      "elo": 1549,
+      "runsPerGame": 4.99,
+      "staffEra": 3.75,
+      "bullpenRecentIp": 12.3,
       "topPowerHitter": {
         "name": "Matt Olson",
-        "hrRate": 0.061,
-        "pa": 426
+        "hrRate": 0.0603,
+        "pa": 431
       },
       "topContactHitter": {
         "name": "Michael Harris II",
-        "avg": 0.299,
-        "pa": 364
+        "avg": 0.301,
+        "pa": 369
       },
       "missingStarters": []
     },
@@ -280,23 +280,23 @@
       "id": 135,
       "abbr": "SD",
       "name": "San Diego Padres",
-      "winPct": 0.49,
+      "winPct": 0.495,
       "homeWinPct": 0.529,
-      "awayWinPct": 0.447,
+      "awayWinPct": 0.458,
       "last10": 5,
-      "elo": 1494,
-      "runsPerGame": 3.94,
-      "staffEra": 4.26,
-      "bullpenRecentIp": 8.7,
+      "elo": 1497,
+      "runsPerGame": 4.09,
+      "staffEra": 4.47,
+      "bullpenRecentIp": 14.7,
       "topPowerHitter": {
         "name": "Ty France",
-        "hrRate": 0.0506,
-        "pa": 237
+        "hrRate": 0.0576,
+        "pa": 243
       },
       "topContactHitter": {
         "name": "Luis Campusano",
-        "avg": 0.292,
-        "pa": 84
+        "avg": 0.297,
+        "pa": 87
       },
       "missingStarters": []
     },
@@ -304,23 +304,23 @@
       "id": 118,
       "abbr": "KC",
       "name": "Kansas City Royals",
-      "winPct": 0.404,
-      "homeWinPct": 0.469,
+      "winPct": 0.4,
+      "homeWinPct": 0.46,
       "awayWinPct": 0.34,
-      "last10": 5,
-      "elo": 1442,
-      "runsPerGame": 4.28,
-      "staffEra": 4.88,
-      "bullpenRecentIp": 8.7,
+      "last10": 4,
+      "elo": 1440,
+      "runsPerGame": 4.26,
+      "staffEra": 5.14,
+      "bullpenRecentIp": 12.7,
       "topPowerHitter": {
         "name": "Jac Caglianone",
-        "hrRate": 0.042,
-        "pa": 357
+        "hrRate": 0.0443,
+        "pa": 361
       },
       "topContactHitter": {
         "name": "Tyler Tolbert",
-        "avg": 0.37,
-        "pa": 60
+        "avg": 0.345,
+        "pa": 64
       },
       "missingStarters": []
     },
@@ -328,23 +328,23 @@
       "id": 137,
       "abbr": "SF",
       "name": "San Francisco Giants",
-      "winPct": 0.429,
+      "winPct": 0.424,
       "homeWinPct": 0.468,
-      "awayWinPct": 0.392,
+      "awayWinPct": 0.385,
       "last10": 5,
-      "elo": 1457,
-      "runsPerGame": 4.13,
+      "elo": 1455,
+      "runsPerGame": 4.12,
       "staffEra": 4.4,
-      "bullpenRecentIp": 5.0,
+      "bullpenRecentIp": 9.0,
       "topPowerHitter": {
         "name": "Casey Schmitt",
-        "hrRate": 0.05,
-        "pa": 380
+        "hrRate": 0.0495,
+        "pa": 384
       },
       "topContactHitter": {
         "name": "Luis Arraez",
-        "avg": 0.327,
-        "pa": 412
+        "avg": 0.326,
+        "pa": 416
       },
       "missingStarters": []
     },
@@ -352,23 +352,23 @@
       "id": 158,
       "abbr": "MIL",
       "name": "Milwaukee Brewers",
-      "winPct": 0.622,
-      "homeWinPct": 0.633,
+      "winPct": 0.626,
+      "homeWinPct": 0.64,
       "awayWinPct": 0.612,
       "last10": 6,
-      "elo": 1562,
-      "runsPerGame": 4.91,
-      "staffEra": 3.48,
-      "bullpenRecentIp": 8.0,
+      "elo": 1566,
+      "runsPerGame": 4.9,
+      "staffEra": 3.57,
+      "bullpenRecentIp": 12.0,
       "topPowerHitter": {
         "name": "Jake Bauers",
-        "hrRate": 0.0506,
-        "pa": 356
+        "hrRate": 0.0503,
+        "pa": 358
       },
       "topContactHitter": {
         "name": "Andrew Vaughn",
-        "avg": 0.309,
-        "pa": 172
+        "avg": 0.307,
+        "pa": 176
       },
       "missingStarters": [
         "Sal Frelick"
@@ -378,23 +378,23 @@
       "id": 121,
       "abbr": "NYM",
       "name": "New York Mets",
-      "winPct": 0.414,
+      "winPct": 0.42,
       "homeWinPct": 0.429,
-      "awayWinPct": 0.4,
+      "awayWinPct": 0.412,
       "last10": 5,
-      "elo": 1448,
-      "runsPerGame": 4.07,
-      "staffEra": 4.26,
-      "bullpenRecentIp": 6.7,
+      "elo": 1452,
+      "runsPerGame": 4.09,
+      "staffEra": 4.23,
+      "bullpenRecentIp": 6.3,
       "topPowerHitter": {
         "name": "Juan Soto",
-        "hrRate": 0.0614,
-        "pa": 342
+        "hrRate": 0.0603,
+        "pa": 348
       },
       "topContactHitter": {
         "name": "Juan Soto",
-        "avg": 0.288,
-        "pa": 342
+        "avg": 0.29,
+        "pa": 348
       },
       "missingStarters": []
     },
@@ -402,23 +402,23 @@
       "id": 112,
       "abbr": "CHC",
       "name": "Chicago Cubs",
-      "winPct": 0.561,
-      "homeWinPct": 0.583,
+      "winPct": 0.566,
+      "homeWinPct": 0.592,
       "awayWinPct": 0.54,
-      "last10": 6,
-      "elo": 1537,
-      "runsPerGame": 5.02,
-      "staffEra": 4.31,
-      "bullpenRecentIp": 6.0,
+      "last10": 7,
+      "elo": 1539,
+      "runsPerGame": 5.07,
+      "staffEra": 4.27,
+      "bullpenRecentIp": 8.0,
       "topPowerHitter": {
         "name": "Pete Crow-Armstrong",
-        "hrRate": 0.0492,
-        "pa": 427
+        "hrRate": 0.0487,
+        "pa": 431
       },
       "topContactHitter": {
         "name": "Pete Crow-Armstrong",
         "avg": 0.284,
-        "pa": 427
+        "pa": 431
       },
       "missingStarters": []
     },
@@ -426,23 +426,23 @@
       "id": 116,
       "abbr": "DET",
       "name": "Detroit Tigers",
-      "winPct": 0.469,
+      "winPct": 0.465,
       "homeWinPct": 0.54,
-      "awayWinPct": 0.396,
-      "last10": 8,
-      "elo": 1482,
-      "runsPerGame": 4.24,
-      "staffEra": 3.58,
-      "bullpenRecentIp": 5.3,
+      "awayWinPct": 0.388,
+      "last10": 7,
+      "elo": 1479,
+      "runsPerGame": 4.22,
+      "staffEra": 3.62,
+      "bullpenRecentIp": 10.0,
       "topPowerHitter": {
         "name": "Kerry Carpenter",
-        "hrRate": 0.0549,
-        "pa": 237
+        "hrRate": 0.0539,
+        "pa": 241
       },
       "topContactHitter": {
         "name": "Riley Greene",
         "avg": 0.286,
-        "pa": 408
+        "pa": 412
       },
       "missingStarters": []
     },
@@ -450,23 +450,23 @@
       "id": 140,
       "abbr": "TEX",
       "name": "Texas Rangers",
-      "winPct": 0.51,
+      "winPct": 0.505,
       "homeWinPct": 0.522,
-      "awayWinPct": 0.5,
+      "awayWinPct": 0.491,
       "last10": 5,
-      "elo": 1506,
-      "runsPerGame": 4.15,
-      "staffEra": 4.27,
-      "bullpenRecentIp": 7.3,
+      "elo": 1503,
+      "runsPerGame": 4.16,
+      "staffEra": 4.4,
+      "bullpenRecentIp": 11.3,
       "topPowerHitter": {
         "name": "Justin Foscue",
-        "hrRate": 0.0569,
-        "pa": 123
+        "hrRate": 0.0565,
+        "pa": 124
       },
       "topContactHitter": {
         "name": "Nicky Lopez",
-        "avg": 0.301,
-        "pa": 134
+        "avg": 0.315,
+        "pa": 138
       },
       "missingStarters": []
     },
@@ -474,23 +474,23 @@
       "id": 145,
       "abbr": "CWS",
       "name": "Chicago White Sox",
-      "winPct": 0.526,
+      "winPct": 0.531,
       "homeWinPct": 0.646,
-      "awayWinPct": 0.408,
+      "awayWinPct": 0.42,
       "last10": 6,
-      "elo": 1515,
-      "runsPerGame": 4.8,
-      "staffEra": 4.09,
-      "bullpenRecentIp": 7.3,
+      "elo": 1518,
+      "runsPerGame": 4.79,
+      "staffEra": 4.07,
+      "bullpenRecentIp": 9.7,
       "topPowerHitter": {
         "name": "Munetaka Murakami",
-        "hrRate": 0.0746,
-        "pa": 268
+        "hrRate": 0.0735,
+        "pa": 272
       },
       "topContactHitter": {
         "name": "Tristan Peters",
-        "avg": 0.297,
-        "pa": 283
+        "avg": 0.293,
+        "pa": 286
       },
       "missingStarters": []
     },
@@ -498,23 +498,23 @@
       "id": 117,
       "abbr": "HOU",
       "name": "Houston Astros",
-      "winPct": 0.47,
-      "homeWinPct": 0.469,
+      "winPct": 0.465,
+      "homeWinPct": 0.46,
       "awayWinPct": 0.471,
-      "last10": 4,
-      "elo": 1482,
-      "runsPerGame": 4.53,
-      "staffEra": 4.75,
-      "bullpenRecentIp": 9.0,
+      "last10": 3,
+      "elo": 1479,
+      "runsPerGame": 4.5,
+      "staffEra": 4.92,
+      "bullpenRecentIp": 13.3,
       "topPowerHitter": {
         "name": "Yordan Alvarez",
-        "hrRate": 0.0721,
-        "pa": 430
+        "hrRate": 0.0714,
+        "pa": 434
       },
       "topContactHitter": {
         "name": "Yordan Alvarez",
-        "avg": 0.32,
-        "pa": 430
+        "avg": 0.319,
+        "pa": 434
       },
       "missingStarters": []
     },
@@ -522,18 +522,18 @@
       "id": 146,
       "abbr": "MIA",
       "name": "Miami Marlins",
-      "winPct": 0.525,
+      "winPct": 0.52,
       "homeWinPct": 0.608,
-      "awayWinPct": 0.438,
-      "last10": 5,
-      "elo": 1515,
-      "runsPerGame": 4.51,
-      "staffEra": 4.02,
-      "bullpenRecentIp": 8.7,
+      "awayWinPct": 0.429,
+      "last10": 4,
+      "elo": 1512,
+      "runsPerGame": 4.47,
+      "staffEra": 4.09,
+      "bullpenRecentIp": 11.0,
       "topPowerHitter": {
         "name": "Griffin Conine",
-        "hrRate": 0.0737,
-        "pa": 95
+        "hrRate": 0.0707,
+        "pa": 99
       },
       "topContactHitter": {
         "name": "Otto Lopez",
@@ -546,23 +546,23 @@
       "id": 115,
       "abbr": "COL",
       "name": "Colorado Rockies",
-      "winPct": 0.4,
-      "homeWinPct": 0.469,
+      "winPct": 0.396,
+      "homeWinPct": 0.46,
       "awayWinPct": 0.333,
-      "last10": 4,
-      "elo": 1440,
-      "runsPerGame": 4.78,
-      "staffEra": 5.42,
-      "bullpenRecentIp": 6.3,
+      "last10": 3,
+      "elo": 1438,
+      "runsPerGame": 4.79,
+      "staffEra": 5.62,
+      "bullpenRecentIp": 13.0,
       "topPowerHitter": {
         "name": "Hunter Goodman",
-        "hrRate": 0.0711,
-        "pa": 380
+        "hrRate": 0.0781,
+        "pa": 384
       },
       "topContactHitter": {
         "name": "Jake McCarthy",
-        "avg": 0.303,
-        "pa": 316
+        "avg": 0.302,
+        "pa": 320
       },
       "missingStarters": []
     },
@@ -570,23 +570,23 @@
       "id": 120,
       "abbr": "WSH",
       "name": "Washington Nationals",
-      "winPct": 0.495,
+      "winPct": 0.5,
       "homeWinPct": 0.392,
-      "awayWinPct": 0.604,
-      "last10": 3,
-      "elo": 1497,
+      "awayWinPct": 0.612,
+      "last10": 4,
+      "elo": 1500,
       "runsPerGame": 5.45,
-      "staffEra": 4.85,
-      "bullpenRecentIp": 5.0,
+      "staffEra": 4.82,
+      "bullpenRecentIp": 7.0,
       "topPowerHitter": {
         "name": "Luis García Jr.",
-        "hrRate": 0.0619,
-        "pa": 323
+        "hrRate": 0.0617,
+        "pa": 324
       },
       "topContactHitter": {
-        "name": "Luis García Jr.",
-        "avg": 0.28,
-        "pa": 323
+        "name": "Keibert Ruiz",
+        "avg": 0.279,
+        "pa": 216
       },
       "missingStarters": []
     },
@@ -594,23 +594,23 @@
       "id": 109,
       "abbr": "AZ",
       "name": "Arizona Diamondbacks",
-      "winPct": 0.51,
-      "homeWinPct": 0.571,
+      "winPct": 0.515,
+      "homeWinPct": 0.58,
       "awayWinPct": 0.449,
-      "last10": 6,
-      "elo": 1506,
-      "runsPerGame": 4.34,
-      "staffEra": 4.18,
-      "bullpenRecentIp": 7.7,
+      "last10": 7,
+      "elo": 1509,
+      "runsPerGame": 4.37,
+      "staffEra": 4.45,
+      "bullpenRecentIp": 15.0,
       "topPowerHitter": {
         "name": "Ketel Marte",
-        "hrRate": 0.0411,
-        "pa": 414
+        "hrRate": 0.0406,
+        "pa": 419
       },
       "topContactHitter": {
         "name": "Gabriel Moreno",
-        "avg": 0.309,
-        "pa": 283
+        "avg": 0.304,
+        "pa": 288
       },
       "missingStarters": []
     },
@@ -618,23 +618,23 @@
       "id": 133,
       "abbr": "ATH",
       "name": "Athletics",
-      "winPct": 0.429,
-      "homeWinPct": 0.408,
+      "winPct": 0.424,
+      "homeWinPct": 0.4,
       "awayWinPct": 0.449,
       "last10": 1,
-      "elo": 1443,
-      "runsPerGame": 4.29,
-      "staffEra": 5.33,
-      "bullpenRecentIp": 8.0,
+      "elo": 1441,
+      "runsPerGame": 4.26,
+      "staffEra": 5.48,
+      "bullpenRecentIp": 12.7,
       "topPowerHitter": {
         "name": "Shea Langeliers",
-        "hrRate": 0.0557,
-        "pa": 395
+        "hrRate": 0.0551,
+        "pa": 399
       },
       "topContactHitter": {
         "name": "Donovan Walton",
-        "avg": 0.305,
-        "pa": 106
+        "avg": 0.302,
+        "pa": 107
       },
       "missingStarters": [
         "Nick Kurtz"
@@ -644,14 +644,14 @@
       "id": 136,
       "abbr": "SEA",
       "name": "Seattle Mariners",
-      "winPct": 0.495,
-      "homeWinPct": 0.571,
+      "winPct": 0.5,
+      "homeWinPct": 0.58,
       "awayWinPct": 0.42,
       "last10": 4,
-      "elo": 1497,
-      "runsPerGame": 4.0,
-      "staffEra": 3.62,
-      "bullpenRecentIp": 7.3,
+      "elo": 1500,
+      "runsPerGame": 4.02,
+      "staffEra": 3.66,
+      "bullpenRecentIp": 10.3,
       "topPowerHitter": {
         "name": "Dominic Canzone",
         "hrRate": 0.0573,
@@ -660,7 +660,7 @@
       "topContactHitter": {
         "name": "Randy Arozarena",
         "avg": 0.281,
-        "pa": 387
+        "pa": 391
       },
       "missingStarters": []
     },
@@ -668,23 +668,23 @@
       "id": 113,
       "abbr": "CIN",
       "name": "Cincinnati Reds",
-      "winPct": 0.454,
+      "winPct": 0.459,
       "homeWinPct": 0.44,
-      "awayWinPct": 0.468,
-      "last10": 4,
-      "elo": 1461,
-      "runsPerGame": 4.03,
-      "staffEra": 4.56,
-      "bullpenRecentIp": 7.7,
+      "awayWinPct": 0.479,
+      "last10": 5,
+      "elo": 1466,
+      "runsPerGame": 4.07,
+      "staffEra": 4.64,
+      "bullpenRecentIp": 10.7,
       "topPowerHitter": {
         "name": "JJ Bleday",
-        "hrRate": 0.0548,
-        "pa": 292
+        "hrRate": 0.0539,
+        "pa": 297
       },
       "topContactHitter": {
         "name": "Elly De La Cruz",
         "avg": 0.282,
-        "pa": 349
+        "pa": 354
       },
       "missingStarters": [
         "Matt McLain"
@@ -694,18 +694,18 @@
       "id": 108,
       "abbr": "LAA",
       "name": "Los Angeles Angels",
-      "winPct": 0.384,
-      "homeWinPct": 0.438,
+      "winPct": 0.39,
+      "homeWinPct": 0.449,
       "awayWinPct": 0.333,
-      "last10": 2,
-      "elo": 1430,
-      "runsPerGame": 4.35,
-      "staffEra": 4.65,
-      "bullpenRecentIp": 8.0,
+      "last10": 3,
+      "elo": 1434,
+      "runsPerGame": 4.34,
+      "staffEra": 4.74,
+      "bullpenRecentIp": 12.0,
       "topPowerHitter": {
         "name": "Jose Siri",
-        "hrRate": 0.0505,
-        "pa": 99
+        "hrRate": 0.05,
+        "pa": 100
       },
       "topContactHitter": {
         "name": "Wade Meckler",
@@ -718,23 +718,23 @@
       "id": 138,
       "abbr": "STL",
       "name": "St. Louis Cardinals",
-      "winPct": 0.526,
+      "winPct": 0.52,
       "homeWinPct": 0.5,
-      "awayWinPct": 0.556,
+      "awayWinPct": 0.543,
       "last10": 4,
-      "elo": 1515,
-      "runsPerGame": 4.51,
-      "staffEra": 4.13,
-      "bullpenRecentIp": 5.7,
+      "elo": 1512,
+      "runsPerGame": 4.53,
+      "staffEra": 4.19,
+      "bullpenRecentIp": 9.7,
       "topPowerHitter": {
         "name": "Nelson Velázquez",
-        "hrRate": 0.0615,
-        "pa": 65
+        "hrRate": 0.0588,
+        "pa": 68
       },
       "topContactHitter": {
         "name": "Jordan Walker",
-        "avg": 0.293,
-        "pa": 404
+        "avg": 0.292,
+        "pa": 410
       },
       "missingStarters": []
     }
@@ -745,7 +745,12 @@
       "gameDate": "2026-07-20T22:40:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Progressive Field",
-      "weather": null,
+      "weather": {
+        "tempF": 79,
+        "precipProb": 0,
+        "windMph": 3.5,
+        "windDirDeg": 342
+      },
       "homeTeamId": 114,
       "awayTeamId": 142,
       "homeTeamName": "Cleveland Guardians",
@@ -754,29 +759,78 @@
         "mlHome": 2.06,
         "mlAway": 1.83,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.6,
+        "rlHomePrice": 1.59,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.41,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.93,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 1.95,
         "lastUpdate": "2026-07-20T22:41:00Z",
         "consensus": {
           "Cleveland Guardians": {
-            "consensusProb": 0.4927,
+            "consensusProb": 0.4939,
             "spreadPp": 1.46,
             "booksCount": 4
           },
           "Minnesota Twins": {
-            "consensusProb": 0.5502,
-            "spreadPp": 0.91,
+            "consensusProb": 0.5487,
+            "spreadPp": 0.6,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Tristan Gray",
+          "type": "1+ Hit",
+          "decimalOdds": 1.9,
+          "line": 0.5,
+          "modelProb": 0.6226,
+          "edge": 9.6
+        },
+        {
+          "player": "Gabriel Arias",
+          "type": "1+ Hit",
+          "decimalOdds": 1.95,
+          "line": 0.5,
+          "modelProb": 0.592,
+          "edge": 7.9
+        },
+        {
+          "player": "Luke Keaschall",
+          "type": "1+ Hit",
+          "decimalOdds": 1.64,
+          "line": 0.5,
+          "modelProb": 0.6687,
+          "edge": 5.9
+        },
+        {
+          "player": "Trevor Larnach",
+          "type": "1+ Hit",
+          "decimalOdds": 1.54,
+          "line": 0.5,
+          "modelProb": 0.6992,
+          "edge": 5.0
+        },
+        {
+          "player": "Ryan Jeffers",
+          "type": "1+ Hit",
+          "decimalOdds": 1.5,
+          "line": 0.5,
+          "modelProb": 0.7017,
+          "edge": 3.5
+        },
+        {
+          "player": "Kahlil Watson",
+          "type": "1+ Hit",
+          "decimalOdds": 1.74,
+          "line": 0.5,
+          "modelProb": 0.5936,
+          "edge": 1.9
+        }
+      ],
       "homeStarter": {
         "name": "Tanner Bibee",
         "era": 3.9,
@@ -795,38 +849,107 @@
       "gameDate": "2026-07-20T23:05:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Yankee Stadium",
-      "weather": null,
+      "weather": {
+        "tempF": 79,
+        "precipProb": 0,
+        "windMph": 9.8,
+        "windDirDeg": 160
+      },
       "homeTeamId": 147,
       "awayTeamId": 134,
       "homeTeamName": "New York Yankees",
       "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": {
-        "mlHome": 1.83,
-        "mlAway": 2.1,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.72,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.48,
-        "totalPoint": 8.0,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.91,
+        "mlHome": 1.87,
+        "mlAway": 2.02,
+        "rlHomePoint": 1.5,
+        "rlHomePrice": 1.5,
+        "rlAwayPoint": -1.5,
+        "rlAwayPrice": 2.72,
+        "totalPoint": 7.5,
+        "totalOverPrice": 1.85,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-07-20T23:06:00Z",
         "consensus": {
           "New York Yankees": {
-            "consensusProb": 0.5541,
-            "spreadPp": 1.85,
+            "consensusProb": 0.5406,
+            "spreadPp": 1.17,
             "booksCount": 4
           },
           "Pittsburgh Pirates": {
-            "consensusProb": 0.4898,
-            "spreadPp": 2.38,
+            "consensusProb": 0.5039,
+            "spreadPp": 1.78,
             "booksCount": 4
           }
         }
       },
-      "lineMovement": [],
+      "lineMovement": [
+        {
+          "market": "RL",
+          "side": "home",
+          "fromProb": 36.8,
+          "toProb": 66.7,
+          "deltaPct": 29.9
+        },
+        {
+          "market": "RL",
+          "side": "away",
+          "fromProb": 67.6,
+          "toProb": 36.8,
+          "deltaPct": -30.8
+        }
+      ],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Esmerlyn Valdez",
+          "type": "1+ Hit",
+          "decimalOdds": 1.61,
+          "line": 0.5,
+          "modelProb": 0.7222,
+          "edge": 10.1
+        },
+        {
+          "player": "Ryan McMahon",
+          "type": "1+ Hit",
+          "decimalOdds": 2.0,
+          "line": 0.5,
+          "modelProb": 0.5963,
+          "edge": 9.6
+        },
+        {
+          "player": "Max Schuemann",
+          "type": "1+ Hit",
+          "decimalOdds": 1.81,
+          "line": 0.5,
+          "modelProb": 0.6162,
+          "edge": 6.4
+        },
+        {
+          "player": "Nick Gonzales",
+          "type": "1+ Hit",
+          "decimalOdds": 1.5,
+          "line": 0.5,
+          "modelProb": 0.7292,
+          "edge": 6.2
+        },
+        {
+          "player": "Brandon Lowe",
+          "type": "1+ Hit",
+          "decimalOdds": 1.7,
+          "line": 0.5,
+          "modelProb": 0.6471,
+          "edge": 5.9
+        },
+        {
+          "player": "Jared Triolo",
+          "type": "1+ Hit",
+          "decimalOdds": 1.72,
+          "line": 0.5,
+          "modelProb": 0.6366,
+          "edge": 5.5
+        }
+      ],
       "homeStarter": {
         "name": "Ryan Weathers",
         "era": 4.15,
@@ -845,38 +968,92 @@
       "gameDate": "2026-07-20T23:07:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Rogers Centre",
-      "weather": null,
+      "weather": {
+        "tempF": 75,
+        "precipProb": 0,
+        "windMph": 14.0,
+        "windDirDeg": 172
+      },
       "homeTeamId": 141,
       "awayTeamId": 139,
       "homeTeamName": "Toronto Blue Jays",
       "awayTeamName": "Tampa Bay Rays",
       "autoOdds": {
-        "mlHome": 1.7,
-        "mlAway": 2.26,
+        "mlHome": 1.62,
+        "mlAway": 2.4,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.5,
+        "rlHomePrice": 2.35,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.57,
+        "rlAwayPrice": 1.66,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.96,
+        "totalOverPrice": 1.96,
+        "totalUnderPrice": 1.89,
         "lastUpdate": "2026-07-20T23:08:00Z",
         "consensus": {
           "Tampa Bay Rays": {
-            "consensusProb": 0.45,
-            "spreadPp": 1.62,
+            "consensusProb": 0.4202,
+            "spreadPp": 0.89,
             "booksCount": 4
           },
           "Toronto Blue Jays": {
-            "consensusProb": 0.5935,
-            "spreadPp": 1.06,
+            "consensusProb": 0.6211,
+            "spreadPp": 0.77,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Hunter Feduccia",
+          "type": "1+ Hit",
+          "decimalOdds": 2.34,
+          "line": 0.5,
+          "modelProb": 0.6194,
+          "edge": 19.2
+        },
+        {
+          "player": "Richie Palacios",
+          "type": "1+ Hit",
+          "decimalOdds": 2.08,
+          "line": 0.5,
+          "modelProb": 0.6351,
+          "edge": 15.4
+        },
+        {
+          "player": "Taylor Walls",
+          "type": "1+ Hit",
+          "decimalOdds": 2.05,
+          "line": 0.5,
+          "modelProb": 0.5997,
+          "edge": 11.2
+        },
+        {
+          "player": "Jonathan Aranda",
+          "type": "1+ Hit",
+          "decimalOdds": 1.57,
+          "line": 0.5,
+          "modelProb": 0.7042,
+          "edge": 6.7
+        },
+        {
+          "player": "Junior Caminero",
+          "type": "1+ Hit",
+          "decimalOdds": 1.57,
+          "line": 0.5,
+          "modelProb": 0.6915,
+          "edge": 5.5
+        },
+        {
+          "player": "Victor Mesa Jr.",
+          "type": "1+ Hit",
+          "decimalOdds": 1.83,
+          "line": 0.5,
+          "modelProb": 0.5963,
+          "edge": 5.0
+        }
+      ],
       "homeStarter": {
         "name": "Dylan Cease",
         "era": 2.56,
@@ -895,38 +1072,92 @@
       "gameDate": "2026-07-20T23:10:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Fenway Park",
-      "weather": null,
+      "weather": {
+        "tempF": 84,
+        "precipProb": 0,
+        "windMph": 3.6,
+        "windDirDeg": 263
+      },
       "homeTeamId": 111,
       "awayTeamId": 110,
       "homeTeamName": "Boston Red Sox",
       "awayTeamName": "Baltimore Orioles",
       "autoOdds": {
-        "mlHome": 1.73,
-        "mlAway": 2.22,
+        "mlHome": 1.7,
+        "mlAway": 2.3,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.45,
+        "rlHomePrice": 2.46,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.58,
+        "rlAwayPrice": 1.61,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.88,
-        "totalUnderPrice": 1.96,
+        "totalOverPrice": 1.83,
+        "totalUnderPrice": 2.03,
         "lastUpdate": "2026-07-20T23:11:00Z",
         "consensus": {
           "Baltimore Orioles": {
-            "consensusProb": 0.4572,
-            "spreadPp": 1.47,
+            "consensusProb": 0.4446,
+            "spreadPp": 1.98,
             "booksCount": 4
           },
           "Boston Red Sox": {
-            "consensusProb": 0.5874,
-            "spreadPp": 1.37,
+            "consensusProb": 0.5989,
+            "spreadPp": 2.15,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Pete Alonso",
+          "type": "1+ Hit",
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.6135,
+          "edge": 2.9
+        },
+        {
+          "player": "Leody Taveras",
+          "type": "1+ Hit",
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.6029,
+          "edge": 1.8
+        },
+        {
+          "player": "Jeremiah Jackson",
+          "type": "1+ Hit",
+          "decimalOdds": 1.63,
+          "line": 0.5,
+          "modelProb": 0.6223,
+          "edge": 0.9
+        },
+        {
+          "player": "Caleb Durbin",
+          "type": "HR",
+          "decimalOdds": 201.0,
+          "line": 1.5,
+          "modelProb": 0.0059,
+          "edge": 0.1
+        },
+        {
+          "player": "Gunnar Henderson",
+          "type": "HR",
+          "decimalOdds": 101.0,
+          "line": 1.5,
+          "modelProb": 0.0088,
+          "edge": -0.1
+        },
+        {
+          "player": "Jackson Holliday",
+          "type": "HR",
+          "decimalOdds": 8.5,
+          "line": 0.5,
+          "modelProb": 0.1152,
+          "edge": -0.2
+        }
+      ],
       "homeStarter": {
         "name": "Payton Tolle",
         "era": 3.11,
@@ -945,38 +1176,92 @@
       "gameDate": "2026-07-20T23:10:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Citizens Bank Park",
-      "weather": null,
+      "weather": {
+        "tempF": 83,
+        "precipProb": 0,
+        "windMph": 6.1,
+        "windDirDeg": 184
+      },
       "homeTeamId": 143,
       "awayTeamId": 119,
       "homeTeamName": "Philadelphia Phillies",
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": {
-        "mlHome": 1.72,
+        "mlHome": 1.75,
         "mlAway": 2.18,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.52,
+        "rlHomePrice": 2.48,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.59,
+        "rlAwayPrice": 1.57,
         "totalPoint": 8.5,
         "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.91,
+        "totalUnderPrice": 1.9,
         "lastUpdate": "2026-07-20T23:11:00Z",
         "consensus": {
           "Los Angeles Dodgers": {
-            "consensusProb": 0.4592,
-            "spreadPp": 0.21,
+            "consensusProb": 0.4614,
+            "spreadPp": 0.64,
             "booksCount": 4
           },
           "Philadelphia Phillies": {
-            "consensusProb": 0.5857,
-            "spreadPp": 1.03,
+            "consensusProb": 0.5815,
+            "spreadPp": 1.68,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Dalton Rushing",
+          "type": "1+ Hit",
+          "decimalOdds": 1.93,
+          "line": 0.5,
+          "modelProb": 0.6456,
+          "edge": 12.7
+        },
+        {
+          "player": "Tommy Edman",
+          "type": "1+ Hit",
+          "decimalOdds": 1.5,
+          "line": 0.5,
+          "modelProb": 0.7749,
+          "edge": 10.8
+        },
+        {
+          "player": "Miguel Rojas",
+          "type": "1+ Hit",
+          "decimalOdds": 1.62,
+          "line": 0.5,
+          "modelProb": 0.7079,
+          "edge": 9.1
+        },
+        {
+          "player": "Kyle Schwarber",
+          "type": "1+ Hit",
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.6544,
+          "edge": 7.0
+        },
+        {
+          "player": "Brandon Marsh",
+          "type": "1+ Hit",
+          "decimalOdds": 1.56,
+          "line": 0.5,
+          "modelProb": 0.7079,
+          "edge": 6.7
+        },
+        {
+          "player": "Justin Crawford",
+          "type": "1+ Hit",
+          "decimalOdds": 1.69,
+          "line": 0.5,
+          "modelProb": 0.6588,
+          "edge": 6.7
+        }
+      ],
       "homeStarter": {
         "name": "Cristopher Sánchez",
         "era": 2.62,
@@ -995,38 +1280,92 @@
       "gameDate": "2026-07-20T23:15:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Truist Park",
-      "weather": null,
+      "weather": {
+        "tempF": 93,
+        "precipProb": 17,
+        "windMph": 4.9,
+        "windDirDeg": 275
+      },
       "homeTeamId": 144,
       "awayTeamId": 135,
       "homeTeamName": "Atlanta Braves",
       "awayTeamName": "San Diego Padres",
       "autoOdds": {
-        "mlHome": 1.69,
-        "mlAway": 2.26,
+        "mlHome": 1.76,
+        "mlAway": 2.18,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.4,
+        "rlHomePrice": 2.58,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.63,
+        "rlAwayPrice": 1.57,
         "totalPoint": 9.0,
-        "totalOverPrice": 1.87,
-        "totalUnderPrice": 1.96,
+        "totalOverPrice": 1.88,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-07-20T23:16:00Z",
         "consensus": {
           "Atlanta Braves": {
-            "consensusProb": 0.5944,
-            "spreadPp": 0.35,
+            "consensusProb": 0.5739,
+            "spreadPp": 1.32,
             "booksCount": 4
           },
           "San Diego Padres": {
-            "consensusProb": 0.449,
-            "spreadPp": 1.62,
+            "consensusProb": 0.4702,
+            "spreadPp": 1.98,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Jorge Mateo",
+          "type": "1+ Hit",
+          "decimalOdds": 1.79,
+          "line": 0.5,
+          "modelProb": 0.6694,
+          "edge": 11.1
+        },
+        {
+          "player": "Luis Campusano",
+          "type": "1+ Hit",
+          "decimalOdds": 1.61,
+          "line": 0.5,
+          "modelProb": 0.7127,
+          "edge": 9.2
+        },
+        {
+          "player": "Michael Harris II",
+          "type": "1+ Hit",
+          "decimalOdds": 3.09,
+          "line": 1.5,
+          "modelProb": 0.3961,
+          "edge": 7.3
+        },
+        {
+          "player": "Joey Bart",
+          "type": "1+ Hit",
+          "decimalOdds": 1.75,
+          "line": 0.5,
+          "modelProb": 0.616,
+          "edge": 4.5
+        },
+        {
+          "player": "Eli White",
+          "type": "1+ Hit",
+          "decimalOdds": 1.63,
+          "line": 0.5,
+          "modelProb": 0.6396,
+          "edge": 2.6
+        },
+        {
+          "player": "Ty France",
+          "type": "1+ Hit",
+          "decimalOdds": 1.48,
+          "line": 0.5,
+          "modelProb": 0.6849,
+          "edge": 0.9
+        }
+      ],
       "homeStarter": {
         "name": "Bryce Elder",
         "era": 4.12,
@@ -1045,38 +1384,92 @@
       "gameDate": "2026-07-20T23:40:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Kauffman Stadium",
-      "weather": null,
+      "weather": {
+        "tempF": 100,
+        "precipProb": 1,
+        "windMph": 7.5,
+        "windDirDeg": 210
+      },
       "homeTeamId": 118,
       "awayTeamId": 137,
       "homeTeamName": "Kansas City Royals",
       "awayTeamName": "San Francisco Giants",
       "autoOdds": {
-        "mlHome": 1.92,
-        "mlAway": 1.98,
+        "mlHome": 1.87,
+        "mlAway": 2.0,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.56,
+        "rlHomePrice": 1.54,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.54,
+        "rlAwayPrice": 2.55,
         "totalPoint": 10.5,
         "totalOverPrice": 1.96,
-        "totalUnderPrice": 1.88,
+        "totalUnderPrice": 1.91,
         "lastUpdate": "2026-07-20T23:41:00Z",
         "consensus": {
           "Kansas City Royals": {
-            "consensusProb": 0.5334,
-            "spreadPp": 1.97,
+            "consensusProb": 0.5384,
+            "spreadPp": 0.58,
             "booksCount": 4
           },
           "San Francisco Giants": {
-            "consensusProb": 0.5103,
-            "spreadPp": 1.58,
+            "consensusProb": 0.5038,
+            "spreadPp": 0.51,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Isaac Collins",
+          "type": "1+ Hit",
+          "decimalOdds": 1.61,
+          "line": 0.5,
+          "modelProb": 0.6351,
+          "edge": 1.4
+        },
+        {
+          "player": "Michael Massey",
+          "type": "1+ Hit",
+          "decimalOdds": 1.5,
+          "line": 0.5,
+          "modelProb": 0.6742,
+          "edge": 0.8
+        },
+        {
+          "player": "Jung Hoo Lee",
+          "type": "1+ Hit",
+          "decimalOdds": 2.8,
+          "line": 1.5,
+          "modelProb": 0.3634,
+          "edge": 0.6
+        },
+        {
+          "player": "Drew Gilbert",
+          "type": "1+ Hit",
+          "decimalOdds": 1.61,
+          "line": 0.5,
+          "modelProb": 0.6226,
+          "edge": 0.1
+        },
+        {
+          "player": "Casey Schmitt",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.0013,
+          "edge": -0.4
+        },
+        {
+          "player": "Willy Adames",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.0008,
+          "edge": -0.4
+        }
+      ],
       "homeStarter": {
         "name": "Michael Wacha",
         "era": 3.77,
@@ -1095,38 +1488,92 @@
       "gameDate": "2026-07-20T23:40:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "American Family Field",
-      "weather": null,
+      "weather": {
+        "tempF": 88,
+        "precipProb": 10,
+        "windMph": 16.4,
+        "windDirDeg": 231
+      },
       "homeTeamId": 158,
       "awayTeamId": 121,
       "homeTeamName": "Milwaukee Brewers",
       "awayTeamName": "New York Mets",
       "autoOdds": {
-        "mlHome": 1.53,
-        "mlAway": 2.65,
+        "mlHome": 1.5,
+        "mlAway": 2.8,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.12,
+        "rlHomePrice": 2.06,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.83,
+        "rlAwayPrice": 1.88,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.91,
+        "totalOverPrice": 1.93,
+        "totalUnderPrice": 1.95,
         "lastUpdate": "2026-07-20T23:41:00Z",
         "consensus": {
           "Milwaukee Brewers": {
-            "consensusProb": 0.6612,
-            "spreadPp": 1.31,
+            "consensusProb": 0.6781,
+            "spreadPp": 2.3,
             "booksCount": 4
           },
           "New York Mets": {
-            "consensusProb": 0.3817,
-            "spreadPp": 0.73,
+            "consensusProb": 0.3637,
+            "spreadPp": 1.6,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Jared Young",
+          "type": "1+ Hit",
+          "decimalOdds": 2.25,
+          "line": 0.5,
+          "modelProb": 0.609,
+          "edge": 16.5
+        },
+        {
+          "player": "Francisco Alvarez",
+          "type": "1+ Hit",
+          "decimalOdds": 2.1,
+          "line": 0.5,
+          "modelProb": 0.6281,
+          "edge": 15.2
+        },
+        {
+          "player": "Garrett Mitchell",
+          "type": "1+ Hit",
+          "decimalOdds": 1.7,
+          "line": 0.5,
+          "modelProb": 0.7192,
+          "edge": 13.1
+        },
+        {
+          "player": "Carson Benge",
+          "type": "1+ Hit",
+          "decimalOdds": 1.97,
+          "line": 0.5,
+          "modelProb": 0.6352,
+          "edge": 12.8
+        },
+        {
+          "player": "Jake Bauers",
+          "type": "1+ Hit",
+          "decimalOdds": 1.74,
+          "line": 0.5,
+          "modelProb": 0.6911,
+          "edge": 11.6
+        },
+        {
+          "player": "Cooper Pratt",
+          "type": "1+ Hit",
+          "decimalOdds": 1.77,
+          "line": 0.5,
+          "modelProb": 0.6694,
+          "edge": 10.4
+        }
+      ],
       "homeStarter": {
         "name": "Jacob Misiorowski",
         "era": 1.62,
@@ -1145,38 +1592,92 @@
       "gameDate": "2026-07-21T00:05:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Wrigley Field",
-      "weather": null,
+      "weather": {
+        "tempF": 80,
+        "precipProb": 10,
+        "windMph": 11.1,
+        "windDirDeg": 317
+      },
       "homeTeamId": 112,
       "awayTeamId": 116,
       "homeTeamName": "Chicago Cubs",
       "awayTeamName": "Detroit Tigers",
       "autoOdds": {
         "mlHome": 1.91,
-        "mlAway": 1.98,
+        "mlAway": 1.96,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.61,
+        "rlHomePrice": 1.6,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.5,
-        "totalPoint": 12.0,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.91,
+        "rlAwayPrice": 2.46,
+        "totalPoint": 11.5,
+        "totalOverPrice": 2.0,
+        "totalUnderPrice": 1.85,
         "lastUpdate": "2026-07-21T00:06:00Z",
         "consensus": {
           "Chicago Cubs": {
-            "consensusProb": 0.5313,
-            "spreadPp": 1.7,
+            "consensusProb": 0.5298,
+            "spreadPp": 1.12,
             "booksCount": 4
           },
           "Detroit Tigers": {
-            "consensusProb": 0.5122,
-            "spreadPp": 1.31,
+            "consensusProb": 0.5135,
+            "spreadPp": 0.79,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Michael Conforto",
+          "type": "1+ Hit",
+          "decimalOdds": 1.68,
+          "line": 0.5,
+          "modelProb": 0.6648,
+          "edge": 7.0
+        },
+        {
+          "player": "Carson Kelly",
+          "type": "1+ Hit",
+          "decimalOdds": 1.57,
+          "line": 0.5,
+          "modelProb": 0.7048,
+          "edge": 6.8
+        },
+        {
+          "player": "Pete Crow-Armstrong",
+          "type": "1+ Hit",
+          "decimalOdds": 2.99,
+          "line": 1.5,
+          "modelProb": 0.369,
+          "edge": 3.5
+        },
+        {
+          "player": "Seiya Suzuki",
+          "type": "1+ Hit",
+          "decimalOdds": 1.47,
+          "line": 0.5,
+          "modelProb": 0.7101,
+          "edge": 3.0
+        },
+        {
+          "player": "Ian Happ",
+          "type": "1+ Hit",
+          "decimalOdds": 1.61,
+          "line": 0.5,
+          "modelProb": 0.6263,
+          "edge": 0.5
+        },
+        {
+          "player": "Riley Greene",
+          "type": "1+ Hit",
+          "decimalOdds": 3.0,
+          "line": 1.5,
+          "modelProb": 0.3378,
+          "edge": 0.4
+        }
+      ],
       "homeStarter": {
         "name": "Jameson Taillon",
         "era": 5.19,
@@ -1195,38 +1696,92 @@
       "gameDate": "2026-07-21T00:05:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Globe Life Field",
-      "weather": null,
+      "weather": {
+        "tempF": 104,
+        "precipProb": 1,
+        "windMph": 4.9,
+        "windDirDeg": 129
+      },
       "homeTeamId": 140,
       "awayTeamId": 145,
       "homeTeamName": "Texas Rangers",
       "awayTeamName": "Chicago White Sox",
       "autoOdds": {
-        "mlHome": 1.62,
+        "mlHome": 1.6,
         "mlAway": 2.45,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.34,
+        "rlHomePrice": 2.38,
         "rlAwayPoint": 1.5,
         "rlAwayPrice": 1.65,
-        "totalPoint": 8.0,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.87,
+        "totalPoint": 7.5,
+        "totalOverPrice": 1.92,
+        "totalUnderPrice": 1.93,
         "lastUpdate": "2026-07-21T00:06:00Z",
         "consensus": {
           "Chicago White Sox": {
-            "consensusProb": 0.4133,
-            "spreadPp": 1.56,
+            "consensusProb": 0.4098,
+            "spreadPp": 0.51,
             "booksCount": 4
           },
           "Texas Rangers": {
-            "consensusProb": 0.629,
-            "spreadPp": 1.97,
+            "consensusProb": 0.634,
+            "spreadPp": 1.19,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Nicky Lopez",
+          "type": "1+ Hit",
+          "decimalOdds": 1.71,
+          "line": 0.5,
+          "modelProb": 0.7604,
+          "edge": 17.6
+        },
+        {
+          "player": "Tristan Peters",
+          "type": "1+ Hit",
+          "decimalOdds": 1.87,
+          "line": 0.5,
+          "modelProb": 0.6777,
+          "edge": 14.3
+        },
+        {
+          "player": "Chase Meidroth",
+          "type": "1+ Hit",
+          "decimalOdds": 1.82,
+          "line": 0.5,
+          "modelProb": 0.6504,
+          "edge": 10.1
+        },
+        {
+          "player": "Kyle Higashioka",
+          "type": "1+ Hit",
+          "decimalOdds": 1.8,
+          "line": 0.5,
+          "modelProb": 0.628,
+          "edge": 7.2
+        },
+        {
+          "player": "Ezequiel Duran",
+          "type": "1+ Hit",
+          "decimalOdds": 1.58,
+          "line": 0.5,
+          "modelProb": 0.6994,
+          "edge": 6.7
+        },
+        {
+          "player": "Andrew Benintendi",
+          "type": "1+ Hit",
+          "decimalOdds": 1.8,
+          "line": 0.5,
+          "modelProb": 0.609,
+          "edge": 5.3
+        }
+      ],
       "homeStarter": {
         "name": "Jacob deGrom",
         "era": 3.49,
@@ -1251,32 +1806,81 @@
       "homeTeamName": "Houston Astros",
       "awayTeamName": "Miami Marlins",
       "autoOdds": {
-        "mlHome": 1.74,
-        "mlAway": 2.2,
+        "mlHome": 1.8,
+        "mlAway": 2.1,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.52,
+        "rlHomePrice": 2.62,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.57,
-        "totalPoint": 8.5,
-        "totalOverPrice": 1.91,
-        "totalUnderPrice": 1.96,
+        "rlAwayPrice": 1.51,
+        "totalPoint": 9.0,
+        "totalOverPrice": 2.0,
+        "totalUnderPrice": 1.85,
         "lastUpdate": "2026-07-21T00:11:00Z",
         "consensus": {
           "Houston Astros": {
-            "consensusProb": 0.5814,
-            "spreadPp": 1.01,
+            "consensusProb": 0.5587,
+            "spreadPp": 0.94,
             "booksCount": 4
           },
           "Miami Marlins": {
-            "consensusProb": 0.462,
-            "spreadPp": 1.49,
+            "consensusProb": 0.4826,
+            "spreadPp": 1.4,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Taylor Trammell",
+          "type": "1+ Hit",
+          "decimalOdds": 2.09,
+          "line": 0.5,
+          "modelProb": 0.6162,
+          "edge": 13.8
+        },
+        {
+          "player": "Griffin Conine",
+          "type": "1+ Hit",
+          "decimalOdds": 1.77,
+          "line": 0.5,
+          "modelProb": 0.6863,
+          "edge": 12.1
+        },
+        {
+          "player": "Joe Mack",
+          "type": "1+ Hit",
+          "decimalOdds": 1.81,
+          "line": 0.5,
+          "modelProb": 0.6335,
+          "edge": 8.1
+        },
+        {
+          "player": "Javier Sanoja",
+          "type": "1+ Hit",
+          "decimalOdds": 1.66,
+          "line": 0.5,
+          "modelProb": 0.6755,
+          "edge": 7.3
+        },
+        {
+          "player": "Otto Lopez",
+          "type": "1+ Hit",
+          "decimalOdds": 2.86,
+          "line": 1.5,
+          "modelProb": 0.4106,
+          "edge": 6.1
+        },
+        {
+          "player": "Xavier Edwards",
+          "type": "1+ Hit",
+          "decimalOdds": 1.47,
+          "line": 0.5,
+          "modelProb": 0.7152,
+          "edge": 3.5
+        }
+      ],
       "homeStarter": {
         "name": "Ronel Blanco"
       },
@@ -1292,38 +1896,92 @@
       "gameDate": "2026-07-21T00:40:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Coors Field",
-      "weather": null,
+      "weather": {
+        "tempF": 94,
+        "precipProb": 16,
+        "windMph": 15.0,
+        "windDirDeg": 155
+      },
       "homeTeamId": 115,
       "awayTeamId": 120,
       "homeTeamName": "Colorado Rockies",
       "awayTeamName": "Washington Nationals",
       "autoOdds": {
-        "mlHome": 2.04,
-        "mlAway": 1.83,
+        "mlHome": 2.07,
+        "mlAway": 1.82,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.7,
+        "rlHomePrice": 1.72,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.23,
+        "rlAwayPrice": 2.22,
         "totalPoint": 11.5,
-        "totalOverPrice": 1.85,
+        "totalOverPrice": 1.83,
         "totalUnderPrice": 1.98,
         "lastUpdate": "2026-07-21T00:41:00Z",
         "consensus": {
           "Colorado Rockies": {
-            "consensusProb": 0.4951,
-            "spreadPp": 0.98,
+            "consensusProb": 0.4878,
+            "spreadPp": 0.71,
             "booksCount": 4
           },
           "Washington Nationals": {
-            "consensusProb": 0.5479,
-            "spreadPp": 0.3,
+            "consensusProb": 0.5533,
+            "spreadPp": 0.61,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "TJ Rumfield",
+          "type": "1+ Hit",
+          "decimalOdds": 3.0,
+          "line": 1.5,
+          "modelProb": 0.393,
+          "edge": 6.0
+        },
+        {
+          "player": "Cole Carrigg",
+          "type": "1+ Hit",
+          "decimalOdds": 2.75,
+          "line": 1.5,
+          "modelProb": 0.3754,
+          "edge": 1.2
+        },
+        {
+          "player": "Braxton Fulford",
+          "type": "1+ Hit",
+          "decimalOdds": 1.74,
+          "line": 0.5,
+          "modelProb": 0.5833,
+          "edge": 0.9
+        },
+        {
+          "player": "Willi Castro",
+          "type": "1+ Hit",
+          "decimalOdds": 1.44,
+          "line": 0.5,
+          "modelProb": 0.6967,
+          "edge": 0.2
+        },
+        {
+          "player": "Curtis Mead",
+          "type": "HR",
+          "decimalOdds": 181.0,
+          "line": 2.5,
+          "modelProb": 0.0024,
+          "edge": -0.3
+        },
+        {
+          "player": "CJ Abrams",
+          "type": "HR",
+          "decimalOdds": 200.0,
+          "line": 2.5,
+          "modelProb": 0.002,
+          "edge": -0.3
+        }
+      ],
       "homeStarter": {
         "name": "Kyle Freeland",
         "era": 7.36,
@@ -1342,38 +2000,92 @@
       "gameDate": "2026-07-21T01:40:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Chase Field",
-      "weather": null,
+      "weather": {
+        "tempF": 98,
+        "precipProb": 18,
+        "windMph": 7.2,
+        "windDirDeg": 261
+      },
       "homeTeamId": 109,
       "awayTeamId": 133,
       "homeTeamName": "Arizona Diamondbacks",
       "awayTeamName": "Athletics",
       "autoOdds": {
-        "mlHome": 1.64,
-        "mlAway": 2.36,
+        "mlHome": 1.67,
+        "mlAway": 2.32,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.28,
+        "rlHomePrice": 2.4,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.69,
+        "rlAwayPrice": 1.63,
         "totalPoint": 9.5,
-        "totalOverPrice": 2.0,
+        "totalOverPrice": 2.02,
         "totalUnderPrice": 1.85,
         "lastUpdate": "2026-07-21T01:41:00Z",
         "consensus": {
           "Arizona Diamondbacks": {
-            "consensusProb": 0.6173,
-            "spreadPp": 1.14,
+            "consensusProb": 0.6015,
+            "spreadPp": 0.73,
             "booksCount": 4
           },
           "Athletics": {
-            "consensusProb": 0.4265,
-            "spreadPp": 0.73,
+            "consensusProb": 0.4406,
+            "spreadPp": 1.74,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Alika Williams",
+          "type": "1+ Hit",
+          "decimalOdds": 1.72,
+          "line": 0.5,
+          "modelProb": 0.7101,
+          "edge": 12.9
+        },
+        {
+          "player": "Colby Thomas",
+          "type": "1+ Hit",
+          "decimalOdds": 1.85,
+          "line": 0.5,
+          "modelProb": 0.6072,
+          "edge": 6.7
+        },
+        {
+          "player": "Gabriel Moreno",
+          "type": "1+ Hit",
+          "decimalOdds": 2.95,
+          "line": 1.5,
+          "modelProb": 0.4009,
+          "edge": 6.2
+        },
+        {
+          "player": "Ryan Waldschmidt",
+          "type": "1+ Hit",
+          "decimalOdds": 1.6,
+          "line": 0.5,
+          "modelProb": 0.6812,
+          "edge": 5.6
+        },
+        {
+          "player": "Henry Bolte",
+          "type": "1+ Hit",
+          "decimalOdds": 1.53,
+          "line": 0.5,
+          "modelProb": 0.6953,
+          "edge": 4.2
+        },
+        {
+          "player": "Tim Tawa",
+          "type": "1+ Hit",
+          "decimalOdds": 1.67,
+          "line": 0.5,
+          "modelProb": 0.6263,
+          "edge": 2.8
+        }
+      ],
       "homeStarter": {
         "name": "Mitch Bratt",
         "era": 6.0,
@@ -1392,38 +2104,92 @@
       "gameDate": "2026-07-21T01:40:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "T-Mobile Park",
-      "weather": null,
+      "weather": {
+        "tempF": 85,
+        "precipProb": 0,
+        "windMph": 6.5,
+        "windDirDeg": 360
+      },
       "homeTeamId": 136,
       "awayTeamId": 113,
       "homeTeamName": "Seattle Mariners",
       "awayTeamName": "Cincinnati Reds",
       "autoOdds": {
-        "mlHome": 1.65,
-        "mlAway": 2.38,
+        "mlHome": 1.71,
+        "mlAway": 2.24,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.4,
+        "rlHomePrice": 2.55,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.61,
+        "rlAwayPrice": 1.55,
         "totalPoint": 7.5,
         "totalOverPrice": 1.88,
-        "totalUnderPrice": 2.02,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-07-21T01:41:00Z",
         "consensus": {
           "Cincinnati Reds": {
-            "consensusProb": 0.434,
-            "spreadPp": 2.43,
+            "consensusProb": 0.453,
+            "spreadPp": 1.02,
             "booksCount": 4
           },
           "Seattle Mariners": {
-            "consensusProb": 0.6107,
-            "spreadPp": 1.51,
+            "consensusProb": 0.5909,
+            "spreadPp": 1.04,
             "booksCount": 4
           }
         }
       },
       "lineMovement": [],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Weston Wilson",
+          "type": "1+ Hit",
+          "decimalOdds": 1.91,
+          "line": 0.5,
+          "modelProb": 0.6314,
+          "edge": 10.8
+        },
+        {
+          "player": "Randy Arozarena",
+          "type": "1+ Hit",
+          "decimalOdds": 1.55,
+          "line": 0.5,
+          "modelProb": 0.7205,
+          "edge": 7.5
+        },
+        {
+          "player": "Colt Emerson",
+          "type": "1+ Hit",
+          "decimalOdds": 1.95,
+          "line": 0.5,
+          "modelProb": 0.5871,
+          "edge": 7.4
+        },
+        {
+          "player": "Josh Naylor",
+          "type": "1+ Hit",
+          "decimalOdds": 1.62,
+          "line": 0.5,
+          "modelProb": 0.6826,
+          "edge": 6.5
+        },
+        {
+          "player": "Edwin Arroyo",
+          "type": "1+ Hit",
+          "decimalOdds": 1.75,
+          "line": 0.5,
+          "modelProb": 0.6289,
+          "edge": 5.7
+        },
+        {
+          "player": "Victor Robles",
+          "type": "1+ Hit",
+          "decimalOdds": 1.79,
+          "line": 0.5,
+          "modelProb": 0.6142,
+          "edge": 5.6
+        }
+      ],
       "homeStarter": {
         "name": "George Kirby",
         "era": 3.76,
@@ -1442,38 +2208,100 @@
       "gameDate": "2026-07-21T02:10:00Z",
       "gameDateStr": "2026-07-20",
       "venue": "Angel Stadium",
-      "weather": null,
+      "weather": {
+        "tempF": 76,
+        "precipProb": 0,
+        "windMph": 6.7,
+        "windDirDeg": 217
+      },
       "homeTeamId": 108,
       "awayTeamId": 138,
       "homeTeamName": "Los Angeles Angels",
       "awayTeamName": "St. Louis Cardinals",
       "autoOdds": {
-        "mlHome": 1.83,
-        "mlAway": 2.02,
+        "mlHome": 1.88,
+        "mlAway": 2.04,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.51,
+        "rlHomePrice": 1.54,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.65,
-        "totalPoint": 8.5,
-        "totalOverPrice": 1.83,
-        "totalUnderPrice": 2.0,
+        "rlAwayPrice": 2.63,
+        "totalPoint": 9.0,
+        "totalOverPrice": 2.0,
+        "totalUnderPrice": 1.89,
         "lastUpdate": "2026-07-21T02:11:00Z",
         "consensus": {
           "Los Angeles Angels": {
-            "consensusProb": 0.5464,
-            "spreadPp": 0.0,
+            "consensusProb": 0.5377,
+            "spreadPp": 1.45,
             "booksCount": 4
           },
           "St. Louis Cardinals": {
-            "consensusProb": 0.4975,
-            "spreadPp": 0.5,
+            "consensusProb": 0.5052,
+            "spreadPp": 2.26,
             "booksCount": 4
           }
         }
       },
-      "lineMovement": [],
+      "lineMovement": [
+        {
+          "market": "Total Over",
+          "side": null,
+          "fromProb": 54.6,
+          "toProb": 50.0,
+          "deltaPct": -4.6
+        }
+      ],
       "liveState": null,
-      "autoProps": [],
+      "autoProps": [
+        {
+          "player": "Denzer Guzman",
+          "type": "1+ Hit",
+          "decimalOdds": 1.68,
+          "line": 0.5,
+          "modelProb": 0.6812,
+          "edge": 8.6
+        },
+        {
+          "player": "Blaze Jordan",
+          "type": "1+ Hit",
+          "decimalOdds": 1.62,
+          "line": 0.5,
+          "modelProb": 0.663,
+          "edge": 4.6
+        },
+        {
+          "player": "Lars Nootbaar",
+          "type": "1+ Hit",
+          "decimalOdds": 1.62,
+          "line": 0.5,
+          "modelProb": 0.6602,
+          "edge": 4.3
+        },
+        {
+          "player": "Vaughn Grissom",
+          "type": "1+ Hit",
+          "decimalOdds": 1.53,
+          "line": 0.5,
+          "modelProb": 0.6869,
+          "edge": 3.3
+        },
+        {
+          "player": "Logan O'Hoppe",
+          "type": "1+ Hit",
+          "decimalOdds": 1.67,
+          "line": 0.5,
+          "modelProb": 0.6263,
+          "edge": 2.8
+        },
+        {
+          "player": "Jordan Walker",
+          "type": "1+ Hit",
+          "decimalOdds": 1.47,
+          "line": 0.5,
+          "modelProb": 0.7067,
+          "edge": 2.6
+        }
+      ],
       "homeStarter": {
         "name": "José Soriano",
         "era": 3.49,
