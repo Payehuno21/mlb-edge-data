@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T16:23:02Z",
+  "generatedAt": "2026-07-21T20:18:51Z",
   "lastMode": "refresh",
   "date": "2026-07-21",
   "availableDates": [
@@ -103,56 +103,6 @@
         "pa": 93
       },
       "missingStarters": []
-    },
-    {
-      "id": 147,
-      "abbr": "NYY",
-      "name": "New York Yankees",
-      "winPct": 0.56,
-      "homeWinPct": 0.532,
-      "awayWinPct": 0.585,
-      "last10": 6,
-      "elo": 1536,
-      "runsPerGame": 4.75,
-      "staffEra": 3.72,
-      "bullpenRecentIp": 20.0,
-      "topPowerHitter": {
-        "name": "Ben Rice",
-        "hrRate": 0.0714,
-        "pa": 406
-      },
-      "topContactHitter": {
-        "name": "Ben Rice",
-        "avg": 0.281,
-        "pa": 406
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 134,
-      "abbr": "PIT",
-      "name": "Pittsburgh Pirates",
-      "winPct": 0.515,
-      "homeWinPct": 0.529,
-      "awayWinPct": 0.5,
-      "last10": 6,
-      "elo": 1500,
-      "runsPerGame": 5.16,
-      "staffEra": 4.6,
-      "bullpenRecentIp": 18.3,
-      "topPowerHitter": {
-        "name": "Esmerlyn Valdez",
-        "hrRate": 0.1066,
-        "pa": 122
-      },
-      "topContactHitter": {
-        "name": "Nick Gonzales",
-        "avg": 0.309,
-        "pa": 391
-      },
-      "missingStarters": [
-        "Spencer Horwitz"
-      ]
     },
     {
       "id": 141,
@@ -735,6 +685,56 @@
       "missingStarters": [
         "Matt McLain"
       ]
+    },
+    {
+      "id": 147,
+      "abbr": "NYY",
+      "name": "New York Yankees",
+      "winPct": 0.56,
+      "homeWinPct": 0.532,
+      "awayWinPct": 0.585,
+      "last10": 6,
+      "elo": 1536,
+      "runsPerGame": 4.75,
+      "staffEra": 3.72,
+      "bullpenRecentIp": 20.0,
+      "topPowerHitter": {
+        "name": "Ben Rice",
+        "hrRate": 0.0714,
+        "pa": 406
+      },
+      "topContactHitter": {
+        "name": "Ben Rice",
+        "avg": 0.281,
+        "pa": 406
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 134,
+      "abbr": "PIT",
+      "name": "Pittsburgh Pirates",
+      "winPct": 0.515,
+      "homeWinPct": 0.529,
+      "awayWinPct": 0.5,
+      "last10": 6,
+      "elo": 1500,
+      "runsPerGame": 5.16,
+      "staffEra": 4.6,
+      "bullpenRecentIp": 18.3,
+      "topPowerHitter": {
+        "name": "Esmerlyn Valdez",
+        "hrRate": 0.1066,
+        "pa": 122
+      },
+      "topContactHitter": {
+        "name": "Nick Gonzales",
+        "avg": 0.309,
+        "pa": 391
+      },
+      "missingStarters": [
+        "Spencer Horwitz"
+      ]
     }
   ],
   "games": [
@@ -947,110 +947,6 @@
       }
     },
     {
-      "gamePk": 823519,
-      "gameDate": "2026-07-21T23:05:00Z",
-      "gameDateStr": "2026-07-21",
-      "venue": "Yankee Stadium",
-      "weather": {
-        "tempF": 81,
-        "precipProb": 47,
-        "windMph": 2.8,
-        "windDirDeg": 108
-      },
-      "homeTeamId": 147,
-      "awayTeamId": 134,
-      "homeTeamName": "New York Yankees",
-      "awayTeamName": "Pittsburgh Pirates",
-      "autoOdds": {
-        "mlHome": 1.69,
-        "mlAway": 2.3,
-        "rlHomePoint": -1.5,
-        "rlHomePrice": 2.4,
-        "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.62,
-        "totalPoint": 9.0,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.95,
-        "lastUpdate": "2026-07-21T23:06:00Z",
-        "consensus": {
-          "New York Yankees": {
-            "consensusProb": 0.5989,
-            "spreadPp": 1.8,
-            "booksCount": 4
-          },
-          "Pittsburgh Pirates": {
-            "consensusProb": 0.4451,
-            "spreadPp": 1.98,
-            "booksCount": 4
-          }
-        }
-      },
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [
-        {
-          "player": "Esmerlyn Valdez",
-          "type": "1+ Hit",
-          "decimalOdds": 1.62,
-          "line": 0.5,
-          "modelProb": 0.7234,
-          "edge": 10.6
-        },
-        {
-          "player": "Ryan McMahon",
-          "type": "1+ Hit",
-          "decimalOdds": 1.83,
-          "line": 0.5,
-          "modelProb": 0.6263,
-          "edge": 8.0
-        },
-        {
-          "player": "Jacob Gonzalez",
-          "type": "1+ Hit",
-          "decimalOdds": 1.7,
-          "line": 0.5,
-          "modelProb": 0.6573,
-          "edge": 6.9
-        },
-        {
-          "player": "Tyler Callihan",
-          "type": "1+ Hit",
-          "decimalOdds": 1.75,
-          "line": 0.5,
-          "modelProb": 0.6366,
-          "edge": 6.5
-        },
-        {
-          "player": "Nick Gonzales",
-          "type": "1+ Hit",
-          "decimalOdds": 1.48,
-          "line": 0.5,
-          "modelProb": 0.7269,
-          "edge": 5.1
-        },
-        {
-          "player": "Ben Rice",
-          "type": "1+ Hit",
-          "decimalOdds": 1.48,
-          "line": 0.5,
-          "modelProb": 0.7205,
-          "edge": 4.5
-        }
-      ],
-      "homeStarter": {
-        "name": "Will Warren",
-        "era": 4.03,
-        "whip": 1.36,
-        "k9": 8.8
-      },
-      "awayStarter": {
-        "name": "Bubba Chandler",
-        "era": 4.77,
-        "whip": 1.45,
-        "k9": 8.1
-      }
-    },
-    {
       "gamePk": 822787,
       "gameDate": "2026-07-21T23:07:00Z",
       "gameDateStr": "2026-07-21",
@@ -1223,10 +1119,10 @@
         }
       ],
       "homeStarter": {
-        "name": "Ranger Suarez",
-        "era": 3.15,
-        "whip": 1.16,
-        "k9": 9.6
+        "name": "Eduardo Rivera",
+        "era": 2.89,
+        "whip": 0.96,
+        "k9": 8.7
       },
       "awayStarter": {
         "name": "Kyle Bradish",
@@ -1586,36 +1482,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 54.1,
-          "toProb": 63.7,
-          "deltaPct": 9.6
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 49.8,
-          "toProb": 38.8,
-          "deltaPct": -11.0
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 66.2,
-          "toProb": 15.4,
-          "deltaPct": -50.8
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 37.0,
-          "toProb": 91.7,
-          "deltaPct": 54.7
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2003,36 +1870,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 52.4,
-          "toProb": 40.3,
-          "deltaPct": -12.0
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 50.5,
-          "toProb": 61.7,
-          "deltaPct": 11.2
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 64.1,
-          "toProb": 58.1,
-          "deltaPct": -6.0
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 39.2,
-          "toProb": 44.2,
-          "deltaPct": 5.0
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2136,43 +1974,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 57.1,
-          "toProb": 36.2,
-          "deltaPct": -20.9
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 46.1,
-          "toProb": 66.7,
-          "deltaPct": 20.6
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 38.8,
-          "toProb": 54.6,
-          "deltaPct": 15.9
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 64.1,
-          "toProb": 50.0,
-          "deltaPct": -14.1
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 51.3,
-          "toProb": 55.6,
-          "deltaPct": 4.3
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2273,36 +2075,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 53.2,
-          "toProb": 80.0,
-          "deltaPct": 26.8
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 49.5,
-          "toProb": 23.3,
-          "deltaPct": -26.2
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 66.7,
-          "toProb": 43.3,
-          "deltaPct": -23.4
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 36.8,
-          "toProb": 60.6,
-          "deltaPct": 23.8
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2365,6 +2138,116 @@
         "era": 2.54,
         "whip": 1.11,
         "k9": 10.3
+      }
+    },
+    {
+      "gamePk": 823519,
+      "gameDate": "2026-07-21T23:05:00Z",
+      "gameDateStr": "2026-07-21",
+      "venue": "Yankee Stadium",
+      "weather": {
+        "tempF": 81,
+        "precipProb": 47,
+        "windMph": 2.8,
+        "windDirDeg": 108
+      },
+      "homeTeamId": 147,
+      "awayTeamId": 134,
+      "homeTeamName": "New York Yankees",
+      "awayTeamName": "Pittsburgh Pirates",
+      "autoOdds": {
+        "mlHome": 1.69,
+        "mlAway": 2.3,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.4,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.62,
+        "totalPoint": 9.0,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.95,
+        "lastUpdate": "2026-07-21T23:06:00Z",
+        "consensus": {
+          "New York Yankees": {
+            "consensusProb": 0.5989,
+            "spreadPp": 1.8,
+            "booksCount": 4
+          },
+          "Pittsburgh Pirates": {
+            "consensusProb": 0.4451,
+            "spreadPp": 1.98,
+            "booksCount": 4
+          }
+        }
+      },
+      "lineMovement": [],
+      "liveState": {
+        "status": "Final",
+        "homeScore": null,
+        "awayScore": null,
+        "inning": null,
+        "inningHalf": null
+      },
+      "autoProps": [
+        {
+          "player": "Esmerlyn Valdez",
+          "type": "1+ Hit",
+          "decimalOdds": 1.62,
+          "line": 0.5,
+          "modelProb": 0.7234,
+          "edge": 10.6
+        },
+        {
+          "player": "Ryan McMahon",
+          "type": "1+ Hit",
+          "decimalOdds": 1.83,
+          "line": 0.5,
+          "modelProb": 0.6263,
+          "edge": 8.0
+        },
+        {
+          "player": "Jacob Gonzalez",
+          "type": "1+ Hit",
+          "decimalOdds": 1.7,
+          "line": 0.5,
+          "modelProb": 0.6573,
+          "edge": 6.9
+        },
+        {
+          "player": "Tyler Callihan",
+          "type": "1+ Hit",
+          "decimalOdds": 1.75,
+          "line": 0.5,
+          "modelProb": 0.6366,
+          "edge": 6.5
+        },
+        {
+          "player": "Nick Gonzales",
+          "type": "1+ Hit",
+          "decimalOdds": 1.48,
+          "line": 0.5,
+          "modelProb": 0.7269,
+          "edge": 5.1
+        },
+        {
+          "player": "Ben Rice",
+          "type": "1+ Hit",
+          "decimalOdds": 1.48,
+          "line": 0.5,
+          "modelProb": 0.7205,
+          "edge": 4.5
+        }
+      ],
+      "homeStarter": {
+        "name": "Will Warren",
+        "era": 4.03,
+        "whip": 1.36,
+        "k9": 8.8
+      },
+      "awayStarter": {
+        "name": "Bubba Chandler",
+        "era": 4.77,
+        "whip": 1.45,
+        "k9": 8.1
       }
     }
   ],
@@ -2488,6 +2371,14 @@
       "awayTeamId": 138,
       "homeScore": 3,
       "awayScore": 2
+    },
+    {
+      "gamePk": 823519,
+      "dateStr": "2026-07-21",
+      "homeTeamId": 147,
+      "awayTeamId": 134,
+      "homeScore": null,
+      "awayScore": null
     }
   ]
 }
