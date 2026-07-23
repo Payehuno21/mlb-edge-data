@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T16:26:13Z",
+  "generatedAt": "2026-07-23T20:11:53Z",
   "lastMode": "refresh",
   "date": "2026-07-23",
   "availableDates": [
@@ -289,21 +289,13 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 54.1,
-          "toProb": 50.0,
-          "deltaPct": -4.1
-        }
-      ],
+      "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Bottom"
+        "status": "Final",
+        "homeScore": 6,
+        "awayScore": 5,
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [
         {
@@ -357,15 +349,15 @@
       ],
       "homeStarter": {
         "name": "Chris Sale",
-        "era": 2.04,
-        "whip": 1.06,
-        "k9": 10.7
+        "era": 2.19,
+        "whip": 1.05,
+        "k9": 10.9
       },
       "awayStarter": {
         "name": "Kyle Hart",
-        "era": 5.66,
-        "whip": 1.14,
-        "k9": 7.7
+        "era": 5.5,
+        "whip": 1.11,
+        "k9": 7.8
       }
     },
     {
@@ -407,23 +399,14 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 48.8,
-          "toProb": 53.5,
-          "deltaPct": 4.7
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 54.6,
-          "toProb": 50.0,
-          "deltaPct": -4.6
-        }
-      ],
-      "liveState": null,
+      "lineMovement": [],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 1,
+        "inning": 12,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Ryan Kreidler",
@@ -476,15 +459,15 @@
       ],
       "homeStarter": {
         "name": "Gavin Williams",
-        "era": 4.0,
-        "whip": 1.15,
-        "k9": 10.9
+        "era": 3.78,
+        "whip": 1.1,
+        "k9": 11.1
       },
       "awayStarter": {
         "name": "Taj Bradley",
-        "era": 3.85,
-        "whip": 1.25,
-        "k9": 10.4
+        "era": 3.69,
+        "whip": 1.22,
+        "k9": 10.1
       }
     },
     {
@@ -527,7 +510,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 1,
+        "inning": 4,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Hunter Feduccia",
@@ -580,15 +569,15 @@
       ],
       "homeStarter": {
         "name": "Shane Bieber",
-        "era": 5.7,
-        "whip": 1.73,
-        "k9": 7.2
+        "era": 5.2,
+        "whip": 1.59,
+        "k9": 6.5
       },
       "awayStarter": {
         "name": "Casey Legumina",
-        "era": 3.92,
-        "whip": 1.28,
-        "k9": 6.3
+        "era": 3.95,
+        "whip": 1.32,
+        "k9": 6.4
       }
     },
     {
@@ -630,22 +619,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 69.0,
-          "toProb": 37.3,
-          "deltaPct": -31.7
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 35.7,
-          "toProb": 65.4,
-          "deltaPct": 29.6
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -951,6 +925,14 @@
       "awayTeamId": 146,
       "homeScore": 5,
       "awayScore": 2
+    },
+    {
+      "gamePk": 824893,
+      "dateStr": "2026-07-23",
+      "homeTeamId": 144,
+      "awayTeamId": 135,
+      "homeScore": 6,
+      "awayScore": 5
     }
   ]
 }
