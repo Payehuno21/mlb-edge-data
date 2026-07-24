@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T16:42:23Z",
+  "generatedAt": "2026-07-24T20:19:29Z",
   "lastMode": "refresh",
   "date": "2026-07-24",
   "availableDates": [
@@ -780,7 +780,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 2,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "TJ Rumfield",
@@ -833,9 +839,9 @@
       ],
       "homeStarter": {
         "name": "Shane Drohan",
-        "era": 3.2,
-        "whip": 1.18,
-        "k9": 9.0
+        "era": 3.3,
+        "whip": 1.21,
+        "k9": 9.1
       },
       "awayStarter": {
         "name": "Tomoyuki Sugano",
@@ -1195,22 +1201,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 38.0,
-          "toProb": 65.8,
-          "deltaPct": 27.8
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 65.4,
-          "toProb": 38.8,
-          "deltaPct": -26.6
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1678,7 +1669,12 @@
           "edge": 5.4
         }
       ],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Ryan Gusto",
+        "era": 4.7,
+        "whip": 1.37,
+        "k9": 7.9
+      },
       "awayStarter": {
         "name": "Germán Márquez",
         "era": 5.24,
