@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T14:39:56Z",
+  "generatedAt": "2026-07-25T16:04:17Z",
   "lastMode": "refresh",
   "date": "2026-07-25",
   "availableDates": [
@@ -984,10 +984,10 @@
         "k9": 10.2
       },
       "awayStarter": {
-        "name": "JP Sears",
-        "era": 4.38,
-        "whip": 1.26,
-        "k9": 7.3
+        "name": "Randy Vásquez",
+        "era": 4.72,
+        "whip": 1.52,
+        "k9": 6.5
       }
     },
     {
@@ -1224,10 +1224,10 @@
       "autoProps": [],
       "homeStarter": null,
       "awayStarter": {
-        "name": "Mason Barnett",
-        "era": 4.64,
-        "whip": 1.36,
-        "k9": 8.9
+        "name": "Brady Basso",
+        "era": 6.48,
+        "whip": 1.92,
+        "k9": 7.6
       }
     },
     {
