@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T03:14:34Z",
+  "generatedAt": "2026-07-25T14:39:56Z",
   "lastMode": "refresh",
   "date": "2026-07-25",
   "availableDates": [
@@ -1223,7 +1223,12 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": null,
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Mason Barnett",
+        "era": 4.64,
+        "whip": 1.36,
+        "k9": 8.9
+      }
     },
     {
       "gamePk": 824571,
@@ -1588,6 +1593,14 @@
       "awayTeamId": 113,
       "homeScore": 2,
       "awayScore": 4
+    },
+    {
+      "gamePk": 823196,
+      "dateStr": "2026-07-24",
+      "homeTeamId": 137,
+      "awayTeamId": 108,
+      "homeScore": 7,
+      "awayScore": 6
     }
   ]
 }
