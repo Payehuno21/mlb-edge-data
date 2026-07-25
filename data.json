@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T16:04:17Z",
+  "generatedAt": "2026-07-25T20:10:33Z",
   "lastMode": "refresh",
   "date": "2026-07-25",
   "availableDates": [
@@ -775,19 +775,25 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 2,
+        "awayScore": 3,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Casey Mize",
-        "era": 2.79,
-        "whip": 1.03,
-        "k9": 9.2
+        "era": 2.7,
+        "whip": 0.99,
+        "k9": 8.8
       },
       "awayStarter": {
         "name": "Michael Wacha",
-        "era": 3.66,
+        "era": 3.6,
         "whip": 1.17,
-        "k9": 7.2
+        "k9": 7.1
       }
     },
     {
@@ -825,11 +831,17 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Foster Griffin",
-        "era": 2.68,
+        "era": 2.67,
         "whip": 1.03,
         "k9": 8.5
       },
@@ -875,11 +887,17 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Robbie Ray",
-        "era": 3.33,
+        "era": 3.31,
         "whip": 1.31,
         "k9": 7.8
       },
@@ -925,7 +943,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Sonny Gray",
@@ -975,7 +999,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Eury Pérez",
@@ -1027,7 +1057,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Tim Mayza",
+        "era": 4.0,
+        "whip": 1.16,
+        "k9": 8.8
+      },
       "awayStarter": {
         "name": "Ryan Weathers",
         "era": 4.4,
@@ -1222,7 +1257,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Mike Paredes",
+        "era": 4.72,
+        "whip": 1.43,
+        "k9": 5.0
+      },
       "awayStarter": {
         "name": "Brady Basso",
         "era": 6.48,
@@ -1601,6 +1641,14 @@
       "awayTeamId": 108,
       "homeScore": 7,
       "awayScore": 6
+    },
+    {
+      "gamePk": 824244,
+      "dateStr": "2026-07-25",
+      "homeTeamId": 116,
+      "awayTeamId": 118,
+      "homeScore": 2,
+      "awayScore": 3
     }
   ]
 }
