@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T14:40:56Z",
+  "generatedAt": "2026-07-26T16:01:50Z",
   "lastMode": "refresh",
   "date": "2026-07-26",
   "availableDates": [
@@ -775,7 +775,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Drew Rasmussen",
