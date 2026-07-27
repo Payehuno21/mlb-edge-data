@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T15:47:56Z",
-  "lastMode": "full",
+  "generatedAt": "2026-07-27T16:57:18Z",
+  "lastMode": "refresh",
   "date": "2026-07-27",
   "availableDates": [
     "2026-07-27"
@@ -614,25 +614,25 @@
       "homeTeamName": "Texas Rangers",
       "awayTeamName": "Seattle Mariners",
       "autoOdds": {
-        "mlHome": 2.17,
-        "mlAway": 1.75,
+        "mlHome": 2.14,
+        "mlAway": 1.77,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.66,
+        "rlHomePrice": 1.65,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.35,
         "totalPoint": 8.0,
-        "totalOverPrice": 1.97,
-        "totalUnderPrice": 1.87,
+        "totalOverPrice": 1.98,
+        "totalUnderPrice": 1.88,
         "lastUpdate": "2026-07-27T18:35:00Z",
         "consensus": {
           "Seattle Mariners": {
-            "consensusProb": 0.5747,
-            "spreadPp": 0.66,
+            "consensusProb": 0.5723,
+            "spreadPp": 1.31,
             "booksCount": 4
           },
           "Texas Rangers": {
-            "consensusProb": 0.4684,
-            "spreadPp": 1.54,
+            "consensusProb": 0.4706,
+            "spreadPp": 0.89,
             "booksCount": 4
           }
         }
@@ -718,25 +718,25 @@
       "homeTeamName": "Detroit Tigers",
       "awayTeamName": "Baltimore Orioles",
       "autoOdds": {
-        "mlHome": 1.85,
-        "mlAway": 2.0,
+        "mlHome": 1.87,
+        "mlAway": 1.98,
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.55,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.65,
+        "rlAwayPrice": 2.63,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.91,
-        "totalUnderPrice": 1.93,
+        "totalOverPrice": 1.93,
+        "totalUnderPrice": 1.91,
         "lastUpdate": "2026-07-27T22:40:00Z",
         "consensus": {
           "Baltimore Orioles": {
-            "consensusProb": 0.5019,
-            "spreadPp": 0.51,
+            "consensusProb": 0.5076,
+            "spreadPp": 0.78,
             "booksCount": 4
           },
           "Detroit Tigers": {
-            "consensusProb": 0.5435,
-            "spreadPp": 0.59,
+            "consensusProb": 0.5369,
+            "spreadPp": 0.58,
             "booksCount": 4
           }
         }
@@ -822,25 +822,25 @@
       "homeTeamName": "Pittsburgh Pirates",
       "awayTeamName": "Arizona Diamondbacks",
       "autoOdds": {
-        "mlHome": 1.87,
-        "mlAway": 2.02,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.53,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.58,
-        "totalPoint": 9.5,
-        "totalOverPrice": 2.0,
-        "totalUnderPrice": 1.83,
+        "mlHome": 1.82,
+        "mlAway": 2.06,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.65,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.53,
+        "totalPoint": 9.0,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.88,
         "lastUpdate": "2026-07-27T22:40:00Z",
         "consensus": {
           "Arizona Diamondbacks": {
-            "consensusProb": 0.5032,
-            "spreadPp": 1.78,
+            "consensusProb": 0.4884,
+            "spreadPp": 0.48,
             "booksCount": 4
           },
           "Pittsburgh Pirates": {
-            "consensusProb": 0.5391,
-            "spreadPp": 0.58,
+            "consensusProb": 0.5564,
+            "spreadPp": 1.55,
             "booksCount": 4
           }
         }
@@ -849,16 +849,16 @@
         {
           "market": "RL",
           "side": "home",
-          "fromProb": 37.7,
-          "toProb": 65.4,
-          "deltaPct": 27.6
+          "fromProb": 65.4,
+          "toProb": 37.7,
+          "deltaPct": -27.6
         },
         {
           "market": "RL",
           "side": "away",
-          "fromProb": 65.4,
-          "toProb": 38.8,
-          "deltaPct": -26.6
+          "fromProb": 38.8,
+          "toProb": 65.4,
+          "deltaPct": 26.6
         }
       ],
       "liveState": null,
@@ -941,25 +941,25 @@
       "homeTeamName": "Miami Marlins",
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": {
-        "mlHome": 2.57,
-        "mlAway": 1.56,
+        "mlHome": 2.45,
+        "mlAway": 1.61,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.92,
+        "rlHomePrice": 1.85,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.0,
+        "rlAwayPrice": 2.04,
         "totalPoint": 7.5,
-        "totalOverPrice": 1.88,
-        "totalUnderPrice": 1.95,
+        "totalOverPrice": 1.87,
+        "totalUnderPrice": 2.0,
         "lastUpdate": "2026-07-27T22:41:00Z",
         "consensus": {
           "Miami Marlins": {
-            "consensusProb": 0.3914,
-            "spreadPp": 0.46,
+            "consensusProb": 0.4124,
+            "spreadPp": 1.2,
             "booksCount": 4
           },
           "Philadelphia Phillies": {
-            "consensusProb": 0.6505,
-            "spreadPp": 1.69,
+            "consensusProb": 0.63,
+            "spreadPp": 1.58,
             "booksCount": 4
           }
         }
@@ -1045,25 +1045,25 @@
       "homeTeamName": "Washington Nationals",
       "awayTeamName": "Toronto Blue Jays",
       "autoOdds": {
-        "mlHome": 1.83,
-        "mlAway": 2.05,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.55,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.56,
+        "mlHome": 1.77,
+        "mlAway": 2.12,
+        "rlHomePoint": -1.5,
+        "rlHomePrice": 2.55,
+        "rlAwayPoint": 1.5,
+        "rlAwayPrice": 1.57,
         "totalPoint": 10.0,
-        "totalOverPrice": 1.98,
-        "totalUnderPrice": 1.85,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.88,
         "lastUpdate": "2026-07-27T22:46:00Z",
         "consensus": {
           "Toronto Blue Jays": {
-            "consensusProb": 0.4951,
-            "spreadPp": 1.47,
+            "consensusProb": 0.4785,
+            "spreadPp": 1.61,
             "booksCount": 4
           },
           "Washington Nationals": {
-            "consensusProb": 0.5479,
-            "spreadPp": 0.3,
+            "consensusProb": 0.5658,
+            "spreadPp": 0.32,
             "booksCount": 4
           }
         }
@@ -1072,16 +1072,16 @@
         {
           "market": "RL",
           "side": "home",
-          "fromProb": 39.2,
-          "toProb": 64.5,
-          "deltaPct": 25.3
+          "fromProb": 64.5,
+          "toProb": 39.2,
+          "deltaPct": -25.3
         },
         {
           "market": "RL",
           "side": "away",
-          "fromProb": 63.7,
-          "toProb": 39.1,
-          "deltaPct": -24.6
+          "fromProb": 39.1,
+          "toProb": 63.7,
+          "deltaPct": 24.6
         }
       ],
       "liveState": null,
@@ -1136,10 +1136,10 @@
         }
       ],
       "homeStarter": {
-        "name": "Andrew Alvarez",
-        "era": 4.22,
-        "whip": 1.5,
-        "k9": 9.3
+        "name": "Eddy Yean",
+        "era": 0.0,
+        "whip": 0.56,
+        "k9": 6.8
       },
       "awayStarter": {
         "name": "Max Scherzer",
@@ -1164,25 +1164,25 @@
       "homeTeamName": "Cincinnati Reds",
       "awayTeamName": "Cleveland Guardians",
       "autoOdds": {
-        "mlHome": 1.62,
-        "mlAway": 2.48,
+        "mlHome": 1.59,
+        "mlAway": 2.46,
         "rlHomePoint": -1.5,
-        "rlHomePrice": 2.28,
+        "rlHomePrice": 2.19,
         "rlAwayPoint": 1.5,
-        "rlAwayPrice": 1.7,
+        "rlAwayPrice": 1.71,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.92,
-        "totalUnderPrice": 1.92,
+        "totalOverPrice": 1.89,
+        "totalUnderPrice": 1.97,
         "lastUpdate": "2026-07-27T23:10:00Z",
         "consensus": {
           "Cincinnati Reds": {
-            "consensusProb": 0.6251,
-            "spreadPp": 1.97,
+            "consensusProb": 0.6349,
+            "spreadPp": 0.8,
             "booksCount": 4
           },
           "Cleveland Guardians": {
-            "consensusProb": 0.4182,
-            "spreadPp": 2.23,
+            "consensusProb": 0.4103,
+            "spreadPp": 1.02,
             "booksCount": 4
           }
         }
@@ -1268,25 +1268,25 @@
       "homeTeamName": "New York Mets",
       "awayTeamName": "Atlanta Braves",
       "autoOdds": {
-        "mlHome": 1.97,
-        "mlAway": 1.93,
+        "mlHome": 2.02,
+        "mlAway": 1.87,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.56,
+        "rlHomePrice": 1.59,
         "rlAwayPoint": -1.5,
         "rlAwayPrice": 2.5,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.88,
-        "totalUnderPrice": 2.0,
+        "totalOverPrice": 1.98,
+        "totalUnderPrice": 1.87,
         "lastUpdate": "2026-07-27T23:10:00Z",
         "consensus": {
           "Atlanta Braves": {
-            "consensusProb": 0.525,
-            "spreadPp": 1.66,
+            "consensusProb": 0.5391,
+            "spreadPp": 1.17,
             "booksCount": 4
           },
           "New York Mets": {
-            "consensusProb": 0.5189,
-            "spreadPp": 2.15,
+            "consensusProb": 0.5052,
+            "spreadPp": 1.78,
             "booksCount": 4
           }
         }
@@ -1367,25 +1367,25 @@
       "homeTeamName": "Chicago White Sox",
       "awayTeamName": "New York Yankees",
       "autoOdds": {
-        "mlHome": 2.25,
-        "mlAway": 1.69,
+        "mlHome": 2.23,
+        "mlAway": 1.72,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.73,
+        "rlHomePrice": 1.71,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.18,
+        "rlAwayPrice": 2.25,
         "totalPoint": 8.5,
         "totalOverPrice": 1.95,
         "totalUnderPrice": 1.94,
         "lastUpdate": "2026-07-27T23:40:00Z",
         "consensus": {
           "Chicago White Sox": {
-            "consensusProb": 0.45,
-            "spreadPp": 1.01,
+            "consensusProb": 0.4577,
+            "spreadPp": 1.67,
             "booksCount": 4
           },
           "New York Yankees": {
-            "consensusProb": 0.5935,
-            "spreadPp": 0.35,
+            "consensusProb": 0.5857,
+            "spreadPp": 0.68,
             "booksCount": 4
           }
         }
@@ -1471,26 +1471,26 @@
       "homeTeamName": "St. Louis Cardinals",
       "awayTeamName": "Chicago Cubs",
       "autoOdds": {
-        "mlHome": 2.02,
-        "mlAway": 1.86,
+        "mlHome": 2.0,
+        "mlAway": 1.91,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.67,
+        "rlHomePrice": 1.62,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.32,
+        "rlAwayPrice": 2.35,
         "totalPoint": 9.5,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.97,
+        "totalOverPrice": 1.91,
+        "totalUnderPrice": 1.98,
         "lastUpdate": "2026-07-27T23:46:00Z",
         "consensus": {
           "Chicago Cubs": {
-            "consensusProb": 0.5442,
-            "spreadPp": 0.88,
-            "booksCount": 4
+            "consensusProb": 0.5368,
+            "spreadPp": 2.29,
+            "booksCount": 3
           },
           "St. Louis Cardinals": {
-            "consensusProb": 0.5,
-            "spreadPp": 1.0,
-            "booksCount": 4
+            "consensusProb": 0.5077,
+            "spreadPp": 1.55,
+            "booksCount": 3
           }
         }
       },
@@ -1570,25 +1570,25 @@
       "homeTeamName": "Los Angeles Angels",
       "awayTeamName": "Houston Astros",
       "autoOdds": {
-        "mlHome": 2.0,
-        "mlAway": 1.91,
+        "mlHome": 2.04,
+        "mlAway": 1.88,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.57,
+        "rlHomePrice": 1.61,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.5,
+        "rlAwayPrice": 2.43,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 2.0,
+        "totalOverPrice": 1.95,
+        "totalUnderPrice": 1.96,
         "lastUpdate": "2026-07-28T01:38:00Z",
         "consensus": {
           "Houston Astros": {
-            "consensusProb": 0.5292,
-            "spreadPp": 1.7,
+            "consensusProb": 0.5406,
+            "spreadPp": 1.75,
             "booksCount": 4
           },
           "Los Angeles Angels": {
-            "consensusProb": 0.5136,
-            "spreadPp": 2.36,
+            "consensusProb": 0.5026,
+            "spreadPp": 2.0,
             "booksCount": 4
           }
         }
@@ -1674,25 +1674,25 @@
       "homeTeamName": "Athletics",
       "awayTeamName": "Boston Red Sox",
       "autoOdds": {
-        "mlHome": 2.5,
-        "mlAway": 1.58,
+        "mlHome": 2.42,
+        "mlAway": 1.62,
         "rlHomePoint": 1.5,
-        "rlHomePrice": 1.97,
+        "rlHomePrice": 1.88,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 1.92,
+        "rlAwayPrice": 1.98,
         "totalPoint": 9.5,
-        "totalOverPrice": 1.93,
-        "totalUnderPrice": 1.93,
+        "totalOverPrice": 1.94,
+        "totalUnderPrice": 1.91,
         "lastUpdate": "2026-07-28T01:40:00Z",
         "consensus": {
           "Athletics": {
-            "consensusProb": 0.407,
-            "spreadPp": 0.98,
+            "consensusProb": 0.4158,
+            "spreadPp": 0.69,
             "booksCount": 4
           },
           "Boston Red Sox": {
-            "consensusProb": 0.637,
-            "spreadPp": 0.81,
+            "consensusProb": 0.626,
+            "spreadPp": 1.56,
             "booksCount": 4
           }
         }
@@ -1778,25 +1778,25 @@
       "homeTeamName": "San Francisco Giants",
       "awayTeamName": "Milwaukee Brewers",
       "autoOdds": {
-        "mlHome": 2.16,
-        "mlAway": 1.74,
+        "mlHome": 2.15,
+        "mlAway": 1.77,
         "rlHomePoint": 1.5,
         "rlHomePrice": 1.7,
         "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.2,
+        "rlAwayPrice": 2.25,
         "totalPoint": 8.5,
-        "totalOverPrice": 1.95,
-        "totalUnderPrice": 1.94,
+        "totalOverPrice": 1.98,
+        "totalUnderPrice": 1.87,
         "lastUpdate": "2026-07-28T01:45:00Z",
         "consensus": {
           "Milwaukee Brewers": {
-            "consensusProb": 0.5772,
-            "spreadPp": 1.01,
+            "consensusProb": 0.5748,
+            "spreadPp": 1.98,
             "booksCount": 4
           },
           "San Francisco Giants": {
-            "consensusProb": 0.4657,
-            "spreadPp": 0.65,
+            "consensusProb": 0.469,
+            "spreadPp": 1.11,
             "booksCount": 4
           }
         }
