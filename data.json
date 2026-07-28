@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:40:18Z",
+  "generatedAt": "2026-07-28T20:15:55Z",
   "lastMode": "refresh",
   "date": "2026-07-28",
   "availableDates": [
@@ -300,56 +300,6 @@
         "name": "Ernie Clement",
         "avg": 0.296,
         "pa": 421
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 121,
-      "abbr": "NYM",
-      "name": "New York Mets",
-      "winPct": 0.421,
-      "homeWinPct": 0.434,
-      "awayWinPct": 0.407,
-      "last10": 5,
-      "elo": 1441,
-      "runsPerGame": 4.02,
-      "staffEra": 4.25,
-      "bullpenRecentIp": 10.7,
-      "topPowerHitter": {
-        "name": "Tyrone Taylor",
-        "hrRate": 0.0608,
-        "pa": 148
-      },
-      "topContactHitter": {
-        "name": "A.J. Ewing",
-        "avg": 0.271,
-        "pa": 271
-      },
-      "missingStarters": [
-        "Juan Soto"
-      ]
-    },
-    {
-      "id": 144,
-      "abbr": "ATL",
-      "name": "Atlanta Braves",
-      "winPct": 0.585,
-      "homeWinPct": 0.615,
-      "awayWinPct": 0.556,
-      "last10": 6,
-      "elo": 1551,
-      "runsPerGame": 4.93,
-      "staffEra": 3.86,
-      "bullpenRecentIp": 12.0,
-      "topPowerHitter": {
-        "name": "Matt Olson",
-        "hrRate": 0.0578,
-        "pa": 467
-      },
-      "topContactHitter": {
-        "name": "Michael Harris II",
-        "avg": 0.298,
-        "pa": 402
       },
       "missingStarters": []
     },
@@ -742,6 +692,56 @@
         "pa": 423
       },
       "missingStarters": []
+    },
+    {
+      "id": 121,
+      "abbr": "NYM",
+      "name": "New York Mets",
+      "winPct": 0.421,
+      "homeWinPct": 0.434,
+      "awayWinPct": 0.407,
+      "last10": 5,
+      "elo": 1441,
+      "runsPerGame": 4.02,
+      "staffEra": 4.25,
+      "bullpenRecentIp": 10.7,
+      "topPowerHitter": {
+        "name": "Tyrone Taylor",
+        "hrRate": 0.0608,
+        "pa": 148
+      },
+      "topContactHitter": {
+        "name": "A.J. Ewing",
+        "avg": 0.271,
+        "pa": 271
+      },
+      "missingStarters": [
+        "Juan Soto"
+      ]
+    },
+    {
+      "id": 144,
+      "abbr": "ATL",
+      "name": "Atlanta Braves",
+      "winPct": 0.585,
+      "homeWinPct": 0.615,
+      "awayWinPct": 0.556,
+      "last10": 6,
+      "elo": 1551,
+      "runsPerGame": 4.93,
+      "staffEra": 3.86,
+      "bullpenRecentIp": 12.0,
+      "topPowerHitter": {
+        "name": "Matt Olson",
+        "hrRate": 0.0578,
+        "pa": 467
+      },
+      "topContactHitter": {
+        "name": "Michael Harris II",
+        "avg": 0.298,
+        "pa": 402
+      },
+      "missingStarters": []
     }
   ],
   "games": [
@@ -786,11 +786,11 @@
       },
       "lineMovement": [],
       "liveState": {
-        "status": "Final",
-        "homeScore": null,
-        "awayScore": null,
-        "inning": null,
-        "inningHalf": null
+        "status": "Live",
+        "homeScore": 5,
+        "awayScore": 6,
+        "inning": 8,
+        "inningHalf": "Bottom"
       },
       "autoProps": [
         {
@@ -844,15 +844,15 @@
       ],
       "homeStarter": {
         "name": "Chase Burns",
-        "era": 2.42,
-        "whip": 1.11,
-        "k9": 10.4
+        "era": 2.4,
+        "whip": 1.12,
+        "k9": 10.2
       },
       "awayStarter": {
         "name": "Slade Cecconi",
-        "era": 4.6,
-        "whip": 1.45,
-        "k9": 7.1
+        "era": 4.78,
+        "whip": 1.47,
+        "k9": 7.0
       }
     },
     {
@@ -1259,7 +1259,12 @@
         "whip": 1.22,
         "k9": 9.1
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Cal Quantrill",
+        "era": 4.05,
+        "whip": 1.31,
+        "k9": 5.4
+      }
     },
     {
       "gamePk": 823838,
@@ -1404,22 +1409,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 54.6,
-          "toProb": 50.0,
-          "deltaPct": -4.6
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 49.5,
-          "toProb": 53.5,
-          "deltaPct": 4.0
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1485,110 +1475,6 @@
       }
     },
     {
-      "gamePk": 823598,
-      "gameDate": "2026-07-28T23:10:00Z",
-      "gameDateStr": "2026-07-28",
-      "venue": "Citi Field",
-      "weather": {
-        "tempF": 75,
-        "precipProb": 32,
-        "windMph": 9.5,
-        "windDirDeg": 195
-      },
-      "homeTeamId": 121,
-      "awayTeamId": 144,
-      "homeTeamName": "New York Mets",
-      "awayTeamName": "Atlanta Braves",
-      "autoOdds": {
-        "mlHome": 2.38,
-        "mlAway": 1.62,
-        "rlHomePoint": 1.5,
-        "rlHomePrice": 1.78,
-        "rlAwayPoint": -1.5,
-        "rlAwayPrice": 2.15,
-        "totalPoint": 7.5,
-        "totalOverPrice": 2.05,
-        "totalUnderPrice": 1.87,
-        "lastUpdate": "2026-07-28T23:11:00Z",
-        "consensus": {
-          "Atlanta Braves": {
-            "consensusProb": 0.6173,
-            "spreadPp": 0.0,
-            "booksCount": 4
-          },
-          "New York Mets": {
-            "consensusProb": 0.4242,
-            "spreadPp": 0.72,
-            "booksCount": 4
-          }
-        }
-      },
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [
-        {
-          "player": "Jared Young",
-          "type": "1+ Hit",
-          "decimalOdds": 1.96,
-          "line": 0.5,
-          "modelProb": 0.6194,
-          "edge": 10.9
-        },
-        {
-          "player": "Carson Benge",
-          "type": "1+ Hit",
-          "decimalOdds": 1.89,
-          "line": 0.5,
-          "modelProb": 0.631,
-          "edge": 10.2
-        },
-        {
-          "player": "Tyrone Taylor",
-          "type": "1+ Hit",
-          "decimalOdds": 1.89,
-          "line": 0.5,
-          "modelProb": 0.6194,
-          "edge": 9.0
-        },
-        {
-          "player": "Luis Torrens",
-          "type": "1+ Hit",
-          "decimalOdds": 2.0,
-          "line": 0.5,
-          "modelProb": 0.5775,
-          "edge": 7.8
-        },
-        {
-          "player": "Tyrone Taylor",
-          "type": "HR",
-          "decimalOdds": 8.0,
-          "line": 0.5,
-          "modelProb": 0.2013,
-          "edge": 7.6
-        },
-        {
-          "player": "Mike Yastrzemski",
-          "type": "1+ Hit",
-          "decimalOdds": 1.83,
-          "line": 0.5,
-          "modelProb": 0.6129,
-          "edge": 6.7
-        }
-      ],
-      "homeStarter": {
-        "name": "Christian Scott",
-        "era": 3.13,
-        "whip": 1.26,
-        "k9": 11.1
-      },
-      "awayStarter": {
-        "name": "Chris Sale",
-        "era": 2.19,
-        "whip": 1.05,
-        "k9": 10.9
-      }
-    },
-    {
       "gamePk": 823676,
       "gameDate": "2026-07-28T23:40:00Z",
       "gameDateStr": "2026-07-28",
@@ -1627,15 +1513,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 51.0,
-          "toProb": 55.2,
-          "deltaPct": 4.2
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1723,29 +1601,7 @@
         "lastUpdate": "2026-07-28T00:00:19Z",
         "consensus": {}
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 60.6,
-          "toProb": 76.3,
-          "deltaPct": 15.7
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 43.1,
-          "toProb": 23.9,
-          "deltaPct": -19.2
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 50.5,
-          "toProb": 46.3,
-          "deltaPct": -4.2
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1890,7 +1746,12 @@
           "edge": 1.2
         }
       ],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Michael McGreevy",
+        "era": 3.07,
+        "whip": 1.13,
+        "k9": 5.8
+      },
       "awayStarter": {
         "name": "Colin Rea",
         "era": 4.85,
@@ -2041,36 +1902,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 43.5,
-          "toProb": 59.9,
-          "deltaPct": 16.4
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 59.5,
-          "toProb": 43.5,
-          "deltaPct": -16.0
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 54.6,
-          "toProb": 30.8,
-          "deltaPct": -23.9
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 48.5,
-          "toProb": 69.0,
-          "deltaPct": 20.4
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2278,50 +2110,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 43.7,
-          "toProb": 59.9,
-          "deltaPct": 16.2
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 58.8,
-          "toProb": 22.2,
-          "deltaPct": -36.6
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 57.8,
-          "toProb": 48.3,
-          "deltaPct": -9.5
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 45.9,
-          "toProb": 56.2,
-          "deltaPct": 10.3
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 51.3,
-          "toProb": 45.9,
-          "deltaPct": -5.4
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 53.2,
-          "toProb": 58.1,
-          "deltaPct": 4.9
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2472,12 +2261,127 @@
           "edge": 3.7
         }
       ],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Justin Wrobleski",
+        "era": 2.62,
+        "whip": 1.01,
+        "k9": 6.8
+      },
       "awayStarter": {
         "name": "Luis Castillo",
         "era": 4.85,
         "whip": 1.33,
         "k9": 8.0
+      }
+    },
+    {
+      "gamePk": 823598,
+      "gameDate": "2026-07-28T23:10:00Z",
+      "gameDateStr": "2026-07-28",
+      "venue": "Citi Field",
+      "weather": {
+        "tempF": 75,
+        "precipProb": 32,
+        "windMph": 9.5,
+        "windDirDeg": 195
+      },
+      "homeTeamId": 121,
+      "awayTeamId": 144,
+      "homeTeamName": "New York Mets",
+      "awayTeamName": "Atlanta Braves",
+      "autoOdds": {
+        "mlHome": 2.38,
+        "mlAway": 1.62,
+        "rlHomePoint": 1.5,
+        "rlHomePrice": 1.78,
+        "rlAwayPoint": -1.5,
+        "rlAwayPrice": 2.15,
+        "totalPoint": 7.5,
+        "totalOverPrice": 2.05,
+        "totalUnderPrice": 1.87,
+        "lastUpdate": "2026-07-28T23:11:00Z",
+        "consensus": {
+          "Atlanta Braves": {
+            "consensusProb": 0.6173,
+            "spreadPp": 0.0,
+            "booksCount": 4
+          },
+          "New York Mets": {
+            "consensusProb": 0.4242,
+            "spreadPp": 0.72,
+            "booksCount": 4
+          }
+        }
+      },
+      "lineMovement": [],
+      "liveState": {
+        "status": "Final",
+        "homeScore": null,
+        "awayScore": null,
+        "inning": null,
+        "inningHalf": null
+      },
+      "autoProps": [
+        {
+          "player": "Jared Young",
+          "type": "1+ Hit",
+          "decimalOdds": 1.96,
+          "line": 0.5,
+          "modelProb": 0.6194,
+          "edge": 10.9
+        },
+        {
+          "player": "Carson Benge",
+          "type": "1+ Hit",
+          "decimalOdds": 1.89,
+          "line": 0.5,
+          "modelProb": 0.631,
+          "edge": 10.2
+        },
+        {
+          "player": "Tyrone Taylor",
+          "type": "1+ Hit",
+          "decimalOdds": 1.89,
+          "line": 0.5,
+          "modelProb": 0.6194,
+          "edge": 9.0
+        },
+        {
+          "player": "Luis Torrens",
+          "type": "1+ Hit",
+          "decimalOdds": 2.0,
+          "line": 0.5,
+          "modelProb": 0.5775,
+          "edge": 7.8
+        },
+        {
+          "player": "Tyrone Taylor",
+          "type": "HR",
+          "decimalOdds": 8.0,
+          "line": 0.5,
+          "modelProb": 0.2013,
+          "edge": 7.6
+        },
+        {
+          "player": "Mike Yastrzemski",
+          "type": "1+ Hit",
+          "decimalOdds": 1.83,
+          "line": 0.5,
+          "modelProb": 0.6129,
+          "edge": 6.7
+        }
+      ],
+      "homeStarter": {
+        "name": "Christian Scott",
+        "era": 3.13,
+        "whip": 1.26,
+        "k9": 11.1
+      },
+      "awayStarter": {
+        "name": "Chris Sale",
+        "era": 2.19,
+        "whip": 1.05,
+        "k9": 10.9
       }
     }
   ],
@@ -2575,6 +2479,14 @@
       "dateStr": "2026-07-27",
       "homeTeamId": 113,
       "awayTeamId": 114,
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "gamePk": 823598,
+      "dateStr": "2026-07-28",
+      "homeTeamId": 121,
+      "awayTeamId": 144,
       "homeScore": null,
       "awayScore": null
     }
