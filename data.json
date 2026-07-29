@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T16:21:48Z",
+  "generatedAt": "2026-07-29T20:12:49Z",
   "lastMode": "refresh",
   "date": "2026-07-29",
   "availableDates": [
@@ -786,11 +786,11 @@
       },
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Bottom"
+        "status": "Final",
+        "homeScore": 8,
+        "awayScore": 6,
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [
         {
@@ -844,15 +844,15 @@
       ],
       "homeStarter": {
         "name": "Ryan Gusto",
-        "era": 4.37,
-        "whip": 1.31,
-        "k9": 8.0
+        "era": 5.31,
+        "whip": 1.44,
+        "k9": 7.8
       },
       "awayStarter": {
         "name": "Jesús Luzardo",
-        "era": 3.28,
-        "whip": 1.16,
-        "k9": 11.1
+        "era": 3.57,
+        "whip": 1.18,
+        "k9": 11.0
       }
     },
     {
@@ -896,11 +896,11 @@
       },
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
+        "status": "Final",
         "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
+        "awayScore": 3,
+        "inning": 9,
+        "inningHalf": "Bottom"
       },
       "autoProps": [
         {
@@ -954,15 +954,15 @@
       ],
       "homeStarter": {
         "name": "Jared Jones",
-        "era": 3.72,
+        "era": 3.81,
         "whip": 1.02,
-        "k9": 10.4
+        "k9": 10.0
       },
       "awayStarter": {
         "name": "Eduardo Rodriguez",
-        "era": 2.64,
-        "whip": 1.24,
-        "k9": 6.3
+        "era": 2.48,
+        "whip": 1.21,
+        "k9": 6.1
       }
     },
     {
@@ -1005,7 +1005,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 2,
+        "awayScore": 5,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Jorbit Vivas",
@@ -1058,15 +1064,15 @@
       ],
       "homeStarter": {
         "name": "Zack Littell",
-        "era": 5.17,
+        "era": 4.94,
         "whip": 1.34,
-        "k9": 5.9
+        "k9": 5.8
       },
       "awayStarter": {
         "name": "Trey Yesavage",
-        "era": 3.92,
-        "whip": 1.18,
-        "k9": 9.2
+        "era": 3.73,
+        "whip": 1.16,
+        "k9": 8.9
       }
     },
     {
@@ -1109,7 +1115,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 7,
+        "awayScore": 9,
+        "inning": 11,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Jeremiah Jackson",
@@ -1162,15 +1174,15 @@
       ],
       "homeStarter": {
         "name": "Tarik Skubal",
-        "era": 2.7,
-        "whip": 0.92,
-        "k9": 11.0
+        "era": 2.79,
+        "whip": 0.91,
+        "k9": 10.8
       },
       "awayStarter": {
         "name": "Trevor Rogers",
-        "era": 4.17,
-        "whip": 1.27,
-        "k9": 7.2
+        "era": 4.27,
+        "whip": 1.28,
+        "k9": 7.3
       }
     },
     {
@@ -1212,16 +1224,14 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 50.0,
-          "toProb": 54.1,
-          "deltaPct": 4.1
-        }
-      ],
-      "liveState": null,
+      "lineMovement": [],
+      "liveState": {
+        "status": "Final",
+        "homeScore": 3,
+        "awayScore": 2,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Francisco Alvarez",
@@ -1274,12 +1284,15 @@
       ],
       "homeStarter": {
         "name": "Sean Manaea",
-        "era": 4.52,
-        "whip": 1.35,
-        "k9": 8.8
+        "era": 4.42,
+        "whip": 1.34,
+        "k9": 8.6
       },
       "awayStarter": {
-        "name": "AJ Smith-Shawver"
+        "name": "AJ Smith-Shawver",
+        "era": 4.15,
+        "whip": 1.38,
+        "k9": 8.3
       }
     },
     {
@@ -1321,15 +1334,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 50.0,
-          "toProb": 54.1,
-          "deltaPct": 4.1
-        }
-      ],
+      "lineMovement": [],
       "liveState": {
         "status": "Final",
         "homeScore": null,
@@ -1440,7 +1445,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Drew Gilbert",
@@ -1493,12 +1504,15 @@
       ],
       "homeStarter": {
         "name": "Logan Webb",
-        "era": 3.98,
-        "whip": 1.12,
-        "k9": 7.1
+        "era": 3.91,
+        "whip": 1.11,
+        "k9": 7.0
       },
       "awayStarter": {
-        "name": "Thomas Pannone"
+        "name": "Thomas Pannone",
+        "era": 0.0,
+        "whip": 1.0,
+        "k9": 9.0
       }
     },
     {
@@ -1540,30 +1554,14 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 59.9,
-          "toProb": 69.0,
-          "deltaPct": 9.1
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 49.5,
-          "toProb": 44.4,
-          "deltaPct": -5.1
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 54.1,
-          "toProb": 61.7,
-          "deltaPct": 7.7
-        }
-      ],
-      "liveState": null,
+      "lineMovement": [],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Troy Johnston",
@@ -1614,7 +1612,12 @@
           "edge": 6.0
         }
       ],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Kyle Hart",
+        "era": 5.21,
+        "whip": 1.11,
+        "k9": 7.8
+      },
       "awayStarter": {
         "name": "Gabriel Hughes",
         "era": 2.79,
@@ -2176,50 +2179,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 45.5,
-          "toProb": 51.3,
-          "deltaPct": 5.8
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 57.5,
-          "toProb": 47.2,
-          "deltaPct": -10.3
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 57.8,
-          "toProb": 31.2,
-          "deltaPct": -26.6
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 45.7,
-          "toProb": 75.8,
-          "deltaPct": 30.1
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 53.2,
-          "toProb": 48.1,
-          "deltaPct": -5.1
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 51.0,
-          "toProb": 59.2,
-          "deltaPct": 8.2
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2320,43 +2280,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 43.5,
-          "toProb": 64.9,
-          "deltaPct": 21.5
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 59.5,
-          "toProb": 36.8,
-          "deltaPct": -22.8
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 54.1,
-          "toProb": 31.2,
-          "deltaPct": -22.8
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 48.8,
-          "toProb": 69.4,
-          "deltaPct": 20.7
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 52.4,
-          "toProb": 47.6,
-          "deltaPct": -4.7
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2455,22 +2379,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 41.7,
-          "toProb": 36.4,
-          "deltaPct": -5.3
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 51.8,
-          "toProb": 47.6,
-          "deltaPct": -4.2
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -2664,6 +2573,38 @@
       "awayTeamId": 144,
       "homeScore": null,
       "awayScore": null
+    },
+    {
+      "gamePk": 823837,
+      "dateStr": "2026-07-29",
+      "homeTeamId": 146,
+      "awayTeamId": 143,
+      "homeScore": 8,
+      "awayScore": 6
+    },
+    {
+      "gamePk": 823351,
+      "dateStr": "2026-07-29",
+      "homeTeamId": 134,
+      "awayTeamId": 109,
+      "homeScore": 0,
+      "awayScore": 3
+    },
+    {
+      "gamePk": 822702,
+      "dateStr": "2026-07-29",
+      "homeTeamId": 120,
+      "awayTeamId": 141,
+      "homeScore": 2,
+      "awayScore": 5
+    },
+    {
+      "gamePk": 823596,
+      "dateStr": "2026-07-29",
+      "homeTeamId": 121,
+      "awayTeamId": 144,
+      "homeScore": 3,
+      "awayScore": 2
     }
   ]
 }
