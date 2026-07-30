@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T16:26:28Z",
+  "generatedAt": "2026-07-30T20:13:41Z",
   "lastMode": "refresh",
   "date": "2026-07-30",
   "availableDates": [
@@ -544,42 +544,13 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 63.7,
-          "toProb": 55.9,
-          "deltaPct": -7.8
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 39.2,
-          "toProb": 47.2,
-          "deltaPct": 8.0
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 44.4,
-          "toProb": 35.7,
-          "deltaPct": -8.7
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 57.5,
-          "toProb": 66.7,
-          "deltaPct": 9.2
-        }
-      ],
+      "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Bottom"
+        "status": "Final",
+        "homeScore": 3,
+        "awayScore": 2,
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [
         {
@@ -633,8 +604,8 @@
       ],
       "homeStarter": {
         "name": "Shane McClanahan",
-        "era": 3.06,
-        "whip": 1.13,
+        "era": 3.09,
+        "whip": 1.12,
         "k9": 8.3
       },
       "awayStarter": {
@@ -684,7 +655,13 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 4,
+        "awayScore": 3,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Tyler Tolbert",
@@ -737,15 +714,15 @@
       ],
       "homeStarter": {
         "name": "Bailey Ober",
-        "era": 4.56,
-        "whip": 1.25,
-        "k9": 6.7
+        "era": 4.45,
+        "whip": 1.23,
+        "k9": 6.5
       },
       "awayStarter": {
         "name": "Noah Cameron",
-        "era": 4.93,
-        "whip": 1.41,
-        "k9": 8.4
+        "era": 4.59,
+        "whip": 1.34,
+        "k9": 8.3
       }
     },
     {
@@ -782,30 +759,14 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 67.1,
-          "toProb": 10.2,
-          "deltaPct": -56.9
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 37.0,
-          "toProb": 97.1,
-          "deltaPct": 60.1
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 50.0,
-          "toProb": 57.5,
-          "deltaPct": 7.5
-        }
-      ],
-      "liveState": null,
+      "lineMovement": [],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 7,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [
         {
           "player": "Spencer Jones",
@@ -858,15 +819,15 @@
       ],
       "homeStarter": {
         "name": "Sean Burke",
-        "era": 3.19,
-        "whip": 1.12,
-        "k9": 9.9
+        "era": 3.04,
+        "whip": 1.1,
+        "k9": 10.1
       },
       "awayStarter": {
         "name": "Ryan Weathers",
-        "era": 4.25,
-        "whip": 1.27,
-        "k9": 10.2
+        "era": 4.0,
+        "whip": 1.25,
+        "k9": 9.9
       }
     },
     {
@@ -908,44 +869,14 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 53.2,
-          "toProb": 22.2,
-          "deltaPct": -31.0
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 65.8,
-          "toProb": 5.4,
-          "deltaPct": -60.4
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 37.3,
-          "toProb": 93.5,
-          "deltaPct": 56.1
-        },
-        {
-          "market": "Total Over",
-          "side": null,
-          "fromProb": 50.5,
-          "toProb": 63.7,
-          "deltaPct": 13.2
-        },
-        {
-          "market": "Total Under",
-          "side": null,
-          "fromProb": 52.6,
-          "toProb": 43.5,
-          "deltaPct": -9.2
-        }
-      ],
-      "liveState": null,
+      "lineMovement": [],
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 1,
+        "inning": 7,
+        "inningHalf": "Top"
+      },
       "autoProps": [
         {
           "player": "Bryan Torres",
@@ -998,15 +929,15 @@
       ],
       "homeStarter": {
         "name": "Andre Pallante",
-        "era": 3.77,
-        "whip": 1.21,
-        "k9": 6.7
+        "era": 3.64,
+        "whip": 1.22,
+        "k9": 6.5
       },
       "awayStarter": {
         "name": "Javier Assad",
-        "era": 3.86,
-        "whip": 1.12,
-        "k9": 5.8
+        "era": 3.75,
+        "whip": 1.16,
+        "k9": 6.2
       }
     },
     {
@@ -1360,36 +1291,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 39.7,
-          "toProb": 51.0,
-          "deltaPct": 11.3
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 63.7,
-          "toProb": 48.8,
-          "deltaPct": -14.9
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 51.3,
-          "toProb": 63.3,
-          "deltaPct": 12.0
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 51.3,
-          "toProb": 37.0,
-          "deltaPct": -14.2
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1493,22 +1395,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 42.6,
-          "toProb": 47.8,
-          "deltaPct": 5.3
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 61.7,
-          "toProb": 65.8,
-          "deltaPct": 4.1
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1602,36 +1489,7 @@
           }
         }
       },
-      "lineMovement": [
-        {
-          "market": "ML",
-          "side": "home",
-          "fromProb": 60.6,
-          "toProb": 80.0,
-          "deltaPct": 19.4
-        },
-        {
-          "market": "ML",
-          "side": "away",
-          "fromProb": 42.6,
-          "toProb": 25.0,
-          "deltaPct": -17.6
-        },
-        {
-          "market": "RL",
-          "side": "home",
-          "fromProb": 42.6,
-          "toProb": 49.5,
-          "deltaPct": 7.0
-        },
-        {
-          "market": "RL",
-          "side": "away",
-          "fromProb": 60.6,
-          "toProb": 56.5,
-          "deltaPct": -4.1
-        }
-      ],
+      "lineMovement": [],
       "liveState": null,
       "autoProps": [
         {
@@ -1825,6 +1683,22 @@
       "awayTeamId": 136,
       "homeScore": 4,
       "awayScore": 2
+    },
+    {
+      "gamePk": 822946,
+      "dateStr": "2026-07-30",
+      "homeTeamId": 139,
+      "awayTeamId": 140,
+      "homeScore": 3,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 823674,
+      "dateStr": "2026-07-30",
+      "homeTeamId": 142,
+      "awayTeamId": 118,
+      "homeScore": 4,
+      "awayScore": 3
     }
   ]
 }
