@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T16:45:57Z",
+  "generatedAt": "2026-07-31T20:20:36Z",
   "lastMode": "refresh",
   "date": "2026-07-31",
   "availableDates": [
@@ -786,18 +786,24 @@
         }
       },
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 2,
+        "inning": 8,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Shota Imanaga",
-        "era": 3.72,
-        "whip": 1.1,
+        "era": 3.67,
+        "whip": 1.07,
         "k9": 8.4
       },
       "awayStarter": {
         "name": "Will Warren",
-        "era": 4.41,
-        "whip": 1.41,
+        "era": 4.14,
+        "whip": 1.36,
         "k9": 9.0
       }
     },
@@ -1103,10 +1109,10 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Freddy Peralta",
-        "era": 4.99,
-        "whip": 1.48,
-        "k9": 8.9
+        "name": "Kodai Senga",
+        "era": 8.85,
+        "whip": 1.84,
+        "k9": 10.8
       },
       "awayStarter": {
         "name": "Janson Junk",
