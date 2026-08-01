@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T16:00:14Z",
+  "generatedAt": "2026-08-01T20:09:10Z",
   "lastMode": "refresh",
   "date": "2026-08-01",
   "availableDates": [
@@ -758,16 +758,25 @@
       "awayTeamName": "St. Louis Cardinals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 0,
+        "inning": 4,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Kevin Gausman",
-        "era": 4.51,
-        "whip": 1.27,
+        "era": 4.39,
+        "whip": 1.28,
         "k9": 9.1
       },
       "awayStarter": {
-        "name": "Quinn Mathews"
+        "name": "Quinn Mathews",
+        "era": 3.0,
+        "whip": 2.0,
+        "k9": 6.0
       }
     },
     {
@@ -782,7 +791,13 @@
       "awayTeamName": "Minnesota Twins",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Logan Gilbert",
@@ -809,7 +824,13 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Drew Rasmussen",
@@ -1109,10 +1130,10 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "José Soriano",
-        "era": 3.29,
-        "whip": 1.25,
-        "k9": 9.3
+        "name": "Brent Suter",
+        "era": 4.26,
+        "whip": 1.26,
+        "k9": 7.9
       },
       "awayStarter": {
         "name": "Robert Gasser",
