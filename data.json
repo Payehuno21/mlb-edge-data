@@ -1,11 +1,109 @@
 {
-  "generatedAt": "2026-08-01T20:09:10Z",
+  "generatedAt": "2026-08-02T03:26:19Z",
   "lastMode": "refresh",
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "availableDates": [
-    "2026-08-01"
+    "2026-08-02"
   ],
   "teams": [
+    {
+      "id": 110,
+      "abbr": "BAL",
+      "name": "Baltimore Orioles",
+      "winPct": 0.486,
+      "homeWinPct": 0.518,
+      "awayWinPct": 0.453,
+      "last10": 5,
+      "elo": 1483,
+      "runsPerGame": 4.47,
+      "staffEra": 4.25,
+      "bullpenRecentIp": 10.0,
+      "topPowerHitter": {
+        "name": "Coby Mayo",
+        "hrRate": 0.0509,
+        "pa": 275
+      },
+      "topContactHitter": {
+        "name": "Jackson Holliday",
+        "avg": 0.26,
+        "pa": 184
+      },
+      "missingStarters": [
+        "Samuel Basallo"
+      ]
+    },
+    {
+      "id": 143,
+      "abbr": "PHI",
+      "name": "Philadelphia Phillies",
+      "winPct": 0.523,
+      "homeWinPct": 0.509,
+      "awayWinPct": 0.537,
+      "last10": 2,
+      "elo": 1514,
+      "runsPerGame": 4.34,
+      "staffEra": 4.26,
+      "bullpenRecentIp": 4.0,
+      "topPowerHitter": {
+        "name": "Kyle Schwarber",
+        "hrRate": 0.0722,
+        "pa": 457
+      },
+      "topContactHitter": {
+        "name": "Brandon Marsh",
+        "avg": 0.28,
+        "pa": 409
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 144,
+      "abbr": "ATL",
+      "name": "Atlanta Braves",
+      "winPct": 0.587,
+      "homeWinPct": 0.623,
+      "awayWinPct": 0.554,
+      "last10": 6,
+      "elo": 1552,
+      "runsPerGame": 4.87,
+      "staffEra": 3.91,
+      "bullpenRecentIp": 14.0,
+      "topPowerHitter": {
+        "name": "Matt Olson",
+        "hrRate": 0.0585,
+        "pa": 479
+      },
+      "topContactHitter": {
+        "name": "Michael Harris II",
+        "avg": 0.29,
+        "pa": 414
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 120,
+      "abbr": "WSH",
+      "name": "Washington Nationals",
+      "winPct": 0.5,
+      "homeWinPct": 0.404,
+      "awayWinPct": 0.604,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 5.45,
+      "staffEra": 4.81,
+      "bullpenRecentIp": 10.3,
+      "topPowerHitter": {
+        "name": "Luis García Jr.",
+        "hrRate": 0.0627,
+        "pa": 367
+      },
+      "topContactHitter": {
+        "name": "CJ Abrams",
+        "avg": 0.289,
+        "pa": 453
+      },
+      "missingStarters": []
+    },
     {
       "id": 141,
       "abbr": "TOR",
@@ -55,54 +153,102 @@
       "missingStarters": []
     },
     {
-      "id": 136,
-      "abbr": "SEA",
-      "name": "Seattle Mariners",
-      "winPct": 0.482,
-      "homeWinPct": 0.566,
-      "awayWinPct": 0.404,
-      "last10": 3,
-      "elo": 1489,
-      "runsPerGame": 4.0,
-      "staffEra": 3.78,
-      "bullpenRecentIp": 10.0,
+      "id": 114,
+      "abbr": "CLE",
+      "name": "Cleveland Guardians",
+      "winPct": 0.509,
+      "homeWinPct": 0.509,
+      "awayWinPct": 0.509,
+      "last10": 4,
+      "elo": 1505,
+      "runsPerGame": 3.93,
+      "staffEra": 3.82,
+      "bullpenRecentIp": 11.3,
       "topPowerHitter": {
-        "name": "Dominic Canzone",
-        "hrRate": 0.0588,
-        "pa": 306
+        "name": "Angel Martínez",
+        "hrRate": 0.0426,
+        "pa": 258
       },
       "topContactHitter": {
-        "name": "Randy Arozarena",
-        "avg": 0.283,
-        "pa": 436
+        "name": "Austin Hedges",
+        "avg": 0.282,
+        "pa": 162
       },
       "missingStarters": []
     },
     {
-      "id": 142,
-      "abbr": "MIN",
-      "name": "Minnesota Twins",
-      "winPct": 0.5,
-      "homeWinPct": 0.526,
-      "awayWinPct": 0.472,
+      "id": 109,
+      "abbr": "AZ",
+      "name": "Arizona Diamondbacks",
+      "winPct": 0.523,
+      "homeWinPct": 0.585,
+      "awayWinPct": 0.464,
       "last10": 6,
-      "elo": 1489,
-      "runsPerGame": 4.54,
-      "staffEra": 4.62,
-      "bullpenRecentIp": 9.0,
+      "elo": 1514,
+      "runsPerGame": 4.51,
+      "staffEra": 4.2,
+      "bullpenRecentIp": 6.0,
       "topPowerHitter": {
-        "name": "Kody Clemens",
-        "hrRate": 0.0497,
-        "pa": 382
+        "name": "Ketel Marte",
+        "hrRate": 0.0412,
+        "pa": 461
       },
       "topContactHitter": {
-        "name": "Alex Jackson",
+        "name": "Gabriel Moreno",
         "avg": 0.308,
-        "pa": 68
+        "pa": 336
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 113,
+      "abbr": "CIN",
+      "name": "Cincinnati Reds",
+      "winPct": 0.472,
+      "homeWinPct": 0.444,
+      "awayWinPct": 0.5,
+      "last10": 6,
+      "elo": 1471,
+      "runsPerGame": 3.94,
+      "staffEra": 4.71,
+      "bullpenRecentIp": 19.0,
+      "topPowerHitter": {
+        "name": "JJ Bleday",
+        "hrRate": 0.0536,
+        "pa": 336
+      },
+      "topContactHitter": {
+        "name": "Elly De La Cruz",
+        "avg": 0.279,
+        "pa": 400
       },
       "missingStarters": [
-        "Byron Buxton"
+        "Spencer Steer"
       ]
+    },
+    {
+      "id": 134,
+      "abbr": "PIT",
+      "name": "Pittsburgh Pirates",
+      "winPct": 0.5,
+      "homeWinPct": 0.509,
+      "awayWinPct": 0.491,
+      "last10": 3,
+      "elo": 1500,
+      "runsPerGame": 5.14,
+      "staffEra": 4.56,
+      "bullpenRecentIp": 17.7,
+      "topPowerHitter": {
+        "name": "Esmerlyn Valdez",
+        "hrRate": 0.0881,
+        "pa": 159
+      },
+      "topContactHitter": {
+        "name": "Nick Gonzales",
+        "avg": 0.316,
+        "pa": 430
+      },
+      "missingStarters": []
     },
     {
       "id": 139,
@@ -203,106 +349,6 @@
       "missingStarters": []
     },
     {
-      "id": 113,
-      "abbr": "CIN",
-      "name": "Cincinnati Reds",
-      "winPct": 0.472,
-      "homeWinPct": 0.444,
-      "awayWinPct": 0.5,
-      "last10": 6,
-      "elo": 1471,
-      "runsPerGame": 3.94,
-      "staffEra": 4.71,
-      "bullpenRecentIp": 19.0,
-      "topPowerHitter": {
-        "name": "JJ Bleday",
-        "hrRate": 0.0536,
-        "pa": 336
-      },
-      "topContactHitter": {
-        "name": "Elly De La Cruz",
-        "avg": 0.279,
-        "pa": 400
-      },
-      "missingStarters": [
-        "Spencer Steer"
-      ]
-    },
-    {
-      "id": 134,
-      "abbr": "PIT",
-      "name": "Pittsburgh Pirates",
-      "winPct": 0.5,
-      "homeWinPct": 0.509,
-      "awayWinPct": 0.491,
-      "last10": 3,
-      "elo": 1500,
-      "runsPerGame": 5.14,
-      "staffEra": 4.56,
-      "bullpenRecentIp": 17.7,
-      "topPowerHitter": {
-        "name": "Esmerlyn Valdez",
-        "hrRate": 0.0881,
-        "pa": 159
-      },
-      "topContactHitter": {
-        "name": "Nick Gonzales",
-        "avg": 0.316,
-        "pa": 430
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 110,
-      "abbr": "BAL",
-      "name": "Baltimore Orioles",
-      "winPct": 0.486,
-      "homeWinPct": 0.518,
-      "awayWinPct": 0.453,
-      "last10": 5,
-      "elo": 1483,
-      "runsPerGame": 4.47,
-      "staffEra": 4.25,
-      "bullpenRecentIp": 10.0,
-      "topPowerHitter": {
-        "name": "Coby Mayo",
-        "hrRate": 0.0509,
-        "pa": 275
-      },
-      "topContactHitter": {
-        "name": "Jackson Holliday",
-        "avg": 0.26,
-        "pa": 184
-      },
-      "missingStarters": [
-        "Samuel Basallo"
-      ]
-    },
-    {
-      "id": 143,
-      "abbr": "PHI",
-      "name": "Philadelphia Phillies",
-      "winPct": 0.523,
-      "homeWinPct": 0.509,
-      "awayWinPct": 0.537,
-      "last10": 2,
-      "elo": 1514,
-      "runsPerGame": 4.34,
-      "staffEra": 4.26,
-      "bullpenRecentIp": 4.0,
-      "topPowerHitter": {
-        "name": "Kyle Schwarber",
-        "hrRate": 0.0722,
-        "pa": 457
-      },
-      "topContactHitter": {
-        "name": "Brandon Marsh",
-        "avg": 0.28,
-        "pa": 409
-      },
-      "missingStarters": []
-    },
-    {
       "id": 117,
       "abbr": "HOU",
       "name": "Houston Astros",
@@ -351,102 +397,6 @@
       "missingStarters": [
         "Josh Jung"
       ]
-    },
-    {
-      "id": 114,
-      "abbr": "CLE",
-      "name": "Cleveland Guardians",
-      "winPct": 0.509,
-      "homeWinPct": 0.509,
-      "awayWinPct": 0.509,
-      "last10": 4,
-      "elo": 1505,
-      "runsPerGame": 3.93,
-      "staffEra": 3.82,
-      "bullpenRecentIp": 11.3,
-      "topPowerHitter": {
-        "name": "Angel Martínez",
-        "hrRate": 0.0426,
-        "pa": 258
-      },
-      "topContactHitter": {
-        "name": "Austin Hedges",
-        "avg": 0.282,
-        "pa": 162
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 109,
-      "abbr": "AZ",
-      "name": "Arizona Diamondbacks",
-      "winPct": 0.523,
-      "homeWinPct": 0.585,
-      "awayWinPct": 0.464,
-      "last10": 6,
-      "elo": 1514,
-      "runsPerGame": 4.51,
-      "staffEra": 4.2,
-      "bullpenRecentIp": 6.0,
-      "topPowerHitter": {
-        "name": "Ketel Marte",
-        "hrRate": 0.0412,
-        "pa": 461
-      },
-      "topContactHitter": {
-        "name": "Gabriel Moreno",
-        "avg": 0.308,
-        "pa": 336
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 144,
-      "abbr": "ATL",
-      "name": "Atlanta Braves",
-      "winPct": 0.587,
-      "homeWinPct": 0.623,
-      "awayWinPct": 0.554,
-      "last10": 6,
-      "elo": 1552,
-      "runsPerGame": 4.87,
-      "staffEra": 3.91,
-      "bullpenRecentIp": 14.0,
-      "topPowerHitter": {
-        "name": "Matt Olson",
-        "hrRate": 0.0585,
-        "pa": 479
-      },
-      "topContactHitter": {
-        "name": "Michael Harris II",
-        "avg": 0.29,
-        "pa": 414
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 120,
-      "abbr": "WSH",
-      "name": "Washington Nationals",
-      "winPct": 0.5,
-      "homeWinPct": 0.404,
-      "awayWinPct": 0.604,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 5.45,
-      "staffEra": 4.81,
-      "bullpenRecentIp": 10.3,
-      "topPowerHitter": {
-        "name": "Luis García Jr.",
-        "hrRate": 0.0627,
-        "pa": 367
-      },
-      "topContactHitter": {
-        "name": "CJ Abrams",
-        "avg": 0.289,
-        "pa": 453
-      },
-      "missingStarters": []
     },
     {
       "id": 112,
@@ -549,104 +499,6 @@
       ]
     },
     {
-      "id": 135,
-      "abbr": "SD",
-      "name": "San Diego Padres",
-      "winPct": 0.505,
-      "homeWinPct": 0.537,
-      "awayWinPct": 0.473,
-      "last10": 6,
-      "elo": 1503,
-      "runsPerGame": 4.17,
-      "staffEra": 4.4,
-      "bullpenRecentIp": 14.7,
-      "topPowerHitter": {
-        "name": "Ty France",
-        "hrRate": 0.0559,
-        "pa": 286
-      },
-      "topContactHitter": {
-        "name": "Luis Campusano",
-        "avg": 0.287,
-        "pa": 111
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 137,
-      "abbr": "SF",
-      "name": "San Francisco Giants",
-      "winPct": 0.431,
-      "homeWinPct": 0.491,
-      "awayWinPct": 0.375,
-      "last10": 5,
-      "elo": 1448,
-      "runsPerGame": 4.07,
-      "staffEra": 4.42,
-      "bullpenRecentIp": 11.3,
-      "topPowerHitter": {
-        "name": "Rafael Devers",
-        "hrRate": 0.0474,
-        "pa": 464
-      },
-      "topContactHitter": {
-        "name": "Luis Arraez",
-        "avg": 0.328,
-        "pa": 456
-      },
-      "missingStarters": [
-        "Casey Schmitt"
-      ]
-    },
-    {
-      "id": 119,
-      "abbr": "LAD",
-      "name": "Los Angeles Dodgers",
-      "winPct": 0.633,
-      "homeWinPct": 0.623,
-      "awayWinPct": 0.643,
-      "last10": 6,
-      "elo": 1580,
-      "runsPerGame": 5.16,
-      "staffEra": 3.61,
-      "bullpenRecentIp": 9.7,
-      "topPowerHitter": {
-        "name": "Max Muncy",
-        "hrRate": 0.0553,
-        "pa": 380
-      },
-      "topContactHitter": {
-        "name": "Tommy Edman",
-        "avg": 0.321,
-        "pa": 125
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 111,
-      "abbr": "BOS",
-      "name": "Boston Red Sox",
-      "winPct": 0.528,
-      "homeWinPct": 0.463,
-      "awayWinPct": 0.593,
-      "last10": 7,
-      "elo": 1517,
-      "runsPerGame": 4.2,
-      "staffEra": 3.54,
-      "bullpenRecentIp": 8.7,
-      "topPowerHitter": {
-        "name": "Willson Contreras",
-        "hrRate": 0.0552,
-        "pa": 417
-      },
-      "topContactHitter": {
-        "name": "Willson Contreras",
-        "avg": 0.289,
-        "pa": 417
-      },
-      "missingStarters": []
-    },
-    {
       "id": 108,
       "abbr": "LAA",
       "name": "Los Angeles Angels",
@@ -743,166 +595,161 @@
         "pa": 91
       },
       "missingStarters": []
+    },
+    {
+      "id": 135,
+      "abbr": "SD",
+      "name": "San Diego Padres",
+      "winPct": 0.505,
+      "homeWinPct": 0.537,
+      "awayWinPct": 0.473,
+      "last10": 6,
+      "elo": 1503,
+      "runsPerGame": 4.17,
+      "staffEra": 4.4,
+      "bullpenRecentIp": 14.7,
+      "topPowerHitter": {
+        "name": "Ty France",
+        "hrRate": 0.0559,
+        "pa": 286
+      },
+      "topContactHitter": {
+        "name": "Luis Campusano",
+        "avg": 0.287,
+        "pa": 111
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 137,
+      "abbr": "SF",
+      "name": "San Francisco Giants",
+      "winPct": 0.431,
+      "homeWinPct": 0.491,
+      "awayWinPct": 0.375,
+      "last10": 5,
+      "elo": 1448,
+      "runsPerGame": 4.07,
+      "staffEra": 4.42,
+      "bullpenRecentIp": 11.3,
+      "topPowerHitter": {
+        "name": "Rafael Devers",
+        "hrRate": 0.0474,
+        "pa": 464
+      },
+      "topContactHitter": {
+        "name": "Luis Arraez",
+        "avg": 0.328,
+        "pa": 456
+      },
+      "missingStarters": [
+        "Casey Schmitt"
+      ]
+    },
+    {
+      "id": 136,
+      "abbr": "SEA",
+      "name": "Seattle Mariners",
+      "winPct": 0.482,
+      "homeWinPct": 0.566,
+      "awayWinPct": 0.404,
+      "last10": 3,
+      "elo": 1489,
+      "runsPerGame": 4.0,
+      "staffEra": 3.78,
+      "bullpenRecentIp": 10.0,
+      "topPowerHitter": {
+        "name": "Dominic Canzone",
+        "hrRate": 0.0588,
+        "pa": 306
+      },
+      "topContactHitter": {
+        "name": "Randy Arozarena",
+        "avg": 0.283,
+        "pa": 436
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 142,
+      "abbr": "MIN",
+      "name": "Minnesota Twins",
+      "winPct": 0.5,
+      "homeWinPct": 0.526,
+      "awayWinPct": 0.472,
+      "last10": 6,
+      "elo": 1489,
+      "runsPerGame": 4.54,
+      "staffEra": 4.62,
+      "bullpenRecentIp": 9.0,
+      "topPowerHitter": {
+        "name": "Kody Clemens",
+        "hrRate": 0.0497,
+        "pa": 382
+      },
+      "topContactHitter": {
+        "name": "Alex Jackson",
+        "avg": 0.308,
+        "pa": 68
+      },
+      "missingStarters": [
+        "Byron Buxton"
+      ]
+    },
+    {
+      "id": 119,
+      "abbr": "LAD",
+      "name": "Los Angeles Dodgers",
+      "winPct": 0.633,
+      "homeWinPct": 0.623,
+      "awayWinPct": 0.643,
+      "last10": 6,
+      "elo": 1580,
+      "runsPerGame": 5.16,
+      "staffEra": 3.61,
+      "bullpenRecentIp": 9.7,
+      "topPowerHitter": {
+        "name": "Max Muncy",
+        "hrRate": 0.0553,
+        "pa": 380
+      },
+      "topContactHitter": {
+        "name": "Tommy Edman",
+        "avg": 0.321,
+        "pa": 125
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 111,
+      "abbr": "BOS",
+      "name": "Boston Red Sox",
+      "winPct": 0.528,
+      "homeWinPct": 0.463,
+      "awayWinPct": 0.593,
+      "last10": 7,
+      "elo": 1517,
+      "runsPerGame": 4.2,
+      "staffEra": 3.54,
+      "bullpenRecentIp": 8.7,
+      "topPowerHitter": {
+        "name": "Willson Contreras",
+        "hrRate": 0.0552,
+        "pa": 417
+      },
+      "topContactHitter": {
+        "name": "Willson Contreras",
+        "avg": 0.289,
+        "pa": 417
+      },
+      "missingStarters": []
     }
   ],
   "games": [
     {
-      "gamePk": 822781,
-      "gameDate": "2026-08-01T19:07:00Z",
-      "gameDateStr": "2026-08-01",
-      "venue": "Rogers Centre",
-      "weather": null,
-      "homeTeamId": 141,
-      "awayTeamId": 138,
-      "homeTeamName": "Toronto Blue Jays",
-      "awayTeamName": "St. Louis Cardinals",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": {
-        "status": "Live",
-        "homeScore": 1,
-        "awayScore": 0,
-        "inning": 4,
-        "inningHalf": "Top"
-      },
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Kevin Gausman",
-        "era": 4.39,
-        "whip": 1.28,
-        "k9": 9.1
-      },
-      "awayStarter": {
-        "name": "Quinn Mathews",
-        "era": 3.0,
-        "whip": 2.0,
-        "k9": 6.0
-      }
-    },
-    {
-      "gamePk": 823109,
-      "gameDate": "2026-08-01T20:10:00Z",
-      "gameDateStr": "2026-08-01",
-      "venue": "T-Mobile Park",
-      "weather": null,
-      "homeTeamId": 136,
-      "awayTeamId": 142,
-      "homeTeamName": "Seattle Mariners",
-      "awayTeamName": "Minnesota Twins",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
-      },
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Logan Gilbert",
-        "era": 3.44,
-        "whip": 0.99,
-        "k9": 9.5
-      },
-      "awayStarter": {
-        "name": "Connor Prielipp",
-        "era": 4.73,
-        "whip": 1.3,
-        "k9": 9.5
-      }
-    },
-    {
-      "gamePk": 822944,
-      "gameDate": "2026-08-01T20:10:00Z",
-      "gameDateStr": "2026-08-01",
-      "venue": "Tropicana Field",
-      "weather": null,
-      "homeTeamId": 139,
-      "awayTeamId": 145,
-      "homeTeamName": "Tampa Bay Rays",
-      "awayTeamName": "Chicago White Sox",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
-      },
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Drew Rasmussen",
-        "era": 3.07,
-        "whip": 0.93,
-        "k9": 9.1
-      },
-      "awayStarter": {
-        "name": "Jordan Hicks",
-        "era": 3.19,
-        "whip": 1.48,
-        "k9": 10.4
-      }
-    },
-    {
-      "gamePk": 823594,
-      "gameDate": "2026-08-01T20:10:00Z",
-      "gameDateStr": "2026-08-01",
-      "venue": "Citi Field",
-      "weather": null,
-      "homeTeamId": 121,
-      "awayTeamId": 146,
-      "homeTeamName": "New York Mets",
-      "awayTeamName": "Miami Marlins",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Zac Thornton",
-        "era": 2.43,
-        "whip": 0.91,
-        "k9": 6.7
-      },
-      "awayStarter": {
-        "name": "Tyler Phillips",
-        "era": 3.52,
-        "whip": 1.36,
-        "k9": 6.7
-      }
-    },
-    {
-      "gamePk": 824485,
-      "gameDate": "2026-08-01T22:40:00Z",
-      "gameDateStr": "2026-08-01",
-      "venue": "Great American Ball Park",
-      "weather": null,
-      "homeTeamId": 113,
-      "awayTeamId": 134,
-      "homeTeamName": "Cincinnati Reds",
-      "awayTeamName": "Pittsburgh Pirates",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Andrew Abbott",
-        "era": 3.85,
-        "whip": 1.38,
-        "k9": 7.2
-      },
-      "awayStarter": {
-        "name": "Braxton Ashcraft",
-        "era": 4.05,
-        "whip": 1.19,
-        "k9": 9.9
-      }
-    },
-    {
-      "gamePk": 824808,
-      "gameDate": "2026-08-01T23:05:00Z",
-      "gameDateStr": "2026-08-01",
+      "gamePk": 824807,
+      "gameDate": "2026-08-02T17:35:00Z",
+      "gameDateStr": "2026-08-02",
       "venue": "Oriole Park at Camden Yards",
       "weather": null,
       "homeTeamId": 110,
@@ -914,49 +761,71 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Shane Baz",
-        "era": 3.98,
-        "whip": 1.39,
-        "k9": 7.9
+        "name": "Kyle Bradish",
+        "era": 3.74,
+        "whip": 1.36,
+        "k9": 8.7
       },
       "awayStarter": {
-        "name": "Cristopher Sánchez",
-        "era": 2.73,
-        "whip": 1.2,
-        "k9": 10.2
+        "name": "Zack Wheeler",
+        "era": 2.53,
+        "whip": 0.92,
+        "k9": 10.8
       }
     },
     {
-      "gamePk": 824162,
-      "gameDate": "2026-08-01T23:10:00Z",
-      "gameDateStr": "2026-08-01",
-      "venue": "Daikin Park",
+      "gamePk": 824891,
+      "gameDate": "2026-08-02T17:35:00Z",
+      "gameDateStr": "2026-08-02",
+      "venue": "Truist Park",
       "weather": null,
-      "homeTeamId": 117,
-      "awayTeamId": 140,
-      "homeTeamName": "Houston Astros",
-      "awayTeamName": "Texas Rangers",
+      "homeTeamId": 144,
+      "awayTeamId": 120,
+      "homeTeamName": "Atlanta Braves",
+      "awayTeamName": "Washington Nationals",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": null,
+      "awayStarter": {
+        "name": "Cade Cavalli",
+        "era": 3.55,
+        "whip": 1.29,
+        "k9": 10.0
+      }
+    },
+    {
+      "gamePk": 822783,
+      "gameDate": "2026-08-02T17:37:00Z",
+      "gameDateStr": "2026-08-02",
+      "venue": "Rogers Centre",
+      "weather": null,
+      "homeTeamId": 141,
+      "awayTeamId": 138,
+      "homeTeamName": "Toronto Blue Jays",
+      "awayTeamName": "St. Louis Cardinals",
       "autoOdds": null,
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Ronel Blanco",
-        "era": 8.1,
-        "whip": 1.2,
-        "k9": 10.8
+        "name": "Max Scherzer",
+        "era": 9.49,
+        "whip": 1.82,
+        "k9": 6.6
       },
       "awayStarter": {
-        "name": "Jacob deGrom",
-        "era": 3.67,
-        "whip": 1.07,
-        "k9": 10.8
+        "name": "Matthew Liberatore",
+        "era": 5.26,
+        "whip": 1.56,
+        "k9": 8.8
       }
     },
     {
-      "gamePk": 824405,
-      "gameDate": "2026-08-01T23:15:00Z",
-      "gameDateStr": "2026-08-01",
+      "gamePk": 824404,
+      "gameDate": "2026-08-02T17:40:00Z",
+      "gameDateStr": "2026-08-02",
       "venue": "Progressive Field",
       "weather": null,
       "homeTeamId": 114,
@@ -968,49 +837,127 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Parker Messick",
-        "era": 2.59,
-        "whip": 1.04,
-        "k9": 8.8
+        "name": "Gavin Williams",
+        "era": 3.71,
+        "whip": 1.07,
+        "k9": 11.3
       },
       "awayStarter": {
-        "name": "Kohl Drake",
-        "era": 5.0,
-        "whip": 1.44,
-        "k9": 6.0
+        "name": "Merrill Kelly",
+        "era": 4.86,
+        "whip": 1.45,
+        "k9": 5.8
       }
     },
     {
-      "gamePk": 824890,
-      "gameDate": "2026-08-01T23:15:00Z",
-      "gameDateStr": "2026-08-01",
-      "venue": "Truist Park",
+      "gamePk": 824483,
+      "gameDate": "2026-08-02T17:40:00Z",
+      "gameDateStr": "2026-08-02",
+      "venue": "Great American Ball Park",
       "weather": null,
-      "homeTeamId": 144,
-      "awayTeamId": 120,
-      "homeTeamName": "Atlanta Braves",
-      "awayTeamName": "Washington Nationals",
+      "homeTeamId": 113,
+      "awayTeamId": 134,
+      "homeTeamName": "Cincinnati Reds",
+      "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": null,
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Reynaldo López",
-        "era": 3.64,
-        "whip": 1.34,
-        "k9": 8.3
+        "name": "Chase Burns",
+        "era": 2.4,
+        "whip": 1.12,
+        "k9": 10.2
       },
       "awayStarter": {
-        "name": "Miles Mikolas",
-        "era": 5.65,
-        "whip": 1.33,
-        "k9": 4.6
+        "name": "Mitch Keller",
+        "era": 4.83,
+        "whip": 1.31,
+        "k9": 6.9
       }
     },
     {
-      "gamePk": 824649,
-      "gameDate": "2026-08-01T23:15:00Z",
-      "gameDateStr": "2026-08-01",
+      "gamePk": 822943,
+      "gameDate": "2026-08-02T17:40:00Z",
+      "gameDateStr": "2026-08-02",
+      "venue": "Tropicana Field",
+      "weather": null,
+      "homeTeamId": 139,
+      "awayTeamId": 145,
+      "homeTeamName": "Tampa Bay Rays",
+      "awayTeamName": "Chicago White Sox",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Griffin Jax",
+        "era": 3.74,
+        "whip": 1.23,
+        "k9": 9.6
+      },
+      "awayStarter": {
+        "name": "Anthony Kay",
+        "era": 4.25,
+        "whip": 1.36,
+        "k9": 7.5
+      }
+    },
+    {
+      "gamePk": 823592,
+      "gameDate": "2026-08-02T17:40:00Z",
+      "gameDateStr": "2026-08-02",
+      "venue": "Citi Field",
+      "weather": null,
+      "homeTeamId": 121,
+      "awayTeamId": 146,
+      "homeTeamName": "New York Mets",
+      "awayTeamName": "Miami Marlins",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Robert Stock"
+      },
+      "awayStarter": {
+        "name": "Sandy Alcantara",
+        "era": 3.82,
+        "whip": 1.21,
+        "k9": 6.9
+      }
+    },
+    {
+      "gamePk": 824163,
+      "gameDate": "2026-08-02T18:10:00Z",
+      "gameDateStr": "2026-08-02",
+      "venue": "Daikin Park",
+      "weather": null,
+      "homeTeamId": 117,
+      "awayTeamId": 140,
+      "homeTeamName": "Houston Astros",
+      "awayTeamName": "Texas Rangers",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Peter Lambert",
+        "era": 3.06,
+        "whip": 1.15,
+        "k9": 8.7
+      },
+      "awayStarter": {
+        "name": "Kumar Rocker",
+        "era": 4.03,
+        "whip": 1.29,
+        "k9": 8.2
+      }
+    },
+    {
+      "gamePk": 824648,
+      "gameDate": "2026-08-02T18:20:00Z",
+      "gameDateStr": "2026-08-02",
       "venue": "Wrigley Field",
       "weather": null,
       "homeTeamId": 112,
@@ -1022,22 +969,22 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "David Peterson",
-        "era": 5.8,
-        "whip": 1.52,
-        "k9": 7.3
+        "name": "Colin Rea",
+        "era": 4.67,
+        "whip": 1.4,
+        "k9": 6.7
       },
       "awayStarter": {
-        "name": "Max Fried",
-        "era": 3.23,
-        "whip": 1.02,
-        "k9": 7.9
+        "name": "Gerrit Cole",
+        "era": 3.57,
+        "whip": 1.09,
+        "k9": 9.7
       }
     },
     {
-      "gamePk": 824326,
-      "gameDate": "2026-08-02T00:10:00Z",
-      "gameDateStr": "2026-08-01",
+      "gamePk": 824323,
+      "gameDate": "2026-08-02T19:10:00Z",
+      "gameDateStr": "2026-08-02",
       "venue": "Coors Field",
       "weather": null,
       "homeTeamId": 115,
@@ -1049,76 +996,22 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Ryan Feltner",
-        "era": 5.73,
-        "whip": 1.46,
-        "k9": 6.9
+        "name": "Kyle Freeland",
+        "era": 7.34,
+        "whip": 1.55,
+        "k9": 7.7
       },
       "awayStarter": {
-        "name": "Luinder Avila",
-        "era": 4.95,
-        "whip": 1.57,
-        "k9": 7.9
+        "name": "Seth Lugo",
+        "era": 4.22,
+        "whip": 1.37,
+        "k9": 7.0
       }
     },
     {
-      "gamePk": 823269,
-      "gameDate": "2026-08-02T00:40:00Z",
-      "gameDateStr": "2026-08-01",
-      "venue": "Petco Park",
-      "weather": null,
-      "homeTeamId": 135,
-      "awayTeamId": 137,
-      "homeTeamName": "San Diego Padres",
-      "awayTeamName": "San Francisco Giants",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Walker Buehler",
-        "era": 5.13,
-        "whip": 1.41,
-        "k9": 8.2
-      },
-      "awayStarter": {
-        "name": "Tyler Mahle",
-        "era": 4.96,
-        "whip": 1.4,
-        "k9": 8.1
-      }
-    },
-    {
-      "gamePk": 823920,
-      "gameDate": "2026-08-02T01:10:00Z",
-      "gameDateStr": "2026-08-01",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "weather": null,
-      "homeTeamId": 119,
-      "awayTeamId": 111,
-      "homeTeamName": "Los Angeles Dodgers",
-      "awayTeamName": "Boston Red Sox",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Yoshinobu Yamamoto",
-        "era": 2.72,
-        "whip": 0.9,
-        "k9": 8.4
-      },
-      "awayStarter": {
-        "name": "Payton Tolle",
-        "era": 3.32,
-        "whip": 1.11,
-        "k9": 9.8
-      }
-    },
-    {
-      "gamePk": 824000,
-      "gameDate": "2026-08-02T01:38:00Z",
-      "gameDateStr": "2026-08-01",
+      "gamePk": 823996,
+      "gameDate": "2026-08-02T19:15:00Z",
+      "gameDateStr": "2026-08-02",
       "venue": "Angel Stadium",
       "weather": null,
       "homeTeamId": 108,
@@ -1130,22 +1023,22 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Brent Suter",
-        "era": 4.26,
+        "name": "Walbert Ureña",
+        "era": 2.7,
         "whip": 1.26,
-        "k9": 7.9
+        "k9": 8.5
       },
       "awayStarter": {
-        "name": "Robert Gasser",
-        "era": 4.71,
-        "whip": 1.17,
-        "k9": 8.2
+        "name": "Jacob Misiorowski",
+        "era": 1.58,
+        "whip": 0.75,
+        "k9": 13.9
       }
     },
     {
-      "gamePk": 824972,
-      "gameDate": "2026-08-02T01:40:00Z",
-      "gameDateStr": "2026-08-01",
+      "gamePk": 824971,
+      "gameDate": "2026-08-02T20:05:00Z",
+      "gameDateStr": "2026-08-02",
       "venue": "Sutter Health Park",
       "weather": null,
       "homeTeamId": 133,
@@ -1157,139 +1050,196 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Jack Perkins",
-        "era": 6.45,
-        "whip": 1.36,
-        "k9": 10.5
+        "name": "Gage Jump",
+        "era": 4.0,
+        "whip": 1.4,
+        "k9": 9.7
       },
       "awayStarter": {
-        "name": "Framber Valdez",
-        "era": 4.53,
-        "whip": 1.38,
-        "k9": 7.3
+        "name": "Keider Montero",
+        "era": 3.34,
+        "whip": 1.02,
+        "k9": 6.4
+      }
+    },
+    {
+      "gamePk": 823270,
+      "gameDate": "2026-08-02T20:10:00Z",
+      "gameDateStr": "2026-08-02",
+      "venue": "Petco Park",
+      "weather": null,
+      "homeTeamId": 135,
+      "awayTeamId": 137,
+      "homeTeamName": "San Diego Padres",
+      "awayTeamName": "San Francisco Giants",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Michael King",
+        "era": 3.38,
+        "whip": 1.17,
+        "k9": 7.8
+      },
+      "awayStarter": {
+        "name": "Landen Roupp",
+        "era": 4.12,
+        "whip": 1.26,
+        "k9": 9.0
+      }
+    },
+    {
+      "gamePk": 823107,
+      "gameDate": "2026-08-02T20:10:00Z",
+      "gameDateStr": "2026-08-02",
+      "venue": "T-Mobile Park",
+      "weather": null,
+      "homeTeamId": 136,
+      "awayTeamId": 142,
+      "homeTeamName": "Seattle Mariners",
+      "awayTeamName": "Minnesota Twins",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "George Kirby",
+        "era": 3.98,
+        "whip": 1.3,
+        "k9": 8.0
+      },
+      "awayStarter": {
+        "name": "Taj Bradley",
+        "era": 3.65,
+        "whip": 1.21,
+        "k9": 10.4
+      }
+    },
+    {
+      "gamePk": 823919,
+      "gameDate": "2026-08-02T23:20:00Z",
+      "gameDateStr": "2026-08-02",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "weather": null,
+      "homeTeamId": 119,
+      "awayTeamId": 111,
+      "homeTeamName": "Los Angeles Dodgers",
+      "awayTeamName": "Boston Red Sox",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Emmet Sheehan",
+        "era": 4.95,
+        "whip": 1.25,
+        "k9": 10.1
+      },
+      "awayStarter": {
+        "name": "Jake Bennett",
+        "era": 2.74,
+        "whip": 0.97,
+        "k9": 6.3
       }
     }
   ],
   "results": [
     {
-      "gamePk": 824651,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 112,
-      "awayTeamId": 147,
-      "homeScore": 0,
-      "awayScore": 2
-    },
-    {
-      "gamePk": 824486,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 113,
-      "awayTeamId": 134,
-      "homeScore": 8,
-      "awayScore": 7
-    },
-    {
-      "gamePk": 824809,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 110,
-      "awayTeamId": 143,
-      "homeScore": 6,
-      "awayScore": 4
-    },
-    {
-      "gamePk": 822782,
-      "dateStr": "2026-07-31",
+      "gamePk": 822781,
+      "dateStr": "2026-08-01",
       "homeTeamId": 141,
       "awayTeamId": 138,
-      "homeScore": 3,
+      "homeScore": 5,
       "awayScore": 1
     },
     {
-      "gamePk": 824407,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 114,
-      "awayTeamId": 109,
-      "homeScore": 1,
-      "awayScore": 4
+      "gamePk": 823109,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 136,
+      "awayTeamId": 142,
+      "homeScore": 4,
+      "awayScore": 3
     },
     {
-      "gamePk": 822945,
-      "dateStr": "2026-07-31",
+      "gamePk": 822944,
+      "dateStr": "2026-08-01",
       "homeTeamId": 139,
       "awayTeamId": 145,
       "homeScore": 1,
-      "awayScore": 6
-    },
-    {
-      "gamePk": 823593,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 121,
-      "awayTeamId": 146,
-      "homeScore": 2,
-      "awayScore": 5
-    },
-    {
-      "gamePk": 824892,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 144,
-      "awayTeamId": 120,
-      "homeScore": 6,
-      "awayScore": 2
-    },
-    {
-      "gamePk": 824164,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 117,
-      "awayTeamId": 140,
-      "homeScore": 11,
-      "awayScore": 2
-    },
-    {
-      "gamePk": 824325,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 115,
-      "awayTeamId": 118,
-      "homeScore": 3,
-      "awayScore": 1
-    },
-    {
-      "gamePk": 823999,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 108,
-      "awayTeamId": 158,
-      "homeScore": 2,
-      "awayScore": 6
-    },
-    {
-      "gamePk": 824975,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 133,
-      "awayTeamId": 116,
-      "homeScore": 1,
-      "awayScore": 13
-    },
-    {
-      "gamePk": 823272,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 135,
-      "awayTeamId": 137,
-      "homeScore": 7,
       "awayScore": 0
     },
     {
-      "gamePk": 823922,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 119,
-      "awayTeamId": 111,
-      "homeScore": 4,
-      "awayScore": 9
+      "gamePk": 823594,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 121,
+      "awayTeamId": 146,
+      "homeScore": 2,
+      "awayScore": 6
     },
     {
-      "gamePk": 823111,
-      "dateStr": "2026-07-31",
-      "homeTeamId": 136,
-      "awayTeamId": 142,
-      "homeScore": 3,
+      "gamePk": 824485,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 113,
+      "awayTeamId": 134,
+      "homeScore": 1,
+      "awayScore": 4
+    },
+    {
+      "gamePk": 824808,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 110,
+      "awayTeamId": 143,
+      "homeScore": 0,
       "awayScore": 5
+    },
+    {
+      "gamePk": 824162,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 117,
+      "awayTeamId": 140,
+      "homeScore": 5,
+      "awayScore": 4
+    },
+    {
+      "gamePk": 824405,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 114,
+      "awayTeamId": 109,
+      "homeScore": 8,
+      "awayScore": 12
+    },
+    {
+      "gamePk": 824890,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 144,
+      "awayTeamId": 120,
+      "homeScore": 8,
+      "awayScore": 3
+    },
+    {
+      "gamePk": 824649,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 112,
+      "awayTeamId": 147,
+      "homeScore": 5,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 824326,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 115,
+      "awayTeamId": 118,
+      "homeScore": 12,
+      "awayScore": 6
+    },
+    {
+      "gamePk": 823920,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 119,
+      "awayTeamId": 111,
+      "homeScore": 2,
+      "awayScore": 3
     }
   ]
 }
