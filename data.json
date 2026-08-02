@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T03:26:19Z",
+  "generatedAt": "2026-08-02T14:39:46Z",
   "lastMode": "refresh",
   "date": "2026-08-02",
   "availableDates": [
@@ -787,7 +787,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "JR Ritchie",
+        "era": 4.5,
+        "whip": 1.41,
+        "k9": 8.2
+      },
       "awayStarter": {
         "name": "Cade Cavalli",
         "era": 3.55,
@@ -1234,12 +1239,36 @@
       "awayScore": 6
     },
     {
+      "gamePk": 823269,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 135,
+      "awayTeamId": 137,
+      "homeScore": 6,
+      "awayScore": 5
+    },
+    {
       "gamePk": 823920,
       "dateStr": "2026-08-01",
       "homeTeamId": 119,
       "awayTeamId": 111,
       "homeScore": 2,
       "awayScore": 3
+    },
+    {
+      "gamePk": 824000,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 108,
+      "awayTeamId": 158,
+      "homeScore": 1,
+      "awayScore": 3
+    },
+    {
+      "gamePk": 824972,
+      "dateStr": "2026-08-01",
+      "homeTeamId": 133,
+      "awayTeamId": 116,
+      "homeScore": 6,
+      "awayScore": 8
     }
   ]
 }
