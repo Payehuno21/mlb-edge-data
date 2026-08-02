@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:02:28Z",
+  "generatedAt": "2026-08-02T20:10:17Z",
   "lastMode": "refresh",
   "date": "2026-08-02",
   "availableDates": [
@@ -758,18 +758,24 @@
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 2,
+        "inning": 3,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Kyle Bradish",
-        "era": 3.74,
+        "era": 3.79,
         "whip": 1.36,
         "k9": 8.7
       },
       "awayStarter": {
         "name": "Zack Wheeler",
-        "era": 2.53,
-        "whip": 0.92,
+        "era": 2.49,
+        "whip": 0.91,
         "k9": 10.8
       }
     },
@@ -785,19 +791,25 @@
       "awayTeamName": "Washington Nationals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 4,
+        "awayScore": 2,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "JR Ritchie",
         "era": 4.5,
-        "whip": 1.41,
+        "whip": 1.43,
         "k9": 8.2
       },
       "awayStarter": {
         "name": "Cade Cavalli",
-        "era": 3.55,
+        "era": 3.52,
         "whip": 1.29,
-        "k9": 10.0
+        "k9": 9.8
       }
     },
     {
@@ -812,19 +824,25 @@
       "awayTeamName": "St. Louis Cardinals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 5,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Max Scherzer",
-        "era": 9.49,
-        "whip": 1.82,
-        "k9": 6.6
+        "era": 7.92,
+        "whip": 1.63,
+        "k9": 6.8
       },
       "awayStarter": {
         "name": "Matthew Liberatore",
-        "era": 5.26,
-        "whip": 1.56,
-        "k9": 8.8
+        "era": 4.97,
+        "whip": 1.49,
+        "k9": 8.9
       }
     },
     {
@@ -839,19 +857,25 @@
       "awayTeamName": "Arizona Diamondbacks",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 5,
+        "awayScore": 0,
+        "inning": 6,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Gavin Williams",
-        "era": 3.71,
-        "whip": 1.07,
-        "k9": 11.3
+        "era": 3.56,
+        "whip": 1.04,
+        "k9": 11.5
       },
       "awayStarter": {
         "name": "Merrill Kelly",
-        "era": 4.86,
-        "whip": 1.45,
-        "k9": 5.8
+        "era": 5.04,
+        "whip": 1.49,
+        "k9": 6.0
       }
     },
     {
@@ -866,18 +890,24 @@
       "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 9,
+        "awayScore": 1,
+        "inning": 6,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Chase Burns",
-        "era": 2.4,
-        "whip": 1.12,
-        "k9": 10.2
+        "era": 2.35,
+        "whip": 1.1,
+        "k9": 10.4
       },
       "awayStarter": {
         "name": "Mitch Keller",
-        "era": 4.83,
-        "whip": 1.31,
+        "era": 5.29,
+        "whip": 1.37,
         "k9": 6.9
       }
     },
@@ -893,19 +923,25 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 7,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Griffin Jax",
-        "era": 3.74,
-        "whip": 1.23,
-        "k9": 9.6
+        "era": 3.63,
+        "whip": 1.21,
+        "k9": 9.8
       },
       "awayStarter": {
         "name": "Anthony Kay",
-        "era": 4.25,
-        "whip": 1.36,
-        "k9": 7.5
+        "era": 4.01,
+        "whip": 1.35,
+        "k9": 7.4
       }
     },
     {
@@ -920,15 +956,24 @@
       "awayTeamName": "Miami Marlins",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 2,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
-        "name": "Robert Stock"
+        "name": "Robert Stock",
+        "era": 1.8,
+        "whip": 0.6,
+        "k9": 7.2
       },
       "awayStarter": {
         "name": "Sandy Alcantara",
-        "era": 3.82,
-        "whip": 1.21,
+        "era": 3.68,
+        "whip": 1.2,
         "k9": 6.9
       }
     },
@@ -944,18 +989,24 @@
       "awayTeamName": "Texas Rangers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 3,
+        "inning": 7,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Peter Lambert",
         "era": 3.06,
-        "whip": 1.15,
-        "k9": 8.7
+        "whip": 1.13,
+        "k9": 8.9
       },
       "awayStarter": {
         "name": "Kumar Rocker",
-        "era": 4.03,
-        "whip": 1.29,
+        "era": 4.08,
+        "whip": 1.33,
         "k9": 8.2
       }
     },
@@ -971,19 +1022,25 @@
       "awayTeamName": "New York Yankees",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 2,
+        "inning": 7,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Colin Rea",
-        "era": 4.67,
-        "whip": 1.4,
-        "k9": 6.7
+        "era": 4.59,
+        "whip": 1.36,
+        "k9": 6.9
       },
       "awayStarter": {
         "name": "Gerrit Cole",
-        "era": 3.57,
-        "whip": 1.09,
-        "k9": 9.7
+        "era": 3.42,
+        "whip": 1.1,
+        "k9": 9.5
       }
     },
     {
@@ -998,19 +1055,25 @@
       "awayTeamName": "Kansas City Royals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 1,
+        "inning": 4,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Kyle Freeland",
-        "era": 7.34,
-        "whip": 1.55,
+        "era": 7.14,
+        "whip": 1.54,
         "k9": 7.7
       },
       "awayStarter": {
         "name": "Seth Lugo",
-        "era": 4.22,
+        "era": 4.18,
         "whip": 1.37,
-        "k9": 7.0
+        "k9": 6.9
       }
     },
     {
@@ -1025,17 +1088,23 @@
       "awayTeamName": "Milwaukee Brewers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 0,
+        "inning": 4,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Walbert Ureña",
-        "era": 2.7,
-        "whip": 1.26,
-        "k9": 8.5
+        "era": 2.59,
+        "whip": 1.25,
+        "k9": 8.7
       },
       "awayStarter": {
         "name": "Jacob Misiorowski",
-        "era": 1.58,
+        "era": 1.68,
         "whip": 0.75,
         "k9": 13.9
       }
@@ -1052,13 +1121,19 @@
       "awayTeamName": "Detroit Tigers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Gage Jump",
-        "era": 4.0,
-        "whip": 1.4,
-        "k9": 9.7
+        "era": 3.98,
+        "whip": 1.42,
+        "k9": 9.8
       },
       "awayStarter": {
         "name": "Keider Montero",
@@ -1079,13 +1154,19 @@
       "awayTeamName": "San Francisco Giants",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
-        "name": "Michael King",
-        "era": 3.38,
-        "whip": 1.17,
-        "k9": 7.8
+        "name": "Kyle Hart",
+        "era": 4.87,
+        "whip": 1.11,
+        "k9": 8.0
       },
       "awayStarter": {
         "name": "Landen Roupp",
@@ -1106,7 +1187,13 @@
       "awayTeamName": "Minnesota Twins",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "George Kirby",
@@ -1269,6 +1356,14 @@
       "awayTeamId": 116,
       "homeScore": 6,
       "awayScore": 8
+    },
+    {
+      "gamePk": 824891,
+      "dateStr": "2026-08-02",
+      "homeTeamId": 144,
+      "awayTeamId": 120,
+      "homeScore": 4,
+      "awayScore": 2
     }
   ]
 }
