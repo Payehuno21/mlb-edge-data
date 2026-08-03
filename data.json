@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:09:25Z",
+  "generatedAt": "2026-08-03T20:26:37Z",
   "lastMode": "refresh",
   "date": "2026-08-03",
   "availableDates": [
@@ -522,7 +522,12 @@
         "whip": 1.2,
         "k9": 8.2
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Justin Wrobleski",
+        "era": 2.88,
+        "whip": 1.02,
+        "k9": 7.0
+      }
     },
     {
       "gamePk": 822867,
@@ -543,7 +548,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Cal Quantrill",
+        "era": 3.84,
+        "whip": 1.24,
+        "k9": 6.0
+      },
       "awayStarter": {
         "name": "Logan Webb",
         "era": 3.93,
