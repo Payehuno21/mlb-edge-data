@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T15:28:40Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-04T16:51:09Z",
+  "lastMode": "refresh",
   "date": "2026-08-04",
   "availableDates": [
     "2026-08-04"
@@ -1220,7 +1220,12 @@
         "whip": 1.04,
         "k9": 8.3
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Troy Melton",
+        "era": 1.75,
+        "whip": 0.93,
+        "k9": 8.1
+      }
     }
   ],
   "results": [
