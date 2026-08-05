@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T16:42:26Z",
+  "generatedAt": "2026-08-05T20:26:28Z",
   "lastMode": "refresh",
   "date": "2026-08-05",
   "availableDates": [
@@ -764,18 +764,24 @@
       "awayTeamName": "Toronto Blue Jays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 3,
+        "inning": 8,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Hunter Brown",
-        "era": 3.42,
-        "whip": 1.29,
-        "k9": 9.4
+        "era": 3.53,
+        "whip": 1.24,
+        "k9": 9.7
       },
       "awayStarter": {
         "name": "Jameson Taillon",
-        "era": 5.92,
-        "whip": 1.36,
+        "era": 5.96,
+        "whip": 1.39,
         "k9": 8.1
       }
     },
@@ -796,19 +802,25 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 6,
+        "awayScore": 1,
+        "inning": 6,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Shota Imanaga",
-        "era": 3.67,
-        "whip": 1.07,
-        "k9": 8.4
+        "era": 3.6,
+        "whip": 1.09,
+        "k9": 8.5
       },
       "awayStarter": {
         "name": "Eric Lauer",
-        "era": 4.5,
-        "whip": 1.19,
-        "k9": 5.7
+        "era": 4.89,
+        "whip": 1.26,
+        "k9": 5.6
       }
     },
     {
@@ -828,16 +840,25 @@
       "awayTeamName": "San Francisco Giants",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 5,
+        "awayScore": 0,
+        "inning": 6,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
-        "name": "Cody Bradford"
+        "name": "Cody Bradford",
+        "era": 0.0,
+        "whip": 1.62,
+        "k9": 10.4
       },
       "awayStarter": {
         "name": "Carson Whisenhunt",
-        "era": 6.63,
-        "whip": 1.74,
-        "k9": 7.6
+        "era": 7.25,
+        "whip": 1.84,
+        "k9": 8.1
       }
     },
     {
@@ -857,19 +878,25 @@
       "awayTeamName": "Tampa Bay Rays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 3,
+        "inning": 5,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Tomoyuki Sugano",
-        "era": 4.47,
-        "whip": 1.26,
-        "k9": 5.1
+        "era": 4.56,
+        "whip": 1.27,
+        "k9": 5.2
       },
       "awayStarter": {
         "name": "Nick Martinez",
-        "era": 2.77,
-        "whip": 1.1,
-        "k9": 5.0
+        "era": 2.7,
+        "whip": 1.11,
+        "k9": 4.9
       }
     },
     {
