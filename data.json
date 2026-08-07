@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T02:52:39Z",
+  "generatedAt": "2026-08-07T14:15:09Z",
   "lastMode": "refresh",
   "date": "2026-08-07",
   "availableDates": [
@@ -954,7 +954,12 @@
         "whip": 1.17,
         "k9": 9.1
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Zebby Matthews",
+        "era": 5.22,
+        "whip": 1.31,
+        "k9": 7.7
+      }
     },
     {
       "gamePk": 824081,
@@ -970,7 +975,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Daniel Lynch IV",
+        "era": 1.96,
+        "whip": 0.93,
+        "k9": 6.8
+      },
       "awayStarter": null
     },
     {
@@ -1189,12 +1199,36 @@
       "awayScore": 3
     },
     {
+      "gamePk": 824729,
+      "dateStr": "2026-08-06",
+      "homeTeamId": 111,
+      "awayTeamId": 145,
+      "homeScore": 12,
+      "awayScore": 11
+    },
+    {
+      "gamePk": 824885,
+      "dateStr": "2026-08-06",
+      "homeTeamId": 144,
+      "awayTeamId": 146,
+      "homeScore": 11,
+      "awayScore": 3
+    },
+    {
       "gamePk": 824080,
       "dateStr": "2026-08-06",
       "homeTeamId": 118,
       "awayTeamId": 142,
       "homeScore": 3,
       "awayScore": 4
+    },
+    {
+      "gamePk": 825053,
+      "dateStr": "2026-08-06",
+      "homeTeamId": 109,
+      "awayTeamId": 135,
+      "homeScore": 1,
+      "awayScore": 5
     }
   ]
 }
