@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T15:56:23Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-07T19:52:44Z",
+  "lastMode": "refresh",
   "date": "2026-08-07",
   "availableDates": [
     "2026-08-07"
@@ -1207,7 +1207,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "JT Brubaker",
+        "era": 3.17,
+        "whip": 1.17,
+        "k9": 6.0
+      },
       "awayStarter": {
         "name": "Keider Montero",
         "era": 3.17,
