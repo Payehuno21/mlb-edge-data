@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-08T15:30:52Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-08T19:29:37Z",
+  "lastMode": "refresh",
   "date": "2026-08-08",
   "availableDates": [
     "2026-08-08"
@@ -767,19 +767,25 @@
       "awayTeamName": "Atlanta Braves",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Gerrit Cole",
-        "era": 3.42,
-        "whip": 1.1,
+        "era": 3.36,
+        "whip": 1.08,
         "k9": 9.5
       },
       "awayStarter": {
         "name": "Chris Sale",
-        "era": 2.08,
+        "era": 2.06,
         "whip": 1.02,
-        "k9": 11.0
+        "k9": 10.9
       }
     },
     {
