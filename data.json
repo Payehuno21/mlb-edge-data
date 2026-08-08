@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:50:51Z",
+  "generatedAt": "2026-08-08T15:30:52Z",
   "lastMode": "full",
   "date": "2026-08-08",
   "availableDates": [
@@ -757,9 +757,9 @@
       "venue": "Yankee Stadium",
       "weather": {
         "tempF": 89,
-        "precipProb": 16,
-        "windMph": 9.5,
-        "windDirDeg": 243
+        "precipProb": 11,
+        "windMph": 11.2,
+        "windDirDeg": 250
       },
       "homeTeamId": 147,
       "awayTeamId": 144,
@@ -789,8 +789,8 @@
       "venue": "Fenway Park",
       "weather": {
         "tempF": 87,
-        "precipProb": 13,
-        "windMph": 12.0,
+        "precipProb": 11,
+        "windMph": 11.2,
         "windDirDeg": 253
       },
       "homeTeamId": 111,
@@ -821,9 +821,9 @@
       "venue": "loanDepot park",
       "weather": {
         "tempF": 84,
-        "precipProb": 3,
-        "windMph": 6.3,
-        "windDirDeg": 98
+        "precipProb": 2,
+        "windMph": 7.0,
+        "windDirDeg": 107
       },
       "homeTeamId": 146,
       "awayTeamId": 108,
@@ -852,10 +852,10 @@
       "gameDateStr": "2026-08-08",
       "venue": "Citizens Bank Park",
       "weather": {
-        "tempF": 75,
-        "precipProb": 27,
-        "windMph": 15.2,
-        "windDirDeg": 250
+        "tempF": 90,
+        "precipProb": 34,
+        "windMph": 8.7,
+        "windDirDeg": 252
       },
       "homeTeamId": 143,
       "awayTeamId": 141,
@@ -884,10 +884,10 @@
       "gameDateStr": "2026-08-08",
       "venue": "PNC Park",
       "weather": {
-        "tempF": 85,
-        "precipProb": 3,
-        "windMph": 7.7,
-        "windDirDeg": 253
+        "tempF": 83,
+        "precipProb": 4,
+        "windMph": 7.9,
+        "windDirDeg": 223
       },
       "homeTeamId": 134,
       "awayTeamId": 121,
@@ -916,10 +916,10 @@
       "gameDateStr": "2026-08-08",
       "venue": "Nationals Park",
       "weather": {
-        "tempF": 84,
-        "precipProb": 20,
-        "windMph": 14.7,
-        "windDirDeg": 260
+        "tempF": 94,
+        "precipProb": 19,
+        "windMph": 7.3,
+        "windDirDeg": 225
       },
       "homeTeamId": 120,
       "awayTeamId": 113,
@@ -948,10 +948,10 @@
       "gameDateStr": "2026-08-08",
       "venue": "Kauffman Stadium",
       "weather": {
-        "tempF": 91,
-        "precipProb": 0,
-        "windMph": 8.9,
-        "windDirDeg": 131
+        "tempF": 90,
+        "precipProb": 1,
+        "windMph": 8.6,
+        "windDirDeg": 129
       },
       "homeTeamId": 118,
       "awayTeamId": 112,
@@ -982,8 +982,8 @@
       "weather": {
         "tempF": 82,
         "precipProb": 0,
-        "windMph": 7.2,
-        "windDirDeg": 261
+        "windMph": 6.3,
+        "windDirDeg": 272
       },
       "homeTeamId": 158,
       "awayTeamId": 142,
@@ -1014,8 +1014,8 @@
       "weather": {
         "tempF": 75,
         "precipProb": 1,
-        "windMph": 7.3,
-        "windDirDeg": 315
+        "windMph": 7.1,
+        "windDirDeg": 316
       },
       "homeTeamId": 135,
       "awayTeamId": 117,
@@ -1046,8 +1046,8 @@
       "weather": {
         "tempF": 62,
         "precipProb": 1,
-        "windMph": 10.7,
-        "windDirDeg": 271
+        "windMph": 11.0,
+        "windDirDeg": 272
       },
       "homeTeamId": 137,
       "awayTeamId": 116,
@@ -1073,10 +1073,10 @@
       "gameDateStr": "2026-08-08",
       "venue": "Busch Stadium",
       "weather": {
-        "tempF": 89,
+        "tempF": 88,
         "precipProb": 1,
         "windMph": 7.2,
-        "windDirDeg": 171
+        "windDirDeg": 175
       },
       "homeTeamId": 138,
       "awayTeamId": 115,
@@ -1105,10 +1105,10 @@
       "gameDateStr": "2026-08-08",
       "venue": "Globe Life Field",
       "weather": {
-        "tempF": 89,
-        "precipProb": 6,
-        "windMph": 2.0,
-        "windDirDeg": 96
+        "tempF": 98,
+        "precipProb": 5,
+        "windMph": 9.7,
+        "windDirDeg": 157
       },
       "homeTeamId": 140,
       "awayTeamId": 110,
@@ -1164,10 +1164,10 @@
       "gameDateStr": "2026-08-08",
       "venue": "Chase Field",
       "weather": {
-        "tempF": 106,
-        "precipProb": 22,
-        "windMph": 9.4,
-        "windDirDeg": 267
+        "tempF": 105,
+        "precipProb": 3,
+        "windMph": 7.4,
+        "windDirDeg": 273
       },
       "homeTeamId": 109,
       "awayTeamId": 119,
@@ -1196,10 +1196,10 @@
       "gameDateStr": "2026-08-08",
       "venue": "T-Mobile Park",
       "weather": {
-        "tempF": 73,
-        "precipProb": 0,
-        "windMph": 7.4,
-        "windDirDeg": 21
+        "tempF": 74,
+        "precipProb": 2,
+        "windMph": 7.8,
+        "windDirDeg": 18
       },
       "homeTeamId": 136,
       "awayTeamId": 139,
