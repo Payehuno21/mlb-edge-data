@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T13:54:05Z",
+  "generatedAt": "2026-08-09T15:32:36Z",
   "lastMode": "full",
   "date": "2026-08-09",
   "availableDates": [
@@ -758,8 +758,8 @@
       "weather": {
         "tempF": 94,
         "precipProb": 0,
-        "windMph": 3.8,
-        "windDirDeg": 277
+        "windMph": 4.5,
+        "windDirDeg": 243
       },
       "homeTeamId": 120,
       "awayTeamId": 113,
@@ -788,7 +788,7 @@
       "gameDateStr": "2026-08-09",
       "venue": "Fenway Park",
       "weather": {
-        "tempF": 84,
+        "tempF": 85,
         "precipProb": 0,
         "windMph": 10.3,
         "windDirDeg": 268
@@ -801,7 +801,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Erik Miller",
+        "era": 2.57,
+        "whip": 1.34,
+        "k9": 12.6
+      },
       "awayStarter": {
         "name": "J.T. Ginn",
         "era": 3.51,
@@ -817,8 +822,8 @@
       "weather": {
         "tempF": 84,
         "precipProb": 0,
-        "windMph": 1.8,
-        "windDirDeg": 240
+        "windMph": 3.2,
+        "windDirDeg": 309
       },
       "homeTeamId": 134,
       "awayTeamId": 121,
@@ -847,10 +852,10 @@
       "gameDateStr": "2026-08-09",
       "venue": "Citizens Bank Park",
       "weather": {
-        "tempF": 91,
+        "tempF": 90,
         "precipProb": 1,
-        "windMph": 9.0,
-        "windDirDeg": 276
+        "windMph": 8.8,
+        "windDirDeg": 264
       },
       "homeTeamId": 143,
       "awayTeamId": 141,
@@ -881,8 +886,8 @@
       "weather": {
         "tempF": 90,
         "precipProb": 0,
-        "windMph": 7.9,
-        "windDirDeg": 299
+        "windMph": 6.9,
+        "windDirDeg": 291
       },
       "homeTeamId": 147,
       "awayTeamId": 144,
@@ -911,10 +916,10 @@
       "gameDateStr": "2026-08-09",
       "venue": "loanDepot park",
       "weather": {
-        "tempF": 85,
+        "tempF": 86,
         "precipProb": 6,
-        "windMph": 8.8,
-        "windDirDeg": 94
+        "windMph": 8.2,
+        "windDirDeg": 103
       },
       "homeTeamId": 146,
       "awayTeamId": 108,
@@ -945,8 +950,8 @@
       "weather": {
         "tempF": 96,
         "precipProb": 0,
-        "windMph": 12.1,
-        "windDirDeg": 214
+        "windMph": 13.4,
+        "windDirDeg": 208
       },
       "homeTeamId": 118,
       "awayTeamId": 112,
@@ -1002,10 +1007,10 @@
       "gameDateStr": "2026-08-09",
       "venue": "American Family Field",
       "weather": {
-        "tempF": 76,
-        "precipProb": 18,
-        "windMph": 4.8,
-        "windDirDeg": 143
+        "tempF": 82,
+        "precipProb": 16,
+        "windMph": 4.1,
+        "windDirDeg": 189
       },
       "homeTeamId": 158,
       "awayTeamId": 142,
@@ -1036,8 +1041,8 @@
       "weather": {
         "tempF": 90,
         "precipProb": 2,
-        "windMph": 11.9,
-        "windDirDeg": 177
+        "windMph": 12.8,
+        "windDirDeg": 181
       },
       "homeTeamId": 138,
       "awayTeamId": 115,
@@ -1068,8 +1073,8 @@
       "weather": {
         "tempF": 97,
         "precipProb": 1,
-        "windMph": 10.3,
-        "windDirDeg": 182
+        "windMph": 9.4,
+        "windDirDeg": 179
       },
       "homeTeamId": 140,
       "awayTeamId": 110,
@@ -1098,10 +1103,10 @@
       "gameDateStr": "2026-08-09",
       "venue": "Oracle Park",
       "weather": {
-        "tempF": 66,
+        "tempF": 63,
         "precipProb": 0,
-        "windMph": 11.5,
-        "windDirDeg": 276
+        "windMph": 11.2,
+        "windDirDeg": 272
       },
       "homeTeamId": 137,
       "awayTeamId": 116,
@@ -1130,10 +1135,10 @@
       "gameDateStr": "2026-08-09",
       "venue": "Chase Field",
       "weather": {
-        "tempF": 106,
-        "precipProb": 1,
-        "windMph": 3.9,
-        "windDirDeg": 283
+        "tempF": 107,
+        "precipProb": 2,
+        "windMph": 3.6,
+        "windDirDeg": 300
       },
       "homeTeamId": 109,
       "awayTeamId": 119,
@@ -1162,10 +1167,10 @@
       "gameDateStr": "2026-08-09",
       "venue": "T-Mobile Park",
       "weather": {
-        "tempF": 73,
+        "tempF": 72,
         "precipProb": 0,
-        "windMph": 7.1,
-        "windDirDeg": 35
+        "windMph": 7.6,
+        "windDirDeg": 28
       },
       "homeTeamId": 136,
       "awayTeamId": 139,
@@ -1181,7 +1186,12 @@
         "whip": 1.07,
         "k9": 8.4
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Ian Seymour",
+        "era": 4.27,
+        "whip": 1.13,
+        "k9": 10.6
+      }
     },
     {
       "gamePk": 823268,
@@ -1189,10 +1199,10 @@
       "gameDateStr": "2026-08-09",
       "venue": "Petco Park",
       "weather": {
-        "tempF": 73,
-        "precipProb": 1,
-        "windMph": 6.1,
-        "windDirDeg": 294
+        "tempF": 72,
+        "precipProb": 3,
+        "windMph": 4.5,
+        "windDirDeg": 267
       },
       "homeTeamId": 135,
       "awayTeamId": 117,
