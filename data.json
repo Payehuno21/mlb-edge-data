@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:00:56Z",
+  "generatedAt": "2026-08-11T19:59:52Z",
   "lastMode": "refresh",
   "date": "2026-08-11",
   "availableDates": [
@@ -818,7 +818,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Jake Irvin",
+        "era": 5.37,
+        "whip": 1.29,
+        "k9": 9.0
+      },
       "awayStarter": {
         "name": "Shota Imanaga",
         "era": 3.6,
@@ -1110,7 +1115,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Carson Whisenhunt",
+        "era": 7.25,
+        "whip": 1.84,
+        "k9": 8.1
+      },
       "awayStarter": {
         "name": "Hunter Brown",
         "era": 3.53,
