@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T02:03:50Z",
+  "generatedAt": "2026-08-11T14:22:04Z",
   "lastMode": "refresh",
   "date": "2026-08-11",
   "availableDates": [
@@ -1056,7 +1056,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Mason Barnett",
+        "era": 5.56,
+        "whip": 1.38,
+        "k9": 9.5
+      },
       "awayStarter": {
         "name": "Nick Martinez",
         "era": 2.65,
@@ -1149,6 +1154,78 @@
       "awayTeamId": 111,
       "homeScore": 2,
       "awayScore": 1
+    },
+    {
+      "gamePk": 824887,
+      "dateStr": "2026-08-10",
+      "homeTeamId": 144,
+      "awayTeamId": 121,
+      "homeScore": 5,
+      "awayScore": 8
+    },
+    {
+      "gamePk": 823675,
+      "dateStr": "2026-08-10",
+      "homeTeamId": 142,
+      "awayTeamId": 110,
+      "homeScore": 9,
+      "awayScore": 5
+    },
+    {
+      "gamePk": 823018,
+      "dateStr": "2026-08-10",
+      "homeTeamId": 138,
+      "awayTeamId": 143,
+      "homeScore": 5,
+      "awayScore": 6
+    },
+    {
+      "gamePk": 823998,
+      "dateStr": "2026-08-10",
+      "homeTeamId": 108,
+      "awayTeamId": 140,
+      "homeScore": 1,
+      "awayScore": 4
+    },
+    {
+      "gamePk": 825048,
+      "dateStr": "2026-08-10",
+      "homeTeamId": 109,
+      "awayTeamId": 115,
+      "homeScore": 9,
+      "awayScore": 0
+    },
+    {
+      "gamePk": 824969,
+      "dateStr": "2026-08-10",
+      "homeTeamId": 133,
+      "awayTeamId": 139,
+      "homeScore": 6,
+      "awayScore": 10
+    },
+    {
+      "gamePk": 823265,
+      "dateStr": "2026-08-10",
+      "homeTeamId": 135,
+      "awayTeamId": 158,
+      "homeScore": 3,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 823189,
+      "dateStr": "2026-08-10",
+      "homeTeamId": 137,
+      "awayTeamId": 117,
+      "homeScore": 3,
+      "awayScore": 6
+    },
+    {
+      "gamePk": 823918,
+      "dateStr": "2026-08-10",
+      "homeTeamId": 119,
+      "awayTeamId": 118,
+      "homeScore": 6,
+      "awayScore": 5
     }
   ]
 }
