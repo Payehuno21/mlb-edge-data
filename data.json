@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T02:20:51Z",
+  "generatedAt": "2026-08-12T14:22:30Z",
   "lastMode": "refresh",
   "date": "2026-08-12",
   "availableDates": [
@@ -818,7 +818,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Jack Perkins",
+        "era": 7.04,
+        "whip": 1.45,
+        "k9": 10.8
+      },
       "awayStarter": {
         "name": "Drew Rasmussen",
         "era": 2.75,
@@ -868,7 +873,12 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": null,
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Bryan King",
+        "era": 3.83,
+        "whip": 1.36,
+        "k9": 7.3
+      }
     },
     {
       "gamePk": 823263,
@@ -944,7 +954,12 @@
         "whip": 1.36,
         "k9": 6.8
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Carmen Mlodzinski",
+        "era": 3.51,
+        "whip": 1.36,
+        "k9": 7.1
+      }
     },
     {
       "gamePk": 822698,
@@ -960,7 +975,9 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Jackson Kent"
+      },
       "awayStarter": {
         "name": "David Peterson",
         "era": 5.35,
@@ -1187,6 +1204,70 @@
       "awayTeamId": 110,
       "homeScore": 2,
       "awayScore": 5
+    },
+    {
+      "gamePk": 824563,
+      "dateStr": "2026-08-11",
+      "homeTeamId": 145,
+      "awayTeamId": 113,
+      "homeScore": 4,
+      "awayScore": 5
+    },
+    {
+      "gamePk": 823019,
+      "dateStr": "2026-08-11",
+      "homeTeamId": 138,
+      "awayTeamId": 143,
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "gamePk": 823997,
+      "dateStr": "2026-08-11",
+      "homeTeamId": 108,
+      "awayTeamId": 140,
+      "homeScore": 3,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 825046,
+      "dateStr": "2026-08-11",
+      "homeTeamId": 109,
+      "awayTeamId": 115,
+      "homeScore": 2,
+      "awayScore": 3
+    },
+    {
+      "gamePk": 824970,
+      "dateStr": "2026-08-11",
+      "homeTeamId": 133,
+      "awayTeamId": 139,
+      "homeScore": 4,
+      "awayScore": 12
+    },
+    {
+      "gamePk": 823264,
+      "dateStr": "2026-08-11",
+      "homeTeamId": 135,
+      "awayTeamId": 158,
+      "homeScore": 11,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 823186,
+      "dateStr": "2026-08-11",
+      "homeTeamId": 137,
+      "awayTeamId": 117,
+      "homeScore": 4,
+      "awayScore": 1
+    },
+    {
+      "gamePk": 823917,
+      "dateStr": "2026-08-11",
+      "homeTeamId": 119,
+      "awayTeamId": 118,
+      "homeScore": 5,
+      "awayScore": 4
     }
   ]
 }
