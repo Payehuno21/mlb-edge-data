@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T15:59:37Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-12T20:01:02Z",
+  "lastMode": "refresh",
   "date": "2026-08-12",
   "availableDates": [
     "2026-08-12"
@@ -769,18 +769,24 @@
       "awayTeamName": "Baltimore Orioles",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 7,
+        "awayScore": 4,
+        "inning": 7,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Zebby Matthews",
-        "era": 5.23,
-        "whip": 1.34,
+        "era": 5.34,
+        "whip": 1.35,
         "k9": 7.6
       },
       "awayStarter": {
         "name": "Shane Baz",
-        "era": 3.76,
-        "whip": 1.32,
+        "era": 4.0,
+        "whip": 1.36,
         "k9": 7.9
       }
     },
@@ -801,19 +807,25 @@
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 5,
+        "awayScore": 1,
+        "inning": 7,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Kyle Leahy",
-        "era": 3.45,
+        "era": 3.38,
         "whip": 1.34,
-        "k9": 7.9
+        "k9": 8.1
       },
       "awayStarter": {
         "name": "Zack Wheeler",
-        "era": 2.69,
-        "whip": 0.98,
-        "k9": 10.8
+        "era": 2.89,
+        "whip": 1.0,
+        "k9": 10.7
       }
     },
     {
@@ -833,19 +845,25 @@
       "awayTeamName": "Tampa Bay Rays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 3,
+        "inning": 3,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Jack Perkins",
-        "era": 7.04,
-        "whip": 1.45,
-        "k9": 10.8
+        "era": 7.0,
+        "whip": 1.49,
+        "k9": 10.4
       },
       "awayStarter": {
         "name": "Drew Rasmussen",
-        "era": 2.75,
+        "era": 2.7,
         "whip": 0.91,
-        "k9": 9.4
+        "k9": 9.3
       }
     },
     {
@@ -865,19 +883,25 @@
       "awayTeamName": "Colorado Rockies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Merrill Kelly",
-        "era": 4.88,
+        "era": 4.83,
         "whip": 1.47,
         "k9": 6.0
       },
       "awayStarter": {
         "name": "Ryan Feltner",
-        "era": 5.71,
-        "whip": 1.45,
-        "k9": 6.5
+        "era": 5.75,
+        "whip": 1.47,
+        "k9": 6.4
       }
     },
     {
@@ -897,19 +921,25 @@
       "awayTeamName": "Houston Astros",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Adrian Houser",
-        "era": 4.55,
-        "whip": 1.37,
-        "k9": 6.0
+        "era": 4.5,
+        "whip": 1.36,
+        "k9": 6.1
       },
       "awayStarter": {
         "name": "Bryan King",
-        "era": 3.83,
-        "whip": 1.36,
-        "k9": 7.3
+        "era": 3.78,
+        "whip": 1.38,
+        "k9": 7.4
       }
     },
     {
@@ -929,7 +959,13 @@
       "awayTeamName": "Milwaukee Brewers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Robbie Ray",
