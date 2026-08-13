@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T15:58:46Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-13T19:55:34Z",
+  "lastMode": "refresh",
   "date": "2026-08-13",
   "availableDates": [
     "2026-08-13"
@@ -473,18 +473,24 @@
       "awayTeamName": "Cleveland Guardians",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 3,
+        "awayScore": 0,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Keider Montero",
-        "era": 3.38,
-        "whip": 1.01,
-        "k9": 6.3
+        "era": 3.22,
+        "whip": 0.99,
+        "k9": 6.0
       },
       "awayStarter": {
         "name": "Parker Messick",
-        "era": 2.57,
-        "whip": 1.04,
+        "era": 2.59,
+        "whip": 1.03,
         "k9": 9.0
       }
     },
@@ -500,18 +506,24 @@
       "awayTeamName": "Cincinnati Reds",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 7,
+        "awayScore": 9,
+        "inning": 8,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Davis Martin",
-        "era": 4.17,
+        "era": 4.32,
         "whip": 1.33,
-        "k9": 7.9
+        "k9": 8.0
       },
       "awayStarter": {
         "name": "Andrew Abbott",
-        "era": 3.92,
-        "whip": 1.39,
+        "era": 4.13,
+        "whip": 1.42,
         "k9": 6.9
       }
     },
@@ -532,18 +544,24 @@
       "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 1,
+        "awayScore": 13,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Tyler Phillips",
-        "era": 3.47,
+        "era": 3.65,
         "whip": 1.36,
-        "k9": 6.8
+        "k9": 6.9
       },
       "awayStarter": {
         "name": "Braxton Ashcraft",
-        "era": 4.08,
-        "whip": 1.16,
+        "era": 3.88,
+        "whip": 1.11,
         "k9": 9.9
       }
     },
@@ -564,18 +582,24 @@
       "awayTeamName": "Seattle Mariners",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 1,
+        "inning": 7,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Max Fried",
-        "era": 2.88,
-        "whip": 0.97,
-        "k9": 8.3
+        "era": 2.81,
+        "whip": 1.0,
+        "k9": 8.2
       },
       "awayStarter": {
         "name": "Logan Gilbert",
-        "era": 3.42,
-        "whip": 1.0,
+        "era": 3.28,
+        "whip": 0.99,
         "k9": 9.4
       }
     },
@@ -596,19 +620,25 @@
       "awayTeamName": "Boston Red Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 1,
+        "inning": 4,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Max Scherzer",
-        "era": 7.25,
-        "whip": 1.53,
-        "k9": 6.8
+        "era": 6.92,
+        "whip": 1.46,
+        "k9": 6.7
       },
       "awayStarter": {
         "name": "Payton Tolle",
-        "era": 3.2,
-        "whip": 1.1,
-        "k9": 10.4
+        "era": 3.11,
+        "whip": 1.11,
+        "k9": 10.2
       }
     },
     {
@@ -628,7 +658,13 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Cade Cavalli",
@@ -850,6 +886,22 @@
       "awayTeamId": 140,
       "homeScore": 5,
       "awayScore": 2
+    },
+    {
+      "gamePk": 824238,
+      "dateStr": "2026-08-13",
+      "homeTeamId": 116,
+      "awayTeamId": 114,
+      "homeScore": 3,
+      "awayScore": 0
+    },
+    {
+      "gamePk": 823829,
+      "dateStr": "2026-08-13",
+      "homeTeamId": 146,
+      "awayTeamId": 134,
+      "homeScore": 1,
+      "awayScore": 13
     }
   ]
 }
