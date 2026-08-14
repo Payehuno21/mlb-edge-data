@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T15:52:46Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-14T19:47:52Z",
+  "lastMode": "refresh",
   "date": "2026-08-14",
   "availableDates": [
     "2026-08-14"
@@ -721,19 +721,25 @@
       "awayTeamName": "St. Louis Cardinals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 6,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Clay Holmes",
-        "era": 2.86,
-        "whip": 1.16,
-        "k9": 7.3
+        "era": 2.59,
+        "whip": 1.07,
+        "k9": 7.0
       },
       "awayStarter": {
         "name": "Matthew Liberatore",
-        "era": 5.15,
-        "whip": 1.52,
-        "k9": 8.7
+        "era": 4.93,
+        "whip": 1.47,
+        "k9": 8.8
       }
     },
     {
@@ -921,7 +927,12 @@
         "whip": 1.23,
         "k9": 6.9
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Chris Bassitt",
+        "era": 5.27,
+        "whip": 1.63,
+        "k9": 5.9
+      }
     },
     {
       "gamePk": 824882,
@@ -942,7 +953,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Chris Sale",
+        "era": 2.2,
+        "whip": 1.02,
+        "k9": 11.1
+      },
       "awayStarter": {
         "name": "Brandon Pfaadt",
         "era": 3.36,
