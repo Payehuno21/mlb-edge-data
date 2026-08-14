@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T02:21:19Z",
+  "generatedAt": "2026-08-14T14:17:38Z",
   "lastMode": "refresh",
   "date": "2026-08-14",
   "availableDates": [
@@ -1116,6 +1116,30 @@
       "awayTeamId": 112,
       "homeScore": 7,
       "awayScore": 0
+    },
+    {
+      "gamePk": 823669,
+      "dateStr": "2026-08-13",
+      "homeTeamId": 142,
+      "awayTeamId": 143,
+      "homeScore": 1,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 823995,
+      "dateStr": "2026-08-13",
+      "homeTeamId": 108,
+      "awayTeamId": 140,
+      "homeScore": 7,
+      "awayScore": 0
+    },
+    {
+      "gamePk": 823915,
+      "dateStr": "2026-08-13",
+      "homeTeamId": 119,
+      "awayTeamId": 158,
+      "homeScore": 4,
+      "awayScore": 5
     }
   ]
 }
