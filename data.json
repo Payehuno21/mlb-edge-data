@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T15:21:04Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-15T19:21:14Z",
+  "lastMode": "refresh",
   "date": "2026-08-15",
   "availableDates": [
     "2026-08-15"
@@ -769,17 +769,23 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 4,
+        "inning": 8,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Troy Melton",
-        "era": 1.46,
-        "whip": 0.9,
+        "era": 1.71,
+        "whip": 0.97,
         "k9": 7.8
       },
       "awayStarter": {
         "name": "Anthony Kay",
-        "era": 3.96,
+        "era": 4.01,
         "whip": 1.34,
         "k9": 7.3
       }
@@ -801,19 +807,25 @@
       "awayTeamName": "St. Louis Cardinals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 4,
+        "inning": 4,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Matthew Boyd",
-        "era": 3.5,
+        "era": 3.81,
         "whip": 1.22,
-        "k9": 7.5
+        "k9": 7.4
       },
       "awayStarter": {
         "name": "Michael McGreevy",
-        "era": 3.64,
-        "whip": 1.22,
-        "k9": 6.1
+        "era": 3.56,
+        "whip": 1.23,
+        "k9": 6.0
       }
     },
     {
@@ -833,19 +845,25 @@
       "awayTeamName": "New York Yankees",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Braydon Fisher",
-        "era": 3.54,
+        "era": 3.48,
         "whip": 1.23,
-        "k9": 8.4
+        "k9": 8.3
       },
       "awayStarter": {
         "name": "Cam Schlittler",
-        "era": 2.21,
+        "era": 2.2,
         "whip": 0.93,
-        "k9": 11.2
+        "k9": 11.1
       }
     },
     {
@@ -1001,7 +1019,12 @@
         "whip": 1.48,
         "k9": 9.9
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Wandy Peralta",
+        "era": 3.39,
+        "whip": 1.38,
+        "k9": 5.6
+      }
     },
     {
       "gamePk": 824157,
