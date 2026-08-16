@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T13:37:06Z",
+  "generatedAt": "2026-08-16T15:21:30Z",
   "lastMode": "full",
   "date": "2026-08-16",
   "availableDates": [
@@ -762,8 +762,8 @@
       "weather": {
         "tempF": 87,
         "precipProb": 4,
-        "windMph": 6.1,
-        "windDirDeg": 294
+        "windMph": 6.4,
+        "windDirDeg": 306
       },
       "homeTeamId": 139,
       "awayTeamId": 110,
@@ -792,10 +792,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "PNC Park",
       "weather": {
-        "tempF": 78,
-        "precipProb": 57,
-        "windMph": 6.9,
-        "windDirDeg": 295
+        "tempF": 74,
+        "precipProb": 54,
+        "windMph": 1.9,
+        "windDirDeg": 315
       },
       "homeTeamId": 134,
       "awayTeamId": 111,
@@ -824,10 +824,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "Truist Park",
       "weather": {
-        "tempF": 95,
+        "tempF": 94,
         "precipProb": 1,
-        "windMph": 5.2,
-        "windDirDeg": 290
+        "windMph": 4.6,
+        "windDirDeg": 313
       },
       "homeTeamId": 144,
       "awayTeamId": 109,
@@ -857,9 +857,9 @@
       "venue": "Rogers Centre",
       "weather": {
         "tempF": 72,
-        "precipProb": 8,
-        "windMph": 5.2,
-        "windDirDeg": 50
+        "precipProb": 5,
+        "windMph": 5.9,
+        "windDirDeg": 97
       },
       "homeTeamId": 141,
       "awayTeamId": 147,
@@ -888,10 +888,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "Citi Field",
       "weather": {
-        "tempF": 73,
-        "precipProb": 23,
-        "windMph": 8.5,
-        "windDirDeg": 157
+        "tempF": 72,
+        "precipProb": 25,
+        "windMph": 6.8,
+        "windDirDeg": 171
       },
       "homeTeamId": 121,
       "awayTeamId": 120,
@@ -920,10 +920,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "Progressive Field",
       "weather": {
-        "tempF": 80,
-        "precipProb": 14,
-        "windMph": 7.3,
-        "windDirDeg": 259
+        "tempF": 78,
+        "precipProb": 15,
+        "windMph": 7.9,
+        "windDirDeg": 263
       },
       "homeTeamId": 114,
       "awayTeamId": 135,
@@ -952,10 +952,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "Comerica Park",
       "weather": {
-        "tempF": 82,
+        "tempF": 81,
         "precipProb": 15,
-        "windMph": 6.1,
-        "windDirDeg": 276
+        "windMph": 5.6,
+        "windDirDeg": 286
       },
       "homeTeamId": 116,
       "awayTeamId": 145,
@@ -984,10 +984,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "Great American Ball Park",
       "weather": {
-        "tempF": 86,
-        "precipProb": 26,
-        "windMph": 6.7,
-        "windDirDeg": 285
+        "tempF": 88,
+        "precipProb": 24,
+        "windMph": 12.0,
+        "windDirDeg": 280
       },
       "homeTeamId": 113,
       "awayTeamId": 146,
@@ -1018,8 +1018,8 @@
       "weather": {
         "tempF": 80,
         "precipProb": 0,
-        "windMph": 8.3,
-        "windDirDeg": 327
+        "windMph": 7.6,
+        "windDirDeg": 317
       },
       "homeTeamId": 142,
       "awayTeamId": 143,
@@ -1048,10 +1048,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "Wrigley Field",
       "weather": {
-        "tempF": 76,
-        "precipProb": 7,
-        "windMph": 6.5,
-        "windDirDeg": 82
+        "tempF": 78,
+        "precipProb": 16,
+        "windMph": 1.7,
+        "windDirDeg": 157
       },
       "homeTeamId": 112,
       "awayTeamId": 138,
@@ -1080,10 +1080,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "Oracle Park",
       "weather": {
-        "tempF": 59,
+        "tempF": 60,
         "precipProb": 1,
-        "windMph": 11.4,
-        "windDirDeg": 274
+        "windMph": 11.6,
+        "windDirDeg": 271
       },
       "homeTeamId": 137,
       "awayTeamId": 115,
@@ -1112,10 +1112,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "Sutter Health Park",
       "weather": {
-        "tempF": 88,
+        "tempF": 87,
         "precipProb": 0,
-        "windMph": 7.9,
-        "windDirDeg": 241
+        "windMph": 8.9,
+        "windDirDeg": 242
       },
       "homeTeamId": 133,
       "awayTeamId": 140,
@@ -1144,10 +1144,10 @@
       "gameDateStr": "2026-08-16",
       "venue": "Angel Stadium",
       "weather": {
-        "tempF": 78,
+        "tempF": 79,
         "precipProb": 0,
-        "windMph": 6.6,
-        "windDirDeg": 246
+        "windMph": 6.3,
+        "windDirDeg": 243
       },
       "homeTeamId": 108,
       "awayTeamId": 118,
