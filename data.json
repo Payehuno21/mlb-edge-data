@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T15:24:50Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-17T19:27:27Z",
+  "lastMode": "refresh",
   "date": "2026-08-17",
   "availableDates": [
     "2026-08-17"
@@ -521,16 +521,25 @@
       "awayTeamName": "St. Louis Cardinals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 2,
+        "inning": 6,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
-        "name": "Kent Emanuel"
+        "name": "Kent Emanuel",
+        "era": 3.6,
+        "whip": 1.6,
+        "k9": 7.2
       },
       "awayStarter": {
         "name": "Quinn Mathews",
-        "era": 3.6,
-        "whip": 1.8,
-        "k9": 5.4
+        "era": 3.0,
+        "whip": 1.56,
+        "k9": 10.0
       }
     },
     {
