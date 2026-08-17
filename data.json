@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:44:34Z",
+  "generatedAt": "2026-08-17T15:24:50Z",
   "lastMode": "full",
   "date": "2026-08-17",
   "availableDates": [
@@ -511,7 +511,7 @@
       "venue": "Great American Ball Park",
       "weather": {
         "tempF": 77,
-        "precipProb": 26,
+        "precipProb": 30,
         "windMph": 3.5,
         "windDirDeg": 285
       },
@@ -523,8 +523,15 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
-      "awayStarter": null
+      "homeStarter": {
+        "name": "Kent Emanuel"
+      },
+      "awayStarter": {
+        "name": "Quinn Mathews",
+        "era": 3.6,
+        "whip": 1.8,
+        "k9": 5.4
+      }
     },
     {
       "gamePk": 824478,
@@ -533,7 +540,7 @@
       "venue": "Great American Ball Park",
       "weather": {
         "tempF": 77,
-        "precipProb": 26,
+        "precipProb": 30,
         "windMph": 3.5,
         "windDirDeg": 285
       },
@@ -551,7 +558,12 @@
         "whip": 1.48,
         "k9": 7.3
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Andre Pallante",
+        "era": 3.46,
+        "whip": 1.22,
+        "k9": 6.4
+      }
     },
     {
       "gamePk": 822939,
@@ -592,7 +604,7 @@
       "venue": "Citizens Bank Park",
       "weather": {
         "tempF": 87,
-        "precipProb": 17,
+        "precipProb": 15,
         "windMph": 0.5,
         "windDirDeg": 297
       },
@@ -624,7 +636,7 @@
       "venue": "PNC Park",
       "weather": {
         "tempF": 79,
-        "precipProb": 12,
+        "precipProb": 16,
         "windMph": 3.3,
         "windDirDeg": 340
       },
@@ -668,7 +680,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Alec Gamboa",
+        "era": 1.59,
+        "whip": 1.12,
+        "k9": 6.3
+      },
       "awayStarter": {
         "name": "Mitch Bratt",
         "era": 3.74,
@@ -683,7 +700,7 @@
       "venue": "Citi Field",
       "weather": {
         "tempF": 80,
-        "precipProb": 4,
+        "precipProb": 3,
         "windMph": 7.2,
         "windDirDeg": 30
       },
@@ -779,7 +796,7 @@
       "venue": "Wrigley Field",
       "weather": {
         "tempF": 73,
-        "precipProb": 27,
+        "precipProb": 31,
         "windMph": 4.3,
         "windDirDeg": 215
       },
@@ -811,7 +828,7 @@
       "venue": "Coors Field",
       "weather": {
         "tempF": 86,
-        "precipProb": 20,
+        "precipProb": 15,
         "windMph": 2.6,
         "windDirDeg": 165
       },
