@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T13:49:23Z",
+  "generatedAt": "2026-08-18T15:33:26Z",
   "lastMode": "full",
   "date": "2026-08-18",
   "availableDates": [
@@ -761,10 +761,10 @@
       "gameDateStr": "2026-08-18",
       "venue": "Oriole Park at Camden Yards",
       "weather": {
-        "tempF": 85,
-        "precipProb": 0,
-        "windMph": 5.7,
-        "windDirDeg": 301
+        "tempF": 82,
+        "precipProb": 1,
+        "windMph": 2.2,
+        "windDirDeg": 84
       },
       "homeTeamId": 110,
       "awayTeamId": 147,
@@ -793,10 +793,10 @@
       "gameDateStr": "2026-08-18",
       "venue": "PNC Park",
       "weather": {
-        "tempF": 78,
+        "tempF": 77,
         "precipProb": 0,
-        "windMph": 5.0,
-        "windDirDeg": 280
+        "windMph": 5.4,
+        "windDirDeg": 270
       },
       "homeTeamId": 134,
       "awayTeamId": 116,
@@ -827,8 +827,8 @@
       "weather": {
         "tempF": 78,
         "precipProb": 0,
-        "windMph": 5.7,
-        "windDirDeg": 279
+        "windMph": 6.7,
+        "windDirDeg": 270
       },
       "homeTeamId": 114,
       "awayTeamId": 137,
@@ -859,8 +859,8 @@
       "weather": {
         "tempF": 82,
         "precipProb": 0,
-        "windMph": 6.1,
-        "windDirDeg": 336
+        "windMph": 5.0,
+        "windDirDeg": 328
       },
       "homeTeamId": 113,
       "awayTeamId": 138,
@@ -891,8 +891,8 @@
       "weather": {
         "tempF": 87,
         "precipProb": 4,
-        "windMph": 9.6,
-        "windDirDeg": 281
+        "windMph": 10.5,
+        "windDirDeg": 271
       },
       "homeTeamId": 139,
       "awayTeamId": 141,
@@ -922,8 +922,8 @@
       "venue": "Citizens Bank Park",
       "weather": {
         "tempF": 85,
-        "precipProb": 3,
-        "windMph": 7.0,
+        "precipProb": 6,
+        "windMph": 5.6,
         "windDirDeg": 310
       },
       "homeTeamId": 143,
@@ -953,10 +953,10 @@
       "gameDateStr": "2026-08-18",
       "venue": "Fenway Park",
       "weather": {
-        "tempF": 73,
-        "precipProb": 2,
-        "windMph": 7.6,
-        "windDirDeg": 88
+        "tempF": 74,
+        "precipProb": 1,
+        "windMph": 5.8,
+        "windDirDeg": 77
       },
       "homeTeamId": 111,
       "awayTeamId": 109,
@@ -986,9 +986,9 @@
       "venue": "Citi Field",
       "weather": {
         "tempF": 76,
-        "precipProb": 3,
-        "windMph": 7.0,
-        "windDirDeg": 158
+        "precipProb": 4,
+        "windMph": 5.6,
+        "windDirDeg": 143
       },
       "homeTeamId": 121,
       "awayTeamId": 135,
@@ -1017,10 +1017,10 @@
       "gameDateStr": "2026-08-18",
       "venue": "Kauffman Stadium",
       "weather": {
-        "tempF": 90,
-        "precipProb": 2,
-        "windMph": 7.1,
-        "windDirDeg": 134
+        "tempF": 89,
+        "precipProb": 3,
+        "windMph": 4.3,
+        "windDirDeg": 47
       },
       "homeTeamId": 118,
       "awayTeamId": 133,
@@ -1045,9 +1045,9 @@
       "venue": "Target Field",
       "weather": {
         "tempF": 81,
-        "precipProb": 2,
-        "windMph": 7.6,
-        "windDirDeg": 315
+        "precipProb": 3,
+        "windMph": 9.2,
+        "windDirDeg": 304
       },
       "homeTeamId": 142,
       "awayTeamId": 144,
@@ -1076,10 +1076,10 @@
       "gameDateStr": "2026-08-18",
       "venue": "American Family Field",
       "weather": {
-        "tempF": 80,
-        "precipProb": 29,
-        "windMph": 1.4,
-        "windDirDeg": 219
+        "tempF": 78,
+        "precipProb": 31,
+        "windMph": 5.6,
+        "windDirDeg": 236
       },
       "homeTeamId": 158,
       "awayTeamId": 136,
@@ -1108,10 +1108,10 @@
       "gameDateStr": "2026-08-18",
       "venue": "Globe Life Field",
       "weather": {
-        "tempF": 101,
+        "tempF": 102,
         "precipProb": 0,
-        "windMph": 10.8,
-        "windDirDeg": 175
+        "windMph": 8.6,
+        "windDirDeg": 211
       },
       "homeTeamId": 140,
       "awayTeamId": 120,
@@ -1140,10 +1140,10 @@
       "gameDateStr": "2026-08-18",
       "venue": "Wrigley Field",
       "weather": {
-        "tempF": 71,
+        "tempF": 70,
         "precipProb": 4,
-        "windMph": 5.6,
-        "windDirDeg": 97
+        "windMph": 9.5,
+        "windDirDeg": 45
       },
       "homeTeamId": 112,
       "awayTeamId": 145,
@@ -1194,10 +1194,10 @@
       "gameDateStr": "2026-08-18",
       "venue": "Coors Field",
       "weather": {
-        "tempF": 88,
-        "precipProb": 6,
-        "windMph": 6.9,
-        "windDirDeg": 90
+        "tempF": 87,
+        "precipProb": 5,
+        "windMph": 6.3,
+        "windDirDeg": 63
       },
       "homeTeamId": 115,
       "awayTeamId": 119,
