@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T13:49:57Z",
+  "generatedAt": "2026-08-19T15:32:12Z",
   "lastMode": "full",
   "date": "2026-08-19",
   "availableDates": [
@@ -763,10 +763,10 @@
       "gameDateStr": "2026-08-19",
       "venue": "PNC Park",
       "weather": {
-        "tempF": 79,
-        "precipProb": 4,
-        "windMph": 5.3,
-        "windDirDeg": 258
+        "tempF": 80,
+        "precipProb": 3,
+        "windMph": 5.4,
+        "windDirDeg": 232
       },
       "homeTeamId": 134,
       "awayTeamId": 116,
@@ -795,10 +795,10 @@
       "gameDateStr": "2026-08-19",
       "venue": "Citi Field",
       "weather": {
-        "tempF": 82,
+        "tempF": 81,
         "precipProb": 1,
-        "windMph": 8.1,
-        "windDirDeg": 180
+        "windMph": 8.3,
+        "windDirDeg": 183
       },
       "homeTeamId": 121,
       "awayTeamId": 135,
@@ -829,8 +829,8 @@
       "weather": {
         "tempF": 79,
         "precipProb": 0,
-        "windMph": 6.1,
-        "windDirDeg": 274
+        "windMph": 6.5,
+        "windDirDeg": 292
       },
       "homeTeamId": 142,
       "awayTeamId": 144,
@@ -859,9 +859,9 @@
       "gameDateStr": "2026-08-19",
       "venue": "Wrigley Field",
       "weather": {
-        "tempF": 70,
+        "tempF": 69,
         "precipProb": 1,
-        "windMph": 7.7,
+        "windMph": 8.8,
         "windDirDeg": 36
       },
       "homeTeamId": 112,
@@ -893,8 +893,8 @@
       "weather": {
         "tempF": 83,
         "precipProb": 1,
-        "windMph": 7.4,
-        "windDirDeg": 249
+        "windMph": 7.0,
+        "windDirDeg": 253
       },
       "homeTeamId": 111,
       "awayTeamId": 109,
@@ -925,8 +925,8 @@
       "weather": {
         "tempF": 85,
         "precipProb": 1,
-        "windMph": 5.4,
-        "windDirDeg": 268
+        "windMph": 5.2,
+        "windDirDeg": 275
       },
       "homeTeamId": 143,
       "awayTeamId": 146,
@@ -957,8 +957,8 @@
       "weather": {
         "tempF": 87,
         "precipProb": 2,
-        "windMph": 3.4,
-        "windDirDeg": 262
+        "windMph": 4.3,
+        "windDirDeg": 264
       },
       "homeTeamId": 110,
       "awayTeamId": 147,
@@ -989,8 +989,8 @@
       "weather": {
         "tempF": 78,
         "precipProb": 1,
-        "windMph": 2.8,
-        "windDirDeg": 315
+        "windMph": 3.8,
+        "windDirDeg": 306
       },
       "homeTeamId": 114,
       "awayTeamId": 137,
@@ -1016,10 +1016,10 @@
       "gameDateStr": "2026-08-19",
       "venue": "Great American Ball Park",
       "weather": {
-        "tempF": 85,
+        "tempF": 84,
         "precipProb": 14,
-        "windMph": 7.1,
-        "windDirDeg": 198
+        "windMph": 7.7,
+        "windDirDeg": 218
       },
       "homeTeamId": 113,
       "awayTeamId": 138,
@@ -1049,9 +1049,9 @@
       "venue": "Tropicana Field",
       "weather": {
         "tempF": 89,
-        "precipProb": 5,
-        "windMph": 8.4,
-        "windDirDeg": 304
+        "precipProb": 6,
+        "windMph": 8.5,
+        "windDirDeg": 305
       },
       "homeTeamId": 139,
       "awayTeamId": 141,
@@ -1080,10 +1080,10 @@
       "gameDateStr": "2026-08-19",
       "venue": "Kauffman Stadium",
       "weather": {
-        "tempF": 83,
-        "precipProb": 1,
+        "tempF": 84,
+        "precipProb": 3,
         "windMph": 3.6,
-        "windDirDeg": 7
+        "windDirDeg": 4
       },
       "homeTeamId": 118,
       "awayTeamId": 133,
@@ -1104,8 +1104,8 @@
       "weather": {
         "tempF": 71,
         "precipProb": 0,
-        "windMph": 4.6,
-        "windDirDeg": 104
+        "windMph": 4.2,
+        "windDirDeg": 74
       },
       "homeTeamId": 158,
       "awayTeamId": 136,
@@ -1137,7 +1137,7 @@
         "tempF": 102,
         "precipProb": 2,
         "windMph": 8.7,
-        "windDirDeg": 183
+        "windDirDeg": 181
       },
       "homeTeamId": 140,
       "awayTeamId": 120,
@@ -1190,10 +1190,10 @@
       "gameDateStr": "2026-08-19",
       "venue": "Coors Field",
       "weather": {
-        "tempF": 91,
-        "precipProb": 4,
-        "windMph": 8.5,
-        "windDirDeg": 95
+        "tempF": 92,
+        "precipProb": 2,
+        "windMph": 5.3,
+        "windDirDeg": 57
       },
       "homeTeamId": 115,
       "awayTeamId": 119,
