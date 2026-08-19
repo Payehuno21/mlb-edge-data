@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T15:32:12Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-19T19:24:26Z",
+  "lastMode": "refresh",
   "date": "2026-08-19",
   "availableDates": [
     "2026-08-19"
@@ -774,19 +774,25 @@
       "awayTeamName": "Detroit Tigers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 3,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Paul Skenes",
-        "era": 3.88,
-        "whip": 1.12,
+        "era": 3.95,
+        "whip": 1.14,
         "k9": 11.1
       },
       "awayStarter": {
         "name": "Jackson Jobe",
-        "era": 6.23,
-        "whip": 1.38,
-        "k9": 8.3
+        "era": 4.5,
+        "whip": 1.36,
+        "k9": 7.1
       }
     },
     {
@@ -806,19 +812,25 @@
       "awayTeamName": "San Diego Padres",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 1,
+        "inning": 8,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Robert Stock",
-        "era": 6.57,
-        "whip": 1.86,
-        "k9": 9.5
+        "era": 5.4,
+        "whip": 1.68,
+        "k9": 10.3
       },
       "awayStarter": {
         "name": "Michael King",
-        "era": 3.41,
-        "whip": 1.19,
-        "k9": 7.8
+        "era": 3.38,
+        "whip": 1.17,
+        "k9": 7.7
       }
     },
     {
@@ -838,19 +850,25 @@
       "awayTeamName": "Atlanta Braves",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 4,
+        "awayScore": 3,
+        "inning": 6,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Taj Bradley",
-        "era": 3.98,
-        "whip": 1.29,
-        "k9": 10.0
+        "era": 3.9,
+        "whip": 1.28,
+        "k9": 10.1
       },
       "awayStarter": {
         "name": "AJ Smith-Shawver",
-        "era": 4.15,
-        "whip": 1.38,
-        "k9": 8.3
+        "era": 6.23,
+        "whip": 1.62,
+        "k9": 7.3
       }
     },
     {
@@ -870,19 +888,25 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 4,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Clay Holmes",
-        "era": 2.56,
-        "whip": 1.07,
-        "k9": 7.0
+        "era": 2.41,
+        "whip": 1.08,
+        "k9": 6.7
       },
       "awayStarter": {
         "name": "Sean Newcomb",
-        "era": 2.51,
+        "era": 2.44,
         "whip": 1.1,
-        "k9": 8.5
+        "k9": 8.2
       }
     },
     {
@@ -1093,7 +1117,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Seth Lugo",
+        "era": 4.59,
+        "whip": 1.38,
+        "k9": 7.0
+      },
       "awayStarter": null
     },
     {
