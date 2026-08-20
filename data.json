@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T13:51:42Z",
+  "generatedAt": "2026-08-20T15:33:46Z",
   "lastMode": "full",
   "date": "2026-08-20",
   "availableDates": [
@@ -464,9 +464,9 @@
       "venue": "Great American Ball Park",
       "weather": {
         "tempF": 79,
-        "precipProb": 11,
-        "windMph": 3.0,
-        "windDirDeg": 347
+        "precipProb": 10,
+        "windMph": 2.0,
+        "windDirDeg": 360
       },
       "homeTeamId": 113,
       "awayTeamId": 138,
@@ -497,8 +497,8 @@
       "weather": {
         "tempF": 76,
         "precipProb": 3,
-        "windMph": 10.3,
-        "windDirDeg": 30
+        "windMph": 10.1,
+        "windDirDeg": 32
       },
       "homeTeamId": 114,
       "awayTeamId": 137,
@@ -527,10 +527,10 @@
       "gameDateStr": "2026-08-20",
       "venue": "Tropicana Field",
       "weather": {
-        "tempF": 85,
+        "tempF": 84,
         "precipProb": 6,
-        "windMph": 3.2,
-        "windDirDeg": 258
+        "windMph": 4.7,
+        "windDirDeg": 245
       },
       "homeTeamId": 139,
       "awayTeamId": 141,
@@ -561,8 +561,8 @@
       "weather": {
         "tempF": 83,
         "precipProb": 0,
-        "windMph": 5.2,
-        "windDirDeg": 40
+        "windMph": 5.6,
+        "windDirDeg": 74
       },
       "homeTeamId": 118,
       "awayTeamId": 133,
@@ -620,8 +620,8 @@
       "weather": {
         "tempF": 73,
         "precipProb": 0,
-        "windMph": 4.9,
-        "windDirDeg": 133
+        "windMph": 5.5,
+        "windDirDeg": 137
       },
       "homeTeamId": 158,
       "awayTeamId": 136,
@@ -651,9 +651,9 @@
       "venue": "Oriole Park at Camden Yards",
       "weather": {
         "tempF": 76,
-        "precipProb": 63,
-        "windMph": 13.9,
-        "windDirDeg": 298
+        "precipProb": 71,
+        "windMph": 13.5,
+        "windDirDeg": 301
       },
       "homeTeamId": 110,
       "awayTeamId": 147,
@@ -682,10 +682,10 @@
       "gameDateStr": "2026-08-20",
       "venue": "Globe Life Field",
       "weather": {
-        "tempF": 101,
+        "tempF": 94,
         "precipProb": 2,
-        "windMph": 8.8,
-        "windDirDeg": 189
+        "windMph": 6.1,
+        "windDirDeg": 163
       },
       "homeTeamId": 140,
       "awayTeamId": 120,
