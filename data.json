@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T13:50:26Z",
+  "generatedAt": "2026-08-21T15:33:59Z",
   "lastMode": "full",
   "date": "2026-08-21",
   "availableDates": [
@@ -761,10 +761,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "American Family Field",
       "weather": {
-        "tempF": 69,
-        "precipProb": 26,
-        "windMph": 1.4,
-        "windDirDeg": 261
+        "tempF": 71,
+        "precipProb": 29,
+        "windMph": 4.4,
+        "windDirDeg": 131
       },
       "homeTeamId": 158,
       "awayTeamId": 144,
@@ -793,10 +793,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "Citizens Bank Park",
       "weather": {
-        "tempF": 74,
+        "tempF": 75,
         "precipProb": 0,
-        "windMph": 4.0,
-        "windDirDeg": 74
+        "windMph": 2.8,
+        "windDirDeg": 104
       },
       "homeTeamId": 143,
       "awayTeamId": 138,
@@ -820,10 +820,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "Yankee Stadium",
       "weather": {
-        "tempF": 73,
-        "precipProb": 3,
-        "windMph": 1.1,
-        "windDirDeg": 79
+        "tempF": 74,
+        "precipProb": 2,
+        "windMph": 2.7,
+        "windDirDeg": 318
       },
       "homeTeamId": 147,
       "awayTeamId": 141,
@@ -852,10 +852,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "Fenway Park",
       "weather": {
-        "tempF": 71,
-        "precipProb": 3,
-        "windMph": 6.2,
-        "windDirDeg": 41
+        "tempF": 68,
+        "precipProb": 2,
+        "windMph": 7.7,
+        "windDirDeg": 10
       },
       "homeTeamId": 111,
       "awayTeamId": 137,
@@ -884,10 +884,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "loanDepot park",
       "weather": {
-        "tempF": 83,
-        "precipProb": 9,
-        "windMph": 5.2,
-        "windDirDeg": 155
+        "tempF": 86,
+        "precipProb": 10,
+        "windMph": 8.3,
+        "windDirDeg": 161
       },
       "homeTeamId": 146,
       "awayTeamId": 120,
@@ -917,9 +917,9 @@
       "venue": "Oriole Park at Camden Yards",
       "weather": {
         "tempF": 79,
-        "precipProb": 0,
-        "windMph": 5.7,
-        "windDirDeg": 99
+        "precipProb": 1,
+        "windMph": 6.1,
+        "windDirDeg": 98
       },
       "homeTeamId": 110,
       "awayTeamId": 139,
@@ -975,10 +975,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "Kauffman Stadium",
       "weather": {
-        "tempF": 85,
+        "tempF": 86,
         "precipProb": 0,
-        "windMph": 9.7,
-        "windDirDeg": 34
+        "windMph": 7.6,
+        "windDirDeg": 32
       },
       "homeTeamId": 118,
       "awayTeamId": 116,
@@ -1034,10 +1034,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "Globe Life Field",
       "weather": {
-        "tempF": 103,
+        "tempF": 94,
         "precipProb": 6,
-        "windMph": 3.7,
-        "windDirDeg": 115
+        "windMph": 20.5,
+        "windDirDeg": 349
       },
       "homeTeamId": 140,
       "awayTeamId": 108,
@@ -1066,10 +1066,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "Coors Field",
       "weather": {
-        "tempF": 82,
-        "precipProb": 57,
-        "windMph": 11.4,
-        "windDirDeg": 180
+        "tempF": 83,
+        "precipProb": 29,
+        "windMph": 16.8,
+        "windDirDeg": 207
       },
       "homeTeamId": 115,
       "awayTeamId": 114,
@@ -1098,10 +1098,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "Chase Field",
       "weather": {
-        "tempF": 107,
-        "precipProb": 3,
-        "windMph": 5.2,
-        "windDirDeg": 260
+        "tempF": 106,
+        "precipProb": 2,
+        "windMph": 4.5,
+        "windDirDeg": 264
       },
       "homeTeamId": 109,
       "awayTeamId": 113,
@@ -1130,10 +1130,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "Petco Park",
       "weather": {
-        "tempF": 75,
-        "precipProb": 0,
-        "windMph": 4.8,
-        "windDirDeg": 319
+        "tempF": 73,
+        "precipProb": 1,
+        "windMph": 4.4,
+        "windDirDeg": 294
       },
       "homeTeamId": 135,
       "awayTeamId": 142,
@@ -1184,10 +1184,10 @@
       "gameDateStr": "2026-08-21",
       "venue": "T-Mobile Park",
       "weather": {
-        "tempF": 69,
-        "precipProb": 1,
-        "windMph": 8.8,
-        "windDirDeg": 264
+        "tempF": 70,
+        "precipProb": 3,
+        "windMph": 9.9,
+        "windDirDeg": 262
       },
       "homeTeamId": 136,
       "awayTeamId": 112,
