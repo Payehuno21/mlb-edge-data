@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T15:33:59Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-21T19:25:18Z",
+  "lastMode": "refresh",
   "date": "2026-08-21",
   "availableDates": [
     "2026-08-21"
@@ -812,7 +812,12 @@
         "whip": 1.15,
         "k9": 11.1
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Hunter Dobbins",
+        "era": 3.42,
+        "whip": 1.3,
+        "k9": 8.8
+      }
     },
     {
       "gamePk": 823510,
