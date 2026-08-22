@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T15:21:41Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-22T19:21:53Z",
+  "lastMode": "refresh",
   "date": "2026-08-22",
   "availableDates": [
     "2026-08-22"
@@ -770,19 +770,25 @@
       "awayTeamName": "Toronto Blue Jays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 3,
+        "inning": 5,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Ryan Weathers",
-        "era": 3.56,
-        "whip": 1.19,
+        "era": 3.6,
+        "whip": 1.22,
         "k9": 9.4
       },
       "awayStarter": {
         "name": "Dylan Cease",
-        "era": 2.42,
-        "whip": 1.06,
-        "k9": 13.1
+        "era": 2.35,
+        "whip": 1.05,
+        "k9": 13.2
       }
     },
     {
@@ -802,19 +808,25 @@
       "awayTeamName": "Atlanta Braves",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 1,
+        "inning": 4,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Logan Henderson",
-        "era": 2.7,
-        "whip": 0.87,
-        "k9": 10.7
+        "era": 2.69,
+        "whip": 0.91,
+        "k9": 10.3
       },
       "awayStarter": {
         "name": "Martín Pérez",
-        "era": 3.15,
-        "whip": 1.19,
-        "k9": 6.7
+        "era": 3.07,
+        "whip": 1.21,
+        "k9": 6.6
       }
     },
     {
