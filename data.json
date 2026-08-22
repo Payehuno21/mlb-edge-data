@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T13:38:07Z",
+  "generatedAt": "2026-08-22T15:21:41Z",
   "lastMode": "full",
   "date": "2026-08-22",
   "availableDates": [
@@ -760,9 +760,9 @@
       "venue": "Yankee Stadium",
       "weather": {
         "tempF": 73,
-        "precipProb": 4,
-        "windMph": 5.7,
-        "windDirDeg": 69
+        "precipProb": 2,
+        "windMph": 6.7,
+        "windDirDeg": 70
       },
       "homeTeamId": 147,
       "awayTeamId": 141,
@@ -791,10 +791,10 @@
       "gameDateStr": "2026-08-22",
       "venue": "American Family Field",
       "weather": {
-        "tempF": 76,
+        "tempF": 75,
         "precipProb": 6,
-        "windMph": 7.1,
-        "windDirDeg": 311
+        "windMph": 4.5,
+        "windDirDeg": 342
       },
       "homeTeamId": 158,
       "awayTeamId": 144,
@@ -823,10 +823,10 @@
       "gameDateStr": "2026-08-22",
       "venue": "loanDepot park",
       "weather": {
-        "tempF": 84,
-        "precipProb": 12,
-        "windMph": 2.9,
-        "windDirDeg": 231
+        "tempF": 87,
+        "precipProb": 11,
+        "windMph": 7.6,
+        "windDirDeg": 161
       },
       "homeTeamId": 146,
       "awayTeamId": 120,
@@ -855,10 +855,10 @@
       "gameDateStr": "2026-08-22",
       "venue": "Citizens Bank Park",
       "weather": {
-        "tempF": 73,
-        "precipProb": 5,
-        "windMph": 5.3,
-        "windDirDeg": 118
+        "tempF": 72,
+        "precipProb": 6,
+        "windMph": 3.4,
+        "windDirDeg": 172
       },
       "homeTeamId": 143,
       "awayTeamId": 138,
@@ -882,10 +882,10 @@
       "gameDateStr": "2026-08-22",
       "venue": "Oriole Park at Camden Yards",
       "weather": {
-        "tempF": 74,
-        "precipProb": 14,
-        "windMph": 7.4,
-        "windDirDeg": 111
+        "tempF": 76,
+        "precipProb": 16,
+        "windMph": 7.3,
+        "windDirDeg": 128
       },
       "homeTeamId": 110,
       "awayTeamId": 139,
@@ -916,8 +916,8 @@
       "weather": {
         "tempF": 104,
         "precipProb": 1,
-        "windMph": 7.8,
-        "windDirDeg": 178
+        "windMph": 8.3,
+        "windDirDeg": 182
       },
       "homeTeamId": 140,
       "awayTeamId": 108,
@@ -1002,8 +1002,8 @@
       "weather": {
         "tempF": 85,
         "precipProb": 0,
-        "windMph": 7.0,
-        "windDirDeg": 37
+        "windMph": 8.3,
+        "windDirDeg": 31
       },
       "homeTeamId": 118,
       "awayTeamId": 116,
@@ -1060,9 +1060,9 @@
       "venue": "T-Mobile Park",
       "weather": {
         "tempF": 69,
-        "precipProb": 1,
-        "windMph": 6.6,
-        "windDirDeg": 303
+        "precipProb": 2,
+        "windMph": 8.0,
+        "windDirDeg": 300
       },
       "homeTeamId": 136,
       "awayTeamId": 112,
@@ -1090,8 +1090,8 @@
       "weather": {
         "tempF": 70,
         "precipProb": 4,
-        "windMph": 6.5,
-        "windDirDeg": 31
+        "windMph": 6.9,
+        "windDirDeg": 61
       },
       "homeTeamId": 111,
       "awayTeamId": 137,
@@ -1120,10 +1120,10 @@
       "gameDateStr": "2026-08-22",
       "venue": "Chase Field",
       "weather": {
-        "tempF": 106,
+        "tempF": 107,
         "precipProb": 3,
-        "windMph": 4.0,
-        "windDirDeg": 270
+        "windMph": 7.4,
+        "windDirDeg": 20
       },
       "homeTeamId": 109,
       "awayTeamId": 113,
@@ -1152,10 +1152,10 @@
       "gameDateStr": "2026-08-22",
       "venue": "Coors Field",
       "weather": {
-        "tempF": 80,
-        "precipProb": 26,
-        "windMph": 9.2,
-        "windDirDeg": 154
+        "tempF": 86,
+        "precipProb": 13,
+        "windMph": 9.5,
+        "windDirDeg": 214
       },
       "homeTeamId": 115,
       "awayTeamId": 114,
@@ -1184,10 +1184,10 @@
       "gameDateStr": "2026-08-22",
       "venue": "Petco Park",
       "weather": {
-        "tempF": 80,
-        "precipProb": 3,
-        "windMph": 7.2,
-        "windDirDeg": 324
+        "tempF": 79,
+        "precipProb": 1,
+        "windMph": 7.3,
+        "windDirDeg": 320
       },
       "homeTeamId": 135,
       "awayTeamId": 142,
