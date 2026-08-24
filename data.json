@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:56:10Z",
+  "generatedAt": "2026-08-24T15:39:06Z",
   "lastMode": "full",
   "date": "2026-08-24",
   "availableDates": [
@@ -516,10 +516,10 @@
       "gameDateStr": "2026-08-24",
       "venue": "Comerica Park",
       "weather": {
-        "tempF": 75,
+        "tempF": 74,
         "precipProb": 1,
-        "windMph": 8.1,
-        "windDirDeg": 291
+        "windMph": 6.3,
+        "windDirDeg": 305
       },
       "homeTeamId": 116,
       "awayTeamId": 139,
@@ -549,9 +549,9 @@
       "venue": "loanDepot park",
       "weather": {
         "tempF": 86,
-        "precipProb": 3,
-        "windMph": 5.2,
-        "windDirDeg": 133
+        "precipProb": 2,
+        "windMph": 6.7,
+        "windDirDeg": 138
       },
       "homeTeamId": 146,
       "awayTeamId": 111,
@@ -580,10 +580,10 @@
       "gameDateStr": "2026-08-24",
       "venue": "Nationals Park",
       "weather": {
-        "tempF": 79,
+        "tempF": 80,
         "precipProb": 1,
-        "windMph": 7.0,
-        "windDirDeg": 315
+        "windMph": 7.3,
+        "windDirDeg": 322
       },
       "homeTeamId": 120,
       "awayTeamId": 115,
@@ -620,7 +620,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "José Urquidy",
+        "era": 5.06,
+        "whip": 1.5,
+        "k9": 9.6
+      },
       "awayStarter": {
         "name": "Kumar Rocker",
         "era": 4.46,
@@ -635,9 +640,9 @@
       "venue": "Angel Stadium",
       "weather": {
         "tempF": 81,
-        "precipProb": 0,
-        "windMph": 6.2,
-        "windDirDeg": 218
+        "precipProb": 2,
+        "windMph": 6.3,
+        "windDirDeg": 212
       },
       "homeTeamId": 108,
       "awayTeamId": 114,
@@ -667,9 +672,9 @@
       "venue": "Chase Field",
       "weather": {
         "tempF": 106,
-        "precipProb": 0,
-        "windMph": 6.3,
-        "windDirDeg": 262
+        "precipProb": 1,
+        "windMph": 5.5,
+        "windDirDeg": 258
       },
       "homeTeamId": 109,
       "awayTeamId": 112,
@@ -699,7 +704,7 @@
       "venue": "Petco Park",
       "weather": {
         "tempF": 76,
-        "precipProb": 1,
+        "precipProb": 2,
         "windMph": 5.2,
         "windDirDeg": 313
       },
@@ -730,10 +735,10 @@
       "gameDateStr": "2026-08-24",
       "venue": "Sutter Health Park",
       "weather": {
-        "tempF": 91,
+        "tempF": 89,
         "precipProb": 0,
         "windMph": 8.1,
-        "windDirDeg": 224
+        "windDirDeg": 228
       },
       "homeTeamId": 133,
       "awayTeamId": 142,
@@ -762,10 +767,10 @@
       "gameDateStr": "2026-08-24",
       "venue": "T-Mobile Park",
       "weather": {
-        "tempF": 76,
-        "precipProb": 1,
-        "windMph": 8.1,
-        "windDirDeg": 251
+        "tempF": 74,
+        "precipProb": 2,
+        "windMph": 8.5,
+        "windDirDeg": 240
       },
       "homeTeamId": 136,
       "awayTeamId": 143,
@@ -794,9 +799,9 @@
       "gameDateStr": "2026-08-24",
       "venue": "Oracle Park",
       "weather": {
-        "tempF": 64,
+        "tempF": 63,
         "precipProb": 0,
-        "windMph": 13.7,
+        "windMph": 14.4,
         "windDirDeg": 286
       },
       "homeTeamId": 137,
