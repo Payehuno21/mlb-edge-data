@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T15:39:06Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-24T19:29:06Z",
+  "lastMode": "refresh",
   "date": "2026-08-24",
   "availableDates": [
     "2026-08-24"
@@ -812,7 +812,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Carson Whisenhunt",
+        "era": 7.03,
+        "whip": 1.84,
+        "k9": 6.5
+      },
       "awayStarter": {
         "name": "Chase Burns",
         "era": 2.51,
