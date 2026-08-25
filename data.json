@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T15:43:07Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-25T19:31:32Z",
+  "lastMode": "refresh",
   "date": "2026-08-25",
   "availableDates": [
     "2026-08-25"
@@ -803,7 +803,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Tyler Phillips",
+        "era": 3.67,
+        "whip": 1.37,
+        "k9": 7.1
+      },
       "awayStarter": {
         "name": "Payton Tolle",
         "era": 3.08,
