@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T13:58:26Z",
-  "lastMode": "full",
+  "generatedAt": "2026-08-26T16:17:32Z",
+  "lastMode": "refresh",
   "date": "2026-08-26",
   "availableDates": [
     "2026-08-26"
@@ -1027,7 +1027,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Elmer Rodríguez",
+        "era": 4.76,
+        "whip": 1.76,
+        "k9": 5.3
+      },
       "awayStarter": {
         "name": "Peter Lambert",
         "era": 3.68,
