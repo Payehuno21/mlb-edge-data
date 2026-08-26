@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:17:32Z",
+  "generatedAt": "2026-08-26T21:41:12Z",
   "lastMode": "refresh",
   "date": "2026-08-26",
   "availableDates": [
@@ -769,19 +769,25 @@
       "awayTeamName": "Tampa Bay Rays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 0,
+        "awayScore": 3,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Troy Melton",
-        "era": 1.7,
+        "era": 1.86,
         "whip": 1.01,
-        "k9": 7.6
+        "k9": 7.4
       },
       "awayStarter": {
         "name": "Freddy Peralta",
-        "era": 5.33,
-        "whip": 1.46,
-        "k9": 8.6
+        "era": 5.11,
+        "whip": 1.41,
+        "k9": 8.5
       }
     },
     {
@@ -801,18 +807,24 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 0,
+        "inning": 8,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Eduardo Rodriguez",
-        "era": 2.61,
-        "whip": 1.21,
-        "k9": 6.4
+        "era": 2.5,
+        "whip": 1.19,
+        "k9": 6.6
       },
       "awayStarter": {
         "name": "Matthew Boyd",
-        "era": 4.15,
-        "whip": 1.24,
+        "era": 3.99,
+        "whip": 1.22,
         "k9": 7.0
       }
     },
@@ -833,19 +845,25 @@
       "awayTeamName": "Cincinnati Reds",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 6,
+        "awayScore": 2,
+        "inning": 7,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
-        "name": "Landen Roupp",
-        "era": 4.34,
-        "whip": 1.31,
-        "k9": 8.7
+        "name": "Logan Webb",
+        "era": 3.72,
+        "whip": 1.1,
+        "k9": 7.2
       },
       "awayStarter": {
         "name": "Nick Lodolo",
-        "era": 5.04,
-        "whip": 1.52,
-        "k9": 7.1
+        "era": 5.24,
+        "whip": 1.54,
+        "k9": 7.3
       }
     },
     {
@@ -865,19 +883,25 @@
       "awayTeamName": "Cleveland Guardians",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 1,
+        "inning": 6,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Grayson Rodriguez",
-        "era": 6.41,
+        "era": 6.06,
         "whip": 1.53,
-        "k9": 8.3
+        "k9": 8.2
       },
       "awayStarter": {
         "name": "Joey Cantillo",
-        "era": 3.73,
-        "whip": 1.45,
-        "k9": 9.9
+        "era": 3.72,
+        "whip": 1.46,
+        "k9": 9.6
       }
     },
     {
@@ -897,19 +921,25 @@
       "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 0,
+        "inning": 6,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Randy Vásquez",
-        "era": 4.19,
-        "whip": 1.31,
+        "era": 4.02,
+        "whip": 1.28,
         "k9": 5.6
       },
       "awayStarter": {
         "name": "Bubba Chandler",
-        "era": 4.38,
-        "whip": 1.37,
-        "k9": 8.2
+        "era": 4.28,
+        "whip": 1.36,
+        "k9": 8.0
       }
     },
     {
@@ -929,18 +959,24 @@
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 6,
+        "inning": 6,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Bryan Woo",
-        "era": 4.1,
-        "whip": 1.08,
-        "k9": 8.9
+        "era": 4.36,
+        "whip": 1.1,
+        "k9": 9.0
       },
       "awayStarter": {
         "name": "Jesús Luzardo",
-        "era": 3.23,
-        "whip": 1.15,
+        "era": 3.13,
+        "whip": 1.13,
         "k9": 11.2
       }
     },
@@ -1348,6 +1384,14 @@
       "awayTeamId": 113,
       "homeScore": 3,
       "awayScore": 1
+    },
+    {
+      "gamePk": 824234,
+      "dateStr": "2026-08-26",
+      "homeTeamId": 116,
+      "awayTeamId": 139,
+      "homeScore": 0,
+      "awayScore": 3
     }
   ]
 }
