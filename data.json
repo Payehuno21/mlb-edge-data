@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T08:31:44Z",
+  "generatedAt": "2026-08-27T22:53:59Z",
   "lastMode": "refresh",
   "date": "2026-08-27",
   "availableDates": [
@@ -368,19 +368,25 @@
       "awayTeamName": "Colorado Rockies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 7,
+        "awayScore": 1,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Jake Irvin",
-        "era": 5.82,
-        "whip": 1.36,
-        "k9": 8.8
+        "era": 5.62,
+        "whip": 1.4,
+        "k9": 9.0
       },
       "awayStarter": {
         "name": "Gabriel Hughes",
-        "era": 6.54,
-        "whip": 1.36,
-        "k9": 7.4
+        "era": 6.61,
+        "whip": 1.45,
+        "k9": 7.2
       }
     },
     {
@@ -395,14 +401,25 @@
       "awayTeamName": "Baltimore Orioles",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 7,
+        "awayScore": 5,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Gordon Graceffo",
+        "era": 2.98,
+        "whip": 1.07,
+        "k9": 5.7
+      },
       "awayStarter": {
         "name": "Trevor Rogers",
-        "era": 4.14,
-        "whip": 1.24,
-        "k9": 7.7
+        "era": 4.38,
+        "whip": 1.25,
+        "k9": 7.9
       }
     },
     {
@@ -417,7 +434,13 @@
       "awayTeamName": "Houston Astros",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Gerrit Cole",
@@ -444,7 +467,13 @@
       "awayTeamName": "Kansas City Royals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Spencer Arrighetti",
@@ -471,7 +500,13 @@
       "awayTeamName": "Milwaukee Brewers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Sean Manaea",
@@ -498,7 +533,13 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Chris Sale",
@@ -661,6 +702,22 @@
       "awayTeamId": 142,
       "homeScore": 7,
       "awayScore": 4
+    },
+    {
+      "gamePk": 822694,
+      "dateStr": "2026-08-27",
+      "homeTeamId": 120,
+      "awayTeamId": 115,
+      "homeScore": 7,
+      "awayScore": 1
+    },
+    {
+      "gamePk": 823014,
+      "dateStr": "2026-08-27",
+      "homeTeamId": 138,
+      "awayTeamId": 110,
+      "homeScore": 7,
+      "awayScore": 5
     }
   ]
 }
