@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T02:25:49Z",
+  "generatedAt": "2026-08-28T10:45:12Z",
   "lastMode": "refresh",
   "date": "2026-08-28",
   "availableDates": [
@@ -1140,7 +1140,12 @@
         "whip": 1.16,
         "k9": 7.4
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Kohl Drake",
+        "era": 5.4,
+        "whip": 1.56,
+        "k9": 7.0
+      }
     }
   ],
   "results": [
@@ -1191,6 +1196,14 @@
       "awayTeamId": 119,
       "homeScore": 1,
       "awayScore": 0
+    },
+    {
+      "gamePk": 823179,
+      "dateStr": "2026-08-27",
+      "homeTeamId": 137,
+      "awayTeamId": 109,
+      "homeScore": 6,
+      "awayScore": 1
     }
   ]
 }
