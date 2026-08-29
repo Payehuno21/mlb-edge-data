@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T17:03:03Z",
+  "generatedAt": "2026-08-29T18:11:48Z",
   "lastMode": "refresh",
   "date": "2026-08-29",
   "availableDates": [
@@ -767,22 +767,22 @@
       "liveState": {
         "status": "Live",
         "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
+        "awayScore": 1,
+        "inning": 4,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Carlos Rodón",
-        "era": 3.15,
-        "whip": 1.21,
-        "k9": 9.6
+        "era": 3.09,
+        "whip": 1.15,
+        "k9": 9.7
       },
       "awayStarter": {
         "name": "Jake Bennett",
-        "era": 3.49,
-        "whip": 1.07,
-        "k9": 6.9
+        "era": 3.38,
+        "whip": 1.05,
+        "k9": 7.0
       }
     },
     {
@@ -821,23 +821,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
+        "inning": 4,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Keider Montero",
-        "era": 3.3,
-        "whip": 1.0,
+        "era": 3.2,
+        "whip": 0.98,
         "k9": 6.0
       },
       "awayStarter": {
         "name": "Blake Snell",
-        "era": 2.57,
-        "whip": 1.05,
-        "k9": 11.1
+        "era": 2.63,
+        "whip": 1.08,
+        "k9": 11.6
       }
     },
     {
@@ -852,7 +852,13 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Bailey Ober",
@@ -879,7 +885,13 @@
       "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Kyle Leahy",
@@ -906,7 +918,13 @@
       "awayTeamName": "Cincinnati Reds",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Kevin Gausman",
@@ -962,7 +980,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Matt Wilkinson",
+        "era": 6.35,
+        "whip": 1.41,
+        "k9": 3.2
+      },
       "awayStarter": {
         "name": "Merrill Kelly",
         "era": 5.35,
@@ -1121,10 +1144,10 @@
         "k9": 6.6
       },
       "awayStarter": {
-        "name": "Ryan Feltner",
-        "era": 6.08,
-        "whip": 1.55,
-        "k9": 6.5
+        "name": "Zach Agnos",
+        "era": 5.68,
+        "whip": 1.43,
+        "k9": 6.0
       }
     },
     {
