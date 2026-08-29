@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T06:32:38Z",
+  "generatedAt": "2026-08-29T17:03:03Z",
   "lastMode": "refresh",
   "date": "2026-08-29",
   "availableDates": [
@@ -764,7 +764,13 @@
       "awayTeamName": "Boston Red Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Carlos Rodón",
@@ -813,7 +819,13 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Keider Montero",
