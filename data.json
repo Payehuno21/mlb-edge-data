@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T01:59:41Z",
+  "generatedAt": "2026-08-29T06:32:38Z",
   "lastMode": "refresh",
   "date": "2026-08-29",
   "availableDates": [
@@ -766,7 +766,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Carlos Rodón",
+        "era": 3.15,
+        "whip": 1.21,
+        "k9": 9.6
+      },
       "awayStarter": {
         "name": "Jake Bennett",
         "era": 3.49,
@@ -788,7 +793,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Max Fried",
+        "era": 2.81,
+        "whip": 1.0,
+        "k9": 8.2
+      },
       "awayStarter": null
     },
     {
@@ -865,7 +875,12 @@
         "whip": 1.3,
         "k9": 8.2
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Lake Bachar",
+        "era": 3.7,
+        "whip": 1.11,
+        "k9": 9.2
+      }
     },
     {
       "gamePk": 824637,
@@ -936,7 +951,12 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": null,
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Merrill Kelly",
+        "era": 5.35,
+        "whip": 1.51,
+        "k9": 5.9
+      }
     },
     {
       "gamePk": 823176,
@@ -953,7 +973,12 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": null,
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Mitch Bratt",
+        "era": 4.54,
+        "whip": 1.56,
+        "k9": 6.3
+      }
     },
     {
       "gamePk": 822690,
@@ -1029,7 +1054,12 @@
         "whip": 1.14,
         "k9": 10.2
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Bennett Sousa",
+        "era": 6.27,
+        "whip": 1.82,
+        "k9": 10.1
+      }
     },
     {
       "gamePk": 822936,
@@ -1126,7 +1156,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Jack Perkins",
+        "era": 6.68,
+        "whip": 1.48,
+        "k9": 10.4
+      },
       "awayStarter": {
         "name": "Shane Baz",
         "era": 4.04,
@@ -1218,6 +1253,70 @@
       "awayTeamId": 136,
       "homeScore": 8,
       "awayScore": 1
+    },
+    {
+      "gamePk": 824877,
+      "dateStr": "2026-08-28",
+      "homeTeamId": 144,
+      "awayTeamId": 115,
+      "homeScore": 6,
+      "awayScore": 4
+    },
+    {
+      "gamePk": 823504,
+      "dateStr": "2026-08-28",
+      "homeTeamId": 147,
+      "awayTeamId": 111,
+      "homeScore": 1,
+      "awayScore": 0
+    },
+    {
+      "gamePk": 823744,
+      "dateStr": "2026-08-28",
+      "homeTeamId": 158,
+      "awayTeamId": 140,
+      "homeScore": 6,
+      "awayScore": 1
+    },
+    {
+      "gamePk": 823666,
+      "dateStr": "2026-08-28",
+      "homeTeamId": 142,
+      "awayTeamId": 145,
+      "homeScore": 4,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 823013,
+      "dateStr": "2026-08-28",
+      "homeTeamId": 138,
+      "awayTeamId": 134,
+      "homeScore": 4,
+      "awayScore": 1
+    },
+    {
+      "gamePk": 823985,
+      "dateStr": "2026-08-28",
+      "homeTeamId": 108,
+      "awayTeamId": 143,
+      "homeScore": 3,
+      "awayScore": 5
+    },
+    {
+      "gamePk": 824960,
+      "dateStr": "2026-08-28",
+      "homeTeamId": 133,
+      "awayTeamId": 110,
+      "homeScore": 3,
+      "awayScore": 4
+    },
+    {
+      "gamePk": 823178,
+      "dateStr": "2026-08-28",
+      "homeTeamId": 137,
+      "awayTeamId": 109,
+      "homeScore": 6,
+      "awayScore": 10
     }
   ]
 }
