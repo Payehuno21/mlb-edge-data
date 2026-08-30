@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T04:44:58Z",
+  "generatedAt": "2026-08-30T17:17:20Z",
   "lastMode": "refresh",
   "date": "2026-08-30",
   "availableDates": [
@@ -710,18 +710,24 @@
       "awayTeamName": "Miami Marlins",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 4,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Andrew Alvarez",
-        "era": 3.72,
-        "whip": 1.35,
-        "k9": 8.5
+        "era": 3.55,
+        "whip": 1.33,
+        "k9": 8.4
       },
       "awayStarter": {
         "name": "Janson Junk",
-        "era": 4.21,
-        "whip": 1.3,
+        "era": 4.05,
+        "whip": 1.28,
         "k9": 6.2
       }
     },
@@ -737,7 +743,13 @@
       "awayTeamName": "Colorado Rockies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Tyler Mahle",
@@ -764,7 +776,13 @@
       "awayTeamName": "Boston Red Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Will Warren",
@@ -872,7 +890,13 @@
       "awayTeamName": "San Diego Padres",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Drew Rasmussen",
@@ -1009,7 +1033,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Jeffrey Springs",
+        "era": 6.08,
+        "whip": 1.5,
+        "k9": 7.0
+      },
       "awayStarter": {
         "name": "Chris Bassitt",
         "era": 4.74,
@@ -1138,6 +1167,14 @@
       "awayScore": 7
     },
     {
+      "gamePk": 823176,
+      "dateStr": "2026-08-29",
+      "homeTeamId": 137,
+      "awayTeamId": 109,
+      "homeScore": 7,
+      "awayScore": 2
+    },
+    {
       "gamePk": 822690,
       "dateStr": "2026-08-29",
       "homeTeamId": 120,
@@ -1184,6 +1221,22 @@
       "awayTeamId": 140,
       "homeScore": 5,
       "awayScore": 3
+    },
+    {
+      "gamePk": 824961,
+      "dateStr": "2026-08-29",
+      "homeTeamId": 133,
+      "awayTeamId": 110,
+      "homeScore": 3,
+      "awayScore": 5
+    },
+    {
+      "gamePk": 823986,
+      "dateStr": "2026-08-29",
+      "homeTeamId": 108,
+      "awayTeamId": 143,
+      "homeScore": 2,
+      "awayScore": 4
     }
   ]
 }
