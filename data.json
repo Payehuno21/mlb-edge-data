@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T17:17:20Z",
+  "generatedAt": "2026-08-30T18:26:53Z",
   "lastMode": "refresh",
   "date": "2026-08-30",
   "availableDates": [
@@ -712,23 +712,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 0,
-        "inning": 4,
-        "inningHalf": "Bottom"
+        "inning": 8,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Andrew Alvarez",
-        "era": 3.55,
-        "whip": 1.33,
-        "k9": 8.4
+        "era": 3.47,
+        "whip": 1.31,
+        "k9": 8.5
       },
       "awayStarter": {
         "name": "Janson Junk",
-        "era": 4.05,
-        "whip": 1.28,
-        "k9": 6.2
+        "era": 4.11,
+        "whip": 1.3,
+        "k9": 6.1
       }
     },
     {
@@ -745,23 +745,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
+        "homeScore": 2,
         "awayScore": 0,
-        "inning": 1,
+        "inning": 4,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Tyler Mahle",
-        "era": 4.41,
-        "whip": 1.32,
+        "era": 4.3,
+        "whip": 1.3,
         "k9": 8.5
       },
       "awayStarter": {
         "name": "Mason Adams",
-        "era": 2.25,
-        "whip": 1.5,
-        "k9": 11.2
+        "era": 3.86,
+        "whip": 1.43,
+        "k9": 10.3
       }
     },
     {
@@ -780,21 +780,21 @@
         "status": "Live",
         "homeScore": 0,
         "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
+        "inning": 3,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Will Warren",
-        "era": 4.39,
-        "whip": 1.42,
-        "k9": 8.9
+        "era": 4.29,
+        "whip": 1.4,
+        "k9": 9.1
       },
       "awayStarter": {
         "name": "Ranger Suarez",
-        "era": 3.35,
+        "era": 3.29,
         "whip": 1.2,
-        "k9": 8.9
+        "k9": 8.8
       }
     },
     {
@@ -809,18 +809,24 @@
       "awayTeamName": "Seattle Mariners",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 0,
+        "inning": 3,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Max Scherzer",
-        "era": 7.02,
-        "whip": 1.54,
-        "k9": 6.5
+        "era": 6.62,
+        "whip": 1.47,
+        "k9": 7.0
       },
       "awayStarter": {
         "name": "Logan Gilbert",
-        "era": 3.36,
-        "whip": 1.02,
+        "era": 3.43,
+        "whip": 1.03,
         "k9": 9.4
       }
     },
@@ -836,13 +842,19 @@
       "awayTeamName": "Kansas City Royals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 1,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Parker Messick",
-        "era": 2.5,
-        "whip": 1.01,
-        "k9": 9.1
+        "era": 2.54,
+        "whip": 1.03,
+        "k9": 9.0
       },
       "awayStarter": {
         "name": "Seth Lugo",
@@ -863,7 +875,13 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Framber Valdez",
@@ -894,19 +912,19 @@
         "status": "Live",
         "homeScore": 0,
         "awayScore": 0,
-        "inning": 1,
+        "inning": 4,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Drew Rasmussen",
-        "era": 2.95,
-        "whip": 0.93,
+        "era": 2.89,
+        "whip": 0.92,
         "k9": 9.2
       },
       "awayStarter": {
         "name": "Robbie Ray",
-        "era": 3.21,
+        "era": 3.15,
         "whip": 1.31,
         "k9": 7.7
       }
@@ -923,19 +941,25 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Zebby Matthews",
-        "era": 4.86,
-        "whip": 1.31,
-        "k9": 7.6
+        "era": 4.82,
+        "whip": 1.3,
+        "k9": 7.7
       },
       "awayStarter": {
         "name": "Jordan Hicks",
-        "era": 3.83,
-        "whip": 1.53,
-        "k9": 11.0
+        "era": 3.79,
+        "whip": 1.54,
+        "k9": 10.9
       }
     },
     {
@@ -950,13 +974,19 @@
       "awayTeamName": "Texas Rangers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Dustin May",
-        "era": 4.56,
-        "whip": 1.29,
-        "k9": 8.5
+        "era": 4.52,
+        "whip": 1.3,
+        "k9": 8.6
       },
       "awayStarter": {
         "name": "Kumar Rocker",
@@ -977,11 +1007,17 @@
       "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Matthew Liberatore",
-        "era": 5.44,
+        "era": 5.41,
         "whip": 1.47,
         "k9": 9.2
       },
