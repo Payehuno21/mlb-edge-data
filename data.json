@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T19:27:57Z",
+  "generatedAt": "2026-08-31T20:40:39Z",
   "lastMode": "refresh",
   "date": "2026-08-31",
   "availableDates": [
@@ -864,7 +864,12 @@
         "whip": 1.43,
         "k9": 7.4
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Cade Povich",
+        "era": 4.45,
+        "whip": 1.41,
+        "k9": 6.7
+      }
     },
     {
       "gamePk": 823982,
