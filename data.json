@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T04:48:30Z",
+  "generatedAt": "2026-08-31T19:27:57Z",
   "lastMode": "refresh",
   "date": "2026-08-31",
   "availableDates": [
@@ -907,7 +907,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Brandon Pfaadt",
+        "era": 3.51,
+        "whip": 1.14,
+        "k9": 6.2
+      },
       "awayStarter": {
         "name": "Aaron Nola",
         "era": 5.03,
