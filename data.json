@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:28:25Z",
+  "generatedAt": "2026-09-01T17:16:21Z",
   "lastMode": "refresh",
   "date": "2026-09-01",
   "availableDates": [
@@ -854,10 +854,10 @@
         "k9": 11.8
       },
       "awayStarter": {
-        "name": "Spencer Arrighetti",
-        "era": 4.81,
-        "whip": 1.36,
-        "k9": 9.0
+        "name": "Spencer Miles",
+        "era": 2.92,
+        "whip": 1.09,
+        "k9": 8.3
       }
     },
     {
@@ -874,7 +874,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Jedixson Paez",
+        "era": 18.0,
+        "whip": 2.33,
+        "k9": 0.0
+      },
       "awayStarter": {
         "name": "Bryan Woo",
         "era": 4.36,
@@ -1227,12 +1232,28 @@
       "awayScore": 3
     },
     {
+      "gamePk": 824314,
+      "dateStr": "2026-08-31",
+      "homeTeamId": 115,
+      "awayTeamId": 110,
+      "homeScore": 1,
+      "awayScore": 2
+    },
+    {
       "gamePk": 823982,
       "dateStr": "2026-08-31",
       "homeTeamId": 108,
       "awayTeamId": 147,
       "homeScore": 10,
       "awayScore": 1
+    },
+    {
+      "gamePk": 825040,
+      "dateStr": "2026-08-31",
+      "homeTeamId": 109,
+      "awayTeamId": 143,
+      "homeScore": 1,
+      "awayScore": 2
     }
   ]
 }
