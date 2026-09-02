@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T18:26:47Z",
+  "generatedAt": "2026-09-02T21:36:41Z",
   "lastMode": "refresh",
   "date": "2026-09-02",
   "availableDates": [
@@ -765,11 +765,11 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 4,
+        "status": "Final",
+        "homeScore": 7,
         "awayScore": 3,
-        "inning": 6,
-        "inningHalf": "Bottom"
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
@@ -798,11 +798,11 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
+        "status": "Final",
         "homeScore": 0,
-        "awayScore": 0,
-        "inning": 4,
-        "inningHalf": "Top"
+        "awayScore": 9,
+        "inning": 9,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
@@ -831,24 +831,24 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
+        "status": "Final",
+        "homeScore": 2,
+        "awayScore": 9,
+        "inning": 9,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Cody Bradford",
-        "era": 3.42,
-        "whip": 1.52,
-        "k9": 4.4
+        "era": 4.45,
+        "whip": 1.58,
+        "k9": 4.8
       },
       "awayStarter": {
         "name": "Jacob Lopez",
-        "era": 4.82,
+        "era": 4.71,
         "whip": 1.46,
-        "k9": 8.7
+        "k9": 8.8
       }
     },
     {
@@ -863,19 +863,25 @@
       "awayTeamName": "Baltimore Orioles",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 3,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Tomoyuki Sugano",
-        "era": 5.23,
-        "whip": 1.36,
+        "era": 5.19,
+        "whip": 1.35,
         "k9": 5.4
       },
       "awayStarter": {
         "name": "Trevor Rogers",
-        "era": 4.38,
-        "whip": 1.25,
-        "k9": 7.9
+        "era": 4.3,
+        "whip": 1.23,
+        "k9": 8.2
       }
     },
     {
@@ -890,18 +896,24 @@
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 0,
+        "inning": 8,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Taylor Clarke",
-        "era": 2.6,
+        "era": 2.53,
         "whip": 0.88,
         "k9": 5.3
       },
       "awayStarter": {
         "name": "Andrew Painter",
-        "era": 5.95,
-        "whip": 1.44,
+        "era": 5.55,
+        "whip": 1.37,
         "k9": 7.8
       }
     },
@@ -917,19 +929,25 @@
       "awayTeamName": "Seattle Mariners",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 4,
+        "inning": 5,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Patrick Sandoval",
-        "era": 4.2,
-        "whip": 1.71,
-        "k9": 9.6
+        "era": 4.41,
+        "whip": 1.73,
+        "k9": 9.2
       },
       "awayStarter": {
         "name": "Bryce Miller",
-        "era": 4.12,
-        "whip": 1.09,
-        "k9": 8.8
+        "era": 4.04,
+        "whip": 1.11,
+        "k9": 8.7
       }
     },
     {
@@ -1288,6 +1306,30 @@
       "awayTeamId": 138,
       "homeScore": 8,
       "awayScore": 13
+    },
+    {
+      "gamePk": 824470,
+      "dateStr": "2026-09-02",
+      "homeTeamId": 113,
+      "awayTeamId": 135,
+      "homeScore": 7,
+      "awayScore": 3
+    },
+    {
+      "gamePk": 822686,
+      "dateStr": "2026-09-02",
+      "homeTeamId": 120,
+      "awayTeamId": 144,
+      "homeScore": 0,
+      "awayScore": 9
+    },
+    {
+      "gamePk": 822851,
+      "dateStr": "2026-09-02",
+      "homeTeamId": 140,
+      "awayTeamId": 133,
+      "homeScore": 2,
+      "awayScore": 9
     }
   ]
 }
