@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T17:05:21Z",
+  "generatedAt": "2026-09-02T18:26:47Z",
   "lastMode": "refresh",
   "date": "2026-09-02",
   "availableDates": [
@@ -766,23 +766,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
-        "awayScore": 2,
-        "inning": 2,
-        "inningHalf": "Top"
+        "homeScore": 4,
+        "awayScore": 3,
+        "inning": 6,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Brandon Williamson",
-        "era": 6.37,
-        "whip": 1.69,
-        "k9": 6.1
+        "era": 5.94,
+        "whip": 1.65,
+        "k9": 6.5
       },
       "awayStarter": {
         "name": "Casey Mize",
-        "era": 3.42,
-        "whip": 1.1,
-        "k9": 7.8
+        "era": 3.64,
+        "whip": 1.12,
+        "k9": 7.9
       }
     },
     {
@@ -801,21 +801,21 @@
         "status": "Live",
         "homeScore": 0,
         "awayScore": 0,
-        "inning": 1,
+        "inning": 4,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Brad Lord",
-        "era": 3.75,
-        "whip": 1.19,
-        "k9": 8.3
+        "era": 3.58,
+        "whip": 1.18,
+        "k9": 8.6
       },
       "awayStarter": {
         "name": "Grant Holmes",
-        "era": 3.71,
-        "whip": 1.34,
-        "k9": 7.2
+        "era": 3.62,
+        "whip": 1.31,
+        "k9": 7.1
       }
     },
     {
@@ -830,7 +830,13 @@
       "awayTeamName": "Athletics",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Cody Bradford",
