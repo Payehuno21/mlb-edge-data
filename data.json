@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T17:00:10Z",
+  "generatedAt": "2026-09-03T18:22:09Z",
   "lastMode": "refresh",
   "date": "2026-09-03",
   "availableDates": [
@@ -470,23 +470,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 2,
+        "homeScore": 3,
         "awayScore": 0,
-        "inning": 1,
+        "inning": 6,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Lake Bachar",
-        "era": 3.66,
-        "whip": 1.09,
+        "era": 3.59,
+        "whip": 1.08,
         "k9": 9.3
       },
       "awayStarter": {
         "name": "Blade Tidwell",
-        "era": 4.97,
-        "whip": 1.32,
-        "k9": 7.3
+        "era": 4.43,
+        "whip": 1.24,
+        "k9": 7.6
       }
     },
     {
@@ -503,23 +503,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
+        "homeScore": 1,
+        "awayScore": 1,
+        "inning": 4,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Tanner Bibee",
-        "era": 3.88,
+        "era": 3.85,
         "whip": 1.16,
-        "k9": 7.1
+        "k9": 7.2
       },
       "awayStarter": {
         "name": "José Soriano",
-        "era": 3.45,
-        "whip": 1.28,
-        "k9": 8.9
+        "era": 3.44,
+        "whip": 1.29,
+        "k9": 8.8
       }
     },
     {
@@ -534,12 +534,18 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Hunter Brown",
-        "era": 3.33,
-        "whip": 1.3,
+        "era": 3.29,
+        "whip": 1.29,
         "k9": 9.6
       },
       "awayStarter": {
