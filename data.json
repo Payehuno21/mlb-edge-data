@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T03:50:25Z",
+  "generatedAt": "2026-09-03T17:00:10Z",
   "lastMode": "refresh",
   "date": "2026-09-03",
   "availableDates": [
@@ -468,19 +468,25 @@
       "awayTeamName": "San Francisco Giants",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Lake Bachar",
-        "era": 3.7,
+        "era": 3.66,
         "whip": 1.09,
-        "k9": 9.2
+        "k9": 9.3
       },
       "awayStarter": {
         "name": "Blade Tidwell",
-        "era": 4.54,
-        "whip": 1.22,
-        "k9": 7.4
+        "era": 4.97,
+        "whip": 1.32,
+        "k9": 7.3
       }
     },
     {
@@ -495,7 +501,13 @@
       "awayTeamName": "Toronto Blue Jays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Tanner Bibee",
@@ -774,6 +786,14 @@
       "awayScore": 11
     },
     {
+      "gamePk": 823660,
+      "dateStr": "2026-09-02",
+      "homeTeamId": 142,
+      "awayTeamId": 116,
+      "homeScore": 6,
+      "awayScore": 11
+    },
+    {
       "gamePk": 824068,
       "dateStr": "2026-09-02",
       "homeTeamId": 118,
@@ -796,6 +816,22 @@
       "awayTeamId": 145,
       "homeScore": 2,
       "awayScore": 0
+    },
+    {
+      "gamePk": 823983,
+      "dateStr": "2026-09-02",
+      "homeTeamId": 108,
+      "awayTeamId": 147,
+      "homeScore": 3,
+      "awayScore": 6
+    },
+    {
+      "gamePk": 823906,
+      "dateStr": "2026-09-02",
+      "homeTeamId": 119,
+      "awayTeamId": 138,
+      "homeScore": 6,
+      "awayScore": 8
     }
   ]
 }
