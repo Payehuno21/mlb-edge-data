@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T03:52:28Z",
+  "generatedAt": "2026-09-04T16:48:22Z",
   "lastMode": "refresh",
   "date": "2026-09-04",
   "availableDates": [
@@ -1171,7 +1171,12 @@
         "whip": 1.04,
         "k9": 9.3
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Kade Morris",
+        "era": 9.82,
+        "whip": 2.11,
+        "k9": 6.1
+      }
     }
   ],
   "results": [
@@ -1230,6 +1235,22 @@
       "awayTeamId": 139,
       "homeScore": 6,
       "awayScore": 0
+    },
+    {
+      "gamePk": 823095,
+      "dateStr": "2026-09-03",
+      "homeTeamId": 136,
+      "awayTeamId": 133,
+      "homeScore": 4,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 823907,
+      "dateStr": "2026-09-03",
+      "homeTeamId": 119,
+      "awayTeamId": 138,
+      "homeScore": 3,
+      "awayScore": 2
     }
   ]
 }
