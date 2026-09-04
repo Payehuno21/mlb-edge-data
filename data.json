@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T18:08:44Z",
+  "generatedAt": "2026-09-04T21:16:16Z",
   "lastMode": "refresh",
   "date": "2026-09-04",
   "availableDates": [
@@ -758,18 +758,24 @@
       "awayTeamName": "Detroit Tigers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 6,
+        "awayScore": 6,
+        "inning": 7,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Logan Allen",
-        "era": 3.77,
-        "whip": 1.47,
-        "k9": 9.4
+        "era": 5.94,
+        "whip": 1.74,
+        "k9": 8.6
       },
       "awayStarter": {
         "name": "Keider Montero",
-        "era": 3.24,
-        "whip": 0.99,
+        "era": 3.52,
+        "whip": 1.03,
         "k9": 6.0
       }
     },
