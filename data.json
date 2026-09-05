@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T17:10:47Z",
+  "generatedAt": "2026-09-05T20:57:01Z",
   "lastMode": "refresh",
   "date": "2026-09-05",
   "availableDates": [
@@ -763,19 +763,25 @@
       "awayTeamName": "San Francisco Giants",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 3,
+        "inning": 3,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Zac Thornton",
-        "era": 2.93,
-        "whip": 1.16,
-        "k9": 6.6
+        "era": 3.23,
+        "whip": 1.17,
+        "k9": 6.8
       },
       "awayStarter": {
         "name": "Anthony Molina",
-        "era": 3.77,
-        "whip": 1.05,
-        "k9": 5.7
+        "era": 3.31,
+        "whip": 0.98,
+        "k9": 6.6
       }
     },
     {
@@ -795,17 +801,23 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 1,
+        "inning": 3,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Ryan Gusto",
         "era": 3.86,
-        "whip": 1.33,
+        "whip": 1.37,
         "k9": 7.6
       },
       "awayStarter": {
         "name": "Javier Assad",
-        "era": 3.46,
+        "era": 3.38,
         "whip": 1.1,
         "k9": 5.9
       }
