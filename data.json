@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T03:53:26Z",
+  "generatedAt": "2026-09-07T18:11:25Z",
   "lastMode": "refresh",
   "date": "2026-09-07",
   "availableDates": [
@@ -566,19 +566,25 @@
       "awayTeamName": "Atlanta Braves",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 5,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Jesús Luzardo",
-        "era": 3.02,
-        "whip": 1.12,
+        "era": 2.94,
+        "whip": 1.09,
         "k9": 11.1
       },
       "awayStarter": {
         "name": "Grant Holmes",
-        "era": 3.62,
-        "whip": 1.31,
-        "k9": 7.1
+        "era": 3.49,
+        "whip": 1.29,
+        "k9": 7.2
       }
     },
     {
@@ -593,19 +599,25 @@
       "awayTeamName": "New York Mets",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 4,
+        "awayScore": 4,
+        "inning": 3,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Eury Pérez",
-        "era": 3.72,
-        "whip": 1.18,
-        "k9": 9.6
+        "era": 3.79,
+        "whip": 1.23,
+        "k9": 9.7
       },
       "awayStarter": {
         "name": "Jonah Tong",
-        "era": 3.6,
-        "whip": 1.5,
-        "k9": 6.3
+        "era": 6.0,
+        "whip": 1.58,
+        "k9": 9.0
       }
     },
     {
@@ -620,13 +632,24 @@
       "awayTeamName": "Los Angeles Angels",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Brayan Bello",
+        "era": 4.97,
+        "whip": 1.45,
+        "k9": 6.7
+      },
       "awayStarter": {
         "name": "Grayson Rodriguez",
-        "era": 6.03,
-        "whip": 1.52,
+        "era": 6.06,
+        "whip": 1.56,
         "k9": 8.3
       }
     },
@@ -642,17 +665,23 @@
       "awayTeamName": "Cleveland Guardians",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Trevor Rogers",
-        "era": 4.3,
-        "whip": 1.23,
+        "era": 4.24,
+        "whip": 1.22,
         "k9": 8.2
       },
       "awayStarter": {
         "name": "Joey Cantillo",
-        "era": 3.81,
+        "era": 3.79,
         "whip": 1.48,
         "k9": 9.6
       }
@@ -669,15 +698,26 @@
       "awayTeamName": "Arizona Diamondbacks",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Noah Cameron",
-        "era": 4.08,
+        "era": 4.07,
         "whip": 1.22,
-        "k9": 8.1
+        "k9": 8.0
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Derek Law",
+        "era": 1.93,
+        "whip": 1.07,
+        "k9": 5.8
+      }
     },
     {
       "gamePk": 823742,
@@ -691,7 +731,13 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Robert Gasser",
@@ -726,7 +772,12 @@
         "whip": 1.03,
         "k9": 7.4
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Joe Ryan",
+        "era": 3.65,
+        "whip": 1.14,
+        "k9": 9.9
+      }
     },
     {
       "gamePk": 823254,
@@ -944,6 +995,14 @@
       "awayTeamId": 142,
       "homeScore": 10,
       "awayScore": 1
+    },
+    {
+      "gamePk": 823903,
+      "dateStr": "2026-09-06",
+      "homeTeamId": 119,
+      "awayTeamId": 120,
+      "homeScore": 7,
+      "awayScore": 5
     }
   ]
 }
