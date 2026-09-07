@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T18:11:25Z",
+  "generatedAt": "2026-09-07T19:01:00Z",
   "lastMode": "refresh",
   "date": "2026-09-07",
   "availableDates": [
@@ -567,22 +567,22 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
+        "status": "Final",
+        "homeScore": 1,
         "awayScore": 0,
-        "inning": 5,
-        "inningHalf": "Bottom"
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Jesús Luzardo",
-        "era": 2.94,
-        "whip": 1.09,
+        "era": 2.87,
+        "whip": 1.08,
         "k9": 11.1
       },
       "awayStarter": {
         "name": "Grant Holmes",
-        "era": 3.49,
+        "era": 3.46,
         "whip": 1.29,
         "k9": 7.2
       }
@@ -602,22 +602,22 @@
       "liveState": {
         "status": "Live",
         "homeScore": 4,
-        "awayScore": 4,
-        "inning": 3,
-        "inningHalf": "Top"
+        "awayScore": 7,
+        "inning": 5,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Eury Pérez",
-        "era": 3.79,
-        "whip": 1.23,
+        "era": 3.94,
+        "whip": 1.24,
         "k9": 9.7
       },
       "awayStarter": {
         "name": "Jonah Tong",
-        "era": 6.0,
-        "whip": 1.58,
-        "k9": 9.0
+        "era": 5.14,
+        "whip": 1.43,
+        "k9": 8.4
       }
     },
     {
@@ -634,22 +634,22 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 1,
+        "homeScore": 5,
         "awayScore": 0,
-        "inning": 2,
+        "inning": 4,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Brayan Bello",
-        "era": 4.97,
-        "whip": 1.45,
-        "k9": 6.7
+        "era": 4.87,
+        "whip": 1.47,
+        "k9": 6.6
       },
       "awayStarter": {
         "name": "Grayson Rodriguez",
-        "era": 6.06,
-        "whip": 1.56,
+        "era": 6.33,
+        "whip": 1.58,
         "k9": 8.3
       }
     },
@@ -667,22 +667,22 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
+        "homeScore": 4,
         "awayScore": 0,
-        "inning": 2,
+        "inning": 4,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Trevor Rogers",
-        "era": 4.24,
-        "whip": 1.22,
+        "era": 4.21,
+        "whip": 1.21,
         "k9": 8.2
       },
       "awayStarter": {
         "name": "Joey Cantillo",
-        "era": 3.79,
-        "whip": 1.48,
+        "era": 3.88,
+        "whip": 1.51,
         "k9": 9.6
       }
     },
@@ -702,21 +702,21 @@
         "status": "Live",
         "homeScore": 0,
         "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
+        "inning": 4,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Noah Cameron",
-        "era": 4.07,
-        "whip": 1.22,
-        "k9": 8.0
+        "era": 3.98,
+        "whip": 1.21,
+        "k9": 8.1
       },
       "awayStarter": {
         "name": "Derek Law",
-        "era": 1.93,
-        "whip": 1.07,
-        "k9": 5.8
+        "era": 1.35,
+        "whip": 0.9,
+        "k9": 4.0
       }
     },
     {
@@ -735,21 +735,21 @@
         "status": "Live",
         "homeScore": 0,
         "awayScore": 0,
-        "inning": 1,
+        "inning": 4,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Robert Gasser",
-        "era": 4.57,
-        "whip": 1.29,
-        "k9": 8.5
+        "era": 4.38,
+        "whip": 1.27,
+        "k9": 8.6
       },
       "awayStarter": {
         "name": "Matthew Boyd",
-        "era": 4.05,
-        "whip": 1.23,
-        "k9": 7.0
+        "era": 3.93,
+        "whip": 1.22,
+        "k9": 6.9
       }
     },
     {
@@ -764,7 +764,13 @@
       "awayTeamName": "Minnesota Twins",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Troy Melton",
@@ -1003,6 +1009,14 @@
       "awayTeamId": 120,
       "homeScore": 7,
       "awayScore": 5
+    },
+    {
+      "gamePk": 823415,
+      "dateStr": "2026-09-07",
+      "homeTeamId": 143,
+      "awayTeamId": 144,
+      "homeScore": 1,
+      "awayScore": 0
     }
   ]
 }
