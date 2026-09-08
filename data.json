@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T03:56:41Z",
+  "generatedAt": "2026-09-08T17:11:51Z",
   "lastMode": "refresh",
   "date": "2026-09-08",
   "availableDates": [
@@ -1223,6 +1223,14 @@
       "awayTeamId": 113,
       "homeScore": 6,
       "awayScore": 3
+    },
+    {
+      "gamePk": 824958,
+      "dateStr": "2026-09-07",
+      "homeTeamId": 133,
+      "awayTeamId": 141,
+      "homeScore": 6,
+      "awayScore": 5
     }
   ]
 }
