@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T18:21:28Z",
+  "generatedAt": "2026-09-08T21:36:07Z",
   "lastMode": "refresh",
   "date": "2026-09-08",
   "availableDates": [
@@ -1059,7 +1059,12 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": null,
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Cal Quantrill",
+        "era": 2.79,
+        "whip": 1.07,
+        "k9": 6.8
+      }
     },
     {
       "gamePk": 824957,
