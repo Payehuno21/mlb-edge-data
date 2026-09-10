@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T16:56:58Z",
+  "generatedAt": "2026-09-10T18:09:04Z",
   "lastMode": "refresh",
   "date": "2026-09-10",
   "availableDates": [
@@ -266,23 +266,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayScore": 0,
-        "inning": 4,
-        "inningHalf": "Top"
+        "inning": 8,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Martín Pérez",
-        "era": 3.17,
-        "whip": 1.26,
-        "k9": 6.8
+        "era": 3.08,
+        "whip": 1.25,
+        "k9": 6.7
       },
       "awayStarter": {
         "name": "Nick Martinez",
-        "era": 2.98,
-        "whip": 1.09,
-        "k9": 5.4
+        "era": 2.92,
+        "whip": 1.07,
+        "k9": 5.3
       }
     },
     {
@@ -300,22 +300,22 @@
       "liveState": {
         "status": "Live",
         "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
+        "awayScore": 1,
+        "inning": 5,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Zack Wheeler",
-        "era": 3.23,
-        "whip": 1.08,
+        "era": 3.21,
+        "whip": 1.07,
         "k9": 10.8
       },
       "awayStarter": {
         "name": "Cristian Javier",
-        "era": 5.98,
-        "whip": 1.55,
-        "k9": 9.1
+        "era": 5.53,
+        "whip": 1.45,
+        "k9": 8.7
       }
     },
     {
