@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T04:00:30Z",
+  "generatedAt": "2026-09-10T16:56:58Z",
   "lastMode": "refresh",
   "date": "2026-09-10",
   "availableDates": [
@@ -264,19 +264,25 @@
       "awayTeamName": "Tampa Bay Rays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 4,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Martín Pérez",
-        "era": 3.25,
-        "whip": 1.27,
+        "era": 3.17,
+        "whip": 1.26,
         "k9": 6.8
       },
       "awayStarter": {
         "name": "Nick Martinez",
-        "era": 3.04,
-        "whip": 1.1,
-        "k9": 5.3
+        "era": 2.98,
+        "whip": 1.09,
+        "k9": 5.4
       }
     },
     {
@@ -291,7 +297,13 @@
       "awayTeamName": "Houston Astros",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Zack Wheeler",
@@ -500,6 +512,14 @@
       "awayTeamId": 112,
       "homeScore": 8,
       "awayScore": 6
+    },
+    {
+      "gamePk": 823900,
+      "dateStr": "2026-09-09",
+      "homeTeamId": 119,
+      "awayTeamId": 113,
+      "homeScore": 14,
+      "awayScore": 1
     }
   ]
 }
