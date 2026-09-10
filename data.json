@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T18:09:04Z",
+  "generatedAt": "2026-09-10T21:26:02Z",
   "lastMode": "refresh",
   "date": "2026-09-10",
   "availableDates": [
@@ -265,11 +265,11 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
+        "status": "Final",
         "homeScore": 3,
-        "awayScore": 0,
-        "inning": 8,
-        "inningHalf": "Bottom"
+        "awayScore": 1,
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
@@ -298,24 +298,24 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 1,
-        "inning": 5,
-        "inningHalf": "Top"
+        "status": "Final",
+        "homeScore": 1,
+        "awayScore": 2,
+        "inning": 9,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Zack Wheeler",
-        "era": 3.21,
+        "era": 3.14,
         "whip": 1.07,
         "k9": 10.8
       },
       "awayStarter": {
         "name": "Cristian Javier",
-        "era": 5.53,
-        "whip": 1.45,
-        "k9": 8.7
+        "era": 5.5,
+        "whip": 1.46,
+        "k9": 8.9
       }
     },
     {
@@ -330,19 +330,25 @@
       "awayTeamName": "Texas Rangers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 3,
+        "inning": 5,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Logan Gilbert",
-        "era": 3.71,
-        "whip": 1.07,
-        "k9": 9.6
+        "era": 3.76,
+        "whip": 1.06,
+        "k9": 9.8
       },
       "awayStarter": {
         "name": "Jacob deGrom",
-        "era": 3.96,
-        "whip": 1.12,
-        "k9": 10.9
+        "era": 3.84,
+        "whip": 1.08,
+        "k9": 11.2
       }
     },
     {
@@ -520,6 +526,22 @@
       "awayTeamId": 113,
       "homeScore": 14,
       "awayScore": 1
+    },
+    {
+      "gamePk": 824872,
+      "dateStr": "2026-09-10",
+      "homeTeamId": 144,
+      "awayTeamId": 139,
+      "homeScore": 3,
+      "awayScore": 1
+    },
+    {
+      "gamePk": 823413,
+      "dateStr": "2026-09-10",
+      "homeTeamId": 143,
+      "awayTeamId": 117,
+      "homeScore": 1,
+      "awayScore": 2
     }
   ]
 }
