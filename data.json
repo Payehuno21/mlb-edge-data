@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T03:57:30Z",
+  "generatedAt": "2026-09-11T16:58:31Z",
   "lastMode": "refresh",
   "date": "2026-09-11",
   "availableDates": [
@@ -772,7 +772,12 @@
         "whip": 1.12,
         "k9": 8.8
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Wilber Dotel",
+        "era": 4.41,
+        "whip": 1.32,
+        "k9": 9.4
+      }
     },
     {
       "gamePk": 824227,
