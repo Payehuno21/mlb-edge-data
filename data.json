@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T18:11:49Z",
+  "generatedAt": "2026-09-11T21:33:15Z",
   "lastMode": "refresh",
   "date": "2026-09-11",
   "availableDates": [
@@ -765,24 +765,24 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
+        "status": "Final",
+        "homeScore": 12,
+        "awayScore": 2,
+        "inning": 9,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Shota Imanaga",
-        "era": 3.91,
+        "era": 3.88,
         "whip": 1.12,
-        "k9": 8.8
+        "k9": 8.7
       },
       "awayStarter": {
         "name": "Wilber Dotel",
-        "era": 4.41,
-        "whip": 1.32,
-        "k9": 9.4
+        "era": 4.93,
+        "whip": 1.36,
+        "k9": 9.1
       }
     },
     {
@@ -1118,7 +1118,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Merrill Kelly",
+        "era": 5.06,
+        "whip": 1.47,
+        "k9": 6.0
+      },
       "awayStarter": {
         "name": "MacKenzie Gore",
         "era": 4.51,
@@ -1193,6 +1198,14 @@
       "homeTeamId": 145,
       "awayTeamId": 134,
       "homeScore": 0,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 824631,
+      "dateStr": "2026-09-11",
+      "homeTeamId": 112,
+      "awayTeamId": 134,
+      "homeScore": 12,
       "awayScore": 2
     }
   ]
