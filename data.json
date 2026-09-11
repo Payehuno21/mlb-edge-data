@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T16:58:31Z",
+  "generatedAt": "2026-09-11T18:11:49Z",
   "lastMode": "refresh",
   "date": "2026-09-11",
   "availableDates": [
@@ -764,7 +764,13 @@
       "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Shota Imanaga",
@@ -1113,7 +1119,12 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": null,
-      "awayStarter": null
+      "awayStarter": {
+        "name": "MacKenzie Gore",
+        "era": 4.51,
+        "whip": 1.34,
+        "k9": 9.7
+      }
     },
     {
       "gamePk": 823173,
