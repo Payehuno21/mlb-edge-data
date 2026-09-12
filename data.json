@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T16:08:34Z",
+  "generatedAt": "2026-09-12T17:41:43Z",
   "lastMode": "refresh",
   "date": "2026-09-12",
   "availableDates": [
@@ -764,19 +764,25 @@
       "awayTeamName": "Colorado Rockies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Andrew Sears",
-        "era": 4.38,
-        "whip": 1.22,
-        "k9": 5.8
+        "era": 3.77,
+        "whip": 1.19,
+        "k9": 6.3
       },
       "awayStarter": {
         "name": "Tanner Gordon",
-        "era": 5.4,
-        "whip": 1.43,
-        "k9": 7.3
+        "era": 5.32,
+        "whip": 1.44,
+        "k9": 7.4
       }
     },
     {
@@ -791,12 +797,18 @@
       "awayTeamName": "New York Mets",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 1,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Gerrit Cole",
-        "era": 3.41,
-        "whip": 1.09,
+        "era": 3.49,
+        "whip": 1.1,
         "k9": 9.2
       },
       "awayStarter": {
