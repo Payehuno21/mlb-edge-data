@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T16:55:27Z",
+  "generatedAt": "2026-09-13T17:55:48Z",
   "lastMode": "refresh",
   "date": "2026-09-13",
   "availableDates": [
@@ -766,23 +766,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 5,
+        "homeScore": 8,
         "awayScore": 1,
-        "inning": 2,
-        "inningHalf": "Bottom"
+        "inning": 6,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Jackson Jobe",
-        "era": 4.45,
-        "whip": 1.38,
-        "k9": 8.6
+        "era": 4.01,
+        "whip": 1.28,
+        "k9": 8.3
       },
       "awayStarter": {
         "name": "Gabriel Hughes",
-        "era": 6.44,
+        "era": 6.37,
         "whip": 1.45,
-        "k9": 7.7
+        "k9": 7.6
       }
     },
     {
@@ -797,18 +797,24 @@
       "awayTeamName": "Los Angeles Angels",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Riley Cornelio",
-        "era": 5.26,
-        "whip": 1.6,
-        "k9": 9.5
+        "era": 5.06,
+        "whip": 1.61,
+        "k9": 9.8
       },
       "awayStarter": {
         "name": "Grayson Rodriguez",
-        "era": 6.28,
-        "whip": 1.57,
+        "era": 6.26,
+        "whip": 1.6,
         "k9": 8.3
       }
     },
@@ -824,18 +830,24 @@
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Grant Holmes",
-        "era": 3.46,
-        "whip": 1.29,
-        "k9": 7.2
+        "era": 3.44,
+        "whip": 1.28,
+        "k9": 7.1
       },
       "awayStarter": {
         "name": "Andrew Painter",
-        "era": 5.71,
-        "whip": 1.41,
+        "era": 5.74,
+        "whip": 1.43,
         "k9": 7.9
       }
     },
@@ -851,7 +863,13 @@
       "awayTeamName": "New York Mets",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Cam Schlittler",
@@ -878,13 +896,19 @@
       "awayTeamName": "Baltimore Orioles",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Dylan Cease",
-        "era": 2.4,
-        "whip": 1.04,
-        "k9": 12.7
+        "era": 2.38,
+        "whip": 1.05,
+        "k9": 12.8
       },
       "awayStarter": {
         "name": "Trevor Rogers",
@@ -905,19 +929,25 @@
       "awayTeamName": "Houston Astros",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Freddy Peralta",
-        "era": 4.82,
-        "whip": 1.36,
-        "k9": 8.3
+        "era": 4.79,
+        "whip": 1.35,
+        "k9": 8.4
       },
       "awayStarter": {
         "name": "Hayden Wesneski",
-        "era": 3.35,
-        "whip": 1.03,
-        "k9": 7.1
+        "era": 3.72,
+        "whip": 1.09,
+        "k9": 7.2
       }
     },
     {
@@ -932,19 +962,25 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Eury Pérez",
-        "era": 3.94,
-        "whip": 1.24,
+        "era": 3.91,
+        "whip": 1.23,
         "k9": 9.7
       },
       "awayStarter": {
         "name": "Emmet Sheehan",
-        "era": 5.08,
-        "whip": 1.26,
-        "k9": 10.5
+        "era": 5.03,
+        "whip": 1.25,
+        "k9": 10.6
       }
     },
     {
@@ -959,7 +995,13 @@
       "awayTeamName": "Cleveland Guardians",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Joe Ryan",
@@ -986,7 +1028,13 @@
       "awayTeamName": "Cincinnati Reds",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Robert Gasser",
@@ -1013,7 +1061,13 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Michael McGreevy",
@@ -1040,7 +1094,13 @@
       "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Matthew Boyd",
