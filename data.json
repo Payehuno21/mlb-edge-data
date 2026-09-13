@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T10:54:22Z",
+  "generatedAt": "2026-09-13T16:55:27Z",
   "lastMode": "refresh",
   "date": "2026-09-13",
   "availableDates": [
@@ -764,19 +764,25 @@
       "awayTeamName": "Colorado Rockies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 5,
+        "awayScore": 1,
+        "inning": 2,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Jackson Jobe",
         "era": 4.45,
-        "whip": 1.41,
-        "k9": 8.3
+        "whip": 1.38,
+        "k9": 8.6
       },
       "awayStarter": {
         "name": "Gabriel Hughes",
-        "era": 5.81,
-        "whip": 1.38,
-        "k9": 7.5
+        "era": 6.44,
+        "whip": 1.45,
+        "k9": 7.7
       }
     },
     {
@@ -794,10 +800,10 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Jake Irvin",
-        "era": 5.52,
-        "whip": 1.42,
-        "k9": 8.9
+        "name": "Riley Cornelio",
+        "era": 5.26,
+        "whip": 1.6,
+        "k9": 9.5
       },
       "awayStarter": {
         "name": "Grayson Rodriguez",
@@ -955,7 +961,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Joe Ryan",
+        "era": 3.68,
+        "whip": 1.13,
+        "k9": 10.1
+      },
       "awayStarter": {
         "name": "Tanner Bibee",
         "era": 4.22,
@@ -1010,7 +1021,12 @@
         "whip": 1.25,
         "k9": 6.2
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "David Sandlin",
+        "era": 6.93,
+        "whip": 1.38,
+        "k9": 8.8
+      }
     },
     {
       "gamePk": 824628,
