@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:44:18Z",
+  "generatedAt": "2026-09-14T22:16:20Z",
   "lastMode": "refresh",
   "date": "2026-09-14",
   "availableDates": [
@@ -515,7 +515,13 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Nick Lodolo",
