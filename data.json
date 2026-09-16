@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:34:41Z",
+  "generatedAt": "2026-09-16T18:41:40Z",
   "lastMode": "refresh",
   "date": "2026-09-16",
   "availableDates": [
@@ -762,21 +762,21 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 2,
-        "inningHalf": "Bottom"
+        "homeScore": 2,
+        "awayScore": 3,
+        "inning": 6,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Parker Messick",
-        "era": 2.48,
-        "whip": 1.03,
+        "era": 2.59,
+        "whip": 1.04,
         "k9": 9.4
       },
       "awayStarter": {
         "name": "Anthony Kay",
-        "era": 4.49,
+        "era": 4.41,
         "whip": 1.36,
         "k9": 7.3
       }
@@ -796,22 +796,22 @@
       "liveState": {
         "status": "Live",
         "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Bottom"
+        "awayScore": 1,
+        "inning": 6,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Matthew Liberatore",
-        "era": 5.49,
-        "whip": 1.49,
-        "k9": 9.1
+        "era": 5.4,
+        "whip": 1.48,
+        "k9": 8.9
       },
       "awayStarter": {
         "name": "Anthony Molina",
-        "era": 5.01,
-        "whip": 1.2,
-        "k9": 7.7
+        "era": 4.33,
+        "whip": 1.15,
+        "k9": 8.3
       }
     },
     {
@@ -828,23 +828,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 0,
-        "inning": 1,
+        "inning": 4,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Zebby Matthews",
-        "era": 4.98,
-        "whip": 1.27,
-        "k9": 7.5
+        "era": 4.84,
+        "whip": 1.26,
+        "k9": 7.6
       },
       "awayStarter": {
         "name": "Carlos Rodón",
-        "era": 2.94,
-        "whip": 1.12,
-        "k9": 10.0
+        "era": 2.95,
+        "whip": 1.13,
+        "k9": 9.9
       }
     },
     {
@@ -997,10 +997,10 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Robert Stock",
-        "era": 5.93,
-        "whip": 1.75,
-        "k9": 8.6
+        "name": "Xzavion Curry",
+        "era": 3.44,
+        "whip": 1.31,
+        "k9": 5.9
       },
       "awayStarter": {
         "name": "Chris Bassitt",
