@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T04:12:51Z",
+  "generatedAt": "2026-09-16T17:34:41Z",
   "lastMode": "refresh",
   "date": "2026-09-16",
   "availableDates": [
@@ -760,18 +760,24 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Parker Messick",
-        "era": 2.51,
+        "era": 2.48,
         "whip": 1.03,
-        "k9": 9.3
+        "k9": 9.4
       },
       "awayStarter": {
         "name": "Anthony Kay",
-        "era": 4.53,
-        "whip": 1.37,
+        "era": 4.49,
+        "whip": 1.36,
         "k9": 7.3
       }
     },
@@ -787,18 +793,24 @@
       "awayTeamName": "San Francisco Giants",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Matthew Liberatore",
-        "era": 5.53,
+        "era": 5.49,
         "whip": 1.49,
-        "k9": 9.2
+        "k9": 9.1
       },
       "awayStarter": {
         "name": "Anthony Molina",
-        "era": 5.24,
-        "whip": 1.25,
+        "era": 5.01,
+        "whip": 1.2,
         "k9": 7.7
       }
     },
@@ -814,7 +826,13 @@
       "awayTeamName": "New York Yankees",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Zebby Matthews",
@@ -1266,6 +1284,14 @@
       "awayTeamId": 136,
       "homeScore": 2,
       "awayScore": 1
+    },
+    {
+      "gamePk": 825030,
+      "dateStr": "2026-09-15",
+      "homeTeamId": 109,
+      "awayTeamId": 146,
+      "homeScore": 2,
+      "awayScore": 4
     }
   ]
 }
