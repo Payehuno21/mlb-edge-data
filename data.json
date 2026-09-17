@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:50:06Z",
+  "generatedAt": "2026-09-17T21:55:36Z",
   "lastMode": "refresh",
   "date": "2026-09-17",
   "availableDates": [
@@ -464,11 +464,11 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 5,
-        "awayScore": 2,
-        "inning": 7,
-        "inningHalf": "Bottom"
+        "status": "Final",
+        "homeScore": 7,
+        "awayScore": 4,
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
@@ -497,10 +497,10 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 1,
-        "awayScore": 7,
-        "inning": 7,
+        "status": "Final",
+        "homeScore": 2,
+        "awayScore": 8,
+        "inning": 9,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
@@ -530,11 +530,11 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 6,
+        "status": "Final",
+        "homeScore": 10,
         "awayScore": 1,
-        "inning": 6,
-        "inningHalf": "Bottom"
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
@@ -564,23 +564,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
+        "homeScore": 2,
+        "awayScore": 9,
+        "inning": 9,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Tanner Gordon",
-        "era": 5.55,
-        "whip": 1.48,
+        "era": 6.01,
+        "whip": 1.55,
         "k9": 7.5
       },
       "awayStarter": {
         "name": "Michael King",
         "era": 3.03,
-        "whip": 1.15,
-        "k9": 7.6
+        "whip": 1.16,
+        "k9": 7.7
       }
     },
     {
@@ -597,7 +597,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Miguel Ullola",
+        "era": 3.38,
+        "whip": 0.75,
+        "k9": 11.2
+      },
       "awayStarter": {
         "name": "Seth Lugo",
         "era": 4.99,
@@ -834,6 +839,30 @@
       "awayTeamId": 146,
       "homeScore": 3,
       "awayScore": 4
+    },
+    {
+      "gamePk": 823334,
+      "dateStr": "2026-09-17",
+      "homeTeamId": 134,
+      "awayTeamId": 158,
+      "homeScore": 7,
+      "awayScore": 4
+    },
+    {
+      "gamePk": 824464,
+      "dateStr": "2026-09-17",
+      "homeTeamId": 113,
+      "awayTeamId": 119,
+      "homeScore": 2,
+      "awayScore": 8
+    },
+    {
+      "gamePk": 822924,
+      "dateStr": "2026-09-17",
+      "homeTeamId": 139,
+      "awayTeamId": 133,
+      "homeScore": 10,
+      "awayScore": 1
     }
   ]
 }
