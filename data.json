@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:34:12Z",
+  "generatedAt": "2026-09-17T18:50:06Z",
   "lastMode": "refresh",
   "date": "2026-09-17",
   "availableDates": [
@@ -466,8 +466,8 @@
       "liveState": {
         "status": "Live",
         "homeScore": 5,
-        "awayScore": 1,
-        "inning": 3,
+        "awayScore": 2,
+        "inning": 7,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
@@ -498,21 +498,21 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
-        "awayScore": 4,
-        "inning": 4,
-        "inningHalf": "Top"
+        "homeScore": 1,
+        "awayScore": 7,
+        "inning": 7,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Brady Singer",
-        "era": 5.51,
-        "whip": 1.54,
+        "era": 5.67,
+        "whip": 1.56,
         "k9": 7.3
       },
       "awayStarter": {
         "name": "Justin Wrobleski",
-        "era": 3.71,
+        "era": 3.7,
         "whip": 1.13,
         "k9": 7.5
       }
@@ -531,23 +531,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 2,
+        "homeScore": 6,
+        "awayScore": 1,
+        "inning": 6,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Drew Rasmussen",
-        "era": 2.77,
-        "whip": 0.91,
-        "k9": 9.0
+        "era": 2.72,
+        "whip": 0.93,
+        "k9": 8.9
       },
       "awayStarter": {
         "name": "Jeffrey Springs",
-        "era": 5.89,
-        "whip": 1.45,
-        "k9": 7.0
+        "era": 6.18,
+        "whip": 1.47,
+        "k9": 7.1
       }
     },
     {
@@ -562,7 +562,13 @@
       "awayTeamName": "San Diego Padres",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Tanner Gordon",
