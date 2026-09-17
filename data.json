@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T04:19:40Z",
+  "generatedAt": "2026-09-17T17:34:12Z",
   "lastMode": "refresh",
   "date": "2026-09-17",
   "availableDates": [
@@ -463,18 +463,24 @@
       "awayTeamName": "Milwaukee Brewers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 5,
+        "awayScore": 1,
+        "inning": 3,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Wilber Dotel",
-        "era": 4.84,
-        "whip": 1.36,
+        "era": 4.82,
+        "whip": 1.39,
         "k9": 9.2
       },
       "awayStarter": {
         "name": "Kyle Harrison",
-        "era": 3.98,
-        "whip": 1.31,
+        "era": 4.25,
+        "whip": 1.34,
         "k9": 10.9
       }
     },
@@ -490,18 +496,24 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 4,
+        "inning": 4,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Brady Singer",
-        "era": 5.38,
-        "whip": 1.51,
-        "k9": 7.5
+        "era": 5.51,
+        "whip": 1.54,
+        "k9": 7.3
       },
       "awayStarter": {
         "name": "Justin Wrobleski",
-        "era": 3.78,
-        "whip": 1.16,
+        "era": 3.71,
+        "whip": 1.13,
         "k9": 7.5
       }
     },
@@ -517,17 +529,23 @@
       "awayTeamName": "Athletics",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Drew Rasmussen",
-        "era": 2.81,
-        "whip": 0.92,
+        "era": 2.77,
+        "whip": 0.91,
         "k9": 9.0
       },
       "awayStarter": {
         "name": "Jeffrey Springs",
-        "era": 5.93,
+        "era": 5.89,
         "whip": 1.45,
         "k9": 7.0
       }
@@ -794,6 +812,22 @@
       "awayTeamId": 135,
       "homeScore": 3,
       "awayScore": 9
+    },
+    {
+      "gamePk": 823979,
+      "dateStr": "2026-09-16",
+      "homeTeamId": 108,
+      "awayTeamId": 136,
+      "homeScore": 2,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 825031,
+      "dateStr": "2026-09-16",
+      "homeTeamId": 109,
+      "awayTeamId": 146,
+      "homeScore": 3,
+      "awayScore": 4
     }
   ]
 }
