@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T17:00:16Z",
+  "generatedAt": "2026-09-18T18:05:45Z",
   "lastMode": "refresh",
   "date": "2026-09-18",
   "availableDates": [
@@ -814,7 +814,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Cade Povich",
+        "era": 4.05,
+        "whip": 1.44,
+        "k9": 6.8
+      },
       "awayStarter": {
         "name": "Dustin May",
         "era": 4.49,
