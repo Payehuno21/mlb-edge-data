@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:05:45Z",
+  "generatedAt": "2026-09-18T21:26:30Z",
   "lastMode": "refresh",
   "date": "2026-09-18",
   "availableDates": [
@@ -901,7 +901,12 @@
         "whip": 1.16,
         "k9": 6.8
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Tim Mayza",
+        "era": 3.06,
+        "whip": 1.05,
+        "k9": 8.8
+      }
     },
     {
       "gamePk": 824547,
@@ -971,7 +976,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Gabriel Hughes",
+        "era": 6.37,
+        "whip": 1.45,
+        "k9": 7.6
+      },
       "awayStarter": {
         "name": "Bryan Woo",
         "era": 3.88,
