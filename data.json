@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T17:48:19Z",
+  "generatedAt": "2026-09-19T21:18:46Z",
   "lastMode": "refresh",
   "date": "2026-09-19",
   "availableDates": [
@@ -759,24 +759,24 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
+        "status": "Final",
+        "homeScore": 3,
+        "awayScore": 1,
+        "inning": 9,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Sean Burke",
-        "era": 3.47,
+        "era": 3.4,
         "whip": 1.2,
-        "k9": 9.7
+        "k9": 9.6
       },
       "awayStarter": {
         "name": "Jackson Jobe",
-        "era": 3.89,
-        "whip": 1.27,
-        "k9": 8.8
+        "era": 3.98,
+        "whip": 1.2,
+        "k9": 9.5
       }
     },
     {
@@ -791,19 +791,25 @@
       "awayTeamName": "Milwaukee Brewers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 1,
+        "inning": 5,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Trevor Rogers",
-        "era": 4.22,
-        "whip": 1.22,
+        "era": 4.15,
+        "whip": 1.19,
         "k9": 8.2
       },
       "awayStarter": {
         "name": "Robert Gasser",
-        "era": 4.3,
-        "whip": 1.27,
-        "k9": 8.6
+        "era": 4.1,
+        "whip": 1.24,
+        "k9": 8.4
       }
     },
     {
@@ -818,19 +824,25 @@
       "awayTeamName": "Boston Red Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 1,
+        "inning": 4,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Freddy Peralta",
-        "era": 4.67,
-        "whip": 1.34,
-        "k9": 8.3
+        "era": 4.61,
+        "whip": 1.33,
+        "k9": 8.4
       },
       "awayStarter": {
         "name": "Brayan Bello",
-        "era": 4.74,
-        "whip": 1.43,
-        "k9": 6.8
+        "era": 4.67,
+        "whip": 1.41,
+        "k9": 7.0
       }
     },
     {
@@ -845,18 +857,24 @@
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 1,
+        "inning": 4,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Christian Scott",
-        "era": 3.76,
+        "era": 3.73,
         "whip": 1.26,
-        "k9": 10.8
+        "k9": 10.9
       },
       "awayStarter": {
         "name": "Andrew Painter",
-        "era": 5.54,
-        "whip": 1.44,
+        "era": 5.48,
+        "whip": 1.42,
         "k9": 7.8
       }
     },
@@ -1278,6 +1296,14 @@
       "awayTeamId": 137,
       "homeScore": 8,
       "awayScore": 2
+    },
+    {
+      "gamePk": 824545,
+      "dateStr": "2026-09-19",
+      "homeTeamId": 145,
+      "awayTeamId": 116,
+      "homeScore": 3,
+      "awayScore": 1
     }
   ]
 }
