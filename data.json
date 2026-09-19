@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T04:00:20Z",
+  "generatedAt": "2026-09-19T16:20:27Z",
   "lastMode": "refresh",
   "date": "2026-09-19",
   "availableDates": [
@@ -1025,7 +1025,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Jose Quintana",
+        "era": 5.27,
+        "whip": 1.51,
+        "k9": 4.4
+      },
       "awayStarter": {
         "name": "Bryce Miller",
         "era": 4.19,
@@ -1233,6 +1238,30 @@
       "awayTeamId": 142,
       "homeScore": 0,
       "awayScore": 3
+    },
+    {
+      "gamePk": 823252,
+      "dateStr": "2026-09-18",
+      "homeTeamId": 135,
+      "awayTeamId": 146,
+      "homeScore": 8,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 825032,
+      "dateStr": "2026-09-18",
+      "homeTeamId": 109,
+      "awayTeamId": 147,
+      "homeScore": 2,
+      "awayScore": 9
+    },
+    {
+      "gamePk": 823898,
+      "dateStr": "2026-09-18",
+      "homeTeamId": 119,
+      "awayTeamId": 137,
+      "homeScore": 8,
+      "awayScore": 2
     }
   ]
 }
