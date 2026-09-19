@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T16:20:27Z",
+  "generatedAt": "2026-09-19T17:48:19Z",
   "lastMode": "refresh",
   "date": "2026-09-19",
   "availableDates": [
@@ -758,7 +758,13 @@
       "awayTeamName": "Detroit Tigers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Sean Burke",
@@ -820,7 +826,12 @@
         "whip": 1.34,
         "k9": 8.3
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Brayan Bello",
+        "era": 4.74,
+        "whip": 1.43,
+        "k9": 6.8
+      }
     },
     {
       "gamePk": 823571,
@@ -1112,7 +1123,12 @@
         "whip": 0.95,
         "k9": 10.6
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Yunior Marte",
+        "era": 2.45,
+        "whip": 1.09,
+        "k9": 5.5
+      }
     },
     {
       "gamePk": 823976,
