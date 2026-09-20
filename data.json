@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T04:19:24Z",
+  "generatedAt": "2026-09-20T16:43:53Z",
   "lastMode": "refresh",
   "date": "2026-09-20",
   "availableDates": [
@@ -820,7 +820,12 @@
         "whip": 1.52,
         "k9": 7.1
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "David Peterson",
+        "era": 5.11,
+        "whip": 1.55,
+        "k9": 8.1
+      }
     },
     {
       "gamePk": 824381,
@@ -977,7 +982,12 @@
         "whip": 1.07,
         "k9": 11.3
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Spencer Miles",
+        "era": 2.65,
+        "whip": 1.09,
+        "k9": 8.5
+      }
     },
     {
       "gamePk": 824300,
@@ -1048,7 +1058,12 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": null,
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Matt Wilkinson",
+        "era": 4.58,
+        "whip": 1.12,
+        "k9": 5.5
+      }
     },
     {
       "gamePk": 823247,
@@ -1230,12 +1245,28 @@
       "awayScore": 3
     },
     {
+      "gamePk": 823249,
+      "dateStr": "2026-09-19",
+      "homeTeamId": 135,
+      "awayTeamId": 146,
+      "homeScore": 7,
+      "awayScore": 6
+    },
+    {
       "gamePk": 823899,
       "dateStr": "2026-09-19",
       "homeTeamId": 119,
       "awayTeamId": 137,
       "homeScore": 10,
       "awayScore": 4
+    },
+    {
+      "gamePk": 823976,
+      "dateStr": "2026-09-19",
+      "homeTeamId": 108,
+      "awayTeamId": 142,
+      "homeScore": 6,
+      "awayScore": 5
     }
   ]
 }
