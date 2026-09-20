@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:43:53Z",
+  "generatedAt": "2026-09-20T18:00:39Z",
   "lastMode": "refresh",
   "date": "2026-09-20",
   "availableDates": [
@@ -758,19 +758,25 @@
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 4,
+        "inning": 3,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Jonah Tong",
-        "era": 3.43,
-        "whip": 1.19,
-        "k9": 8.6
+        "era": 4.56,
+        "whip": 1.31,
+        "k9": 8.8
       },
       "awayStarter": {
         "name": "Cristopher Sánchez",
-        "era": 2.93,
+        "era": 2.9,
         "whip": 1.22,
-        "k9": 10.0
+        "k9": 9.9
       }
     },
     {
@@ -785,17 +791,23 @@
       "awayTeamName": "Kansas City Royals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 1,
+        "inning": 2,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Lake Bachar",
-        "era": 3.5,
-        "whip": 1.12,
+        "era": 3.56,
+        "whip": 1.14,
         "k9": 9.4
       },
       "awayStarter": {
         "name": "Michael Wacha",
-        "era": 3.34,
+        "era": 3.32,
         "whip": 1.1,
         "k9": 7.1
       }
@@ -812,19 +824,25 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 1,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Rhett Lowder",
-        "era": 5.79,
-        "whip": 1.52,
+        "era": 5.82,
+        "whip": 1.53,
         "k9": 7.1
       },
       "awayStarter": {
         "name": "David Peterson",
-        "era": 5.11,
+        "era": 5.09,
         "whip": 1.55,
-        "k9": 8.1
+        "k9": 8.2
       }
     },
     {
@@ -866,18 +884,24 @@
       "awayTeamName": "Boston Red Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 4,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Griffin Jax",
-        "era": 3.8,
+        "era": 3.76,
         "whip": 1.2,
-        "k9": 9.5
+        "k9": 9.6
       },
       "awayStarter": {
         "name": "Patrick Sandoval",
-        "era": 4.99,
-        "whip": 1.79,
+        "era": 5.62,
+        "whip": 1.86,
         "k9": 9.7
       }
     },
@@ -893,7 +917,13 @@
       "awayTeamName": "Atlanta Braves",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Hunter Brown",
@@ -947,7 +977,13 @@
       "awayTeamName": "Washington Nationals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Quinn Mathews",
@@ -974,7 +1010,13 @@
       "awayTeamName": "Toronto Blue Jays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Jacob deGrom",
