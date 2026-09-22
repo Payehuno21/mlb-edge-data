@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T17:35:32Z",
+  "generatedAt": "2026-09-22T18:32:27Z",
   "lastMode": "refresh",
   "date": "2026-09-22",
   "availableDates": [
@@ -54,54 +54,6 @@
         "name": "Chandler Simpson",
         "avg": 0.309,
         "pa": 597
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 110,
-      "abbr": "BAL",
-      "name": "Baltimore Orioles",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.5,
-      "staffEra": 4.15,
-      "bullpenRecentIp": 9.3,
-      "topPowerHitter": {
-        "name": "Coby Mayo",
-        "hrRate": 0.0571,
-        "pa": 420
-      },
-      "topContactHitter": {
-        "name": "Christian Encarnacion-Strand",
-        "avg": 0.277,
-        "pa": 188
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 141,
-      "abbr": "TOR",
-      "name": "Toronto Blue Jays",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.05,
-      "staffEra": 4.03,
-      "bullpenRecentIp": 11.7,
-      "topPowerHitter": {
-        "name": "Kazuma Okamoto",
-        "hrRate": 0.055,
-        "pa": 600
-      },
-      "topContactHitter": {
-        "name": "Brett Bateman",
-        "avg": 0.333,
-        "pa": 157
       },
       "missingStarters": []
     },
@@ -742,6 +694,54 @@
         "pa": 159
       },
       "missingStarters": []
+    },
+    {
+      "id": 110,
+      "abbr": "BAL",
+      "name": "Baltimore Orioles",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.5,
+      "staffEra": 4.15,
+      "bullpenRecentIp": 9.3,
+      "topPowerHitter": {
+        "name": "Coby Mayo",
+        "hrRate": 0.0571,
+        "pa": 420
+      },
+      "topContactHitter": {
+        "name": "Christian Encarnacion-Strand",
+        "avg": 0.277,
+        "pa": 188
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 141,
+      "abbr": "TOR",
+      "name": "Toronto Blue Jays",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.05,
+      "staffEra": 4.03,
+      "bullpenRecentIp": 11.7,
+      "topPowerHitter": {
+        "name": "Kazuma Okamoto",
+        "hrRate": 0.055,
+        "pa": 600
+      },
+      "topContactHitter": {
+        "name": "Brett Bateman",
+        "avg": 0.333,
+        "pa": 157
+      },
+      "missingStarters": []
     }
   ],
   "games": [
@@ -759,23 +759,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
+        "homeScore": 2,
         "awayScore": 0,
-        "inning": 3,
+        "inning": 6,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Carlos Rodón",
-        "era": 2.87,
-        "whip": 1.11,
-        "k9": 9.9
+        "era": 2.76,
+        "whip": 1.08,
+        "k9": 9.8
       },
       "awayStarter": {
         "name": "Nick Martinez",
-        "era": 2.91,
-        "whip": 1.06,
-        "k9": 5.3
+        "era": 2.96,
+        "whip": 1.07,
+        "k9": 5.5
       }
     },
     {
@@ -803,33 +803,6 @@
         "era": 2.72,
         "whip": 0.93,
         "k9": 8.9
-      }
-    },
-    {
-      "gamePk": 824785,
-      "gameDate": "2026-09-22T22:35:00Z",
-      "gameDateStr": "2026-09-22",
-      "venue": "Oriole Park at Camden Yards",
-      "weather": null,
-      "homeTeamId": 110,
-      "awayTeamId": 141,
-      "homeTeamName": "Baltimore Orioles",
-      "awayTeamName": "Toronto Blue Jays",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Chris Bassitt",
-        "era": 4.64,
-        "whip": 1.55,
-        "k9": 6.7
-      },
-      "awayStarter": {
-        "name": "Max Scherzer",
-        "era": 6.07,
-        "whip": 1.36,
-        "k9": 6.7
       }
     },
     {
@@ -1177,6 +1150,39 @@
         "whip": 1.16,
         "k9": 7.7
       }
+    },
+    {
+      "gamePk": 824785,
+      "gameDate": "2026-09-22T22:35:00Z",
+      "gameDateStr": "2026-09-22",
+      "venue": "Oriole Park at Camden Yards",
+      "weather": null,
+      "homeTeamId": 110,
+      "awayTeamId": 141,
+      "homeTeamName": "Baltimore Orioles",
+      "awayTeamName": "Toronto Blue Jays",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": {
+        "status": "Final",
+        "homeScore": null,
+        "awayScore": null,
+        "inning": null,
+        "inningHalf": null
+      },
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Chris Bassitt",
+        "era": 4.64,
+        "whip": 1.55,
+        "k9": 6.7
+      },
+      "awayStarter": {
+        "name": "Max Scherzer",
+        "era": 6.07,
+        "whip": 1.36,
+        "k9": 6.7
+      }
     }
   ],
   "results": [
@@ -1203,6 +1209,14 @@
       "awayTeamId": 142,
       "homeScore": 5,
       "awayScore": 2
+    },
+    {
+      "gamePk": 824785,
+      "dateStr": "2026-09-22",
+      "homeTeamId": 110,
+      "awayTeamId": 141,
+      "homeScore": null,
+      "awayScore": null
     }
   ]
 }
