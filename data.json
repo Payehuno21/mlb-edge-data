@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T04:10:05Z",
+  "generatedAt": "2026-09-23T17:47:21Z",
   "lastMode": "refresh",
   "date": "2026-09-23",
   "availableDates": [
@@ -757,19 +757,25 @@
       "awayTeamName": "Washington Nationals",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 3,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Framber Valdez",
-        "era": 4.06,
-        "whip": 1.36,
-        "k9": 6.9
+        "era": 3.98,
+        "whip": 1.34,
+        "k9": 7.0
       },
       "awayStarter": {
         "name": "Richard Lovelady",
-        "era": 3.86,
-        "whip": 1.84,
-        "k9": 8.3
+        "era": 3.71,
+        "whip": 1.82,
+        "k9": 7.9
       }
     },
     {
@@ -785,14 +791,19 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Final",
-        "homeScore": null,
-        "awayScore": null,
-        "inning": null,
-        "inningHalf": null
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
       },
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Chris Bassitt",
+        "era": 4.61,
+        "whip": 1.55,
+        "k9": 6.6
+      },
       "awayStarter": {
         "name": "Max Scherzer",
         "era": 6.07,
@@ -919,10 +930,10 @@
         "k9": 9.1
       },
       "awayStarter": {
-        "name": "Ian Seymour",
-        "era": 4.38,
-        "whip": 1.17,
-        "k9": 11.0
+        "name": "Mason Englert",
+        "era": 4.54,
+        "whip": 1.43,
+        "k9": 8.1
       }
     },
     {
@@ -1047,7 +1058,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Cody Bradford",
+        "era": 4.19,
+        "whip": 1.5,
+        "k9": 4.7
+      },
       "awayStarter": {
         "name": "Nolan McLean",
         "era": 3.18,
@@ -1156,7 +1172,12 @@
         "whip": 1.39,
         "k9": 7.6
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Ethan Pecko",
+        "era": 3.77,
+        "whip": 1.12,
+        "k9": 6.0
+      }
     }
   ],
   "results": [
@@ -1247,6 +1268,38 @@
       "awayTeamId": 109,
       "homeScore": 2,
       "awayScore": 7
+    },
+    {
+      "gamePk": 824953,
+      "dateStr": "2026-09-22",
+      "homeTeamId": 133,
+      "awayTeamId": 108,
+      "homeScore": 9,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 823089,
+      "dateStr": "2026-09-22",
+      "homeTeamId": 136,
+      "awayTeamId": 117,
+      "homeScore": 0,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 823166,
+      "dateStr": "2026-09-22",
+      "homeTeamId": 137,
+      "awayTeamId": 142,
+      "homeScore": 2,
+      "awayScore": 3
+    },
+    {
+      "gamePk": 823897,
+      "dateStr": "2026-09-22",
+      "homeTeamId": 119,
+      "awayTeamId": 135,
+      "homeScore": 7,
+      "awayScore": 0
     },
     {
       "gamePk": 824785,
