@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T18:52:36Z",
+  "generatedAt": "2026-09-23T22:05:20Z",
   "lastMode": "refresh",
   "date": "2026-09-23",
   "availableDates": [
@@ -758,16 +758,16 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 1,
-        "awayScore": 3,
-        "inning": 6,
+        "status": "Final",
+        "homeScore": 2,
+        "awayScore": 4,
+        "inning": 9,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Framber Valdez",
-        "era": 3.98,
+        "era": 4.03,
         "whip": 1.36,
         "k9": 7.0
       },
@@ -791,24 +791,24 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 2,
-        "awayScore": 0,
-        "inning": 4,
-        "inningHalf": "Bottom"
+        "status": "Final",
+        "homeScore": 4,
+        "awayScore": 2,
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Chris Bassitt",
-        "era": 4.46,
-        "whip": 1.52,
-        "k9": 6.6
+        "era": 4.59,
+        "whip": 1.55,
+        "k9": 6.5
       },
       "awayStarter": {
         "name": "Max Scherzer",
-        "era": 5.99,
+        "era": 6.14,
         "whip": 1.36,
-        "k9": 6.9
+        "k9": 7.1
       }
     },
     {
@@ -825,8 +825,18 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
-      "awayStarter": null
+      "homeStarter": {
+        "name": "Trey Gibson",
+        "era": 7.36,
+        "whip": 1.91,
+        "k9": 8.2
+      },
+      "awayStarter": {
+        "name": "CJ Van Eyk",
+        "era": 4.05,
+        "whip": 1.95,
+        "k9": 1.4
+      }
     },
     {
       "gamePk": 823168,
@@ -840,19 +850,25 @@
       "awayTeamName": "Minnesota Twins",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 4,
+        "inning": 9,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Cesar Perdomo",
-        "era": 3.72,
-        "whip": 1.5,
-        "k9": 5.6
+        "era": 3.65,
+        "whip": 1.38,
+        "k9": 5.1
       },
       "awayStarter": {
         "name": "Connor Prielipp",
-        "era": 4.94,
-        "whip": 1.3,
-        "k9": 9.3
+        "era": 4.87,
+        "whip": 1.29,
+        "k9": 9.2
       }
     },
     {
@@ -1308,6 +1324,22 @@
       "awayTeamId": 141,
       "homeScore": null,
       "awayScore": null
+    },
+    {
+      "gamePk": 824223,
+      "dateStr": "2026-09-23",
+      "homeTeamId": 116,
+      "awayTeamId": 120,
+      "homeScore": 2,
+      "awayScore": 4
+    },
+    {
+      "gamePk": 824785,
+      "dateStr": "2026-09-23",
+      "homeTeamId": 110,
+      "awayTeamId": 141,
+      "homeScore": 4,
+      "awayScore": 2
     }
   ]
 }
