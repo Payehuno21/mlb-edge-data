@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T18:50:44Z",
+  "generatedAt": "2026-09-24T22:00:13Z",
   "lastMode": "refresh",
   "date": "2026-09-24",
   "availableDates": [
@@ -610,10 +610,10 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 1,
+        "status": "Final",
+        "homeScore": 2,
         "awayScore": 1,
-        "inning": 8,
+        "inning": 9,
         "inningHalf": "Top"
       },
       "autoProps": [],
@@ -643,10 +643,10 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 6,
-        "inning": 2,
+        "status": "Final",
+        "homeScore": 1,
+        "awayScore": 9,
+        "inning": 9,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
@@ -658,8 +658,8 @@
       },
       "awayStarter": {
         "name": "David Sandlin",
-        "era": 6.11,
-        "whip": 1.27,
+        "era": 5.58,
+        "whip": 1.21,
         "k9": 8.9
       }
     },
@@ -676,24 +676,24 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 2,
-        "inningHalf": "Bottom"
+        "status": "Final",
+        "homeScore": 2,
+        "awayScore": 1,
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Matthew Boyd",
-        "era": 3.99,
-        "whip": 1.22,
-        "k9": 6.9
+        "era": 3.91,
+        "whip": 1.21,
+        "k9": 6.8
       },
       "awayStarter": {
         "name": "Tyler Phillips",
-        "era": 3.42,
-        "whip": 1.31,
-        "k9": 7.3
+        "era": 3.34,
+        "whip": 1.33,
+        "k9": 7.2
       }
     },
     {
@@ -709,23 +709,23 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
+        "status": "Final",
+        "homeScore": 3,
         "awayScore": 1,
-        "inning": 1,
-        "inningHalf": "Bottom"
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Kumar Rocker",
-        "era": 4.5,
-        "whip": 1.42,
+        "era": 4.38,
+        "whip": 1.41,
         "k9": 8.4
       },
       "awayStarter": {
         "name": "Zac Thornton",
-        "era": 3.4,
-        "whip": 1.15,
+        "era": 3.42,
+        "whip": 1.14,
         "k9": 6.7
       }
     },
@@ -743,23 +743,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
+        "homeScore": 7,
+        "awayScore": 12,
+        "inning": 8,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Tanner Gordon",
-        "era": 6.01,
-        "whip": 1.55,
-        "k9": 7.5
+        "era": 6.68,
+        "whip": 1.66,
+        "k9": 7.4
       },
       "awayStarter": {
         "name": "Eduardo Rodriguez",
         "era": 2.89,
-        "whip": 1.23,
-        "k9": 6.9
+        "whip": 1.24,
+        "k9": 6.8
       }
     },
     {
@@ -774,7 +774,13 @@
       "awayTeamName": "Milwaukee Brewers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Andrew Painter",
@@ -1080,6 +1086,38 @@
       "awayTeamId": 117,
       "homeScore": 6,
       "awayScore": 5
+    },
+    {
+      "gamePk": 823326,
+      "dateStr": "2026-09-24",
+      "homeTeamId": 134,
+      "awayTeamId": 138,
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "gamePk": 824059,
+      "dateStr": "2026-09-24",
+      "homeTeamId": 118,
+      "awayTeamId": 145,
+      "homeScore": 1,
+      "awayScore": 9
+    },
+    {
+      "gamePk": 824623,
+      "dateStr": "2026-09-24",
+      "homeTeamId": 112,
+      "awayTeamId": 146,
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "gamePk": 822842,
+      "dateStr": "2026-09-24",
+      "homeTeamId": 140,
+      "awayTeamId": 121,
+      "homeScore": 3,
+      "awayScore": 1
     }
   ]
 }
