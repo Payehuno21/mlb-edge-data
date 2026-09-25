@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T04:19:12Z",
+  "generatedAt": "2026-09-25T17:52:30Z",
   "lastMode": "refresh",
   "date": "2026-09-25",
   "availableDates": [
@@ -763,19 +763,30 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 3,
+        "inning": 3,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Alec Gamboa",
+        "era": 1.91,
+        "whip": 1.15,
+        "k9": 6.3
+      },
       "awayStarter": {
         "name": "Clay Holmes",
-        "era": 3.25,
-        "whip": 1.16,
-        "k9": 7.0
+        "era": 3.18,
+        "whip": 1.17,
+        "k9": 6.9
       }
     },
     {
       "gamePk": 824706,
-      "gameDate": "2026-09-25T22:05:00Z",
+      "gameDate": "2026-09-25T21:35:00Z",
       "gameDateStr": "2026-09-25",
       "venue": "Fenway Park",
       "weather": null,
@@ -801,7 +812,7 @@
       }
     },
     {
-      "gamePk": 823489,
+      "gamePk": 823491,
       "gameDate": "2026-09-25T20:05:00Z",
       "gameDateStr": "2026-09-25",
       "venue": "Yankee Stadium",
@@ -828,7 +839,7 @@
       }
     },
     {
-      "gamePk": 823491,
+      "gamePk": 823489,
       "gameDate": "2026-09-25T20:10:00Z",
       "gameDateStr": "2026-09-25",
       "venue": "Yankee Stadium",
@@ -1097,7 +1108,12 @@
         "whip": 1.53,
         "k9": 8.3
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Hunter Brown",
+        "era": 3.26,
+        "whip": 1.27,
+        "k9": 10.6
+      }
     },
     {
       "gamePk": 823248,
@@ -1248,6 +1264,30 @@
       "awayTeamId": 113,
       "homeScore": 6,
       "awayScore": 7
+    },
+    {
+      "gamePk": 824950,
+      "dateStr": "2026-09-24",
+      "homeTeamId": 133,
+      "awayTeamId": 117,
+      "homeScore": 5,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 823087,
+      "dateStr": "2026-09-24",
+      "homeTeamId": 136,
+      "awayTeamId": 108,
+      "homeScore": 4,
+      "awayScore": 6
+    },
+    {
+      "gamePk": 823895,
+      "dateStr": "2026-09-24",
+      "homeTeamId": 119,
+      "awayTeamId": 135,
+      "homeScore": 2,
+      "awayScore": 4
     }
   ]
 }
