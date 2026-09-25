@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T17:52:30Z",
+  "generatedAt": "2026-09-25T19:08:39Z",
   "lastMode": "refresh",
   "date": "2026-09-25",
   "availableDates": [
@@ -765,10 +765,10 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
+        "homeScore": 3,
         "awayScore": 3,
-        "inning": 3,
-        "inningHalf": "Bottom"
+        "inning": 7,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
@@ -779,8 +779,8 @@
       },
       "awayStarter": {
         "name": "Clay Holmes",
-        "era": 3.18,
-        "whip": 1.17,
+        "era": 3.29,
+        "whip": 1.19,
         "k9": 6.9
       }
     },
@@ -950,7 +950,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "José Soriano",
+        "era": 3.72,
+        "whip": 1.26,
+        "k9": 8.6
+      },
       "awayStarter": {
         "name": "Nick Lodolo",
         "era": 5.04,
@@ -978,7 +983,12 @@
         "whip": 1.27,
         "k9": 9.7
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Ray Kerr",
+        "era": 1.76,
+        "whip": 0.52,
+        "k9": 6.5
+      }
     },
     {
       "gamePk": 824058,
