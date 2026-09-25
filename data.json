@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T19:08:39Z",
+  "generatedAt": "2026-09-25T21:59:15Z",
   "lastMode": "refresh",
   "date": "2026-09-25",
   "availableDates": [
@@ -764,10 +764,10 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 3,
+        "status": "Final",
+        "homeScore": 4,
         "awayScore": 3,
-        "inning": 7,
+        "inning": 9,
         "inningHalf": "Top"
       },
       "autoProps": [],
@@ -796,19 +796,25 @@
       "awayTeamName": "Chicago Cubs",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Brayan Bello",
-        "era": 4.49,
-        "whip": 1.37,
+        "era": 4.45,
+        "whip": 1.39,
         "k9": 7.2
       },
       "awayStarter": {
         "name": "David Peterson",
-        "era": 4.96,
+        "era": 4.93,
         "whip": 1.51,
-        "k9": 8.2
+        "k9": 8.3
       }
     },
     {
@@ -823,17 +829,23 @@
       "awayTeamName": "Baltimore Orioles",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 9,
+        "inning": 7,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Brendan Beck",
-        "era": 8.22,
-        "whip": 1.57,
-        "k9": 5.9
+        "era": 9.95,
+        "whip": 1.66,
+        "k9": 9.2
       },
       "awayStarter": {
         "name": "Trevor Rogers",
-        "era": 4.07,
+        "era": 4.03,
         "whip": 1.18,
         "k9": 8.3
       }
@@ -1298,6 +1310,14 @@
       "awayTeamId": 135,
       "homeScore": 2,
       "awayScore": 4
+    },
+    {
+      "gamePk": 824703,
+      "dateStr": "2026-09-25",
+      "homeTeamId": 111,
+      "awayTeamId": 112,
+      "homeScore": 4,
+      "awayScore": 3
     }
   ]
 }
