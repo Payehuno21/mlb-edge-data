@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T04:23:20Z",
+  "generatedAt": "2026-09-26T17:00:46Z",
   "lastMode": "refresh",
   "date": "2026-09-26",
   "availableDates": [
@@ -660,19 +660,25 @@
       "awayTeamName": "New York Mets",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Connelly Early",
-        "era": 3.44,
+        "era": 3.39,
         "whip": 1.25,
-        "k9": 9.1
+        "k9": 9.0
       },
       "awayStarter": {
         "name": "Jonah Tong",
-        "era": 4.21,
-        "whip": 1.32,
-        "k9": 8.8
+        "era": 4.05,
+        "whip": 1.35,
+        "k9": 9.1
       }
     },
     {
@@ -687,7 +693,13 @@
       "awayTeamName": "Pittsburgh Pirates",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Justin Verlander",
@@ -955,7 +967,12 @@
         "whip": 1.45,
         "k9": 10.2
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Hayden Wesneski",
+        "era": 3.5,
+        "whip": 1.15,
+        "k9": 6.8
+      }
     },
     {
       "gamePk": 823083,
@@ -1089,6 +1106,30 @@
       "awayTeamId": 140,
       "homeScore": 10,
       "awayScore": 2
+    },
+    {
+      "gamePk": 824947,
+      "dateStr": "2026-09-25",
+      "homeTeamId": 133,
+      "awayTeamId": 117,
+      "homeScore": 6,
+      "awayScore": 5
+    },
+    {
+      "gamePk": 823248,
+      "dateStr": "2026-09-25",
+      "homeTeamId": 135,
+      "awayTeamId": 109,
+      "homeScore": 4,
+      "awayScore": 11
+    },
+    {
+      "gamePk": 823085,
+      "dateStr": "2026-09-25",
+      "homeTeamId": 136,
+      "awayTeamId": 108,
+      "homeScore": 5,
+      "awayScore": 7
     },
     {
       "gamePk": 823167,
