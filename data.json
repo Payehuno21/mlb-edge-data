@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T17:00:46Z",
+  "generatedAt": "2026-09-26T18:22:49Z",
   "lastMode": "refresh",
   "date": "2026-09-26",
   "availableDates": [
@@ -662,23 +662,23 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 0,
-        "inning": 2,
+        "inning": 7,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Connelly Early",
-        "era": 3.39,
-        "whip": 1.25,
-        "k9": 9.0
+        "era": 3.33,
+        "whip": 1.23,
+        "k9": 8.9
       },
       "awayStarter": {
         "name": "Jonah Tong",
-        "era": 4.05,
-        "whip": 1.35,
-        "k9": 9.1
+        "era": 3.82,
+        "whip": 1.24,
+        "k9": 10.0
       }
     },
     {
@@ -696,22 +696,22 @@
       "liveState": {
         "status": "Live",
         "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
+        "awayScore": 1,
+        "inning": 4,
         "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Justin Verlander",
-        "era": 12.27,
-        "whip": 2.18,
-        "k9": 2.5
+        "era": 7.36,
+        "whip": 1.5,
+        "k9": 6.1
       },
       "awayStarter": {
         "name": "Kirby Yates",
-        "era": 3.32,
+        "era": 3.19,
         "whip": 1.2,
-        "k9": 10.6
+        "k9": 10.4
       }
     },
     {
