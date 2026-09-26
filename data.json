@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T18:22:49Z",
+  "generatedAt": "2026-09-26T21:52:00Z",
   "lastMode": "refresh",
   "date": "2026-09-26",
   "availableDates": [
@@ -661,11 +661,11 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
+        "status": "Final",
         "homeScore": 1,
-        "awayScore": 0,
-        "inning": 7,
-        "inningHalf": "Top"
+        "awayScore": 7,
+        "inning": 9,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
@@ -694,18 +694,18 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 1,
-        "inning": 4,
-        "inningHalf": "Top"
+        "status": "Final",
+        "homeScore": 4,
+        "awayScore": 3,
+        "inning": 9,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
         "name": "Justin Verlander",
-        "era": 7.36,
-        "whip": 1.5,
-        "k9": 6.1
+        "era": 7.0,
+        "whip": 1.56,
+        "k9": 7.0
       },
       "awayStarter": {
         "name": "Kirby Yates",
@@ -726,19 +726,25 @@
       "awayTeamName": "Cincinnati Reds",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Final",
+        "homeScore": 1,
+        "awayScore": 5,
+        "inning": 9,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Trey Yesavage",
-        "era": 3.67,
-        "whip": 1.13,
-        "k9": 8.8
+        "era": 3.69,
+        "whip": 1.14,
+        "k9": 8.9
       },
       "awayStarter": {
         "name": "Rhett Lowder",
-        "era": 6.01,
-        "whip": 1.55,
-        "k9": 7.1
+        "era": 5.74,
+        "whip": 1.52,
+        "k9": 7.0
       }
     },
     {
@@ -753,19 +759,25 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 3,
+        "inning": 6,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Matt Wilkinson",
-        "era": 3.65,
-        "whip": 1.01,
-        "k9": 6.6
+        "era": 3.58,
+        "whip": 0.98,
+        "k9": 6.5
       },
       "awayStarter": {
         "name": "Blake Snell",
-        "era": 1.86,
-        "whip": 1.09,
-        "k9": 12.1
+        "era": 1.9,
+        "whip": 1.1,
+        "k9": 11.6
       }
     },
     {
@@ -780,7 +792,13 @@
       "awayTeamName": "Texas Rangers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Bailey Ober",
@@ -807,18 +825,24 @@
       "awayTeamName": "Atlanta Braves",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 6,
+        "inning": 6,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Jack Ralston",
-        "era": 4.5,
-        "whip": 1.25,
-        "k9": 9.6
+        "era": 5.71,
+        "whip": 1.38,
+        "k9": 9.9
       },
       "awayStarter": {
         "name": "Brent Suter",
-        "era": 3.48,
-        "whip": 1.25,
+        "era": 3.36,
+        "whip": 1.22,
         "k9": 7.7
       }
     },
@@ -917,7 +941,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Aaron Nola",
+        "era": 4.54,
+        "whip": 1.33,
+        "k9": 9.1
+      },
       "awayStarter": {
         "name": "Griffin Jax",
         "era": 3.62,
@@ -1138,6 +1167,30 @@
       "awayTeamId": 119,
       "homeScore": 0,
       "awayScore": 2
+    },
+    {
+      "gamePk": 822678,
+      "dateStr": "2026-09-26",
+      "homeTeamId": 120,
+      "awayTeamId": 121,
+      "homeScore": 1,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 824219,
+      "dateStr": "2026-09-26",
+      "homeTeamId": 116,
+      "awayTeamId": 134,
+      "homeScore": 4,
+      "awayScore": 3
+    },
+    {
+      "gamePk": 822759,
+      "dateStr": "2026-09-26",
+      "homeTeamId": 141,
+      "awayTeamId": 113,
+      "homeScore": 1,
+      "awayScore": 5
     }
   ]
 }
