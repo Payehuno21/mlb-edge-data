@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T04:40:47Z",
+  "generatedAt": "2026-09-27T17:38:02Z",
   "lastMode": "refresh",
   "date": "2026-09-27",
   "availableDates": [
@@ -105,6 +105,54 @@
       "missingStarters": [
         "Samuel Basallo"
       ]
+    },
+    {
+      "id": 143,
+      "abbr": "PHI",
+      "name": "Philadelphia Phillies",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.47,
+      "staffEra": 4.0,
+      "bullpenRecentIp": 5.3,
+      "topPowerHitter": {
+        "name": "Kyle Schwarber",
+        "hrRate": 0.0668,
+        "pa": 674
+      },
+      "topContactHitter": {
+        "name": "Luis Arraez",
+        "avg": 0.313,
+        "pa": 644
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 139,
+      "abbr": "TB",
+      "name": "Tampa Bay Rays",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.56,
+      "staffEra": 3.7,
+      "bullpenRecentIp": 7.3,
+      "topPowerHitter": {
+        "name": "Junior Caminero",
+        "hrRate": 0.0606,
+        "pa": 677
+      },
+      "topContactHitter": {
+        "name": "Chandler Simpson",
+        "avg": 0.309,
+        "pa": 597
+      },
+      "missingStarters": []
     },
     {
       "id": 111,
@@ -259,54 +307,6 @@
       "missingStarters": [
         "Shohei Ohtani"
       ]
-    },
-    {
-      "id": 143,
-      "abbr": "PHI",
-      "name": "Philadelphia Phillies",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.47,
-      "staffEra": 4.0,
-      "bullpenRecentIp": 5.3,
-      "topPowerHitter": {
-        "name": "Kyle Schwarber",
-        "hrRate": 0.0668,
-        "pa": 674
-      },
-      "topContactHitter": {
-        "name": "Luis Arraez",
-        "avg": 0.313,
-        "pa": 644
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 139,
-      "abbr": "TB",
-      "name": "Tampa Bay Rays",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.56,
-      "staffEra": 3.7,
-      "bullpenRecentIp": 7.3,
-      "topPowerHitter": {
-        "name": "Junior Caminero",
-        "hrRate": 0.0606,
-        "pa": 677
-      },
-      "topContactHitter": {
-        "name": "Chandler Simpson",
-        "avg": 0.309,
-        "pa": 597
-      },
-      "missingStarters": []
     },
     {
       "id": 141,
@@ -803,64 +803,8 @@
       }
     },
     {
-      "gamePk": 824705,
-      "gameDate": "2026-09-27T19:05:00Z",
-      "gameDateStr": "2026-09-27",
-      "venue": "Tropicana Field",
-      "weather": null,
-      "homeTeamId": 111,
-      "awayTeamId": 112,
-      "homeTeamName": "Boston Red Sox",
-      "awayTeamName": "Chicago Cubs",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": null,
-      "awayStarter": null
-    },
-    {
-      "gamePk": 824948,
-      "gameDate": "2026-09-27T19:05:00Z",
-      "gameDateStr": "2026-09-27",
-      "venue": "Sutter Health Park",
-      "weather": null,
-      "homeTeamId": 133,
-      "awayTeamId": 117,
-      "homeTeamName": "Athletics",
-      "awayTeamName": "Houston Astros",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": null,
-      "awayStarter": null
-    },
-    {
-      "gamePk": 823164,
-      "gameDate": "2026-09-27T19:05:00Z",
-      "gameDateStr": "2026-09-27",
-      "venue": "Oracle Park",
-      "weather": null,
-      "homeTeamId": 137,
-      "awayTeamId": 119,
-      "homeTeamName": "San Francisco Giants",
-      "awayTeamName": "Los Angeles Dodgers",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Carson Seymour",
-        "era": 4.7,
-        "whip": 1.53,
-        "k9": 6.5
-      },
-      "awayStarter": null
-    },
-    {
       "gamePk": 823408,
-      "gameDate": "2026-09-27T19:05:00Z",
+      "gameDate": "2026-09-27T18:30:00Z",
       "gameDateStr": "2026-09-27",
       "venue": "Citizens Bank Park",
       "weather": null,
@@ -883,6 +827,84 @@
         "era": 2.94,
         "whip": 1.07,
         "k9": 5.5
+      }
+    },
+    {
+      "gamePk": 824705,
+      "gameDate": "2026-09-27T19:05:00Z",
+      "gameDateStr": "2026-09-27",
+      "venue": "Tropicana Field",
+      "weather": null,
+      "homeTeamId": 111,
+      "awayTeamId": 112,
+      "homeTeamName": "Boston Red Sox",
+      "awayTeamName": "Chicago Cubs",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Tanner Houck"
+      },
+      "awayStarter": {
+        "name": "Shota Imanaga",
+        "era": 3.74,
+        "whip": 1.1,
+        "k9": 8.9
+      }
+    },
+    {
+      "gamePk": 824948,
+      "gameDate": "2026-09-27T19:05:00Z",
+      "gameDateStr": "2026-09-27",
+      "venue": "Sutter Health Park",
+      "weather": null,
+      "homeTeamId": 133,
+      "awayTeamId": 117,
+      "homeTeamName": "Athletics",
+      "awayTeamName": "Houston Astros",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Seth Johnson",
+        "era": 6.19,
+        "whip": 1.69,
+        "k9": 10.7
+      },
+      "awayStarter": {
+        "name": "Peter Lambert",
+        "era": 3.87,
+        "whip": 1.26,
+        "k9": 9.0
+      }
+    },
+    {
+      "gamePk": 823164,
+      "gameDate": "2026-09-27T19:05:00Z",
+      "gameDateStr": "2026-09-27",
+      "venue": "Oracle Park",
+      "weather": null,
+      "homeTeamId": 137,
+      "awayTeamId": 119,
+      "homeTeamName": "San Francisco Giants",
+      "awayTeamName": "Los Angeles Dodgers",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Carson Seymour",
+        "era": 4.7,
+        "whip": 1.53,
+        "k9": 6.5
+      },
+      "awayStarter": {
+        "name": "Jack Dreyer",
+        "era": 3.16,
+        "whip": 1.1,
+        "k9": 10.2
       }
     },
     {
@@ -980,7 +1002,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Randy Vásquez",
+        "era": 4.01,
+        "whip": 1.3,
+        "k9": 5.7
+      },
       "awayStarter": {
         "name": "Michael Soroka",
         "era": 3.31,
