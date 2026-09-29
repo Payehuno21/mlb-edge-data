@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T19:48:23Z",
+  "generatedAt": "2026-09-29T22:51:31Z",
   "lastMode": "refresh",
   "date": "2026-09-29",
   "availableDates": [
@@ -215,11 +215,11 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 1,
-        "awayScore": 1,
-        "inning": 6,
-        "inningHalf": "Bottom"
+        "status": "Final",
+        "homeScore": 5,
+        "awayScore": 3,
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
@@ -247,7 +247,13 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 5,
+        "inning": 5,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "AJ Blubaugh",
@@ -317,5 +323,14 @@
       }
     }
   ],
-  "results": []
+  "results": [
+    {
+      "gamePk": 849845,
+      "dateStr": "2026-09-29",
+      "homeTeamId": 144,
+      "awayTeamId": 143,
+      "homeScore": 5,
+      "awayScore": 3
+    }
+  ]
 }
