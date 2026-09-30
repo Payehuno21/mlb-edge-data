@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-29T22:51:31Z",
+  "generatedAt": "2026-09-30T04:56:23Z",
   "lastMode": "refresh",
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "availableDates": [
-    "2026-09-29"
+    "2026-09-30"
   ],
   "teams": [
     {
@@ -203,9 +203,9 @@
   ],
   "games": [
     {
-      "gamePk": 849845,
-      "gameDate": "2026-09-29T18:00:00Z",
-      "gameDateStr": "2026-09-29",
+      "gamePk": 849841,
+      "gameDate": "2026-09-30T18:00:00Z",
+      "gameDateStr": "2026-09-30",
       "venue": "Truist Park",
       "weather": null,
       "homeTeamId": 144,
@@ -214,31 +214,25 @@
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": {
-        "status": "Final",
-        "homeScore": 5,
-        "awayScore": 3,
-        "inning": 9,
-        "inningHalf": "Top"
-      },
+      "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Chris Sale",
-        "era": 2.16,
-        "whip": 0.98,
-        "k9": 11.1
+        "name": "Tyler Mahle",
+        "era": 3.99,
+        "whip": 1.23,
+        "k9": 8.3
       },
       "awayStarter": {
-        "name": "Jesús Luzardo",
-        "era": 2.86,
-        "whip": 1.07,
-        "k9": 11.1
+        "name": "Cristopher Sánchez",
+        "era": 2.91,
+        "whip": 1.2,
+        "k9": 10.0
       }
     },
     {
-      "gamePk": 849849,
-      "gameDate": "2026-09-29T21:00:00Z",
-      "gameDateStr": "2026-09-29",
+      "gamePk": 849846,
+      "gameDate": "2026-09-30T21:00:00Z",
+      "gameDateStr": "2026-09-30",
       "venue": "Daikin Park",
       "weather": null,
       "homeTeamId": 117,
@@ -247,31 +241,25 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 5,
-        "inning": 5,
-        "inningHalf": "Bottom"
-      },
+      "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "AJ Blubaugh",
-        "era": 3.66,
-        "whip": 1.23,
-        "k9": 8.8
+        "name": "Hunter Brown",
+        "era": 3.19,
+        "whip": 1.27,
+        "k9": 10.4
       },
       "awayStarter": {
-        "name": "Hagen Smith",
-        "era": 1.29,
-        "whip": 0.96,
-        "k9": 13.2
+        "name": "Sean Burke",
+        "era": 3.34,
+        "whip": 1.2,
+        "k9": 9.7
       }
     },
     {
-      "gamePk": 849851,
-      "gameDate": "2026-09-30T00:00:00Z",
-      "gameDateStr": "2026-09-29",
+      "gamePk": 849848,
+      "gameDate": "2026-10-01T00:00:00Z",
+      "gameDateStr": "2026-09-30",
       "venue": "Yankee Stadium",
       "weather": null,
       "homeTeamId": 147,
@@ -283,22 +271,22 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Cam Schlittler",
-        "era": 1.95,
-        "whip": 0.92,
-        "k9": 11.1
+        "name": "Max Fried",
+        "era": 2.8,
+        "whip": 0.99,
+        "k9": 8.3
       },
       "awayStarter": {
-        "name": "Payton Tolle",
-        "era": 3.03,
-        "whip": 1.1,
-        "k9": 10.3
+        "name": "Sonny Gray",
+        "era": 2.72,
+        "whip": 1.15,
+        "k9": 7.9
       }
     },
     {
-      "gamePk": 849843,
-      "gameDate": "2026-09-30T02:00:00Z",
-      "gameDateStr": "2026-09-29",
+      "gamePk": 849842,
+      "gameDate": "2026-10-01T02:00:00Z",
+      "gameDateStr": "2026-09-30",
       "venue": "Petco Park",
       "weather": null,
       "homeTeamId": 135,
@@ -310,17 +298,12 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Michael King",
-        "era": 3.21,
-        "whip": 1.18,
-        "k9": 7.7
+        "name": "Nick Pivetta",
+        "era": 2.86,
+        "whip": 1.01,
+        "k9": 10.9
       },
-      "awayStarter": {
-        "name": "Matthew Boyd",
-        "era": 3.91,
-        "whip": 1.21,
-        "k9": 6.8
-      }
+      "awayStarter": null
     }
   ],
   "results": [
@@ -331,6 +314,30 @@
       "awayTeamId": 143,
       "homeScore": 5,
       "awayScore": 3
+    },
+    {
+      "gamePk": 849849,
+      "dateStr": "2026-09-29",
+      "homeTeamId": 117,
+      "awayTeamId": 145,
+      "homeScore": 3,
+      "awayScore": 6
+    },
+    {
+      "gamePk": 849851,
+      "dateStr": "2026-09-29",
+      "homeTeamId": 147,
+      "awayTeamId": 111,
+      "homeScore": 9,
+      "awayScore": 0
+    },
+    {
+      "gamePk": 849843,
+      "dateStr": "2026-09-29",
+      "homeTeamId": 135,
+      "awayTeamId": 112,
+      "homeScore": 8,
+      "awayScore": 0
     }
   ]
 }
