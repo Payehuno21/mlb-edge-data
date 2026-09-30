@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T19:51:52Z",
+  "generatedAt": "2026-09-30T22:49:23Z",
   "lastMode": "refresh",
   "date": "2026-09-30",
   "availableDates": [
@@ -215,11 +215,11 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 1,
-        "awayScore": 1,
-        "inning": 6,
-        "inningHalf": "Top"
+        "status": "Final",
+        "homeScore": 3,
+        "awayScore": 4,
+        "inning": 10,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
@@ -247,7 +247,13 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 3,
+        "awayScore": 4,
+        "inning": 5,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Hunter Brown",
@@ -349,6 +355,14 @@
       "awayTeamId": 112,
       "homeScore": 8,
       "awayScore": 0
+    },
+    {
+      "gamePk": 849841,
+      "dateStr": "2026-09-30",
+      "homeTeamId": 144,
+      "awayTeamId": 143,
+      "homeScore": 3,
+      "awayScore": 4
     }
   ]
 }
