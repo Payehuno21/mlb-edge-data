@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-30T22:49:23Z",
+  "generatedAt": "2026-10-01T05:09:25Z",
   "lastMode": "refresh",
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "availableDates": [
-    "2026-09-30"
+    "2026-10-01"
   ],
   "teams": [
     {
@@ -53,159 +53,13 @@
         "pa": 655
       },
       "missingStarters": []
-    },
-    {
-      "id": 117,
-      "abbr": "HOU",
-      "name": "Houston Astros",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.53,
-      "staffEra": 4.45,
-      "bullpenRecentIp": 9.0,
-      "topPowerHitter": {
-        "name": "Lucas Spence",
-        "hrRate": 0.0635,
-        "pa": 63
-      },
-      "topContactHitter": {
-        "name": "Yordan Alvarez",
-        "avg": 0.316,
-        "pa": 692
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 145,
-      "abbr": "CWS",
-      "name": "Chicago White Sox",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.79,
-      "staffEra": 4.25,
-      "bullpenRecentIp": 12.3,
-      "topPowerHitter": {
-        "name": "Munetaka Murakami",
-        "hrRate": 0.0633,
-        "pa": 553
-      },
-      "topContactHitter": {
-        "name": "Randal Grichuk",
-        "avg": 0.287,
-        "pa": 280
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 147,
-      "abbr": "NYY",
-      "name": "New York Yankees",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1490,
-      "runsPerGame": 4.43,
-      "staffEra": 3.24,
-      "bullpenRecentIp": 0.0,
-      "topPowerHitter": {
-        "name": "Ben Rice",
-        "hrRate": 0.0615,
-        "pa": 667
-      },
-      "topContactHitter": {
-        "name": "Luis García Jr.",
-        "avg": 0.277,
-        "pa": 543
-      },
-      "missingStarters": [
-        "Trent Grisham"
-      ]
-    },
-    {
-      "id": 111,
-      "abbr": "BOS",
-      "name": "Boston Red Sox",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.25,
-      "staffEra": 3.54,
-      "bullpenRecentIp": 6.0,
-      "topPowerHitter": {
-        "name": "Willson Contreras",
-        "hrRate": 0.0505,
-        "pa": 535
-      },
-      "topContactHitter": {
-        "name": "Ceddanne Rafaela",
-        "avg": 0.283,
-        "pa": 576
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 135,
-      "abbr": "SD",
-      "name": "San Diego Padres",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.46,
-      "staffEra": 3.99,
-      "bullpenRecentIp": 8.3,
-      "topPowerHitter": {
-        "name": "Manny Machado",
-        "hrRate": 0.0443,
-        "pa": 677
-      },
-      "topContactHitter": {
-        "name": "Samad Taylor",
-        "avg": 0.316,
-        "pa": 175
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 112,
-      "abbr": "CHC",
-      "name": "Chicago Cubs",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 5.25,
-      "staffEra": 4.12,
-      "bullpenRecentIp": 8.0,
-      "topPowerHitter": {
-        "name": "Pete Crow-Armstrong",
-        "hrRate": 0.062,
-        "pa": 726
-      },
-      "topContactHitter": {
-        "name": "Pete Crow-Armstrong",
-        "avg": 0.28,
-        "pa": 726
-      },
-      "missingStarters": []
     }
   ],
   "games": [
     {
-      "gamePk": 849841,
-      "gameDate": "2026-09-30T18:00:00Z",
-      "gameDateStr": "2026-09-30",
+      "gamePk": 849844,
+      "gameDate": "2026-10-02T00:00:00Z",
+      "gameDateStr": "2026-10-01",
       "venue": "Truist Park",
       "weather": null,
       "homeTeamId": 144,
@@ -214,148 +68,13 @@
       "awayTeamName": "Philadelphia Phillies",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": {
-        "status": "Final",
-        "homeScore": 3,
-        "awayScore": 4,
-        "inning": 10,
-        "inningHalf": "Bottom"
-      },
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Tyler Mahle",
-        "era": 3.99,
-        "whip": 1.23,
-        "k9": 8.3
-      },
-      "awayStarter": {
-        "name": "Cristopher Sánchez",
-        "era": 2.91,
-        "whip": 1.2,
-        "k9": 10.0
-      }
-    },
-    {
-      "gamePk": 849846,
-      "gameDate": "2026-09-30T21:00:00Z",
-      "gameDateStr": "2026-09-30",
-      "venue": "Daikin Park",
-      "weather": null,
-      "homeTeamId": 117,
-      "awayTeamId": 145,
-      "homeTeamName": "Houston Astros",
-      "awayTeamName": "Chicago White Sox",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": {
-        "status": "Live",
-        "homeScore": 3,
-        "awayScore": 4,
-        "inning": 5,
-        "inningHalf": "Bottom"
-      },
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Hunter Brown",
-        "era": 3.19,
-        "whip": 1.27,
-        "k9": 10.4
-      },
-      "awayStarter": {
-        "name": "Sean Burke",
-        "era": 3.34,
-        "whip": 1.2,
-        "k9": 9.7
-      }
-    },
-    {
-      "gamePk": 849848,
-      "gameDate": "2026-10-01T00:00:00Z",
-      "gameDateStr": "2026-09-30",
-      "venue": "Yankee Stadium",
-      "weather": null,
-      "homeTeamId": 147,
-      "awayTeamId": 111,
-      "homeTeamName": "New York Yankees",
-      "awayTeamName": "Boston Red Sox",
-      "autoOdds": null,
-      "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": {
-        "name": "Max Fried",
-        "era": 2.8,
-        "whip": 0.99,
-        "k9": 8.3
-      },
-      "awayStarter": {
-        "name": "Sonny Gray",
-        "era": 2.72,
-        "whip": 1.15,
-        "k9": 7.9
-      }
-    },
-    {
-      "gamePk": 849842,
-      "gameDate": "2026-10-01T02:00:00Z",
-      "gameDateStr": "2026-09-30",
-      "venue": "Petco Park",
-      "weather": null,
-      "homeTeamId": 135,
-      "awayTeamId": 112,
-      "homeTeamName": "San Diego Padres",
-      "awayTeamName": "Chicago Cubs",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Nick Pivetta",
-        "era": 2.86,
-        "whip": 1.01,
-        "k9": 10.9
-      },
-      "awayStarter": {
-        "name": "Kevin Gausman",
-        "era": 4.51,
-        "whip": 1.27,
-        "k9": 9.3
-      }
+      "homeStarter": null,
+      "awayStarter": null
     }
   ],
   "results": [
-    {
-      "gamePk": 849845,
-      "dateStr": "2026-09-29",
-      "homeTeamId": 144,
-      "awayTeamId": 143,
-      "homeScore": 5,
-      "awayScore": 3
-    },
-    {
-      "gamePk": 849849,
-      "dateStr": "2026-09-29",
-      "homeTeamId": 117,
-      "awayTeamId": 145,
-      "homeScore": 3,
-      "awayScore": 6
-    },
-    {
-      "gamePk": 849851,
-      "dateStr": "2026-09-29",
-      "homeTeamId": 147,
-      "awayTeamId": 111,
-      "homeScore": 9,
-      "awayScore": 0
-    },
-    {
-      "gamePk": 849843,
-      "dateStr": "2026-09-29",
-      "homeTeamId": 135,
-      "awayTeamId": 112,
-      "homeScore": 8,
-      "awayScore": 0
-    },
     {
       "gamePk": 849841,
       "dateStr": "2026-09-30",
@@ -363,6 +82,30 @@
       "awayTeamId": 143,
       "homeScore": 3,
       "awayScore": 4
+    },
+    {
+      "gamePk": 849846,
+      "dateStr": "2026-09-30",
+      "homeTeamId": 117,
+      "awayTeamId": 145,
+      "homeScore": 3,
+      "awayScore": 7
+    },
+    {
+      "gamePk": 849848,
+      "dateStr": "2026-09-30",
+      "homeTeamId": 147,
+      "awayTeamId": 111,
+      "homeScore": 9,
+      "awayScore": 2
+    },
+    {
+      "gamePk": 849842,
+      "dateStr": "2026-09-30",
+      "homeTeamId": 135,
+      "awayTeamId": 112,
+      "homeScore": 4,
+      "awayScore": 1
     }
   ]
 }
