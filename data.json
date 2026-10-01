@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T05:09:25Z",
+  "generatedAt": "2026-10-01T18:46:31Z",
   "lastMode": "refresh",
   "date": "2026-10-01",
   "availableDates": [
@@ -70,8 +70,18 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
-      "awayStarter": null
+      "homeStarter": {
+        "name": "Ray Kerr",
+        "era": 1.47,
+        "whip": 0.6,
+        "k9": 5.4
+      },
+      "awayStarter": {
+        "name": "Aaron Nola",
+        "era": 4.67,
+        "whip": 1.35,
+        "k9": 9.1
+      }
     }
   ],
   "results": [
