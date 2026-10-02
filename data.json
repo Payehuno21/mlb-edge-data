@@ -1,121 +1,20 @@
 {
-  "generatedAt": "2026-10-01T23:00:25Z",
+  "generatedAt": "2026-10-02T04:58:33Z",
   "lastMode": "refresh",
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "availableDates": [
-    "2026-10-01"
+    "2026-10-02"
   ],
-  "teams": [
-    {
-      "id": 144,
-      "abbr": "ATL",
-      "name": "Atlanta Braves",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.58,
-      "staffEra": 3.63,
-      "bullpenRecentIp": 8.3,
-      "topPowerHitter": {
-        "name": "Matt Olson",
-        "hrRate": 0.0587,
-        "pa": 698
-      },
-      "topContactHitter": {
-        "name": "Michael Harris II",
-        "avg": 0.294,
-        "pa": 621
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 143,
-      "abbr": "PHI",
-      "name": "Philadelphia Phillies",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.4,
-      "staffEra": 4.12,
-      "bullpenRecentIp": 11.0,
-      "topPowerHitter": {
-        "name": "Kyle Schwarber",
-        "hrRate": 0.0642,
-        "pa": 701
-      },
-      "topContactHitter": {
-        "name": "Luis Arraez",
-        "avg": 0.31,
-        "pa": 655
-      },
-      "missingStarters": []
-    }
-  ],
-  "games": [
-    {
-      "gamePk": 849844,
-      "gameDate": "2026-10-02T00:00:00Z",
-      "gameDateStr": "2026-10-01",
-      "venue": "Truist Park",
-      "weather": null,
-      "homeTeamId": 144,
-      "awayTeamId": 143,
-      "homeTeamName": "Atlanta Braves",
-      "awayTeamName": "Philadelphia Phillies",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Ray Kerr",
-        "era": 1.47,
-        "whip": 0.6,
-        "k9": 5.4
-      },
-      "awayStarter": {
-        "name": "Aaron Nola",
-        "era": 4.67,
-        "whip": 1.35,
-        "k9": 9.1
-      }
-    }
-  ],
+  "teams": [],
+  "games": [],
   "results": [
     {
-      "gamePk": 849841,
-      "dateStr": "2026-09-30",
+      "gamePk": 849844,
+      "dateStr": "2026-10-01",
       "homeTeamId": 144,
       "awayTeamId": 143,
-      "homeScore": 3,
-      "awayScore": 4
-    },
-    {
-      "gamePk": 849846,
-      "dateStr": "2026-09-30",
-      "homeTeamId": 117,
-      "awayTeamId": 145,
-      "homeScore": 3,
-      "awayScore": 7
-    },
-    {
-      "gamePk": 849848,
-      "dateStr": "2026-09-30",
-      "homeTeamId": 147,
-      "awayTeamId": 111,
-      "homeScore": 9,
+      "homeScore": 6,
       "awayScore": 2
-    },
-    {
-      "gamePk": 849842,
-      "dateStr": "2026-09-30",
-      "homeTeamId": 135,
-      "awayTeamId": 112,
-      "homeScore": 4,
-      "awayScore": 1
     }
   ]
 }
