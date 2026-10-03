@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T04:42:10Z",
+  "generatedAt": "2026-10-03T17:08:27Z",
   "lastMode": "refresh",
   "date": "2026-10-03",
   "availableDates": [
@@ -212,7 +212,13 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Parker Messick",
@@ -247,7 +253,12 @@
         "whip": 0.96,
         "k9": 10.6
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Dylan Dodd",
+        "era": 2.54,
+        "whip": 0.91,
+        "k9": 9.6
+      }
     },
     {
       "gamePk": 849835,
