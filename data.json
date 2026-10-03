@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T18:33:32Z",
+  "generatedAt": "2026-10-03T21:59:49Z",
   "lastMode": "refresh",
   "date": "2026-10-03",
   "availableDates": [
@@ -213,10 +213,10 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
+        "status": "Final",
         "homeScore": 0,
-        "awayScore": 2,
-        "inning": 4,
+        "awayScore": 3,
+        "inning": 9,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
@@ -245,7 +245,13 @@
       "awayTeamName": "Atlanta Braves",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 5,
+        "awayScore": 1,
+        "inning": 6,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Tarik Skubal",
@@ -315,5 +321,14 @@
       }
     }
   ],
-  "results": []
+  "results": [
+    {
+      "gamePk": 849829,
+      "dateStr": "2026-10-03",
+      "homeTeamId": 114,
+      "awayTeamId": 145,
+      "homeScore": 0,
+      "awayScore": 3
+    }
+  ]
 }
