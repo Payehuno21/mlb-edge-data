@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T17:24:19Z",
+  "generatedAt": "2026-10-04T18:32:01Z",
   "lastMode": "refresh",
   "date": "2026-10-04",
   "availableDates": [
@@ -151,7 +151,12 @@
         "whip": 1.1,
         "k9": 11.6
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Ray Kerr",
+        "era": 1.47,
+        "whip": 0.6,
+        "k9": 5.4
+      }
     }
   ],
   "results": [
