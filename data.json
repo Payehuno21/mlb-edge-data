@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T18:32:01Z",
+  "generatedAt": "2026-10-04T22:12:43Z",
   "lastMode": "refresh",
   "date": "2026-10-04",
   "availableDates": [
@@ -116,7 +116,13 @@
       "awayTeamName": "San Diego Padres",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 2,
+        "inning": 7,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Logan Henderson",
