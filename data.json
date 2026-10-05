@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T04:57:28Z",
+  "generatedAt": "2026-10-05T21:50:38Z",
   "lastMode": "refresh",
   "date": "2026-10-05",
   "availableDates": [
@@ -116,7 +116,13 @@
       "awayTeamName": "Chicago White Sox",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 2,
+        "awayScore": 0,
+        "inning": 3,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Gavin Williams",
