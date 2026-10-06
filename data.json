@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T19:59:14Z",
+  "generatedAt": "2026-10-06T22:54:53Z",
   "lastMode": "refresh",
   "date": "2026-10-06",
   "availableDates": [
@@ -116,7 +116,13 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Chris Sale",
