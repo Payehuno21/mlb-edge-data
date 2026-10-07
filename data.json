@@ -1,11 +1,59 @@
 {
-  "generatedAt": "2026-10-06T22:54:53Z",
+  "generatedAt": "2026-10-07T05:16:39Z",
   "lastMode": "refresh",
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "availableDates": [
-    "2026-10-06"
+    "2026-10-07"
   ],
   "teams": [
+    {
+      "id": 145,
+      "abbr": "CWS",
+      "name": "Chicago White Sox",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.79,
+      "staffEra": 4.12,
+      "bullpenRecentIp": 8.7,
+      "topPowerHitter": {
+        "name": "Munetaka Murakami",
+        "hrRate": 0.0633,
+        "pa": 553
+      },
+      "topContactHitter": {
+        "name": "Randal Grichuk",
+        "avg": 0.287,
+        "pa": 280
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 114,
+      "abbr": "CLE",
+      "name": "Cleveland Guardians",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.19,
+      "staffEra": 3.77,
+      "bullpenRecentIp": 4.0,
+      "topPowerHitter": {
+        "name": "Angel Martínez",
+        "hrRate": 0.0433,
+        "pa": 416
+      },
+      "topContactHitter": {
+        "name": "Chase DeLauter",
+        "avg": 0.287,
+        "pa": 559
+      },
+      "missingStarters": []
+    },
     {
       "id": 144,
       "abbr": "ATL",
@@ -51,6 +99,54 @@
         "name": "Freddie Freeman",
         "avg": 0.288,
         "pa": 657
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 147,
+      "abbr": "NYY",
+      "name": "New York Yankees",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.59,
+      "staffEra": 3.23,
+      "bullpenRecentIp": 3.7,
+      "topPowerHitter": {
+        "name": "Ben Rice",
+        "hrRate": 0.0615,
+        "pa": 667
+      },
+      "topContactHitter": {
+        "name": "Luis García Jr.",
+        "avg": 0.277,
+        "pa": 543
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 139,
+      "abbr": "TB",
+      "name": "Tampa Bay Rays",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.54,
+      "staffEra": 3.7,
+      "bullpenRecentIp": 4.3,
+      "topPowerHitter": {
+        "name": "Junior Caminero",
+        "hrRate": 0.0598,
+        "pa": 702
+      },
+      "topContactHitter": {
+        "name": "Chandler Simpson",
+        "avg": 0.306,
+        "pa": 612
       },
       "missingStarters": []
     },
@@ -105,9 +201,36 @@
   ],
   "games": [
     {
-      "gamePk": 849819,
-      "gameDate": "2026-10-06T22:00:00Z",
-      "gameDateStr": "2026-10-06",
+      "gamePk": 849833,
+      "gameDate": "2026-10-07T20:00:00Z",
+      "gameDateStr": "2026-10-07",
+      "venue": "Rate Field",
+      "weather": null,
+      "homeTeamId": 145,
+      "awayTeamId": 114,
+      "homeTeamName": "Chicago White Sox",
+      "awayTeamName": "Cleveland Guardians",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Sean Newcomb",
+        "era": 3.09,
+        "whip": 1.18,
+        "k9": 8.4
+      },
+      "awayStarter": {
+        "name": "Daniel Espino",
+        "era": 4.11,
+        "whip": 1.24,
+        "k9": 14.7
+      }
+    },
+    {
+      "gamePk": 849822,
+      "gameDate": "2026-10-07T22:00:00Z",
+      "gameDateStr": "2026-10-07",
       "venue": "Truist Park",
       "weather": null,
       "homeTeamId": 144,
@@ -116,31 +239,52 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 2,
-        "inningHalf": "Bottom"
-      },
+      "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Chris Sale",
-        "era": 2.16,
-        "whip": 0.98,
-        "k9": 11.1
+        "name": "Tyler Mahle",
+        "era": 3.99,
+        "whip": 1.23,
+        "k9": 8.3
       },
       "awayStarter": {
-        "name": "Yoshinobu Yamamoto",
-        "era": 2.53,
-        "whip": 0.87,
-        "k9": 8.8
+        "name": "Tyler Glasnow",
+        "era": 3.53,
+        "whip": 0.95,
+        "k9": 11.9
       }
     },
     {
-      "gamePk": 849826,
-      "gameDate": "2026-10-07T01:30:00Z",
-      "gameDateStr": "2026-10-06",
+      "gamePk": 849838,
+      "gameDate": "2026-10-08T00:00:00Z",
+      "gameDateStr": "2026-10-07",
+      "venue": "Yankee Stadium",
+      "weather": null,
+      "homeTeamId": 147,
+      "awayTeamId": 139,
+      "homeTeamName": "New York Yankees",
+      "awayTeamName": "Tampa Bay Rays",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Max Fried",
+        "era": 2.8,
+        "whip": 0.99,
+        "k9": 8.3
+      },
+      "awayStarter": {
+        "name": "Nick Martinez",
+        "era": 3.1,
+        "whip": 1.09,
+        "k9": 5.5
+      }
+    },
+    {
+      "gamePk": 849827,
+      "gameDate": "2026-10-08T02:00:00Z",
+      "gameDateStr": "2026-10-07",
       "venue": "Petco Park",
       "weather": null,
       "homeTeamId": 135,
@@ -151,36 +295,26 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": {
-        "name": "Nick Pivetta",
-        "era": 2.86,
-        "whip": 1.01,
-        "k9": 10.9
-      },
-      "awayStarter": {
-        "name": "Dustin May",
-        "era": 4.7,
-        "whip": 1.32,
-        "k9": 8.9
-      }
+      "homeStarter": null,
+      "awayStarter": null
     }
   ],
   "results": [
     {
-      "gamePk": 849834,
-      "dateStr": "2026-10-05",
-      "homeTeamId": 114,
-      "awayTeamId": 145,
-      "homeScore": 3,
-      "awayScore": 4
+      "gamePk": 849819,
+      "dateStr": "2026-10-06",
+      "homeTeamId": 144,
+      "awayTeamId": 119,
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
-      "gamePk": 849839,
-      "dateStr": "2026-10-05",
-      "homeTeamId": 139,
-      "awayTeamId": 147,
-      "homeScore": 5,
-      "awayScore": 2
+      "gamePk": 849826,
+      "dateStr": "2026-10-06",
+      "homeTeamId": 135,
+      "awayTeamId": 158,
+      "homeScore": 4,
+      "awayScore": 3
     }
   ]
 }
