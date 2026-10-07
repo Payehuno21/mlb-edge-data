@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:25:33Z",
+  "generatedAt": "2026-10-07T23:27:01Z",
   "lastMode": "refresh",
   "date": "2026-10-07",
   "availableDates": [
@@ -213,10 +213,10 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
-        "homeScore": 1,
-        "awayScore": 0,
-        "inning": 1,
+        "status": "Final",
+        "homeScore": 3,
+        "awayScore": 9,
+        "inning": 9,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
@@ -245,7 +245,13 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 1,
+        "inning": 5,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Tyler Mahle",
@@ -307,7 +313,12 @@
         "whip": 1.35,
         "k9": 7.7
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Robert Gasser",
+        "era": 3.87,
+        "whip": 1.19,
+        "k9": 8.5
+      }
     }
   ],
   "results": [
@@ -326,6 +337,14 @@
       "awayTeamId": 158,
       "homeScore": 4,
       "awayScore": 3
+    },
+    {
+      "gamePk": 849833,
+      "dateStr": "2026-10-07",
+      "homeTeamId": 145,
+      "awayTeamId": 114,
+      "homeScore": 3,
+      "awayScore": 9
     }
   ]
 }
