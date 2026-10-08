@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-07T23:27:01Z",
+  "generatedAt": "2026-10-08T05:26:11Z",
   "lastMode": "refresh",
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "availableDates": [
-    "2026-10-07"
+    "2026-10-08"
   ],
   "teams": [
     {
@@ -53,157 +53,13 @@
         "pa": 559
       },
       "missingStarters": []
-    },
-    {
-      "id": 144,
-      "abbr": "ATL",
-      "name": "Atlanta Braves",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.58,
-      "staffEra": 3.72,
-      "bullpenRecentIp": 11.3,
-      "topPowerHitter": {
-        "name": "Matt Olson",
-        "hrRate": 0.0587,
-        "pa": 698
-      },
-      "topContactHitter": {
-        "name": "Michael Harris II",
-        "avg": 0.294,
-        "pa": 621
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 119,
-      "abbr": "LAD",
-      "name": "Los Angeles Dodgers",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.94,
-      "staffEra": 3.55,
-      "bullpenRecentIp": 8.3,
-      "topPowerHitter": {
-        "name": "Max Muncy",
-        "hrRate": 0.0517,
-        "pa": 561
-      },
-      "topContactHitter": {
-        "name": "Freddie Freeman",
-        "avg": 0.288,
-        "pa": 657
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 147,
-      "abbr": "NYY",
-      "name": "New York Yankees",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.59,
-      "staffEra": 3.23,
-      "bullpenRecentIp": 3.7,
-      "topPowerHitter": {
-        "name": "Ben Rice",
-        "hrRate": 0.0615,
-        "pa": 667
-      },
-      "topContactHitter": {
-        "name": "Luis García Jr.",
-        "avg": 0.277,
-        "pa": 543
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 139,
-      "abbr": "TB",
-      "name": "Tampa Bay Rays",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.54,
-      "staffEra": 3.7,
-      "bullpenRecentIp": 4.3,
-      "topPowerHitter": {
-        "name": "Junior Caminero",
-        "hrRate": 0.0598,
-        "pa": 702
-      },
-      "topContactHitter": {
-        "name": "Chandler Simpson",
-        "avg": 0.306,
-        "pa": 612
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 135,
-      "abbr": "SD",
-      "name": "San Diego Padres",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.46,
-      "staffEra": 3.99,
-      "bullpenRecentIp": 9.0,
-      "topPowerHitter": {
-        "name": "Manny Machado",
-        "hrRate": 0.0443,
-        "pa": 677
-      },
-      "topContactHitter": {
-        "name": "Samad Taylor",
-        "avg": 0.316,
-        "pa": 175
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 158,
-      "abbr": "MIL",
-      "name": "Milwaukee Brewers",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 5.14,
-      "staffEra": 3.51,
-      "bullpenRecentIp": 9.0,
-      "topPowerHitter": {
-        "name": "Jake Bauers",
-        "hrRate": 0.045,
-        "pa": 578
-      },
-      "topContactHitter": {
-        "name": "Andrew Vaughn",
-        "avg": 0.306,
-        "pa": 331
-      },
-      "missingStarters": []
     }
   ],
   "games": [
     {
-      "gamePk": 849833,
-      "gameDate": "2026-10-07T20:00:00Z",
-      "gameDateStr": "2026-10-07",
+      "gamePk": 849832,
+      "gameDate": "2026-10-09T00:00:00Z",
+      "gameDateStr": "2026-10-08",
       "venue": "Rate Field",
       "weather": null,
       "homeTeamId": 145,
@@ -212,132 +68,23 @@
       "awayTeamName": "Cleveland Guardians",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": {
-        "status": "Final",
-        "homeScore": 3,
-        "awayScore": 9,
-        "inning": 9,
-        "inningHalf": "Bottom"
-      },
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Sean Newcomb",
-        "era": 3.09,
-        "whip": 1.18,
-        "k9": 8.4
-      },
-      "awayStarter": {
-        "name": "Daniel Espino",
-        "era": 4.11,
-        "whip": 1.24,
-        "k9": 14.7
-      }
-    },
-    {
-      "gamePk": 849822,
-      "gameDate": "2026-10-07T22:00:00Z",
-      "gameDateStr": "2026-10-07",
-      "venue": "Truist Park",
-      "weather": null,
-      "homeTeamId": 144,
-      "awayTeamId": 119,
-      "homeTeamName": "Atlanta Braves",
-      "awayTeamName": "Los Angeles Dodgers",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": {
-        "status": "Live",
-        "homeScore": 1,
-        "awayScore": 1,
-        "inning": 5,
-        "inningHalf": "Top"
-      },
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Tyler Mahle",
-        "era": 3.99,
-        "whip": 1.23,
-        "k9": 8.3
-      },
-      "awayStarter": {
-        "name": "Tyler Glasnow",
-        "era": 3.53,
-        "whip": 0.95,
-        "k9": 11.9
-      }
-    },
-    {
-      "gamePk": 849838,
-      "gameDate": "2026-10-08T00:00:00Z",
-      "gameDateStr": "2026-10-07",
-      "venue": "Yankee Stadium",
-      "weather": null,
-      "homeTeamId": 147,
-      "awayTeamId": 139,
-      "homeTeamName": "New York Yankees",
-      "awayTeamName": "Tampa Bay Rays",
-      "autoOdds": null,
-      "lineMovement": [],
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Max Fried",
-        "era": 2.8,
-        "whip": 0.99,
-        "k9": 8.3
+        "name": "Hagen Smith",
+        "era": 1.29,
+        "whip": 0.96,
+        "k9": 13.2
       },
       "awayStarter": {
-        "name": "Nick Martinez",
-        "era": 3.1,
-        "whip": 1.09,
-        "k9": 5.5
-      }
-    },
-    {
-      "gamePk": 849827,
-      "gameDate": "2026-10-08T02:00:00Z",
-      "gameDateStr": "2026-10-07",
-      "venue": "Petco Park",
-      "weather": null,
-      "homeTeamId": 135,
-      "awayTeamId": 158,
-      "homeTeamName": "San Diego Padres",
-      "awayTeamName": "Milwaukee Brewers",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Walker Buehler",
-        "era": 4.63,
-        "whip": 1.35,
-        "k9": 7.7
-      },
-      "awayStarter": {
-        "name": "Robert Gasser",
-        "era": 3.87,
-        "whip": 1.19,
-        "k9": 8.5
+        "name": "Parker Messick",
+        "era": 2.56,
+        "whip": 1.06,
+        "k9": 9.3
       }
     }
   ],
   "results": [
-    {
-      "gamePk": 849819,
-      "dateStr": "2026-10-06",
-      "homeTeamId": 144,
-      "awayTeamId": 119,
-      "homeScore": 1,
-      "awayScore": 3
-    },
-    {
-      "gamePk": 849826,
-      "dateStr": "2026-10-06",
-      "homeTeamId": 135,
-      "awayTeamId": 158,
-      "homeScore": 4,
-      "awayScore": 3
-    },
     {
       "gamePk": 849833,
       "dateStr": "2026-10-07",
@@ -345,6 +92,30 @@
       "awayTeamId": 114,
       "homeScore": 3,
       "awayScore": 9
+    },
+    {
+      "gamePk": 849822,
+      "dateStr": "2026-10-07",
+      "homeTeamId": 144,
+      "awayTeamId": 119,
+      "homeScore": 1,
+      "awayScore": 4
+    },
+    {
+      "gamePk": 849838,
+      "dateStr": "2026-10-07",
+      "homeTeamId": 147,
+      "awayTeamId": 139,
+      "homeScore": 3,
+      "awayScore": 4
+    },
+    {
+      "gamePk": 849827,
+      "dateStr": "2026-10-07",
+      "homeTeamId": 135,
+      "awayTeamId": 158,
+      "homeScore": 1,
+      "awayScore": 3
     }
   ]
 }
