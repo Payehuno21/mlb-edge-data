@@ -1,121 +1,20 @@
 {
-  "generatedAt": "2026-10-08T23:38:35Z",
+  "generatedAt": "2026-10-09T05:29:51Z",
   "lastMode": "refresh",
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "availableDates": [
-    "2026-10-08"
+    "2026-10-09"
   ],
-  "teams": [
-    {
-      "id": 145,
-      "abbr": "CWS",
-      "name": "Chicago White Sox",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.79,
-      "staffEra": 4.12,
-      "bullpenRecentIp": 8.7,
-      "topPowerHitter": {
-        "name": "Munetaka Murakami",
-        "hrRate": 0.0633,
-        "pa": 553
-      },
-      "topContactHitter": {
-        "name": "Randal Grichuk",
-        "avg": 0.287,
-        "pa": 280
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 114,
-      "abbr": "CLE",
-      "name": "Cleveland Guardians",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.19,
-      "staffEra": 3.77,
-      "bullpenRecentIp": 4.0,
-      "topPowerHitter": {
-        "name": "Angel Martínez",
-        "hrRate": 0.0433,
-        "pa": 416
-      },
-      "topContactHitter": {
-        "name": "Chase DeLauter",
-        "avg": 0.287,
-        "pa": 559
-      },
-      "missingStarters": []
-    }
-  ],
-  "games": [
-    {
-      "gamePk": 849832,
-      "gameDate": "2026-10-09T00:00:00Z",
-      "gameDateStr": "2026-10-08",
-      "venue": "Rate Field",
-      "weather": null,
-      "homeTeamId": 145,
-      "awayTeamId": 114,
-      "homeTeamName": "Chicago White Sox",
-      "awayTeamName": "Cleveland Guardians",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Hagen Smith",
-        "era": 1.29,
-        "whip": 0.96,
-        "k9": 13.2
-      },
-      "awayStarter": {
-        "name": "Parker Messick",
-        "era": 2.56,
-        "whip": 1.06,
-        "k9": 9.3
-      }
-    }
-  ],
+  "teams": [],
+  "games": [],
   "results": [
     {
-      "gamePk": 849833,
-      "dateStr": "2026-10-07",
+      "gamePk": 849832,
+      "dateStr": "2026-10-08",
       "homeTeamId": 145,
       "awayTeamId": 114,
-      "homeScore": 3,
+      "homeScore": 5,
       "awayScore": 9
-    },
-    {
-      "gamePk": 849822,
-      "dateStr": "2026-10-07",
-      "homeTeamId": 144,
-      "awayTeamId": 119,
-      "homeScore": 1,
-      "awayScore": 4
-    },
-    {
-      "gamePk": 849838,
-      "dateStr": "2026-10-07",
-      "homeTeamId": 147,
-      "awayTeamId": 139,
-      "homeScore": 3,
-      "awayScore": 4
-    },
-    {
-      "gamePk": 849827,
-      "dateStr": "2026-10-07",
-      "homeTeamId": 135,
-      "awayTeamId": 158,
-      "homeScore": 1,
-      "awayScore": 3
     }
   ]
 }
