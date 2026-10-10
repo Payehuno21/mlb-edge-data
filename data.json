@@ -1,20 +1,88 @@
 {
-  "generatedAt": "2026-10-09T23:02:16Z",
+  "generatedAt": "2026-10-10T05:13:54Z",
   "lastMode": "refresh",
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "availableDates": [
-    "2026-10-09"
+    "2026-10-10"
   ],
-  "teams": [],
-  "games": [],
-  "results": [
+  "teams": [
     {
-      "gamePk": 849832,
-      "dateStr": "2026-10-08",
-      "homeTeamId": 145,
-      "awayTeamId": 114,
-      "homeScore": 5,
-      "awayScore": 9
+      "id": 114,
+      "abbr": "CLE",
+      "name": "Cleveland Guardians",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.19,
+      "staffEra": 4.01,
+      "bullpenRecentIp": 15.0,
+      "topPowerHitter": {
+        "name": "Angel Martínez",
+        "hrRate": 0.0433,
+        "pa": 416
+      },
+      "topContactHitter": {
+        "name": "Chase DeLauter",
+        "avg": 0.287,
+        "pa": 559
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 145,
+      "abbr": "CWS",
+      "name": "Chicago White Sox",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.79,
+      "staffEra": 4.37,
+      "bullpenRecentIp": 15.3,
+      "topPowerHitter": {
+        "name": "Munetaka Murakami",
+        "hrRate": 0.0633,
+        "pa": 553
+      },
+      "topContactHitter": {
+        "name": "Randal Grichuk",
+        "avg": 0.287,
+        "pa": 280
+      },
+      "missingStarters": []
     }
-  ]
+  ],
+  "games": [
+    {
+      "gamePk": 849831,
+      "gameDate": "2026-10-11T00:00:00Z",
+      "gameDateStr": "2026-10-10",
+      "venue": "Progressive Field",
+      "weather": null,
+      "homeTeamId": 114,
+      "awayTeamId": 145,
+      "homeTeamName": "Cleveland Guardians",
+      "awayTeamName": "Chicago White Sox",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Gavin Williams",
+        "era": 3.76,
+        "whip": 1.11,
+        "k9": 12.1
+      },
+      "awayStarter": {
+        "name": "Sean Burke",
+        "era": 3.34,
+        "whip": 1.2,
+        "k9": 9.7
+      }
+    }
+  ],
+  "results": []
 }
