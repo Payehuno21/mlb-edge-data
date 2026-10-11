@@ -1,88 +1,97 @@
 {
-  "generatedAt": "2026-10-10T22:14:51Z",
+  "generatedAt": "2026-10-11T05:04:24Z",
   "lastMode": "refresh",
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "availableDates": [
-    "2026-10-10"
+    "2026-10-11"
   ],
   "teams": [
     {
-      "id": 114,
-      "abbr": "CLE",
-      "name": "Cleveland Guardians",
+      "id": 158,
+      "abbr": "MIL",
+      "name": "Milwaukee Brewers",
       "winPct": 0.5,
       "homeWinPct": 0.5,
       "awayWinPct": 0.5,
       "last10": 5,
       "elo": 1500,
-      "runsPerGame": 4.19,
-      "staffEra": 4.01,
-      "bullpenRecentIp": 15.0,
+      "runsPerGame": 5.14,
+      "staffEra": 3.51,
+      "bullpenRecentIp": 0.0,
       "topPowerHitter": {
-        "name": "Angel Martínez",
-        "hrRate": 0.0433,
-        "pa": 416
+        "name": "Jake Bauers",
+        "hrRate": 0.045,
+        "pa": 578
       },
       "topContactHitter": {
-        "name": "Chase DeLauter",
-        "avg": 0.287,
-        "pa": 559
+        "name": "Andrew Vaughn",
+        "avg": 0.306,
+        "pa": 331
       },
       "missingStarters": []
     },
     {
-      "id": 145,
-      "abbr": "CWS",
-      "name": "Chicago White Sox",
+      "id": 119,
+      "abbr": "LAD",
+      "name": "Los Angeles Dodgers",
       "winPct": 0.5,
       "homeWinPct": 0.5,
       "awayWinPct": 0.5,
       "last10": 5,
       "elo": 1500,
-      "runsPerGame": 4.79,
-      "staffEra": 4.37,
-      "bullpenRecentIp": 15.3,
+      "runsPerGame": 4.94,
+      "staffEra": 3.55,
+      "bullpenRecentIp": 0.0,
       "topPowerHitter": {
-        "name": "Munetaka Murakami",
-        "hrRate": 0.0633,
-        "pa": 553
+        "name": "Max Muncy",
+        "hrRate": 0.0517,
+        "pa": 561
       },
       "topContactHitter": {
-        "name": "Randal Grichuk",
-        "avg": 0.287,
-        "pa": 280
+        "name": "Freddie Freeman",
+        "avg": 0.288,
+        "pa": 657
       },
       "missingStarters": []
     }
   ],
   "games": [
     {
-      "gamePk": 849831,
-      "gameDate": "2026-10-11T00:00:00Z",
-      "gameDateStr": "2026-10-10",
-      "venue": "Progressive Field",
+      "gamePk": 849809,
+      "gameDate": "2026-10-12T00:00:00Z",
+      "gameDateStr": "2026-10-11",
+      "venue": "American Family Field",
       "weather": null,
-      "homeTeamId": 114,
-      "awayTeamId": 145,
-      "homeTeamName": "Cleveland Guardians",
-      "awayTeamName": "Chicago White Sox",
+      "homeTeamId": 158,
+      "awayTeamId": 119,
+      "homeTeamName": "Milwaukee Brewers",
+      "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Gavin Williams",
-        "era": 3.76,
-        "whip": 1.11,
-        "k9": 12.1
+        "name": "Jacob Misiorowski",
+        "era": 1.8,
+        "whip": 0.8,
+        "k9": 13.0
       },
       "awayStarter": {
-        "name": "Sean Burke",
-        "era": 3.34,
-        "whip": 1.2,
-        "k9": 9.7
+        "name": "Tarik Skubal",
+        "era": 2.72,
+        "whip": 0.96,
+        "k9": 10.6
       }
     }
   ],
-  "results": []
+  "results": [
+    {
+      "gamePk": 849831,
+      "dateStr": "2026-10-10",
+      "homeTeamId": 114,
+      "awayTeamId": 145,
+      "homeScore": 2,
+      "awayScore": 0
+    }
+  ]
 }
