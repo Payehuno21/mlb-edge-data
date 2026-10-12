@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T21:40:14Z",
+  "generatedAt": "2026-10-12T22:24:02Z",
   "lastMode": "refresh",
   "date": "2026-10-12",
   "availableDates": [
@@ -118,10 +118,10 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 1,
-        "awayScore": 1,
-        "inning": 2,
-        "inningHalf": "Top"
+        "homeScore": 3,
+        "awayScore": 2,
+        "inning": 3,
+        "inningHalf": "Bottom"
       },
       "autoProps": [],
       "homeStarter": {
