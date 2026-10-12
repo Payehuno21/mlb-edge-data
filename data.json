@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-11T22:40:29Z",
+  "generatedAt": "2026-10-12T05:18:18Z",
   "lastMode": "refresh",
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "availableDates": [
-    "2026-10-11"
+    "2026-10-12"
   ],
   "teams": [
     {
@@ -53,13 +53,61 @@
         "pa": 657
       },
       "missingStarters": []
+    },
+    {
+      "id": 139,
+      "abbr": "TB",
+      "name": "Tampa Bay Rays",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.54,
+      "staffEra": 3.7,
+      "bullpenRecentIp": 0.0,
+      "topPowerHitter": {
+        "name": "Junior Caminero",
+        "hrRate": 0.0598,
+        "pa": 702
+      },
+      "topContactHitter": {
+        "name": "Chandler Simpson",
+        "avg": 0.306,
+        "pa": 612
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 114,
+      "abbr": "CLE",
+      "name": "Cleveland Guardians",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.19,
+      "staffEra": 3.77,
+      "bullpenRecentIp": 3.3,
+      "topPowerHitter": {
+        "name": "Angel Martínez",
+        "hrRate": 0.0433,
+        "pa": 416
+      },
+      "topContactHitter": {
+        "name": "Chase DeLauter",
+        "avg": 0.287,
+        "pa": 559
+      },
+      "missingStarters": []
     }
   ],
   "games": [
     {
-      "gamePk": 849809,
-      "gameDate": "2026-10-12T00:00:00Z",
-      "gameDateStr": "2026-10-11",
+      "gamePk": 849812,
+      "gameDate": "2026-10-12T21:00:00Z",
+      "gameDateStr": "2026-10-12",
       "venue": "American Family Field",
       "weather": null,
       "homeTeamId": 158,
@@ -71,27 +119,54 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Jacob Misiorowski",
-        "era": 1.8,
-        "whip": 0.8,
-        "k9": 13.0
+        "name": "Logan Henderson",
+        "era": 2.47,
+        "whip": 0.84,
+        "k9": 10.1
       },
       "awayStarter": {
-        "name": "Tarik Skubal",
-        "era": 2.72,
-        "whip": 0.96,
-        "k9": 10.6
+        "name": "Yoshinobu Yamamoto",
+        "era": 2.53,
+        "whip": 0.87,
+        "k9": 8.8
+      }
+    },
+    {
+      "gamePk": 849820,
+      "gameDate": "2026-10-13T00:00:00Z",
+      "gameDateStr": "2026-10-12",
+      "venue": "Tropicana Field",
+      "weather": null,
+      "homeTeamId": 139,
+      "awayTeamId": 114,
+      "homeTeamName": "Tampa Bay Rays",
+      "awayTeamName": "Cleveland Guardians",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Drew Rasmussen",
+        "era": 2.67,
+        "whip": 0.91,
+        "k9": 9.1
+      },
+      "awayStarter": {
+        "name": "Foster Griffin",
+        "era": 3.6,
+        "whip": 1.21,
+        "k9": 8.2
       }
     }
   ],
   "results": [
     {
-      "gamePk": 849831,
-      "dateStr": "2026-10-10",
-      "homeTeamId": 114,
-      "awayTeamId": 145,
+      "gamePk": 849809,
+      "dateStr": "2026-10-11",
+      "homeTeamId": 158,
+      "awayTeamId": 119,
       "homeScore": 2,
-      "awayScore": 0
+      "awayScore": 1
     }
   ]
 }
