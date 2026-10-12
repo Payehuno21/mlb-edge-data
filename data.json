@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T05:18:18Z",
+  "generatedAt": "2026-10-12T21:40:14Z",
   "lastMode": "refresh",
   "date": "2026-10-12",
   "availableDates": [
@@ -116,7 +116,13 @@
       "awayTeamName": "Los Angeles Dodgers",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 1,
+        "inning": 2,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Logan Henderson",
