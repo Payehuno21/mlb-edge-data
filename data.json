@@ -1,105 +1,97 @@
 {
-  "generatedAt": "2026-10-13T23:11:40Z",
+  "generatedAt": "2026-10-14T04:18:54Z",
   "lastMode": "refresh",
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "availableDates": [
-    "2026-10-13"
+    "2026-10-14"
   ],
   "teams": [
     {
-      "id": 139,
-      "abbr": "TB",
-      "name": "Tampa Bay Rays",
+      "id": 119,
+      "abbr": "LAD",
+      "name": "Los Angeles Dodgers",
       "winPct": 0.5,
       "homeWinPct": 0.5,
       "awayWinPct": 0.5,
       "last10": 5,
       "elo": 1500,
-      "runsPerGame": 4.54,
-      "staffEra": 3.7,
-      "bullpenRecentIp": 0.0,
+      "runsPerGame": 4.94,
+      "staffEra": 3.55,
+      "bullpenRecentIp": 8.3,
       "topPowerHitter": {
-        "name": "Junior Caminero",
-        "hrRate": 0.0598,
-        "pa": 702
+        "name": "Max Muncy",
+        "hrRate": 0.0517,
+        "pa": 561
       },
       "topContactHitter": {
-        "name": "Chandler Simpson",
-        "avg": 0.306,
-        "pa": 612
+        "name": "Freddie Freeman",
+        "avg": 0.288,
+        "pa": 657
       },
       "missingStarters": []
     },
     {
-      "id": 114,
-      "abbr": "CLE",
-      "name": "Cleveland Guardians",
+      "id": 158,
+      "abbr": "MIL",
+      "name": "Milwaukee Brewers",
       "winPct": 0.5,
       "homeWinPct": 0.5,
       "awayWinPct": 0.5,
       "last10": 5,
       "elo": 1500,
-      "runsPerGame": 4.19,
-      "staffEra": 3.77,
-      "bullpenRecentIp": 3.3,
+      "runsPerGame": 5.14,
+      "staffEra": 3.54,
+      "bullpenRecentIp": 9.7,
       "topPowerHitter": {
-        "name": "Angel Martínez",
-        "hrRate": 0.0433,
-        "pa": 416
+        "name": "Jake Bauers",
+        "hrRate": 0.045,
+        "pa": 578
       },
       "topContactHitter": {
-        "name": "Chase DeLauter",
-        "avg": 0.287,
-        "pa": 559
+        "name": "Andrew Vaughn",
+        "avg": 0.306,
+        "pa": 331
       },
       "missingStarters": []
     }
   ],
   "games": [
     {
-      "gamePk": 849813,
-      "gameDate": "2026-10-14T00:00:00Z",
-      "gameDateStr": "2026-10-13",
-      "venue": "Tropicana Field",
+      "gamePk": 849811,
+      "gameDate": "2026-10-15T00:00:00Z",
+      "gameDateStr": "2026-10-14",
+      "venue": "UNIQLO Field at Dodger Stadium",
       "weather": null,
-      "homeTeamId": 139,
-      "awayTeamId": 114,
-      "homeTeamName": "Tampa Bay Rays",
-      "awayTeamName": "Cleveland Guardians",
+      "homeTeamId": 119,
+      "awayTeamId": 158,
+      "homeTeamName": "Los Angeles Dodgers",
+      "awayTeamName": "Milwaukee Brewers",
       "autoOdds": null,
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Freddy Peralta",
-        "era": 4.42,
-        "whip": 1.33,
-        "k9": 8.3
+        "name": "Blake Snell",
+        "era": 1.9,
+        "whip": 1.1,
+        "k9": 11.6
       },
       "awayStarter": {
-        "name": "Parker Messick",
-        "era": 2.56,
-        "whip": 1.06,
-        "k9": 9.3
+        "name": "Robert Gasser",
+        "era": 3.87,
+        "whip": 1.19,
+        "k9": 8.5
       }
     }
   ],
   "results": [
     {
-      "gamePk": 849812,
-      "dateStr": "2026-10-12",
-      "homeTeamId": 158,
-      "awayTeamId": 119,
-      "homeScore": 7,
-      "awayScore": 4
-    },
-    {
-      "gamePk": 849820,
-      "dateStr": "2026-10-12",
+      "gamePk": 849813,
+      "dateStr": "2026-10-13",
       "homeTeamId": 139,
       "awayTeamId": 114,
       "homeScore": 3,
-      "awayScore": 7
+      "awayScore": 1
     }
   ]
 }
