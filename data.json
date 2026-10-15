@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T17:41:43Z",
+  "generatedAt": "2026-10-15T18:53:41Z",
   "lastMode": "refresh",
   "date": "2026-10-15",
   "availableDates": [
@@ -118,9 +118,9 @@
       "lineMovement": [],
       "liveState": {
         "status": "Live",
-        "homeScore": 1,
-        "awayScore": 0,
-        "inning": 2,
+        "homeScore": 3,
+        "awayScore": 2,
+        "inning": 6,
         "inningHalf": "Bottom"
       },
       "autoProps": [],
@@ -157,7 +157,12 @@
         "whip": 0.95,
         "k9": 11.9
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Shane Drohan",
+        "era": 4.19,
+        "whip": 1.32,
+        "k9": 9.0
+      }
     }
   ],
   "results": [
