@@ -1,11 +1,59 @@
 {
-  "generatedAt": "2026-10-14T22:03:17Z",
+  "generatedAt": "2026-10-15T04:01:01Z",
   "lastMode": "refresh",
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "availableDates": [
-    "2026-10-14"
+    "2026-10-15"
   ],
   "teams": [
+    {
+      "id": 114,
+      "abbr": "CLE",
+      "name": "Cleveland Guardians",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.19,
+      "staffEra": 3.77,
+      "bullpenRecentIp": 8.0,
+      "topPowerHitter": {
+        "name": "Angel Martínez",
+        "hrRate": 0.0433,
+        "pa": 416
+      },
+      "topContactHitter": {
+        "name": "Chase DeLauter",
+        "avg": 0.287,
+        "pa": 559
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 139,
+      "abbr": "TB",
+      "name": "Tampa Bay Rays",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.54,
+      "staffEra": 3.7,
+      "bullpenRecentIp": 6.0,
+      "topPowerHitter": {
+        "name": "Junior Caminero",
+        "hrRate": 0.0598,
+        "pa": 702
+      },
+      "topContactHitter": {
+        "name": "Chandler Simpson",
+        "avg": 0.306,
+        "pa": 612
+      },
+      "missingStarters": []
+    },
     {
       "id": 119,
       "abbr": "LAD",
@@ -57,9 +105,36 @@
   ],
   "games": [
     {
-      "gamePk": 849811,
-      "gameDate": "2026-10-15T00:00:00Z",
-      "gameDateStr": "2026-10-14",
+      "gamePk": 849818,
+      "gameDate": "2026-10-15T17:00:00Z",
+      "gameDateStr": "2026-10-15",
+      "venue": "Progressive Field",
+      "weather": null,
+      "homeTeamId": 114,
+      "awayTeamId": 139,
+      "homeTeamName": "Cleveland Guardians",
+      "awayTeamName": "Tampa Bay Rays",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Gavin Williams",
+        "era": 3.76,
+        "whip": 1.11,
+        "k9": 12.1
+      },
+      "awayStarter": {
+        "name": "Griffin Jax",
+        "era": 3.53,
+        "whip": 1.18,
+        "k9": 9.3
+      }
+    },
+    {
+      "gamePk": 849810,
+      "gameDate": "2026-10-16T00:00:00Z",
+      "gameDateStr": "2026-10-15",
       "venue": "UNIQLO Field at Dodger Stadium",
       "weather": null,
       "homeTeamId": 119,
@@ -71,27 +146,22 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Blake Snell",
-        "era": 1.9,
-        "whip": 1.1,
-        "k9": 11.6
+        "name": "Tyler Glasnow",
+        "era": 3.53,
+        "whip": 0.95,
+        "k9": 11.9
       },
-      "awayStarter": {
-        "name": "Robert Gasser",
-        "era": 3.87,
-        "whip": 1.19,
-        "k9": 8.5
-      }
+      "awayStarter": null
     }
   ],
   "results": [
     {
-      "gamePk": 849813,
-      "dateStr": "2026-10-13",
-      "homeTeamId": 139,
-      "awayTeamId": 114,
-      "homeScore": 3,
-      "awayScore": 1
+      "gamePk": 849811,
+      "dateStr": "2026-10-14",
+      "homeTeamId": 119,
+      "awayTeamId": 158,
+      "homeScore": 2,
+      "awayScore": 6
     }
   ]
 }
