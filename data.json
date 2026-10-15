@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T04:01:01Z",
+  "generatedAt": "2026-10-15T17:41:43Z",
   "lastMode": "refresh",
   "date": "2026-10-15",
   "availableDates": [
@@ -116,7 +116,13 @@
       "awayTeamName": "Tampa Bay Rays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 1,
+        "awayScore": 0,
+        "inning": 2,
+        "inningHalf": "Bottom"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Gavin Williams",
