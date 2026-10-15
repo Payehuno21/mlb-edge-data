@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T18:53:41Z",
+  "generatedAt": "2026-10-15T21:57:20Z",
   "lastMode": "refresh",
   "date": "2026-10-15",
   "availableDates": [
@@ -117,11 +117,11 @@
       "autoOdds": null,
       "lineMovement": [],
       "liveState": {
-        "status": "Live",
+        "status": "Final",
         "homeScore": 3,
         "awayScore": 2,
-        "inning": 6,
-        "inningHalf": "Bottom"
+        "inning": 9,
+        "inningHalf": "Top"
       },
       "autoProps": [],
       "homeStarter": {
@@ -173,6 +173,14 @@
       "awayTeamId": 158,
       "homeScore": 2,
       "awayScore": 6
+    },
+    {
+      "gamePk": 849818,
+      "dateStr": "2026-10-15",
+      "homeTeamId": 114,
+      "awayTeamId": 139,
+      "homeScore": 3,
+      "awayScore": 2
     }
   ]
 }
