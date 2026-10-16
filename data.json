@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-15T21:57:20Z",
+  "generatedAt": "2026-10-16T03:57:55Z",
   "lastMode": "refresh",
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "availableDates": [
-    "2026-10-15"
+    "2026-10-16"
   ],
   "teams": [
     {
@@ -53,61 +53,13 @@
         "pa": 612
       },
       "missingStarters": []
-    },
-    {
-      "id": 119,
-      "abbr": "LAD",
-      "name": "Los Angeles Dodgers",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.94,
-      "staffEra": 3.55,
-      "bullpenRecentIp": 8.3,
-      "topPowerHitter": {
-        "name": "Max Muncy",
-        "hrRate": 0.0517,
-        "pa": 561
-      },
-      "topContactHitter": {
-        "name": "Freddie Freeman",
-        "avg": 0.288,
-        "pa": 657
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 158,
-      "abbr": "MIL",
-      "name": "Milwaukee Brewers",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 5.14,
-      "staffEra": 3.54,
-      "bullpenRecentIp": 9.7,
-      "topPowerHitter": {
-        "name": "Jake Bauers",
-        "hrRate": 0.045,
-        "pa": 578
-      },
-      "topContactHitter": {
-        "name": "Andrew Vaughn",
-        "avg": 0.306,
-        "pa": 331
-      },
-      "missingStarters": []
     }
   ],
   "games": [
     {
-      "gamePk": 849818,
-      "gameDate": "2026-10-15T17:00:00Z",
-      "gameDateStr": "2026-10-15",
+      "gamePk": 849817,
+      "gameDate": "2026-10-17T00:00:00Z",
+      "gameDateStr": "2026-10-16",
       "venue": "Progressive Field",
       "weather": null,
       "homeTeamId": 114,
@@ -116,64 +68,18 @@
       "awayTeamName": "Tampa Bay Rays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": {
-        "status": "Final",
-        "homeScore": 3,
-        "awayScore": 2,
-        "inning": 9,
-        "inningHalf": "Top"
-      },
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Gavin Williams",
-        "era": 3.76,
-        "whip": 1.11,
-        "k9": 12.1
-      },
-      "awayStarter": {
-        "name": "Griffin Jax",
-        "era": 3.53,
-        "whip": 1.18,
-        "k9": 9.3
-      }
-    },
-    {
-      "gamePk": 849810,
-      "gameDate": "2026-10-16T00:00:00Z",
-      "gameDateStr": "2026-10-15",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "weather": null,
-      "homeTeamId": 119,
-      "awayTeamId": 158,
-      "homeTeamName": "Los Angeles Dodgers",
-      "awayTeamName": "Milwaukee Brewers",
-      "autoOdds": null,
-      "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": {
-        "name": "Tyler Glasnow",
-        "era": 3.53,
-        "whip": 0.95,
-        "k9": 11.9
-      },
+      "homeStarter": null,
       "awayStarter": {
-        "name": "Shane Drohan",
-        "era": 4.19,
-        "whip": 1.32,
-        "k9": 9.0
+        "name": "Nick Martinez",
+        "era": 3.1,
+        "whip": 1.09,
+        "k9": 5.5
       }
     }
   ],
   "results": [
-    {
-      "gamePk": 849811,
-      "dateStr": "2026-10-14",
-      "homeTeamId": 119,
-      "awayTeamId": 158,
-      "homeScore": 2,
-      "awayScore": 6
-    },
     {
       "gamePk": 849818,
       "dateStr": "2026-10-15",
@@ -181,6 +87,14 @@
       "awayTeamId": 139,
       "homeScore": 3,
       "awayScore": 2
+    },
+    {
+      "gamePk": 849810,
+      "dateStr": "2026-10-15",
+      "homeTeamId": 119,
+      "awayTeamId": 158,
+      "homeScore": 4,
+      "awayScore": 6
     }
   ]
 }
