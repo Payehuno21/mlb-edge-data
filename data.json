@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T03:57:55Z",
+  "generatedAt": "2026-10-16T17:16:44Z",
   "lastMode": "refresh",
   "date": "2026-10-16",
   "availableDates": [
@@ -70,7 +70,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Shawn Armstrong",
+        "era": 4.58,
+        "whip": 1.39,
+        "k9": 8.7
+      },
       "awayStarter": {
         "name": "Nick Martinez",
         "era": 3.1,
