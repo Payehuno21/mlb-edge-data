@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T03:48:00Z",
+  "generatedAt": "2026-10-17T16:16:21Z",
   "lastMode": "refresh",
   "date": "2026-10-17",
   "availableDates": [
@@ -58,7 +58,7 @@
   "games": [
     {
       "gamePk": 849816,
-      "gameDate": "2026-10-18T00:00:00Z",
+      "gameDate": "2026-10-18T00:08:00Z",
       "gameDateStr": "2026-10-17",
       "venue": "Progressive Field",
       "weather": null,
