@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-17T21:15:25Z",
+  "generatedAt": "2026-10-18T03:54:19Z",
   "lastMode": "refresh",
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "availableDates": [
-    "2026-10-17"
+    "2026-10-18"
   ],
   "teams": [
     {
@@ -57,9 +57,9 @@
   ],
   "games": [
     {
-      "gamePk": 849816,
-      "gameDate": "2026-10-18T00:08:00Z",
-      "gameDateStr": "2026-10-17",
+      "gamePk": 849817,
+      "gameDate": "2026-10-18T21:08:00Z",
+      "gameDateStr": "2026-10-18",
       "venue": "Progressive Field",
       "weather": null,
       "homeTeamId": 114,
@@ -71,27 +71,27 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Shawn Armstrong",
-        "era": 4.58,
-        "whip": 1.39,
-        "k9": 8.7
+        "name": "Parker Messick",
+        "era": 2.56,
+        "whip": 1.06,
+        "k9": 9.3
       },
       "awayStarter": {
-        "name": "Nick Martinez",
-        "era": 3.1,
-        "whip": 1.09,
-        "k9": 5.5
+        "name": "Drew Rasmussen",
+        "era": 2.67,
+        "whip": 0.91,
+        "k9": 9.1
       }
     }
   ],
   "results": [
     {
-      "gamePk": 849817,
-      "dateStr": "2026-10-16",
+      "gamePk": 849816,
+      "dateStr": "2026-10-17",
       "homeTeamId": 114,
       "awayTeamId": 139,
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 3,
+      "awayScore": 7
     }
   ]
 }
