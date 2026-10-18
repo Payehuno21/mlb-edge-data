@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T17:51:35Z",
+  "generatedAt": "2026-10-18T21:17:13Z",
   "lastMode": "refresh",
   "date": "2026-10-18",
   "availableDates": [
@@ -68,7 +68,13 @@
       "awayTeamName": "Tampa Bay Rays",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": null,
+      "liveState": {
+        "status": "Live",
+        "homeScore": 0,
+        "awayScore": 0,
+        "inning": 1,
+        "inningHalf": "Top"
+      },
       "autoProps": [],
       "homeStarter": {
         "name": "Parker Messick",
