@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T04:03:03Z",
+  "generatedAt": "2026-10-19T19:11:11Z",
   "lastMode": "refresh",
   "date": "2026-10-19",
   "availableDates": [
@@ -76,7 +76,12 @@
         "whip": 1.33,
         "k9": 8.3
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Shawn Armstrong",
+        "era": 4.58,
+        "whip": 1.39,
+        "k9": 8.7
+      }
     }
   ],
   "results": [
