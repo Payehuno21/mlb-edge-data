@@ -1,35 +1,11 @@
 {
-  "generatedAt": "2026-10-18T21:17:13Z",
+  "generatedAt": "2026-10-19T04:03:03Z",
   "lastMode": "refresh",
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "availableDates": [
-    "2026-10-18"
+    "2026-10-19"
   ],
   "teams": [
-    {
-      "id": 114,
-      "abbr": "CLE",
-      "name": "Cleveland Guardians",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.19,
-      "staffEra": 3.77,
-      "bullpenRecentIp": 8.0,
-      "topPowerHitter": {
-        "name": "Angel Martínez",
-        "hrRate": 0.0433,
-        "pa": 416
-      },
-      "topContactHitter": {
-        "name": "Chase DeLauter",
-        "avg": 0.287,
-        "pa": 559
-      },
-      "missingStarters": []
-    },
     {
       "id": 139,
       "abbr": "TB",
@@ -53,51 +29,64 @@
         "pa": 612
       },
       "missingStarters": []
+    },
+    {
+      "id": 114,
+      "abbr": "CLE",
+      "name": "Cleveland Guardians",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.19,
+      "staffEra": 3.77,
+      "bullpenRecentIp": 8.0,
+      "topPowerHitter": {
+        "name": "Angel Martínez",
+        "hrRate": 0.0433,
+        "pa": 416
+      },
+      "topContactHitter": {
+        "name": "Chase DeLauter",
+        "avg": 0.287,
+        "pa": 559
+      },
+      "missingStarters": []
     }
   ],
   "games": [
     {
-      "gamePk": 849817,
-      "gameDate": "2026-10-18T21:08:00Z",
-      "gameDateStr": "2026-10-18",
-      "venue": "Progressive Field",
+      "gamePk": 849815,
+      "gameDate": "2026-10-20T00:08:00Z",
+      "gameDateStr": "2026-10-19",
+      "venue": "Tropicana Field",
       "weather": null,
-      "homeTeamId": 114,
-      "awayTeamId": 139,
-      "homeTeamName": "Cleveland Guardians",
-      "awayTeamName": "Tampa Bay Rays",
+      "homeTeamId": 139,
+      "awayTeamId": 114,
+      "homeTeamName": "Tampa Bay Rays",
+      "awayTeamName": "Cleveland Guardians",
       "autoOdds": null,
       "lineMovement": [],
-      "liveState": {
-        "status": "Live",
-        "homeScore": 0,
-        "awayScore": 0,
-        "inning": 1,
-        "inningHalf": "Top"
-      },
+      "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Parker Messick",
-        "era": 2.56,
-        "whip": 1.06,
-        "k9": 9.3
+        "name": "Freddy Peralta",
+        "era": 4.42,
+        "whip": 1.33,
+        "k9": 8.3
       },
-      "awayStarter": {
-        "name": "Drew Rasmussen",
-        "era": 2.67,
-        "whip": 0.91,
-        "k9": 9.1
-      }
+      "awayStarter": null
     }
   ],
   "results": [
     {
-      "gamePk": 849816,
-      "dateStr": "2026-10-17",
+      "gamePk": 849817,
+      "dateStr": "2026-10-18",
       "homeTeamId": 114,
       "awayTeamId": 139,
-      "homeScore": 3,
-      "awayScore": 7
+      "homeScore": 1,
+      "awayScore": 3
     }
   ]
 }
