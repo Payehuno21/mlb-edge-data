@@ -1,96 +1,19 @@
 {
-  "generatedAt": "2026-10-19T22:48:49Z",
+  "generatedAt": "2026-10-20T04:16:21Z",
   "lastMode": "refresh",
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "availableDates": [
-    "2026-10-19"
+    "2026-10-20"
   ],
-  "teams": [
-    {
-      "id": 139,
-      "abbr": "TB",
-      "name": "Tampa Bay Rays",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.54,
-      "staffEra": 3.7,
-      "bullpenRecentIp": 6.0,
-      "topPowerHitter": {
-        "name": "Junior Caminero",
-        "hrRate": 0.0598,
-        "pa": 702
-      },
-      "topContactHitter": {
-        "name": "Chandler Simpson",
-        "avg": 0.306,
-        "pa": 612
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 114,
-      "abbr": "CLE",
-      "name": "Cleveland Guardians",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.19,
-      "staffEra": 3.77,
-      "bullpenRecentIp": 8.0,
-      "topPowerHitter": {
-        "name": "Angel Martínez",
-        "hrRate": 0.0433,
-        "pa": 416
-      },
-      "topContactHitter": {
-        "name": "Chase DeLauter",
-        "avg": 0.287,
-        "pa": 559
-      },
-      "missingStarters": []
-    }
-  ],
-  "games": [
-    {
-      "gamePk": 849815,
-      "gameDate": "2026-10-20T00:08:00Z",
-      "gameDateStr": "2026-10-19",
-      "venue": "Tropicana Field",
-      "weather": null,
-      "homeTeamId": 139,
-      "awayTeamId": 114,
-      "homeTeamName": "Tampa Bay Rays",
-      "awayTeamName": "Cleveland Guardians",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Freddy Peralta",
-        "era": 4.42,
-        "whip": 1.33,
-        "k9": 8.3
-      },
-      "awayStarter": {
-        "name": "Shawn Armstrong",
-        "era": 4.58,
-        "whip": 1.39,
-        "k9": 8.7
-      }
-    }
-  ],
+  "teams": [],
+  "games": [],
   "results": [
     {
-      "gamePk": 849817,
-      "dateStr": "2026-10-18",
-      "homeTeamId": 114,
-      "awayTeamId": 139,
-      "homeScore": 1,
+      "gamePk": 849815,
+      "dateStr": "2026-10-19",
+      "homeTeamId": 139,
+      "awayTeamId": 114,
+      "homeScore": 7,
       "awayScore": 3
     }
   ]
