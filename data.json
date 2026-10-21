@@ -1,20 +1,11 @@
 {
-  "generatedAt": "2026-10-20T22:08:03Z",
+  "generatedAt": "2026-10-21T04:04:24Z",
   "lastMode": "refresh",
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "availableDates": [
-    "2026-10-20"
+    "2026-10-21"
   ],
   "teams": [],
   "games": [],
-  "results": [
-    {
-      "gamePk": 849815,
-      "dateStr": "2026-10-19",
-      "homeTeamId": 139,
-      "awayTeamId": 114,
-      "homeScore": 7,
-      "awayScore": 3
-    }
-  ]
+  "results": []
 }
