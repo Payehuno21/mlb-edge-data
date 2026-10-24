@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-23T21:51:50Z",
+  "generatedAt": "2026-10-24T04:01:10Z",
   "lastMode": "refresh",
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "availableDates": [
-    "2026-10-23"
+    "2026-10-24"
   ],
   "teams": [
     {
@@ -57,9 +57,9 @@
   ],
   "games": [
     {
-      "gamePk": 849805,
-      "gameDate": "2026-10-24T00:00:00Z",
-      "gameDateStr": "2026-10-23",
+      "gamePk": 849802,
+      "gameDate": "2026-10-25T00:00:00Z",
+      "gameDateStr": "2026-10-24",
       "venue": "American Family Field",
       "weather": null,
       "homeTeamId": 158,
@@ -71,18 +71,27 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Jacob Misiorowski",
-        "era": 1.8,
-        "whip": 0.8,
-        "k9": 13.0
+        "name": "Logan Henderson",
+        "era": 2.47,
+        "whip": 0.84,
+        "k9": 10.1
       },
       "awayStarter": {
-        "name": "Nick Martinez",
-        "era": 3.1,
-        "whip": 1.09,
-        "k9": 5.5
+        "name": "Drew Rasmussen",
+        "era": 2.67,
+        "whip": 0.91,
+        "k9": 9.1
       }
     }
   ],
-  "results": []
+  "results": [
+    {
+      "gamePk": 849805,
+      "dateStr": "2026-10-23",
+      "homeTeamId": 158,
+      "awayTeamId": 139,
+      "homeScore": 3,
+      "awayScore": 2
+    }
+  ]
 }
