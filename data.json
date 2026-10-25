@@ -1,97 +1,20 @@
 {
-  "generatedAt": "2026-10-24T21:25:14Z",
+  "generatedAt": "2026-10-25T04:02:23Z",
   "lastMode": "refresh",
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "availableDates": [
-    "2026-10-24"
+    "2026-10-25"
   ],
-  "teams": [
-    {
-      "id": 158,
-      "abbr": "MIL",
-      "name": "Milwaukee Brewers",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 5.14,
-      "staffEra": 3.51,
-      "bullpenRecentIp": 0.0,
-      "topPowerHitter": {
-        "name": "Jake Bauers",
-        "hrRate": 0.045,
-        "pa": 578
-      },
-      "topContactHitter": {
-        "name": "Andrew Vaughn",
-        "avg": 0.306,
-        "pa": 331
-      },
-      "missingStarters": []
-    },
-    {
-      "id": 139,
-      "abbr": "TB",
-      "name": "Tampa Bay Rays",
-      "winPct": 0.5,
-      "homeWinPct": 0.5,
-      "awayWinPct": 0.5,
-      "last10": 5,
-      "elo": 1500,
-      "runsPerGame": 4.54,
-      "staffEra": 3.7,
-      "bullpenRecentIp": 0.0,
-      "topPowerHitter": {
-        "name": "Junior Caminero",
-        "hrRate": 0.0598,
-        "pa": 702
-      },
-      "topContactHitter": {
-        "name": "Chandler Simpson",
-        "avg": 0.306,
-        "pa": 612
-      },
-      "missingStarters": []
-    }
-  ],
-  "games": [
-    {
-      "gamePk": 849802,
-      "gameDate": "2026-10-25T00:00:00Z",
-      "gameDateStr": "2026-10-24",
-      "venue": "American Family Field",
-      "weather": null,
-      "homeTeamId": 158,
-      "awayTeamId": 139,
-      "homeTeamName": "Milwaukee Brewers",
-      "awayTeamName": "Tampa Bay Rays",
-      "autoOdds": null,
-      "lineMovement": [],
-      "liveState": null,
-      "autoProps": [],
-      "homeStarter": {
-        "name": "Logan Henderson",
-        "era": 2.47,
-        "whip": 0.84,
-        "k9": 10.1
-      },
-      "awayStarter": {
-        "name": "Drew Rasmussen",
-        "era": 2.67,
-        "whip": 0.91,
-        "k9": 9.1
-      }
-    }
-  ],
+  "teams": [],
+  "games": [],
   "results": [
     {
-      "gamePk": 849805,
-      "dateStr": "2026-10-23",
+      "gamePk": 849802,
+      "dateStr": "2026-10-24",
       "homeTeamId": 158,
       "awayTeamId": 139,
-      "homeScore": 3,
-      "awayScore": 2
+      "homeScore": 5,
+      "awayScore": 4
     }
   ]
 }
