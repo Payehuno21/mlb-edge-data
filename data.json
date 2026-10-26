@@ -1,20 +1,88 @@
 {
-  "generatedAt": "2026-10-25T21:28:03Z",
+  "generatedAt": "2026-10-26T04:06:44Z",
   "lastMode": "refresh",
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "availableDates": [
-    "2026-10-25"
+    "2026-10-26"
   ],
-  "teams": [],
-  "games": [],
-  "results": [
+  "teams": [
     {
-      "gamePk": 849802,
-      "dateStr": "2026-10-24",
-      "homeTeamId": 158,
-      "awayTeamId": 139,
-      "homeScore": 5,
-      "awayScore": 4
+      "id": 139,
+      "abbr": "TB",
+      "name": "Tampa Bay Rays",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 4.54,
+      "staffEra": 3.7,
+      "bullpenRecentIp": 7.3,
+      "topPowerHitter": {
+        "name": "Junior Caminero",
+        "hrRate": 0.0598,
+        "pa": 702
+      },
+      "topContactHitter": {
+        "name": "Chandler Simpson",
+        "avg": 0.306,
+        "pa": 612
+      },
+      "missingStarters": []
+    },
+    {
+      "id": 158,
+      "abbr": "MIL",
+      "name": "Milwaukee Brewers",
+      "winPct": 0.5,
+      "homeWinPct": 0.5,
+      "awayWinPct": 0.5,
+      "last10": 5,
+      "elo": 1500,
+      "runsPerGame": 5.14,
+      "staffEra": 3.55,
+      "bullpenRecentIp": 10.0,
+      "topPowerHitter": {
+        "name": "Jake Bauers",
+        "hrRate": 0.045,
+        "pa": 578
+      },
+      "topContactHitter": {
+        "name": "Andrew Vaughn",
+        "avg": 0.306,
+        "pa": 331
+      },
+      "missingStarters": []
     }
-  ]
+  ],
+  "games": [
+    {
+      "gamePk": 849804,
+      "gameDate": "2026-10-27T00:00:00Z",
+      "gameDateStr": "2026-10-26",
+      "venue": "Tropicana Field",
+      "weather": null,
+      "homeTeamId": 139,
+      "awayTeamId": 158,
+      "homeTeamName": "Tampa Bay Rays",
+      "awayTeamName": "Milwaukee Brewers",
+      "autoOdds": null,
+      "lineMovement": [],
+      "liveState": null,
+      "autoProps": [],
+      "homeStarter": {
+        "name": "Freddy Peralta",
+        "era": 4.42,
+        "whip": 1.33,
+        "k9": 8.3
+      },
+      "awayStarter": {
+        "name": "Robert Gasser",
+        "era": 3.87,
+        "whip": 1.19,
+        "k9": 8.5
+      }
+    }
+  ],
+  "results": []
 }
