@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T19:50:33Z",
+  "generatedAt": "2026-10-27T22:51:26Z",
   "lastMode": "refresh",
   "date": "2026-10-27",
   "availableDates": [
@@ -76,7 +76,12 @@
         "whip": 1.18,
         "k9": 9.3
       },
-      "awayStarter": null
+      "awayStarter": {
+        "name": "Dustin May",
+        "era": 4.7,
+        "whip": 1.32,
+        "k9": 8.9
+      }
     }
   ],
   "results": [
