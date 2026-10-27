@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-26T23:01:51Z",
+  "generatedAt": "2026-10-27T04:26:18Z",
   "lastMode": "refresh",
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "availableDates": [
-    "2026-10-26"
+    "2026-10-27"
   ],
   "teams": [
     {
@@ -57,9 +57,9 @@
   ],
   "games": [
     {
-      "gamePk": 849804,
-      "gameDate": "2026-10-27T00:00:00Z",
-      "gameDateStr": "2026-10-26",
+      "gamePk": 849803,
+      "gameDate": "2026-10-28T00:00:00Z",
+      "gameDateStr": "2026-10-27",
       "venue": "Tropicana Field",
       "weather": null,
       "homeTeamId": 139,
@@ -71,18 +71,22 @@
       "liveState": null,
       "autoProps": [],
       "homeStarter": {
-        "name": "Freddy Peralta",
-        "era": 4.42,
-        "whip": 1.33,
-        "k9": 8.3
+        "name": "Griffin Jax",
+        "era": 3.53,
+        "whip": 1.18,
+        "k9": 9.3
       },
-      "awayStarter": {
-        "name": "Robert Gasser",
-        "era": 3.87,
-        "whip": 1.19,
-        "k9": 8.5
-      }
+      "awayStarter": null
     }
   ],
-  "results": []
+  "results": [
+    {
+      "gamePk": 849804,
+      "dateStr": "2026-10-26",
+      "homeTeamId": 139,
+      "awayTeamId": 158,
+      "homeScore": 1,
+      "awayScore": 10
+    }
+  ]
 }
