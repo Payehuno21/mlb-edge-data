@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:44:29Z",
+  "generatedAt": "2026-10-28T20:05:40Z",
   "lastMode": "refresh",
   "date": "2026-10-28",
   "availableDates": [
@@ -70,7 +70,12 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": null,
+      "homeStarter": {
+        "name": "Drew Rasmussen",
+        "era": 2.67,
+        "whip": 0.91,
+        "k9": 9.1
+      },
       "awayStarter": {
         "name": "Jacob Misiorowski",
         "era": 1.8,
