@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-27T22:51:26Z",
+  "generatedAt": "2026-10-28T04:57:43Z",
   "lastMode": "refresh",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "availableDates": [
-    "2026-10-27"
+    "2026-10-28"
   ],
   "teams": [
     {
@@ -57,9 +57,9 @@
   ],
   "games": [
     {
-      "gamePk": 849803,
-      "gameDate": "2026-10-28T00:00:00Z",
-      "gameDateStr": "2026-10-27",
+      "gamePk": 849799,
+      "gameDate": "2026-10-29T00:00:00Z",
+      "gameDateStr": "2026-10-28",
       "venue": "Tropicana Field",
       "weather": null,
       "homeTeamId": 139,
@@ -70,28 +70,23 @@
       "lineMovement": [],
       "liveState": null,
       "autoProps": [],
-      "homeStarter": {
-        "name": "Griffin Jax",
-        "era": 3.53,
-        "whip": 1.18,
-        "k9": 9.3
-      },
+      "homeStarter": null,
       "awayStarter": {
-        "name": "Dustin May",
-        "era": 4.7,
-        "whip": 1.32,
-        "k9": 8.9
+        "name": "Jacob Misiorowski",
+        "era": 1.8,
+        "whip": 0.8,
+        "k9": 13.0
       }
     }
   ],
   "results": [
     {
-      "gamePk": 849804,
-      "dateStr": "2026-10-26",
+      "gamePk": 849803,
+      "dateStr": "2026-10-27",
       "homeTeamId": 139,
       "awayTeamId": 158,
-      "homeScore": 1,
-      "awayScore": 10
+      "homeScore": 4,
+      "awayScore": 3
     }
   ]
 }
